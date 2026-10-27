@@ -1,0 +1,188 @@
+﻿/* AETHER identity refinements. Existing layouts, state and motion remain owned by their components. */
+:root {
+  --brand-gold: #e6b774;
+}
+html[data-theme='aqua'],
+html[data-theme='sage'] {
+  --brand-gold: #825109;
+}
+.brand > svg {
+  color: var(--accent-ink);
+}
+.brand-version {
+  letter-spacing: 0.12em;
+}
+.aether-loading-mark {
+  width: 76px;
+  height: 76px;
+  color: var(--accent-ink);
+}
+.aether-full-form {
+  color: var(--on-accent);
+  font-weight: 600;
+}
+.cinematic .cinema-copy {
+  width: min(370px, 27vw);
+  top: 20%;
+}
+.cinematic .cinematic-hero h1 {
+  font-size: clamp(86px, 7.5vw, 110px);
+  line-height: 0.9;
+}
+.aether-supporting-headline {
+  font: 500 27px/1.15 var(--display);
+  color: var(--text);
+  margin-top: 14px;
+  max-width: 310px;
+}
+.cinematic .cinema-description {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.cinematic .cinema-kicker {
+  font-size: 10px;
+  line-height: 1.6;
+}
+.cinematic .cinema-actions {
+  margin-top: 18px;
+}
+.cinematic .hero-presentation {
+  margin-top: 15px;
+}
+.cinematic .cinema-wordmark {
+  font-size: clamp(190px, 22vw, 380px);
+}
+html[data-theme='eclipse'] .cinema-atmosphere {
+  background-image:
+    radial-gradient(
+      ellipse at 67% 45%,
+      color-mix(in srgb, var(--primary-fill) 12%, transparent),
+      transparent 60%
+    ),
+    linear-gradient(90deg, color-mix(in srgb, var(--line) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(color-mix(in srgb, var(--line) 12%, transparent) 1px, transparent 1px);
+}
+html[data-theme='eclipse'] .cinema-wordmark {
+  color: color-mix(in srgb, var(--primary-fill) 5%, transparent);
+  -webkit-text-stroke-color: color-mix(in srgb, var(--primary-fill) 25%, transparent);
+}
+html[data-theme='eclipse'] .city-portal {
+  border-color: color-mix(in srgb, var(--primary-fill) 35%, transparent);
+}
+@media (min-width: 961px) and (max-height: 800px) {
+  .cinematic .cinematic-hero {
+    height: 860px;
+    min-height: 860px;
+  }
+  .cinematic .cinema-copy {
+    top: 170px;
+  }
+}
+@media (min-width: 701px) and (max-width: 960px) {
+  .cinematic .cinematic-hero {
+    height: 1150px;
+    min-height: 1150px;
+  }
+  .cinematic .city-portal {
+    left: 48%;
+  }
+  .cinematic .cinema-copy {
+    top: 240px;
+    width: 330px;
+  }
+  .cinematic .cinematic-hero h1 {
+    font-size: 88px;
+  }
+  .cinematic .cinema-description {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .cinematic .cinematic-hero {
+    height: 1460px;
+    min-height: 1460px;
+  }
+  .cinematic .cinema-copy {
+    top: 210px;
+    width: auto;
+  }
+  .cinematic .cinematic-hero h1 {
+    font-size: 80px;
+  }
+  .aether-supporting-headline {
+    font-size: 25px;
+    max-width: 270px;
+  }
+  .cinematic .cinema-description {
+    max-width: 346px;
+  }
+  .cinematic .city-portal {
+    top: 775px;
+    bottom: 354px;
+  }
+  .cinematic .cinema-wordmark {
+    top: 135px;
+    font-size: 124px;
+    right: 22px;
+  }
+  .cinematic .cinema-edition > .mono {
+    max-width: 185px;
+    line-height: 1.7;
+  }
+  .brand-version {
+    display: none;
+  }
+}
+/* Official source artwork stays intact, including its black presentation field. */
+.brand {
+  min-height: 44px;
+  padding: 4px 9px;
+  gap: 8px;
+  border-radius: 8px;
+  background: #000;
+  color: #f3f8fa;
+  --muted: #a9bac4;
+}
+.brand > span > svg.brand-wordmark {
+  width: 120px;
+  height: 22px;
+}
+.brand .brand-version {
+  border-color: #49616f;
+}
+.aether-official-artwork {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1600 / 714;
+  margin-top: 24px;
+  border-radius: 12px;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+@media (max-width: 700px) {
+  .brand > span > svg.brand-wordmark {
+    width: 106px;
+    height: 20px;
+  }
+}
+.brand.brand-compact {
+  padding: 0;
+}
+.sidebar-brand .brand > span > svg.brand-wordmark {
+  width: 96px;
+  height: 20px;
+}
+.sidebar-brand .brand {
+  padding-inline: 6px;
+}
+.sidebar-brand .brand.brand-compact {
+  padding: 0;
+}
+
+.brand > svg > svg {
+  width: 100%;
+  height: 75%;
+}

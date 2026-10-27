@@ -1,0 +1,560 @@
+[
+  {
+    "t": 1244.1000000089407,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 1304.800000011921,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 1368.2000000029802,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 1444.5,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 1581.5,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 1631.9000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 1692.6000000089407,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 1771.300000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 2333.9000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6001.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6444,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6673.9000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6743.800000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6898.600000008941,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6966.800000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7130.4000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7162,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 8893.10000000894,
+    "heading": "matrix(1, 0, 0, 1, 0, 60.7607)",
+    "portal": "matrix(0.930454, 0, 0, 0.930454, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9049.10000000894,
+    "heading": "matrix(1, 0, 0, 1, 0, 29.512)",
+    "portal": "matrix(0.953275, 0, 0, 0.953275, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9106.20000000298,
+    "heading": "matrix(1, 0, 0, 1, 0, 29.512)",
+    "portal": "matrix(0.953275, 0, 0, 0.953275, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9170.5,
+    "heading": "matrix(1, 0, 0, 1, 0, 29.512)",
+    "portal": "matrix(0.953275, 0, 0, 0.953275, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9246.20000000298,
+    "heading": "matrix(1, 0, 0, 1, 0, 29.512)",
+    "portal": "matrix(0.953275, 0, 0, 0.953275, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9298,
+    "heading": "matrix(1, 0, 0, 1, 0, 29.512)",
+    "portal": "matrix(0.953275, 0, 0, 0.953275, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9369.10000000894,
+    "heading": "matrix(1, 0, 0, 1, 0, 1.40307)",
+    "portal": "matrix(0.989833, 0, 0, 0.989833, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9431.90000000596,
+    "heading": "matrix(1, 0, 0, 1, 0, 1.14696)",
+    "portal": "matrix(0.990689, 0, 0, 0.990689, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9495,
+    "heading": "matrix(1, 0, 0, 1, 0, 1.14696)",
+    "portal": "matrix(0.990689, 0, 0, 0.990689, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9622.800000011921,
+    "heading": "matrix(1, 0, 0, 1, 0, 1.14696)",
+    "portal": "matrix(0.990689, 0, 0, 0.990689, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 11352,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 11665,
+    "heading": "none",
+    "portal": "none",
+    "projection": "none",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13600.20000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.752, 183.996)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13652.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13724,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13785.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13926.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13987.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14050.300000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14112.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14175.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14237.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14315.40000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14375.90000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14439.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14502.10000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14564.40000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14627.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14705.300000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14767.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14830.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14892,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14955.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15031.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15092.800000011921,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15156.40000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15219.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15281.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15343.40000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15421.90000000596,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15484.60000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15547.70000000298,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16488.20000000298,
+    "heading": "matrix(1, 0, 0, 1, 0, 95.307)",
+    "portal": "matrix(0.90916, 0, 0, 0.90916, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16588.20000000298,
+    "heading": "matrix(1, 0, 0, 1, 0, 95.307)",
+    "portal": "matrix(0.90916, 0, 0, 0.90916, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 541.759, 200.843)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18189.10000000894,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 544.259, 222.787)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  }
+]

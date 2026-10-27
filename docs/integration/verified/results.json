@@ -1,0 +1,499 @@
+{
+  "matrix": [
+    {
+      "name": "original-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": true,
+      "violations": []
+    },
+    {
+      "name": "original-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": true,
+      "violations": []
+    },
+    {
+      "name": "original-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "original-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "original-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "original-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "original-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": true,
+      "violations": []
+    },
+    {
+      "name": "original-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": true,
+      "violations": []
+    },
+    {
+      "name": "aqua-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "aqua-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "spectrum-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static",
+        "playing",
+        "complete"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    },
+    {
+      "name": "sage-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "entrance": [
+        "static"
+      ],
+      "errors": [],
+      "network": [],
+      "responseDemo": false,
+      "violations": []
+    }
+  ],
+  "modules": [
+    "sky",
+    "flow",
+    "rescue",
+    "thermal",
+    "aqua",
+    "road",
+    "fire",
+    "twin",
+    "core",
+    "command",
+    "response",
+    "reports",
+    "settings"
+  ]
+}

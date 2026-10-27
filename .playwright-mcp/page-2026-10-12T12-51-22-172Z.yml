@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Command sidebar" [ref=e4]:
+      - generic [ref=e5]:
+        - link "NEXUS home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e10]: NEXUS
+        - button "Retract sidebar" [ref=e11] [cursor=pointer]
+      - generic [ref=e14]: URBAN INTELLIGENCE
+      - navigation "NEXUS modules" [ref=e15]:
+        - link "COMMAND Unified operations" [ref=e16] [cursor=pointer]:
+          - /url: /command
+          - generic [ref=e20]:
+            - text: COMMAND
+            - generic [ref=e21]: Unified operations
+        - link "SKY Aerial intelligence" [ref=e22] [cursor=pointer]:
+          - /url: /command/sky
+          - generic [ref=e30]:
+            - text: SKY
+            - generic [ref=e31]: Aerial intelligence
+        - link "FLOW Urban mobility" [ref=e33] [cursor=pointer]:
+          - /url: /command/flow
+          - generic [ref=e38]:
+            - text: FLOW
+            - generic [ref=e39]: Urban mobility
+        - link "RESCUE Emergency response" [ref=e40] [cursor=pointer]:
+          - /url: /command/rescue
+          - generic [ref=e48]:
+            - text: RESCUE
+            - generic [ref=e49]: Emergency response
+        - link "THERMAL Heat intelligence" [ref=e50] [cursor=pointer]:
+          - /url: /command/thermal
+          - generic [ref=e53]:
+            - text: THERMAL
+            - generic [ref=e54]: Heat intelligence
+        - link "AQUA Water & resilience" [ref=e55] [cursor=pointer]:
+          - /url: /command/aqua
+          - generic [ref=e59]:
+            - text: AQUA
+            - generic [ref=e60]: Water & resilience
+        - link "ROAD Infrastructure health" [ref=e61] [cursor=pointer]:
+          - /url: /command/road
+          - generic [ref=e64]:
+            - text: ROAD
+            - generic [ref=e65]: Infrastructure health
+        - link "FIRE Fire & smoke detection" [ref=e66] [cursor=pointer]:
+          - /url: /command/fire
+          - generic [ref=e69]:
+            - text: FIRE
+            - generic [ref=e70]: Fire & smoke detection
+        - link "TWIN The living digital twin" [ref=e71] [cursor=pointer]:
+          - /url: /command/twin
+          - generic [ref=e75]:
+            - text: TWIN
+            - generic [ref=e76]: The living digital twin
+        - link "CORE Evidence-led intelligence" [ref=e77] [cursor=pointer]:
+          - /url: /command/core
+          - generic [ref=e90]:
+            - text: CORE
+            - generic [ref=e91]: Evidence-led intelligence
+      - generic [ref=e92]:
+        - link "Reports" [ref=e93] [cursor=pointer]:
+          - /url: /command/reports
+        - link "System settings" [ref=e98] [cursor=pointer]:
+          - /url: /command/settings
+        - link "Back to experience" [ref=e103] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e107]:
+          - generic [ref=e108]: DEMO SYSTEM
+          - generic [ref=e110]: Simulated datasetNo live hardware connected
+    - generic [ref=e111]:
+      - banner [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: NEXUS
+          - strong [ref=e117]: SKY
+        - generic [ref=e118]:
+          - generic [ref=e122]: Search observations and districts
+          - searchbox "Search observations and districts" [ref=e123]
+          - button "Open command palette" [ref=e124] [cursor=pointer]: ⌘ K
+        - generic [ref=e125]:
+          - generic [ref=e126]: DEMO SYSTEM
+          - button "Enable audio" [ref=e128] [cursor=pointer]
+          - button "View alert timeline" [ref=e133] [cursor=pointer]
+          - generic "Demo operator" [ref=e138]: NX
+      - main [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: AERIAL INTELLIGENCE
+            - heading "NEXUS SKY" [level=1] [ref=e143]
+            - paragraph [ref=e144]: A new perspective on everything below. Explore the aerial platform, its sensors, and recorded observations.
+          - generic [ref=e145]:
+            - generic [ref=e146]: BENGALURU / CONCEPTUAL CITY
+            - strong [ref=e147]: 15:00 IST
+            - generic [ref=e148]: 12 OCT 2026 · DEMO RECORDING
+        - status [ref=e149]:
+          - generic [ref=e151]: Loading demo observations
+        - generic [ref=e152]:
+          - generic [ref=e153]: NEXUS V2 / ALL OBSERVATIONS SIMULATED
+          - generic [ref=e155]: SYSTEM FOUNDATION / 02.00

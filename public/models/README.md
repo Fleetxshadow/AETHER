@@ -1,0 +1,1 @@
+The city and drone are original procedural Three.js geometry, generated locally in src/components/scenes. No downloaded models, textures, proprietary engineering files, or asset licenses are required. Geometry is illustrative, not a surveyed or hardware-validated model.

@@ -1,0 +1,36 @@
+{
+  "heroAnimations": 15,
+  "nativeSpeech": {
+    "events": [
+      {
+        "event": "error",
+        "error": "synthesis-failed"
+      }
+    ],
+    "recognitionAPI": true,
+    "voices": [
+      {
+        "lang": "en-IN",
+        "localService": true
+      },
+      {
+        "lang": "en-IN",
+        "localService": true
+      },
+      {
+        "lang": "en-US",
+        "localService": true
+      },
+      {
+        "lang": "en-US",
+        "localService": true
+      },
+      {
+        "lang": "en-US",
+        "localService": true
+      }
+    ],
+    "state": "error"
+  },
+  "errors": []
+}

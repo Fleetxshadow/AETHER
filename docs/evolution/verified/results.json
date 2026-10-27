@@ -1,0 +1,258 @@
+{
+  "api": [
+    "Session isolation, server roles, invalid/stale workflow, consent, CSRF, deletion, human audit and simulated referral passed.",
+    "Signed local-demo incoming/language/transcript/handoff/end lifecycle, invalid signature, replay and transcription-consent tests passed. No PSTN calls."
+  ],
+  "views": [
+    {
+      "name": "original-390x844-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-390x844-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-768x1024-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-768x1024-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-1280x720-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-1280x720-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-1440x900-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "original-1440x900-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-390x844-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-390x844-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-768x1024-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-768x1024-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-1280x720-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-1280x720-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-1440x900-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "aqua-1440x900-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-390x844-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-390x844-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-768x1024-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-768x1024-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-1280x720-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-1280x720-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-1440x900-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "spectrum-1440x900-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-390x844-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-390x844-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-768x1024-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-768x1024-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-1280x720-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-1280x720-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-1440x900-normal",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    },
+    {
+      "name": "sage-1440x900-reduced",
+      "overflow": false,
+      "overlap": false,
+      "targets": true,
+      "errors": []
+    }
+  ],
+  "voice": [
+    "API-event fixtures: consent gating, listening/speech waveform, final transcript, Hindi switch/abort, denial fallback, structured Hindi report, simulated incoming/accept/report/handoff/end passed. Not an acoustic recognition test.",
+    "Reduced-motion waveform disabled while controls remain usable."
+  ],
+  "accessibility": [
+    {
+      "theme": "original",
+      "page": "response",
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "page": "response",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "page": "response",
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "page": "response",
+      "violations": []
+    }
+  ]
+}

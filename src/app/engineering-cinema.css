@@ -1,0 +1,535 @@
+﻿/* Engineering configurator: the instrument wraps the original model. */
+.engineering-configurator {
+  display: grid;
+  grid-template-columns: minmax(0, 65fr) minmax(0, 35fr);
+  gap: 0;
+  border: 1px solid var(--nxs-border-93a45944);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--nxs-surface-152014);
+  box-shadow: 0 24px 70px var(--nxs-shadow-0004);
+}
+.configurator-header {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 23px 30px;
+  border-bottom: 1px solid var(--nxs-border-90a15344);
+  background: linear-gradient(110deg, var(--nxs-surface-304026), var(--nxs-surface-182319));
+}
+.configurator-header > div > .mono {
+  font-size: 7px;
+  color: var(--nxs-ink-b4c495);
+  letter-spacing: 0.12em;
+}
+.configurator-header h2,
+.configurator-header h3 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font: 500 50px/1 var(--display);
+  color: var(--nxs-ink-e2e8cd);
+  margin-top: 7px;
+}
+.configurator-header h2 > span,
+.configurator-header h3 > span {
+  font: 9px var(--mono);
+  color: var(--nxs-muted-ink-aabd91);
+  border-left: 1px solid var(--nxs-border-9fb67555);
+  padding-left: 18px;
+}
+.configurator-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.engineering-configurator .assembly-switch {
+  position: static;
+  transform: none;
+  border: 1px solid var(--nxs-border-9ca95c55);
+  border-radius: 7px;
+  background: var(--nxs-surface-121d12c9);
+  padding: 4px;
+}
+.engineering-configurator .assembly-switch button {
+  min-height: 44px;
+  font-size: 11px;
+  padding: 9px 13px;
+  border-radius: 4px;
+  gap: 8px;
+}
+.engineering-configurator .assembly-switch .selection-surface {
+  border-radius: 4px;
+  background: var(--nxs-accent-fill-c9bb5b22);
+  border: 1px solid var(--nxs-border-dcb06c77);
+}
+.engineering-configurator .studio-reset {
+  position: static;
+  border-radius: 50%;
+  background: var(--nxs-surface-182416);
+  border: 1px solid var(--nxs-border-859d5155);
+}
+.engineering-configurator .engineering-stage {
+  position: relative;
+  height: 600px;
+  min-width: 0;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 42%, var(--nxs-surface-65783c35), transparent 65%), var(--nxs-surface-111b14);
+  border: 0;
+  border-right: 1px solid var(--nxs-border-91a05533);
+  border-radius: 0;
+}
+.engineering-configurator .studio-word {
+  top: 115px;
+  left: 8%;
+  font-size: 290px;
+  line-height: 0.9;
+  color: var(--nxs-muted-ink-b9c7780a);
+  -webkit-text-stroke: 1px var(--nxs-surface-a9bd7055);
+  letter-spacing: -0.015em;
+  pointer-events: none;
+}
+.inspection-field {
+  position: absolute;
+  width: min(90%, 520px);
+  aspect-ratio: 1;
+  left: 50%;
+  top: 47%;
+  translate: -50% -50%;
+  z-index: 1;
+  pointer-events: none;
+}
+.inspection-field > svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: var(--nxs-muted-ink-93a86130);
+  stroke-width: 0.8;
+}
+.inspection-orbit {
+  position: absolute;
+  inset: 8.8%;
+  border-radius: 50%;
+  border: 1px solid var(--nxs-border-caab6d55);
+}
+.inspection-orbit > i {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: -4px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: var(--amber);
+  box-shadow: 0 0 18px var(--nxs-accent-fill-ffb34766);
+}
+.inspection-orbit > i:last-child {
+  left: auto;
+  right: -3px;
+  width: 5px;
+  height: 5px;
+  background: var(--nxs-surface-b4ca81);
+}
+.engineering-configurator .drone-scene {
+  height: 100%;
+  z-index: 2;
+}
+.engineering-configurator .stage-topline {
+  top: 24px;
+  left: 25px;
+  right: 25px;
+  z-index: 8;
+}
+.engineering-configurator .stage-topline > .mono {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 8px;
+  color: var(--nxs-muted-ink-b1c58e);
+}
+.engineering-configurator .stage-topline .tag {
+  font-size: 7px;
+  border-radius: 4px;
+}
+.engineering-configurator .studio-status {
+  bottom: 70px;
+  left: 25px;
+  font-size: 9px;
+  border-left: 1px solid var(--nxs-border-d0bb6c77);
+  padding-left: 14px;
+  gap: 8px;
+}
+.engineering-configurator .studio-status strong {
+  font: 500 34px/1 var(--display);
+}
+.engineering-configurator .studio-status > span:last-child {
+  font-size: 7px;
+}
+.studio-scale {
+  position: absolute;
+  right: 25px;
+  bottom: 69px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  color: var(--nxs-muted-ink-a6ba83);
+  pointer-events: none;
+  z-index: 7;
+  font: 7px var(--mono);
+}
+.studio-scale > i {
+  width: 1px;
+  height: 7px;
+  background: var(--nxs-surface-95ab6555);
+}
+.studio-scale > i:nth-child(3n) {
+  height: 16px;
+  background: var(--nxs-surface-b4c98077);
+}
+.engineering-configurator .scene-instructions {
+  bottom: 22px;
+  left: 25px;
+  right: 25px;
+  font-size: 8px;
+  color: var(--nxs-muted-ink-a6ba86);
+  padding-top: 16px;
+  border-top: 1px solid var(--nxs-border-83984733);
+  z-index: 7;
+}
+.engineering-configurator .engineering-info {
+  padding: 30px 25px;
+  background: radial-gradient(ellipse at 15% 0%, var(--nxs-surface-66783f1f), transparent 60%), var(--nxs-surface-1b2919);
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.engineering-configurator .studio-info-header {
+  margin-bottom: 25px;
+}
+.engineering-configurator .studio-info-header .eyebrow {
+  font-size: 8px;
+}
+.engineering-configurator .studio-info-header .mono {
+  font-size: 7px;
+}
+.engineering-configurator .configurator-title {
+  font: 500 46px/0.95 var(--display);
+  letter-spacing: -0.02em;
+  color: var(--nxs-ink-e0e8cf);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.engineering-configurator .configurator-title > span {
+  color: var(--nxs-ink-b9cc95);
+}
+.engineering-configurator .part-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 0;
+}
+.engineering-configurator .part-list > button {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 12px;
+  border: 1px solid var(--nxs-border-879d5033);
+  border-radius: 7px;
+  background: var(--nxs-surface-1a2718);
+  position: relative;
+  isolation: isolate;
+  color: var(--nxs-ink-bccbab);
+  font-size: 11px;
+  text-align: left;
+}
+.engineering-configurator .part-list > button .part-number {
+  font-size: 11px;
+  border-right: 1px solid var(--nxs-border-94a56533);
+  padding-right: 12px;
+  color: var(--nxs-muted-ink-9fb785);
+}
+.engineering-configurator .part-list > button > svg {
+  margin-left: auto;
+  flex: none;
+}
+.engineering-configurator .part-list > button.active {
+  background: transparent;
+  border-color: transparent;
+  color: var(--nxs-accent-ink-f2d5a0);
+}
+.engineering-configurator .part-list .part-selection-field {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--nxs-border-d7b27499);
+  border-radius: 7px;
+  background: linear-gradient(110deg, var(--nxs-accent-fill-afa04c22), var(--nxs-accent-fill-77603218));
+  z-index: -1;
+}
+.specification-toggle {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 19px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--nxs-border-98a76033);
+  color: var(--nxs-ink-b8c99c);
+  font-size: 8px;
+  padding: 8px 0;
+}
+.specification-toggle svg {
+  transition: transform 0.3s;
+}
+.specification-toggle .turned {
+  transform: rotate(180deg);
+}
+.specification-panel {
+  overflow: hidden;
+}
+.engineering-configurator .part-detail {
+  padding: 14px 0 5px;
+  min-height: 140px;
+  border: 0;
+  margin-top: 0;
+  position: relative;
+}
+.engineering-configurator .part-detail-index {
+  top: 4px;
+  right: 0;
+  font-size: 86px;
+  opacity: 0.1;
+}
+.engineering-configurator .part-detail .eyebrow {
+  font-size: 8px;
+  line-height: 1.7;
+  color: var(--nxs-accent-ink-e2c38a);
+  max-width: 250px;
+}
+.engineering-configurator .part-detail > p:last-child {
+  font-size: 11px;
+  line-height: 1.85;
+  margin-top: 10px;
+  color: var(--nxs-ink-b9caa6);
+}
+.configurator-disclosure {
+  margin-top: auto;
+  padding-top: 21px;
+  font-size: 6px;
+  line-height: 1.9;
+  color: var(--nxs-muted-ink-8fa975);
+}
+.configurator-disclosure > span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 6px;
+  background: var(--nxs-accent-fill-d0be6d);
+  border-radius: 50%;
+}
+.engineering-configurator .scene-marker {
+  font-size: 11px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 5px;
+  background: var(--nxs-surface-1d2a1bf0);
+  padding: 8px 10px;
+}
+.engineering-configurator .scene-marker.selected {
+  background: var(--nxs-accent-fill-66532df2);
+  box-shadow: 0 0 0 3px var(--nxs-accent-fill-ffb34714);
+}
+@media (max-width: 1100px) {
+  .engineering-configurator {
+    grid-template-columns: minmax(0, 60fr) minmax(0, 40fr);
+  }
+  .configurator-header {
+    padding: 20px 23px;
+    gap: 20px;
+  }
+  .configurator-header h2,
+  .configurator-header h3 {
+    font-size: 43px;
+    gap: 12px;
+  }
+  .configurator-header h2 > span,
+  .configurator-header h3 > span {
+    font-size: 7px;
+    max-width: 95px;
+    line-height: 1.7;
+    padding-left: 12px;
+  }
+  .engineering-configurator .engineering-info {
+    padding: 26px 20px;
+  }
+  .engineering-configurator .engineering-stage {
+    height: 620px;
+  }
+  .engineering-configurator .part-list > button {
+    padding: 10px;
+    gap: 8px;
+    font-size: 11px;
+  }
+  .engineering-configurator .part-list > button .part-number {
+    padding-right: 8px;
+  }
+}
+@media (max-width: 960px) {
+  .engineering-configurator {
+    grid-template-columns: 1fr;
+  }
+  .engineering-configurator .engineering-stage {
+    height: 530px;
+    border-right: 0;
+    border-bottom: 1px solid var(--nxs-border-879c4b33);
+  }
+  .engineering-configurator .engineering-info {
+    padding: 30px;
+  }
+  .engineering-configurator .part-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .engineering-configurator .part-list > button {
+    min-height: 58px;
+  }
+  .engineering-configurator .configurator-title {
+    font-size: 45px;
+  }
+  .configurator-disclosure {
+    margin-top: 20px;
+  }
+  .engineering-configurator .part-detail {
+    min-height: 110px;
+  }
+}
+@media (max-width: 700px) {
+  .engineering-configurator {
+    border-radius: 11px;
+  }
+  .configurator-header {
+    display: block;
+    padding: 19px 16px 15px;
+  }
+  .configurator-header h2,
+  .configurator-header h3 {
+    font-size: 44px;
+  }
+  .configurator-header h2 > span,
+  .configurator-header h3 > span {
+    max-width: none;
+    font-size: 7px;
+  }
+  .configurator-header > div > .mono {
+    font-size: 6px;
+  }
+  .configurator-actions {
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .engineering-configurator .assembly-switch {
+    flex: 1;
+    display: flex;
+  }
+  .engineering-configurator .assembly-switch button {
+    flex: 1;
+    padding: 9px 7px;
+    gap: 6px;
+    font-size: 10px;
+  }
+  .engineering-configurator .assembly-switch button > svg {
+    width: 13px;
+  }
+  .engineering-configurator .engineering-stage {
+    height: 450px;
+  }
+  .engineering-configurator .studio-word {
+    top: 105px;
+    font-size: 200px;
+    left: 5%;
+  }
+  .inspection-field {
+    width: 94%;
+    top: 43%;
+  }
+  .engineering-configurator .stage-topline {
+    top: 17px;
+    left: 15px;
+    right: 15px;
+  }
+  .engineering-configurator .stage-topline > .mono {
+    font-size: 6px;
+    gap: 5px;
+  }
+  .engineering-configurator .stage-topline .tag {
+    font-size: 6px;
+  }
+  .engineering-configurator .studio-status {
+    left: 17px;
+    bottom: 55px;
+    font-size: 8px;
+    padding-left: 10px;
+  }
+  .engineering-configurator .studio-status strong {
+    font-size: 26px;
+  }
+  .engineering-configurator .studio-status > span:last-child {
+    font-size: 6px;
+  }
+  .studio-scale {
+    right: 17px;
+    bottom: 58px;
+    gap: 5px;
+  }
+  .engineering-configurator .scene-instructions {
+    left: 17px;
+    right: 17px;
+    bottom: 16px;
+    font-size: 7px;
+    padding-top: 13px;
+  }
+  .engineering-configurator .engineering-info {
+    padding: 25px 19px;
+  }
+  .engineering-configurator .configurator-title {
+    font-size: 42px;
+  }
+  .engineering-configurator .part-list {
+    display: flex;
+  }
+  .engineering-configurator .part-list > button {
+    min-height: 54px;
+    padding: 11px 12px;
+    font-size: 12px;
+    gap: 13px;
+  }
+  .engineering-configurator .part-list > button .part-number {
+    font-size: 11px;
+    padding-right: 12px;
+  }
+  .engineering-configurator .part-detail > p:last-child {
+    font-size: 12px;
+  }
+  .specification-toggle {
+    font-size: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .engineering-configurator * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+html[data-motion='off'] .engineering-configurator * {
+  animation: none !important;
+  transition: none !important;
+}

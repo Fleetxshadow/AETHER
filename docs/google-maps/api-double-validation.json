@@ -1,0 +1,97 @@
+{
+  "mode": "API TEST DOUBLE — no real Google map verified",
+  "matrix": [
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "no-preference",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "reduce",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "no-preference",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "reduce",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "no-preference",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "reduce",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "no-preference",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "reduce",
+      "theme": "eclipse",
+      "state": "mock-ready",
+      "errors": [],
+      "failed": []
+    }
+  ],
+  "checks": [
+    {
+      "feature": "RESPONSE observation selection; coordinate-free reports stay unplaced",
+      "passed": true
+    },
+    {
+      "failure": "authorization",
+      "handled": true
+    },
+    {
+      "failure": "network",
+      "handled": true
+    },
+    {
+      "failure": "timeout",
+      "handled": true
+    }
+  ],
+  "consoleErrors": [],
+  "failures": []
+}

@@ -1,0 +1,10 @@
+{
+  "url": "http://192.168.31.225:3000/command/geo",
+  "httpStatus": 200,
+  "consoleErrors": [],
+  "networkFailures": [],
+  "mapState": "ready",
+  "googleVersion": "3.65.14a",
+  "trafficToggle": "passed",
+  "passed": true
+}

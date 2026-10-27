@@ -1,0 +1,826 @@
+{
+  "mode": "Production browser / actual Google Maps",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 687.7000000001863,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 1596.2999999998137,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 2815.7999999998137,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 4314.799999999814,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 5629.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 6728.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 7632.200000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 844,
+              "top": 0,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 76
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 156.29999999981374,
+        "longTasks": 22,
+        "maxLongTaskMs": 931
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 347,
+        "longTasks": 18,
+        "maxLongTaskMs": 406
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 1040.5999999996275,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 1955.9000000003725,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 3207.2999999998137,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 4709.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 6000.9000000003725,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 7104,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 8003.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 720,
+              "top": 0,
+              "right": 1280,
+              "bottom": 720,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 77
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 348.79999999981374,
+        "longTasks": 38,
+        "maxLongTaskMs": 402
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 334.09999999962747,
+        "longTasks": 22,
+        "maxLongTaskMs": 317
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 1063.7000000001863,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 2148.9000000003725,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 3383.2999999998137,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 4881.9000000003725,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 6200.700000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 7286.0999999996275,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 8199.200000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900,
+              "top": 0,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 76
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 318.09999999962747,
+        "longTasks": 57,
+        "maxLongTaskMs": 436
+      },
+      "commandHandoff": {
+        "passed": true,
+        "sdkCount": 1
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 326.6000000005588,
+        "longTasks": 21,
+        "maxLongTaskMs": 277
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 600,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 1102.199999999255,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 2004.2999999998137,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 3233.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 4731.0999999996275,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 6031.5999999996275,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 7132.799999999814,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 8048.399999999441,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 600,
+              "top": 0,
+              "right": 1280,
+              "bottom": 600,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 76
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 318,
+        "longTasks": 19,
+        "maxLongTaskMs": 430
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 857.5999999996275,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 1819.2000000001863,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 3041.7000000001863,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 4536.700000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 5847.700000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 6939.899999999441,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 7840.5999999996275,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 1024,
+              "top": 0,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 77
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 464.8999999994412,
+        "longTasks": 19,
+        "maxLongTaskMs": 892
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 349.29999999981374,
+        "longTasks": 21,
+        "maxLongTaskMs": 335
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "opening": {
+        "scenes": [
+          {
+            "scene": 0,
+            "at": 1220.2999999998137,
+            "renderer": "preparing",
+            "canvasCount": 0
+          },
+          {
+            "scene": 1,
+            "at": 2273,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 2,
+            "at": 3515.5,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 3,
+            "at": 5029.299999999814,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 4,
+            "at": 6328.299999999814,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 5,
+            "at": 7427.399999999441,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          },
+          {
+            "scene": 6,
+            "at": 8328.700000000186,
+            "renderer": "realtime",
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "top": 0,
+              "right": 844,
+              "bottom": 390,
+              "left": 0
+            },
+            "canvasCount": 1
+          }
+        ],
+        "cameraStates": 77
+      },
+      "accessibility": [],
+      "performance": {
+        "domReadyMs": 292.3999999994412,
+        "longTasks": 18,
+        "maxLongTaskMs": 1261
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    }
+  ],
+  "themes": [
+    {
+      "theme": "original",
+      "passed": true,
+      "heroInk": [
+        "rgb(243, 248, 250)",
+        "rgb(105, 227, 209)"
+      ]
+    },
+    {
+      "theme": "aqua",
+      "passed": true,
+      "heroInk": [
+        "rgb(243, 248, 250)",
+        "rgb(105, 227, 209)"
+      ]
+    },
+    {
+      "theme": "spectrum",
+      "passed": true,
+      "heroInk": [
+        "rgb(243, 248, 250)",
+        "rgb(105, 227, 209)"
+      ]
+    },
+    {
+      "theme": "sage",
+      "passed": true,
+      "heroInk": [
+        "rgb(243, 248, 250)",
+        "rgb(105, 227, 209)"
+      ]
+    }
+  ],
+  "failures": []
+}

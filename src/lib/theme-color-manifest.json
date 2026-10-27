@@ -1,0 +1,9662 @@
+{
+  "--nxs-accent-fill-d8a862": {
+    "raw": "#d8a862",
+    "role": "accent-fill",
+    "channels": [
+      216,
+      168,
+      98,
+      1
+    ]
+  },
+  "--nxs-border-8e957944": {
+    "raw": "#8e957944",
+    "role": "border",
+    "channels": [
+      142,
+      149,
+      121,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-111711db": {
+    "raw": "#111711db",
+    "role": "surface",
+    "channels": [
+      17,
+      23,
+      17,
+      0.8588235294117647
+    ]
+  },
+  "--nxs-shadow-0003": {
+    "raw": "#0003",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.2
+    ]
+  },
+  "--nxs-ink-c8ceba": {
+    "raw": "#c8ceba",
+    "role": "ink",
+    "channels": [
+      200,
+      206,
+      186,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb34777": {
+    "raw": "#ffb34777",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-muted-ink-909d7f": {
+    "raw": "#909d7f",
+    "role": "muted-ink",
+    "channels": [
+      144,
+      157,
+      127,
+      1
+    ]
+  },
+  "--nxs-border-929d7144": {
+    "raw": "#929d7144",
+    "role": "border",
+    "channels": [
+      146,
+      157,
+      113,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-29351d66": {
+    "raw": "#29351d66",
+    "role": "surface",
+    "channels": [
+      41,
+      53,
+      29,
+      0.4
+    ]
+  },
+  "--nxs-surface-3b472b": {
+    "raw": "#3b472b",
+    "role": "surface",
+    "channels": [
+      59,
+      71,
+      43,
+      1
+    ]
+  },
+  "--nxs-surface-121a11": {
+    "raw": "#121a11",
+    "role": "surface",
+    "channels": [
+      18,
+      26,
+      17,
+      1
+    ]
+  },
+  "--nxs-border-73844a66": {
+    "raw": "#73844a66",
+    "role": "border",
+    "channels": [
+      115,
+      132,
+      74,
+      0.4
+    ]
+  },
+  "--nxs-muted-ink-acb797": {
+    "raw": "#acb797",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      183,
+      151,
+      1
+    ]
+  },
+  "--nxs-border-75845144": {
+    "raw": "#75845144",
+    "role": "border",
+    "channels": [
+      117,
+      132,
+      81,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-muted-ink-aeae6466": {
+    "raw": "#aeae6466",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      174,
+      100,
+      0.4
+    ]
+  },
+  "--nxs-border-9baa5333": {
+    "raw": "#9baa5333",
+    "role": "border",
+    "channels": [
+      155,
+      170,
+      83,
+      0.2
+    ]
+  },
+  "--nxs-border-ffb34755": {
+    "raw": "#ffb34755",
+    "role": "border",
+    "channels": [
+      255,
+      179,
+      71,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-0e1410": {
+    "raw": "#0e1410",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      1
+    ]
+  },
+  "--nxs-accent-fill-b1a35421": {
+    "raw": "#b1a35421",
+    "role": "accent-fill",
+    "channels": [
+      177,
+      163,
+      84,
+      0.12941176470588237
+    ]
+  },
+  "--nxs-surface-78856108": {
+    "raw": "#78856108",
+    "role": "surface",
+    "channels": [
+      120,
+      133,
+      97,
+      0.03137254901960784
+    ]
+  },
+  "--nxs-surface-0e141044": {
+    "raw": "#0e141044",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-muted-ink-aeba96": {
+    "raw": "#aeba96",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      186,
+      150,
+      1
+    ]
+  },
+  "--nxs-ink-ccd4b310": {
+    "raw": "#ccd4b310",
+    "role": "ink",
+    "channels": [
+      204,
+      212,
+      179,
+      0.06274509803921569
+    ]
+  },
+  "--nxs-surface-c5cb9855": {
+    "raw": "#c5cb9855",
+    "role": "surface",
+    "channels": [
+      197,
+      203,
+      152,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-8b9c4944": {
+    "raw": "#8b9c4944",
+    "role": "border",
+    "channels": [
+      139,
+      156,
+      73,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-101514": {
+    "raw": "#101514",
+    "role": "surface",
+    "channels": [
+      16,
+      21,
+      20,
+      1
+    ]
+  },
+  "--nxs-shadow-0005": {
+    "raw": "#0005",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-fill-c3a15208": {
+    "raw": "#c3a15208",
+    "role": "accent-fill",
+    "channels": [
+      195,
+      161,
+      82,
+      0.03137254901960784
+    ]
+  },
+  "--nxs-surface-0e141099": {
+    "raw": "#0e141099",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.6
+    ]
+  },
+  "--nxs-surface-0e1410a6": {
+    "raw": "#0e1410a6",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.6509803921568628
+    ]
+  },
+  "--nxs-surface-0e1410e6": {
+    "raw": "#0e1410e6",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-border-a3b15838": {
+    "raw": "#a3b15838",
+    "role": "border",
+    "channels": [
+      163,
+      177,
+      88,
+      0.2196078431372549
+    ]
+  },
+  "--nxs-border-9cad5433": {
+    "raw": "#9cad5433",
+    "role": "border",
+    "channels": [
+      156,
+      173,
+      84,
+      0.2
+    ]
+  },
+  "--nxs-ink-c2caa2": {
+    "raw": "#c2caa2",
+    "role": "ink",
+    "channels": [
+      194,
+      202,
+      162,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6b48d": {
+    "raw": "#a6b48d",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      180,
+      141,
+      1
+    ]
+  },
+  "--nxs-ink-c6caa6": {
+    "raw": "#c6caa6",
+    "role": "ink",
+    "channels": [
+      198,
+      202,
+      166,
+      1
+    ]
+  },
+  "--nxs-ink-b9c69c": {
+    "raw": "#b9c69c",
+    "role": "ink",
+    "channels": [
+      185,
+      198,
+      156,
+      1
+    ]
+  },
+  "--nxs-ink-bbc6ac": {
+    "raw": "#bbc6ac",
+    "role": "ink",
+    "channels": [
+      187,
+      198,
+      172,
+      1
+    ]
+  },
+  "--nxs-accent-fill-f8b54716": {
+    "raw": "#f8b54716",
+    "role": "accent-fill",
+    "channels": [
+      248,
+      181,
+      71,
+      0.08627450980392157
+    ]
+  },
+  "--nxs-border-a3af6555": {
+    "raw": "#a3af6555",
+    "role": "border",
+    "channels": [
+      163,
+      175,
+      101,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-ink-ffce81": {
+    "raw": "#ffce81",
+    "role": "accent-ink",
+    "channels": [
+      255,
+      206,
+      129,
+      1
+    ]
+  },
+  "--nxs-surface-1b2419dd": {
+    "raw": "#1b2419dd",
+    "role": "surface",
+    "channels": [
+      27,
+      36,
+      25,
+      0.8666666666666667
+    ]
+  },
+  "--nxs-surface-3f4c2c": {
+    "raw": "#3f4c2c",
+    "role": "surface",
+    "channels": [
+      63,
+      76,
+      44,
+      1
+    ]
+  },
+  "--nxs-ink-b9c5a6": {
+    "raw": "#b9c5a6",
+    "role": "ink",
+    "channels": [
+      185,
+      197,
+      166,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9baa83": {
+    "raw": "#9baa83",
+    "role": "muted-ink",
+    "channels": [
+      155,
+      170,
+      131,
+      1
+    ]
+  },
+  "--nxs-border-bca26366": {
+    "raw": "#bca26366",
+    "role": "border",
+    "channels": [
+      188,
+      162,
+      99,
+      0.4
+    ]
+  },
+  "--nxs-border-ffcb79": {
+    "raw": "#ffcb79",
+    "role": "border",
+    "channels": [
+      255,
+      203,
+      121,
+      1
+    ]
+  },
+  "--nxs-surface-303b25e6": {
+    "raw": "#303b25e6",
+    "role": "surface",
+    "channels": [
+      48,
+      59,
+      37,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-surface-152018ed": {
+    "raw": "#152018ed",
+    "role": "surface",
+    "channels": [
+      21,
+      32,
+      24,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-shadow-0006": {
+    "raw": "#0006",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.4
+    ]
+  },
+  "--nxs-accent-ink-d4c38e": {
+    "raw": "#d4c38e",
+    "role": "accent-ink",
+    "channels": [
+      212,
+      195,
+      142,
+      1
+    ]
+  },
+  "--nxs-accent-ink-f6d190": {
+    "raw": "#f6d190",
+    "role": "accent-ink",
+    "channels": [
+      246,
+      209,
+      144,
+      1
+    ]
+  },
+  "--nxs-ink-bdc9a9": {
+    "raw": "#bdc9a9",
+    "role": "ink",
+    "channels": [
+      189,
+      201,
+      169,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a8b68f": {
+    "raw": "#a8b68f",
+    "role": "muted-ink",
+    "channels": [
+      168,
+      182,
+      143,
+      1
+    ]
+  },
+  "--nxs-accent-ink-dfb968": {
+    "raw": "#dfb968",
+    "role": "accent-ink",
+    "channels": [
+      223,
+      185,
+      104,
+      1
+    ]
+  },
+  "--nxs-border-a7b27d44": {
+    "raw": "#a7b27d44",
+    "role": "border",
+    "channels": [
+      167,
+      178,
+      125,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-border-a7b27d22": {
+    "raw": "#a7b27d22",
+    "role": "border",
+    "channels": [
+      167,
+      178,
+      125,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-muted-ink-a9bc91": {
+    "raw": "#a9bc91",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      188,
+      145,
+      1
+    ]
+  },
+  "--nxs-surface-61704344": {
+    "raw": "#61704344",
+    "role": "surface",
+    "channels": [
+      97,
+      112,
+      67,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-border-8e9e5944": {
+    "raw": "#8e9e5944",
+    "role": "border",
+    "channels": [
+      142,
+      158,
+      89,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-172218e6": {
+    "raw": "#172218e6",
+    "role": "surface",
+    "channels": [
+      23,
+      34,
+      24,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-shadow-0004": {
+    "raw": "#0004",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-muted-ink-aabb8c": {
+    "raw": "#aabb8c",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      187,
+      140,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb34713": {
+    "raw": "#ffb34713",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.07450980392156863
+    ]
+  },
+  "--nxs-border-d7b36755": {
+    "raw": "#d7b36755",
+    "role": "border",
+    "channels": [
+      215,
+      179,
+      103,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-8d9c5044": {
+    "raw": "#8d9c5044",
+    "role": "border",
+    "channels": [
+      141,
+      156,
+      80,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-muted-ink-9fad83": {
+    "raw": "#9fad83",
+    "role": "muted-ink",
+    "channels": [
+      159,
+      173,
+      131,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acb897": {
+    "raw": "#acb897",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      184,
+      151,
+      1
+    ]
+  },
+  "--nxs-border-8da25855": {
+    "raw": "#8da25855",
+    "role": "border",
+    "channels": [
+      141,
+      162,
+      88,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-202d19": {
+    "raw": "#202d19",
+    "role": "surface",
+    "channels": [
+      32,
+      45,
+      25,
+      1
+    ]
+  },
+  "--nxs-surface-b9bf8620": {
+    "raw": "#b9bf8620",
+    "role": "surface",
+    "channels": [
+      185,
+      191,
+      134,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-border-8b9b4c44": {
+    "raw": "#8b9b4c44",
+    "role": "border",
+    "channels": [
+      139,
+      155,
+      76,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-muted-ink-9eb181": {
+    "raw": "#9eb181",
+    "role": "muted-ink",
+    "channels": [
+      158,
+      177,
+      129,
+      1
+    ]
+  },
+  "--nxs-ink-dbe4c6": {
+    "raw": "#dbe4c6",
+    "role": "ink",
+    "channels": [
+      219,
+      228,
+      198,
+      1
+    ]
+  },
+  "--nxs-surface-172016": {
+    "raw": "#172016",
+    "role": "surface",
+    "channels": [
+      23,
+      32,
+      22,
+      1
+    ]
+  },
+  "--nxs-surface-0f1711": {
+    "raw": "#0f1711",
+    "role": "surface",
+    "channels": [
+      15,
+      23,
+      17,
+      1
+    ]
+  },
+  "--nxs-border-7b925333": {
+    "raw": "#7b925333",
+    "role": "border",
+    "channels": [
+      123,
+      146,
+      83,
+      0.2
+    ]
+  },
+  "--nxs-surface-6c7b3520": {
+    "raw": "#6c7b3520",
+    "role": "surface",
+    "channels": [
+      108,
+      123,
+      53,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-surface-162013": {
+    "raw": "#162013",
+    "role": "surface",
+    "channels": [
+      22,
+      32,
+      19,
+      1
+    ]
+  },
+  "--nxs-border-83994a44": {
+    "raw": "#83994a44",
+    "role": "border",
+    "channels": [
+      131,
+      153,
+      74,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-accent-fill-817a372b": {
+    "raw": "#817a372b",
+    "role": "accent-fill",
+    "channels": [
+      129,
+      122,
+      55,
+      0.16862745098039217
+    ]
+  },
+  "--nxs-border-bbac6255": {
+    "raw": "#bbac6255",
+    "role": "border",
+    "channels": [
+      187,
+      172,
+      98,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-muted-ink-a1b27415": {
+    "raw": "#a1b27415",
+    "role": "muted-ink",
+    "channels": [
+      161,
+      178,
+      116,
+      0.08235294117647059
+    ]
+  },
+  "--nxs-surface-b4c78b3b": {
+    "raw": "#b4c78b3b",
+    "role": "surface",
+    "channels": [
+      180,
+      199,
+      139,
+      0.23137254901960785
+    ]
+  },
+  "--nxs-surface-57692c24": {
+    "raw": "#57692c24",
+    "role": "surface",
+    "channels": [
+      87,
+      105,
+      44,
+      0.1411764705882353
+    ]
+  },
+  "--nxs-surface-22311bb3": {
+    "raw": "#22311bb3",
+    "role": "surface",
+    "channels": [
+      34,
+      49,
+      27,
+      0.7019607843137254
+    ]
+  },
+  "--nxs-surface-1d2b1a": {
+    "raw": "#1d2b1a",
+    "role": "surface",
+    "channels": [
+      29,
+      43,
+      26,
+      1
+    ]
+  },
+  "--nxs-surface-c6cc6515": {
+    "raw": "#c6cc6515",
+    "role": "surface",
+    "channels": [
+      198,
+      204,
+      101,
+      0.08235294117647059
+    ]
+  },
+  "--nxs-surface-101710": {
+    "raw": "#101710",
+    "role": "surface",
+    "channels": [
+      16,
+      23,
+      16,
+      1
+    ]
+  },
+  "--nxs-surface-182216": {
+    "raw": "#182216",
+    "role": "surface",
+    "channels": [
+      24,
+      34,
+      22,
+      1
+    ]
+  },
+  "--nxs-muted-ink-b6c38f": {
+    "raw": "#b6c38f",
+    "role": "muted-ink",
+    "channels": [
+      182,
+      195,
+      143,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aebe98": {
+    "raw": "#aebe98",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      190,
+      152,
+      1
+    ]
+  },
+  "--nxs-surface-5e704320": {
+    "raw": "#5e704320",
+    "role": "surface",
+    "channels": [
+      94,
+      112,
+      67,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-border-84984e33": {
+    "raw": "#84984e33",
+    "role": "border",
+    "channels": [
+      132,
+      152,
+      78,
+      0.2
+    ]
+  },
+  "--nxs-border-81934933": {
+    "raw": "#81934933",
+    "role": "border",
+    "channels": [
+      129,
+      147,
+      73,
+      0.2
+    ]
+  },
+  "--nxs-border-98a95733": {
+    "raw": "#98a95733",
+    "role": "border",
+    "channels": [
+      152,
+      169,
+      87,
+      0.2
+    ]
+  },
+  "--nxs-muted-ink-82924822": {
+    "raw": "#82924822",
+    "role": "muted-ink",
+    "channels": [
+      130,
+      146,
+      72,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-surface-2b3828f5": {
+    "raw": "#2b3828f5",
+    "role": "surface",
+    "channels": [
+      43,
+      56,
+      40,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-surface-132016ee": {
+    "raw": "#132016ee",
+    "role": "surface",
+    "channels": [
+      19,
+      32,
+      22,
+      0.9333333333333333
+    ]
+  },
+  "--nxs-surface-9fcfd300": {
+    "raw": "#9fcfd300",
+    "role": "surface",
+    "channels": [
+      159,
+      207,
+      211,
+      0
+    ]
+  },
+  "--nxs-surface-9fcfd318": {
+    "raw": "#9fcfd318",
+    "role": "surface",
+    "channels": [
+      159,
+      207,
+      211,
+      0.09411764705882353
+    ]
+  },
+  "--nxs-accent-fill-ffb87510": {
+    "raw": "#ffb87510",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      184,
+      117,
+      0.06274509803921569
+    ]
+  },
+  "--nxs-accent-fill-ffb87525": {
+    "raw": "#ffb87525",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      184,
+      117,
+      0.1450980392156863
+    ]
+  },
+  "--nxs-surface-d8ed8612": {
+    "raw": "#d8ed8612",
+    "role": "surface",
+    "channels": [
+      216,
+      237,
+      134,
+      0.07058823529411765
+    ]
+  },
+  "--nxs-surface-a5ba6118": {
+    "raw": "#a5ba6118",
+    "role": "surface",
+    "channels": [
+      165,
+      186,
+      97,
+      0.09411764705882353
+    ]
+  },
+  "--nxs-border-82945244": {
+    "raw": "#82945244",
+    "role": "border",
+    "channels": [
+      130,
+      148,
+      82,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-ink-b2c29b": {
+    "raw": "#b2c29b",
+    "role": "ink",
+    "channels": [
+      178,
+      194,
+      155,
+      1
+    ]
+  },
+  "--nxs-surface-182418ef": {
+    "raw": "#182418ef",
+    "role": "surface",
+    "channels": [
+      24,
+      36,
+      24,
+      0.9372549019607843
+    ]
+  },
+  "--nxs-muted-ink-a5b38b": {
+    "raw": "#a5b38b",
+    "role": "muted-ink",
+    "channels": [
+      165,
+      179,
+      139,
+      1
+    ]
+  },
+  "--nxs-surface-1b2918": {
+    "raw": "#1b2918",
+    "role": "surface",
+    "channels": [
+      27,
+      41,
+      24,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acbe95": {
+    "raw": "#acbe95",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      190,
+      149,
+      1
+    ]
+  },
+  "--nxs-ink-d6dfc5": {
+    "raw": "#d6dfc5",
+    "role": "ink",
+    "channels": [
+      214,
+      223,
+      197,
+      1
+    ]
+  },
+  "--nxs-border-83935033": {
+    "raw": "#83935033",
+    "role": "border",
+    "channels": [
+      131,
+      147,
+      80,
+      0.2
+    ]
+  },
+  "--nxs-muted-ink-a4b48c": {
+    "raw": "#a4b48c",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      180,
+      140,
+      1
+    ]
+  },
+  "--nxs-surface-2a391f": {
+    "raw": "#2a391f",
+    "role": "surface",
+    "channels": [
+      42,
+      57,
+      31,
+      1
+    ]
+  },
+  "--nxs-border-90a15544": {
+    "raw": "#90a15544",
+    "role": "border",
+    "channels": [
+      144,
+      161,
+      85,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-accent-fill-edbc52": {
+    "raw": "#edbc52",
+    "role": "accent-fill",
+    "channels": [
+      237,
+      188,
+      82,
+      1
+    ]
+  },
+  "--nxs-accent-fill-b98c3f": {
+    "raw": "#b98c3f",
+    "role": "accent-fill",
+    "channels": [
+      185,
+      140,
+      63,
+      1
+    ]
+  },
+  "--nxs-surface-26311e": {
+    "raw": "#26311e",
+    "role": "surface",
+    "channels": [
+      38,
+      49,
+      30,
+      1
+    ]
+  },
+  "--nxs-border-85955233": {
+    "raw": "#85955233",
+    "role": "border",
+    "channels": [
+      133,
+      149,
+      82,
+      0.2
+    ]
+  },
+  "--nxs-surface-303b23": {
+    "raw": "#303b23",
+    "role": "surface",
+    "channels": [
+      48,
+      59,
+      35,
+      1
+    ]
+  },
+  "--nxs-ink-dfe6c7": {
+    "raw": "#dfe6c7",
+    "role": "ink",
+    "channels": [
+      223,
+      230,
+      199,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aebf8c": {
+    "raw": "#aebf8c",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      191,
+      140,
+      1
+    ]
+  },
+  "--nxs-accent-ink-ffd084": {
+    "raw": "#ffd084",
+    "role": "accent-ink",
+    "channels": [
+      255,
+      208,
+      132,
+      1
+    ]
+  },
+  "--nxs-surface-0e1410f5": {
+    "raw": "#0e1410f5",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-surface-0e1410a3": {
+    "raw": "#0e1410a3",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.6392156862745098
+    ]
+  },
+  "--nxs-surface-0e1410c9": {
+    "raw": "#0e1410c9",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.788235294117647
+    ]
+  },
+  "--nxs-border-849d4933": {
+    "raw": "#849d4933",
+    "role": "border",
+    "channels": [
+      132,
+      157,
+      73,
+      0.2
+    ]
+  },
+  "--nxs-ink-d8dfb711": {
+    "raw": "#d8dfb711",
+    "role": "ink",
+    "channels": [
+      216,
+      223,
+      183,
+      0.06666666666666667
+    ]
+  },
+  "--nxs-surface-d4d9a84d": {
+    "raw": "#d4d9a84d",
+    "role": "surface",
+    "channels": [
+      212,
+      217,
+      168,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-surface-0e14107a": {
+    "raw": "#0e14107a",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.47843137254901963
+    ]
+  },
+  "--nxs-surface-0e1410d9": {
+    "raw": "#0e1410d9",
+    "role": "surface",
+    "channels": [
+      14,
+      20,
+      16,
+      0.8509803921568627
+    ]
+  },
+  "--nxs-border-90a05244": {
+    "raw": "#90a05244",
+    "role": "border",
+    "channels": [
+      144,
+      160,
+      82,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-64773822": {
+    "raw": "#64773822",
+    "role": "surface",
+    "channels": [
+      100,
+      119,
+      56,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-surface-121b13": {
+    "raw": "#121b13",
+    "role": "surface",
+    "channels": [
+      18,
+      27,
+      19,
+      1
+    ]
+  },
+  "--nxs-border-899d5144": {
+    "raw": "#899d5144",
+    "role": "border",
+    "channels": [
+      137,
+      157,
+      81,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-2b3b23": {
+    "raw": "#2b3b23",
+    "role": "surface",
+    "channels": [
+      43,
+      59,
+      35,
+      1
+    ]
+  },
+  "--nxs-surface-142015": {
+    "raw": "#142015",
+    "role": "surface",
+    "channels": [
+      20,
+      32,
+      21,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a8bf84": {
+    "raw": "#a8bf84",
+    "role": "muted-ink",
+    "channels": [
+      168,
+      191,
+      132,
+      1
+    ]
+  },
+  "--nxs-accent-ink-f5cc89": {
+    "raw": "#f5cc89",
+    "role": "accent-ink",
+    "channels": [
+      245,
+      204,
+      137,
+      1
+    ]
+  },
+  "--nxs-muted-ink-99b47d": {
+    "raw": "#99b47d",
+    "role": "muted-ink",
+    "channels": [
+      153,
+      180,
+      125,
+      1
+    ]
+  },
+  "--nxs-border-d2b26a66": {
+    "raw": "#d2b26a66",
+    "role": "border",
+    "channels": [
+      210,
+      178,
+      106,
+      0.4
+    ]
+  },
+  "--nxs-accent-fill-ffb3470d": {
+    "raw": "#ffb3470d",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.050980392156862744
+    ]
+  },
+  "--nxs-accent-fill-dfbd6b": {
+    "raw": "#dfbd6b",
+    "role": "accent-fill",
+    "channels": [
+      223,
+      189,
+      107,
+      1
+    ]
+  },
+  "--nxs-border-a2b86433": {
+    "raw": "#a2b86433",
+    "role": "border",
+    "channels": [
+      162,
+      184,
+      100,
+      0.2
+    ]
+  },
+  "--nxs-border-899c5044": {
+    "raw": "#899c5044",
+    "role": "border",
+    "channels": [
+      137,
+      156,
+      80,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-182418df": {
+    "raw": "#182418df",
+    "role": "surface",
+    "channels": [
+      24,
+      36,
+      24,
+      0.8745098039215686
+    ]
+  },
+  "--nxs-border-8a9b4944": {
+    "raw": "#8a9b4944",
+    "role": "border",
+    "channels": [
+      138,
+      155,
+      73,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-22321b": {
+    "raw": "#22321b",
+    "role": "surface",
+    "channels": [
+      34,
+      50,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-a7b75b66": {
+    "raw": "#a7b75b66",
+    "role": "border",
+    "channels": [
+      167,
+      183,
+      91,
+      0.4
+    ]
+  },
+  "--nxs-border-8f9f4d33": {
+    "raw": "#8f9f4d33",
+    "role": "border",
+    "channels": [
+      143,
+      159,
+      77,
+      0.2
+    ]
+  },
+  "--nxs-ink-e2e9d1": {
+    "raw": "#e2e9d1",
+    "role": "ink",
+    "channels": [
+      226,
+      233,
+      209,
+      1
+    ]
+  },
+  "--nxs-accent-ink-c6bd79": {
+    "raw": "#c6bd79",
+    "role": "accent-ink",
+    "channels": [
+      198,
+      189,
+      121,
+      1
+    ]
+  },
+  "--nxs-ink-b3c6a0": {
+    "raw": "#b3c6a0",
+    "role": "ink",
+    "channels": [
+      179,
+      198,
+      160,
+      1
+    ]
+  },
+  "--nxs-surface-33472888": {
+    "raw": "#33472888",
+    "role": "surface",
+    "channels": [
+      51,
+      71,
+      40,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-surface-1c2c1bbb": {
+    "raw": "#1c2c1bbb",
+    "role": "surface",
+    "channels": [
+      28,
+      44,
+      27,
+      0.7333333333333333
+    ]
+  },
+  "--nxs-border-9aad5544": {
+    "raw": "#9aad5544",
+    "role": "border",
+    "channels": [
+      154,
+      173,
+      85,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-accent-ink-e4d59c": {
+    "raw": "#e4d59c",
+    "role": "accent-ink",
+    "channels": [
+      228,
+      213,
+      156,
+      1
+    ]
+  },
+  "--nxs-border-aec17677": {
+    "raw": "#aec17677",
+    "role": "border",
+    "channels": [
+      174,
+      193,
+      118,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-border-90a15444": {
+    "raw": "#90a15444",
+    "role": "border",
+    "channels": [
+      144,
+      161,
+      84,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-182617": {
+    "raw": "#182617",
+    "role": "surface",
+    "channels": [
+      24,
+      38,
+      23,
+      1
+    ]
+  },
+  "--nxs-accent-fill-b8ab4c22": {
+    "raw": "#b8ab4c22",
+    "role": "accent-fill",
+    "channels": [
+      184,
+      171,
+      76,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-border-ceae6c77": {
+    "raw": "#ceae6c77",
+    "role": "border",
+    "channels": [
+      206,
+      174,
+      108,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-muted-ink-a2ba82": {
+    "raw": "#a2ba82",
+    "role": "muted-ink",
+    "channels": [
+      162,
+      186,
+      130,
+      1
+    ]
+  },
+  "--nxs-border-94a75955": {
+    "raw": "#94a75955",
+    "role": "border",
+    "channels": [
+      148,
+      167,
+      89,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-1b2a1a": {
+    "raw": "#1b2a1a",
+    "role": "surface",
+    "channels": [
+      27,
+      42,
+      26,
+      1
+    ]
+  },
+  "--nxs-border-9daf5644": {
+    "raw": "#9daf5644",
+    "role": "border",
+    "channels": [
+      157,
+      175,
+      86,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-334329": {
+    "raw": "#334329",
+    "role": "surface",
+    "channels": [
+      51,
+      67,
+      41,
+      1
+    ]
+  },
+  "--nxs-surface-202d1d": {
+    "raw": "#202d1d",
+    "role": "surface",
+    "channels": [
+      32,
+      45,
+      29,
+      1
+    ]
+  },
+  "--nxs-ink-c0c79b": {
+    "raw": "#c0c79b",
+    "role": "ink",
+    "channels": [
+      192,
+      199,
+      155,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a0b783": {
+    "raw": "#a0b783",
+    "role": "muted-ink",
+    "channels": [
+      160,
+      183,
+      131,
+      1
+    ]
+  },
+  "--nxs-surface-c4c566": {
+    "raw": "#c4c566",
+    "role": "surface",
+    "channels": [
+      196,
+      197,
+      102,
+      1
+    ]
+  },
+  "--nxs-surface-22321be6": {
+    "raw": "#22321be6",
+    "role": "surface",
+    "channels": [
+      34,
+      50,
+      27,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-border-93ac5555": {
+    "raw": "#93ac5555",
+    "role": "border",
+    "channels": [
+      147,
+      172,
+      85,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-1e2d18e6": {
+    "raw": "#1e2d18e6",
+    "role": "surface",
+    "channels": [
+      30,
+      45,
+      24,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-border-a0b65b55": {
+    "raw": "#a0b65b55",
+    "role": "border",
+    "channels": [
+      160,
+      182,
+      91,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-8da55144": {
+    "raw": "#8da55144",
+    "role": "border",
+    "channels": [
+      141,
+      165,
+      81,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-1d2b18e6": {
+    "raw": "#1d2b18e6",
+    "role": "surface",
+    "channels": [
+      29,
+      43,
+      24,
+      0.9019607843137255
+    ]
+  },
+  "--nxs-border-b2ba6877": {
+    "raw": "#b2ba6877",
+    "role": "border",
+    "channels": [
+      178,
+      186,
+      104,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-ink-c4cfb0": {
+    "raw": "#c4cfb0",
+    "role": "ink",
+    "channels": [
+      196,
+      207,
+      176,
+      1
+    ]
+  },
+  "--nxs-accent-ink-ffd38a": {
+    "raw": "#ffd38a",
+    "role": "accent-ink",
+    "channels": [
+      255,
+      211,
+      138,
+      1
+    ]
+  },
+  "--nxs-accent-fill-d4b46920": {
+    "raw": "#d4b46920",
+    "role": "accent-fill",
+    "channels": [
+      212,
+      180,
+      105,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-accent-fill-d6b86d": {
+    "raw": "#d6b86d",
+    "role": "accent-fill",
+    "channels": [
+      214,
+      184,
+      109,
+      1
+    ]
+  },
+  "--nxs-surface-203018ed": {
+    "raw": "#203018ed",
+    "role": "surface",
+    "channels": [
+      32,
+      48,
+      24,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-border-a4b55a55": {
+    "raw": "#a4b55a55",
+    "role": "border",
+    "channels": [
+      164,
+      181,
+      90,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-91a65655": {
+    "raw": "#91a65655",
+    "role": "border",
+    "channels": [
+      145,
+      166,
+      86,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-263719ed": {
+    "raw": "#263719ed",
+    "role": "surface",
+    "channels": [
+      38,
+      55,
+      25,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-border-8aa15144": {
+    "raw": "#8aa15144",
+    "role": "border",
+    "channels": [
+      138,
+      161,
+      81,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-1e2e1b": {
+    "raw": "#1e2e1b",
+    "role": "surface",
+    "channels": [
+      30,
+      46,
+      27,
+      1
+    ]
+  },
+  "--nxs-ink-b8c99f": {
+    "raw": "#b8c99f",
+    "role": "ink",
+    "channels": [
+      184,
+      201,
+      159,
+      1
+    ]
+  },
+  "--nxs-muted-ink-8eaa71": {
+    "raw": "#8eaa71",
+    "role": "muted-ink",
+    "channels": [
+      142,
+      170,
+      113,
+      1
+    ]
+  },
+  "--nxs-ink-e0e7c9": {
+    "raw": "#e0e7c9",
+    "role": "ink",
+    "channels": [
+      224,
+      231,
+      201,
+      1
+    ]
+  },
+  "--nxs-ink-b4c799": {
+    "raw": "#b4c799",
+    "role": "ink",
+    "channels": [
+      180,
+      199,
+      153,
+      1
+    ]
+  },
+  "--nxs-accent-ink-e3c779": {
+    "raw": "#e3c779",
+    "role": "accent-ink",
+    "channels": [
+      227,
+      199,
+      121,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9cb87d": {
+    "raw": "#9cb87d",
+    "role": "muted-ink",
+    "channels": [
+      156,
+      184,
+      125,
+      1
+    ]
+  },
+  "--nxs-border-99a85544": {
+    "raw": "#99a85544",
+    "role": "border",
+    "channels": [
+      153,
+      168,
+      85,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-2c3b23": {
+    "raw": "#2c3b23",
+    "role": "surface",
+    "channels": [
+      44,
+      59,
+      35,
+      1
+    ]
+  },
+  "--nxs-surface-1b291a": {
+    "raw": "#1b291a",
+    "role": "surface",
+    "channels": [
+      27,
+      41,
+      26,
+      1
+    ]
+  },
+  "--nxs-shadow-0002": {
+    "raw": "#0002",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-accent-ink-d6cb8e": {
+    "raw": "#d6cb8e",
+    "role": "accent-ink",
+    "channels": [
+      214,
+      203,
+      142,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ccbb5922": {
+    "raw": "#ccbb5922",
+    "role": "accent-fill",
+    "channels": [
+      204,
+      187,
+      89,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-border-bea76677": {
+    "raw": "#bea76677",
+    "role": "border",
+    "channels": [
+      190,
+      167,
+      102,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-border-a8b75c55": {
+    "raw": "#a8b75c55",
+    "role": "border",
+    "channels": [
+      168,
+      183,
+      92,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-1a2a18": {
+    "raw": "#1a2a18",
+    "role": "surface",
+    "channels": [
+      26,
+      42,
+      24,
+      1
+    ]
+  },
+  "--nxs-surface-1c2d1b": {
+    "raw": "#1c2d1b",
+    "role": "surface",
+    "channels": [
+      28,
+      45,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-8fa15055": {
+    "raw": "#8fa15055",
+    "role": "border",
+    "channels": [
+      143,
+      161,
+      80,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-25371f": {
+    "raw": "#25371f",
+    "role": "surface",
+    "channels": [
+      37,
+      55,
+      31,
+      1
+    ]
+  },
+  "--nxs-border-8b9f5244": {
+    "raw": "#8b9f5244",
+    "role": "border",
+    "channels": [
+      139,
+      159,
+      82,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-ink-d7e3be": {
+    "raw": "#d7e3be",
+    "role": "ink",
+    "channels": [
+      215,
+      227,
+      190,
+      1
+    ]
+  },
+  "--nxs-border-839d4d66": {
+    "raw": "#839d4d66",
+    "role": "border",
+    "channels": [
+      131,
+      157,
+      77,
+      0.4
+    ]
+  },
+  "--nxs-border-7c965033": {
+    "raw": "#7c965033",
+    "role": "border",
+    "channels": [
+      124,
+      150,
+      80,
+      0.2
+    ]
+  },
+  "--nxs-surface-3a4e2e": {
+    "raw": "#3a4e2e",
+    "role": "surface",
+    "channels": [
+      58,
+      78,
+      46,
+      1
+    ]
+  },
+  "--nxs-surface-5b582f55": {
+    "raw": "#5b582f55",
+    "role": "surface",
+    "channels": [
+      91,
+      88,
+      47,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-fill-e9c06d": {
+    "raw": "#e9c06d",
+    "role": "accent-fill",
+    "channels": [
+      233,
+      192,
+      109,
+      1
+    ]
+  },
+  "--nxs-surface-172819": {
+    "raw": "#172819",
+    "role": "surface",
+    "channels": [
+      23,
+      40,
+      25,
+      1
+    ]
+  },
+  "--nxs-border-869e4955": {
+    "raw": "#869e4955",
+    "role": "border",
+    "channels": [
+      134,
+      158,
+      73,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-78824424": {
+    "raw": "#78824424",
+    "role": "surface",
+    "channels": [
+      120,
+      130,
+      68,
+      0.1411764705882353
+    ]
+  },
+  "--nxs-surface-263820": {
+    "raw": "#263820",
+    "role": "surface",
+    "channels": [
+      38,
+      56,
+      32,
+      1
+    ]
+  },
+  "--nxs-border-8da15533": {
+    "raw": "#8da15533",
+    "role": "border",
+    "channels": [
+      141,
+      161,
+      85,
+      0.2
+    ]
+  },
+  "--nxs-border-8b9e5044": {
+    "raw": "#8b9e5044",
+    "role": "border",
+    "channels": [
+      139,
+      158,
+      80,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-263921": {
+    "raw": "#263921",
+    "role": "surface",
+    "channels": [
+      38,
+      57,
+      33,
+      1
+    ]
+  },
+  "--nxs-surface-19291a": {
+    "raw": "#19291a",
+    "role": "surface",
+    "channels": [
+      25,
+      41,
+      26,
+      1
+    ]
+  },
+  "--nxs-ink-bed1a5": {
+    "raw": "#bed1a5",
+    "role": "ink",
+    "channels": [
+      190,
+      209,
+      165,
+      1
+    ]
+  },
+  "--nxs-border-94a55b44": {
+    "raw": "#94a55b44",
+    "role": "border",
+    "channels": [
+      148,
+      165,
+      91,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-border-8ca04d22": {
+    "raw": "#8ca04d22",
+    "role": "border",
+    "channels": [
+      140,
+      160,
+      77,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-accent-fill-bfab5522": {
+    "raw": "#bfab5522",
+    "role": "accent-fill",
+    "channels": [
+      191,
+      171,
+      85,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-border-b59d6288": {
+    "raw": "#b59d6288",
+    "role": "border",
+    "channels": [
+      181,
+      157,
+      98,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-accent-ink-ffe0a2": {
+    "raw": "#ffe0a2",
+    "role": "accent-ink",
+    "channels": [
+      255,
+      224,
+      162,
+      1
+    ]
+  },
+  "--nxs-border-97b65777": {
+    "raw": "#97b65777",
+    "role": "border",
+    "channels": [
+      151,
+      182,
+      87,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-surface-1b2a19f5": {
+    "raw": "#1b2a19f5",
+    "role": "surface",
+    "channels": [
+      27,
+      42,
+      25,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-border-829e4b44": {
+    "raw": "#829e4b44",
+    "role": "border",
+    "channels": [
+      130,
+      158,
+      75,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-2b3d21": {
+    "raw": "#2b3d21",
+    "role": "surface",
+    "channels": [
+      43,
+      61,
+      33,
+      1
+    ]
+  },
+  "--nxs-surface-1a2b1a": {
+    "raw": "#1a2b1a",
+    "role": "surface",
+    "channels": [
+      26,
+      43,
+      26,
+      1
+    ]
+  },
+  "--nxs-ink-b6cb96": {
+    "raw": "#b6cb96",
+    "role": "ink",
+    "channels": [
+      182,
+      203,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9bb77d": {
+    "raw": "#9bb77d",
+    "role": "muted-ink",
+    "channels": [
+      155,
+      183,
+      125,
+      1
+    ]
+  },
+  "--nxs-border-99ad5555": {
+    "raw": "#99ad5555",
+    "role": "border",
+    "channels": [
+      153,
+      173,
+      85,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-acb26588": {
+    "raw": "#acb26588",
+    "role": "border",
+    "channels": [
+      172,
+      178,
+      101,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-surface-1d2d1b": {
+    "raw": "#1d2d1b",
+    "role": "surface",
+    "channels": [
+      29,
+      45,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-93a95755": {
+    "raw": "#93a95755",
+    "role": "border",
+    "channels": [
+      147,
+      169,
+      87,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-fill-c5a44918": {
+    "raw": "#c5a44918",
+    "role": "accent-fill",
+    "channels": [
+      197,
+      164,
+      73,
+      0.09411764705882353
+    ]
+  },
+  "--nxs-surface-263821": {
+    "raw": "#263821",
+    "role": "surface",
+    "channels": [
+      38,
+      56,
+      33,
+      1
+    ]
+  },
+  "--nxs-border-a6ad6155": {
+    "raw": "#a6ad6155",
+    "role": "border",
+    "channels": [
+      166,
+      173,
+      97,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-8fa95555": {
+    "raw": "#8fa95555",
+    "role": "border",
+    "channels": [
+      143,
+      169,
+      85,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-b8bb6788": {
+    "raw": "#b8bb6788",
+    "role": "border",
+    "channels": [
+      184,
+      187,
+      103,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-surface-33432a": {
+    "raw": "#33432a",
+    "role": "surface",
+    "channels": [
+      51,
+      67,
+      42,
+      1
+    ]
+  },
+  "--nxs-surface-182918": {
+    "raw": "#182918",
+    "role": "surface",
+    "channels": [
+      24,
+      41,
+      24,
+      1
+    ]
+  },
+  "--nxs-shadow-0007": {
+    "raw": "#0007",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-border-a2ae5a44": {
+    "raw": "#a2ae5a44",
+    "role": "border",
+    "channels": [
+      162,
+      174,
+      90,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-1d2c1b": {
+    "raw": "#1d2c1b",
+    "role": "surface",
+    "channels": [
+      29,
+      44,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-93a65355": {
+    "raw": "#93a65355",
+    "role": "border",
+    "channels": [
+      147,
+      166,
+      83,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-ink-cdb976": {
+    "raw": "#cdb976",
+    "role": "accent-ink",
+    "channels": [
+      205,
+      185,
+      118,
+      1
+    ]
+  },
+  "--nxs-ink-e1e9cb": {
+    "raw": "#e1e9cb",
+    "role": "ink",
+    "channels": [
+      225,
+      233,
+      203,
+      1
+    ]
+  },
+  "--nxs-ink-bacb9d": {
+    "raw": "#bacb9d",
+    "role": "ink",
+    "channels": [
+      186,
+      203,
+      157,
+      1
+    ]
+  },
+  "--nxs-border-8ca74d66": {
+    "raw": "#8ca74d66",
+    "role": "border",
+    "channels": [
+      140,
+      167,
+      77,
+      0.4
+    ]
+  },
+  "--nxs-surface-1a2918": {
+    "raw": "#1a2918",
+    "role": "surface",
+    "channels": [
+      26,
+      41,
+      24,
+      1
+    ]
+  },
+  "--nxs-ink-b1c98f": {
+    "raw": "#b1c98f",
+    "role": "ink",
+    "channels": [
+      177,
+      201,
+      143,
+      1
+    ]
+  },
+  "--nxs-border-98a95544": {
+    "raw": "#98a95544",
+    "role": "border",
+    "channels": [
+      152,
+      169,
+      85,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-accent-ink-f1c77d": {
+    "raw": "#f1c77d",
+    "role": "accent-ink",
+    "channels": [
+      241,
+      199,
+      125,
+      1
+    ]
+  },
+  "--nxs-surface-20341c": {
+    "raw": "#20341c",
+    "role": "surface",
+    "channels": [
+      32,
+      52,
+      28,
+      1
+    ]
+  },
+  "--nxs-border-8ea75544": {
+    "raw": "#8ea75544",
+    "role": "border",
+    "channels": [
+      142,
+      167,
+      85,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-border-8ba75233": {
+    "raw": "#8ba75233",
+    "role": "border",
+    "channels": [
+      139,
+      167,
+      82,
+      0.2
+    ]
+  },
+  "--nxs-surface-24361e": {
+    "raw": "#24361e",
+    "role": "surface",
+    "channels": [
+      36,
+      54,
+      30,
+      1
+    ]
+  },
+  "--nxs-surface-141914": {
+    "raw": "#141914",
+    "role": "surface",
+    "channels": [
+      20,
+      25,
+      20,
+      1
+    ]
+  },
+  "--nxs-surface-10150f": {
+    "raw": "#10150f",
+    "role": "surface",
+    "channels": [
+      16,
+      21,
+      15,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9fbb8c": {
+    "raw": "#9fbb8c",
+    "role": "muted-ink",
+    "channels": [
+      159,
+      187,
+      140,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a7bc99": {
+    "raw": "#a7bc99",
+    "role": "muted-ink",
+    "channels": [
+      167,
+      188,
+      153,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9eb48f": {
+    "raw": "#9eb48f",
+    "role": "muted-ink",
+    "channels": [
+      158,
+      180,
+      143,
+      1
+    ]
+  },
+  "--nxs-surface-353522": {
+    "raw": "#353522",
+    "role": "surface",
+    "channels": [
+      53,
+      53,
+      34,
+      1
+    ]
+  },
+  "--nxs-ink-c8c09c": {
+    "raw": "#c8c09c",
+    "role": "ink",
+    "channels": [
+      200,
+      192,
+      156,
+      1
+    ]
+  },
+  "--nxs-surface-26321f": {
+    "raw": "#26321f",
+    "role": "surface",
+    "channels": [
+      38,
+      50,
+      31,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a5bb96": {
+    "raw": "#a5bb96",
+    "role": "muted-ink",
+    "channels": [
+      165,
+      187,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9bb28c": {
+    "raw": "#9bb28c",
+    "role": "muted-ink",
+    "channels": [
+      155,
+      178,
+      140,
+      1
+    ]
+  },
+  "--nxs-surface-151b13": {
+    "raw": "#151b13",
+    "role": "surface",
+    "channels": [
+      21,
+      27,
+      19,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a4bd92": {
+    "raw": "#a4bd92",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      189,
+      146,
+      1
+    ]
+  },
+  "--nxs-ink-d6dec9": {
+    "raw": "#d6dec9",
+    "role": "ink",
+    "channels": [
+      214,
+      222,
+      201,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a1b98e": {
+    "raw": "#a1b98e",
+    "role": "muted-ink",
+    "channels": [
+      161,
+      185,
+      142,
+      1
+    ]
+  },
+  "--nxs-border-36432d": {
+    "raw": "#36432d",
+    "role": "border",
+    "channels": [
+      54,
+      67,
+      45,
+      1
+    ]
+  },
+  "--nxs-surface-192115": {
+    "raw": "#192115",
+    "role": "surface",
+    "channels": [
+      25,
+      33,
+      21,
+      1
+    ]
+  },
+  "--nxs-ink-d4dfc5": {
+    "raw": "#d4dfc5",
+    "role": "ink",
+    "channels": [
+      212,
+      223,
+      197,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9caf8e": {
+    "raw": "#9caf8e",
+    "role": "muted-ink",
+    "channels": [
+      156,
+      175,
+      142,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a4bc92": {
+    "raw": "#a4bc92",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      188,
+      146,
+      1
+    ]
+  },
+  "--nxs-border-3f4d34": {
+    "raw": "#3f4d34",
+    "role": "border",
+    "channels": [
+      63,
+      77,
+      52,
+      1
+    ]
+  },
+  "--nxs-surface-37462d": {
+    "raw": "#37462d",
+    "role": "surface",
+    "channels": [
+      55,
+      70,
+      45,
+      1
+    ]
+  },
+  "--nxs-ink-c5d6b2": {
+    "raw": "#c5d6b2",
+    "role": "ink",
+    "channels": [
+      197,
+      214,
+      178,
+      1
+    ]
+  },
+  "--nxs-border-566846": {
+    "raw": "#566846",
+    "role": "border",
+    "channels": [
+      86,
+      104,
+      70,
+      1
+    ]
+  },
+  "--nxs-ink-adbf9d": {
+    "raw": "#adbf9d",
+    "role": "ink",
+    "channels": [
+      173,
+      191,
+      157,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a4b799": {
+    "raw": "#a4b799",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      183,
+      153,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a7bd97": {
+    "raw": "#a7bd97",
+    "role": "muted-ink",
+    "channels": [
+      167,
+      189,
+      151,
+      1
+    ]
+  },
+  "--nxs-ink-ceddc0": {
+    "raw": "#ceddc0",
+    "role": "ink",
+    "channels": [
+      206,
+      221,
+      192,
+      1
+    ]
+  },
+  "--nxs-surface-1b2217": {
+    "raw": "#1b2217",
+    "role": "surface",
+    "channels": [
+      27,
+      34,
+      23,
+      1
+    ]
+  },
+  "--nxs-ink-b5c7a7": {
+    "raw": "#b5c7a7",
+    "role": "ink",
+    "channels": [
+      181,
+      199,
+      167,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a8be96": {
+    "raw": "#a8be96",
+    "role": "muted-ink",
+    "channels": [
+      168,
+      190,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a0b88e": {
+    "raw": "#a0b88e",
+    "role": "muted-ink",
+    "channels": [
+      160,
+      184,
+      142,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9bf99": {
+    "raw": "#a9bf99",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      191,
+      153,
+      1
+    ]
+  },
+  "--nxs-border-3c4d30": {
+    "raw": "#3c4d30",
+    "role": "border",
+    "channels": [
+      60,
+      77,
+      48,
+      1
+    ]
+  },
+  "--nxs-surface-1b2719": {
+    "raw": "#1b2719",
+    "role": "surface",
+    "channels": [
+      27,
+      39,
+      25,
+      1
+    ]
+  },
+  "--nxs-ink-c3d0b2": {
+    "raw": "#c3d0b2",
+    "role": "ink",
+    "channels": [
+      195,
+      208,
+      178,
+      1
+    ]
+  },
+  "--nxs-ink-b0c39e": {
+    "raw": "#b0c39e",
+    "role": "ink",
+    "channels": [
+      176,
+      195,
+      158,
+      1
+    ]
+  },
+  "--nxs-border-5a6946": {
+    "raw": "#5a6946",
+    "role": "border",
+    "channels": [
+      90,
+      105,
+      70,
+      1
+    ]
+  },
+  "--nxs-surface-1b2816ed": {
+    "raw": "#1b2816ed",
+    "role": "surface",
+    "channels": [
+      27,
+      40,
+      22,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-ink-becfb0": {
+    "raw": "#becfb0",
+    "role": "ink",
+    "channels": [
+      190,
+      207,
+      176,
+      1
+    ]
+  },
+  "--nxs-border-465a36": {
+    "raw": "#465a36",
+    "role": "border",
+    "channels": [
+      70,
+      90,
+      54,
+      1
+    ]
+  },
+  "--nxs-surface-1c2819f2": {
+    "raw": "#1c2819f2",
+    "role": "surface",
+    "channels": [
+      28,
+      40,
+      25,
+      0.9490196078431372
+    ]
+  },
+  "--nxs-border-526342": {
+    "raw": "#526342",
+    "role": "border",
+    "channels": [
+      82,
+      99,
+      66,
+      1
+    ]
+  },
+  "--nxs-ink-b4cda0": {
+    "raw": "#b4cda0",
+    "role": "ink",
+    "channels": [
+      180,
+      205,
+      160,
+      1
+    ]
+  },
+  "--nxs-ink-b4c9a4": {
+    "raw": "#b4c9a4",
+    "role": "ink",
+    "channels": [
+      180,
+      201,
+      164,
+      1
+    ]
+  },
+  "--nxs-surface-454930": {
+    "raw": "#454930",
+    "role": "surface",
+    "channels": [
+      69,
+      73,
+      48,
+      1
+    ]
+  },
+  "--nxs-ink-eddfb5": {
+    "raw": "#eddfb5",
+    "role": "ink",
+    "channels": [
+      237,
+      223,
+      181,
+      1
+    ]
+  },
+  "--nxs-surface-1b2617ef": {
+    "raw": "#1b2617ef",
+    "role": "surface",
+    "channels": [
+      27,
+      38,
+      23,
+      0.9372549019607843
+    ]
+  },
+  "--nxs-border-65755150": {
+    "raw": "#65755150",
+    "role": "border",
+    "channels": [
+      101,
+      117,
+      81,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-ink-b7cda5": {
+    "raw": "#b7cda5",
+    "role": "ink",
+    "channels": [
+      183,
+      205,
+      165,
+      1
+    ]
+  },
+  "--nxs-ink-c5d4b5": {
+    "raw": "#c5d4b5",
+    "role": "ink",
+    "channels": [
+      197,
+      212,
+      181,
+      1
+    ]
+  },
+  "--nxs-surface-172115": {
+    "raw": "#172115",
+    "role": "surface",
+    "channels": [
+      23,
+      33,
+      21,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aabd98": {
+    "raw": "#aabd98",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      189,
+      152,
+      1
+    ]
+  },
+  "--nxs-ink-bdcda6": {
+    "raw": "#bdcda6",
+    "role": "ink",
+    "channels": [
+      189,
+      205,
+      166,
+      1
+    ]
+  },
+  "--nxs-shadow-10180d": {
+    "raw": "#10180d",
+    "role": "shadow",
+    "channels": [
+      16,
+      24,
+      13,
+      1
+    ]
+  },
+  "--nxs-surface-24321c": {
+    "raw": "#24321c",
+    "role": "surface",
+    "channels": [
+      36,
+      50,
+      28,
+      1
+    ]
+  },
+  "--nxs-ink-e0e8cb": {
+    "raw": "#e0e8cb",
+    "role": "ink",
+    "channels": [
+      224,
+      232,
+      203,
+      1
+    ]
+  },
+  "--nxs-border-78935d": {
+    "raw": "#78935d",
+    "role": "border",
+    "channels": [
+      120,
+      147,
+      93,
+      1
+    ]
+  },
+  "--nxs-border-24321c": {
+    "raw": "#24321c",
+    "role": "border",
+    "channels": [
+      36,
+      50,
+      28,
+      1
+    ]
+  },
+  "--nxs-surface-1b2716cc": {
+    "raw": "#1b2716cc",
+    "role": "surface",
+    "channels": [
+      27,
+      39,
+      22,
+      0.8
+    ]
+  },
+  "--nxs-ink-b7cba2": {
+    "raw": "#b7cba2",
+    "role": "ink",
+    "channels": [
+      183,
+      203,
+      162,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9c196": {
+    "raw": "#a9c196",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      193,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aac39a": {
+    "raw": "#aac39a",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      195,
+      154,
+      1
+    ]
+  },
+  "--nxs-surface-1a2317": {
+    "raw": "#1a2317",
+    "role": "surface",
+    "channels": [
+      26,
+      35,
+      23,
+      1
+    ]
+  },
+  "--nxs-border-3b4a3050": {
+    "raw": "#3b4a3050",
+    "role": "border",
+    "channels": [
+      59,
+      74,
+      48,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-283622": {
+    "raw": "#283622",
+    "role": "surface",
+    "channels": [
+      40,
+      54,
+      34,
+      1
+    ]
+  },
+  "--nxs-surface-41452d": {
+    "raw": "#41452d",
+    "role": "surface",
+    "channels": [
+      65,
+      69,
+      45,
+      1
+    ]
+  },
+  "--nxs-border-45583a": {
+    "raw": "#45583a",
+    "role": "border",
+    "channels": [
+      69,
+      88,
+      58,
+      1
+    ]
+  },
+  "--nxs-ink-aec99d": {
+    "raw": "#aec99d",
+    "role": "ink",
+    "channels": [
+      174,
+      201,
+      157,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6bc98": {
+    "raw": "#a6bc98",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      188,
+      152,
+      1
+    ]
+  },
+  "--nxs-ink-b9ccaa": {
+    "raw": "#b9ccaa",
+    "role": "ink",
+    "channels": [
+      185,
+      204,
+      170,
+      1
+    ]
+  },
+  "--nxs-critical-ink-ffc1a5": {
+    "raw": "#ffc1a5",
+    "role": "critical-ink",
+    "channels": [
+      255,
+      193,
+      165,
+      1
+    ]
+  },
+  "--nxs-ink-aec897": {
+    "raw": "#aec897",
+    "role": "ink",
+    "channels": [
+      174,
+      200,
+      151,
+      1
+    ]
+  },
+  "--nxs-ink-b6ccaa": {
+    "raw": "#b6ccaa",
+    "role": "ink",
+    "channels": [
+      182,
+      204,
+      170,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aac497": {
+    "raw": "#aac497",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      196,
+      151,
+      1
+    ]
+  },
+  "--nxs-muted-ink-adbc93": {
+    "raw": "#adbc93",
+    "role": "muted-ink",
+    "channels": [
+      173,
+      188,
+      147,
+      1
+    ]
+  },
+  "--nxs-ink-d6e0c2": {
+    "raw": "#d6e0c2",
+    "role": "ink",
+    "channels": [
+      214,
+      224,
+      194,
+      1
+    ]
+  },
+  "--nxs-ink-adc69c": {
+    "raw": "#adc69c",
+    "role": "ink",
+    "channels": [
+      173,
+      198,
+      156,
+      1
+    ]
+  },
+  "--nxs-ink-adc799": {
+    "raw": "#adc799",
+    "role": "ink",
+    "channels": [
+      173,
+      199,
+      153,
+      1
+    ]
+  },
+  "--nxs-ink-becfab": {
+    "raw": "#becfab",
+    "role": "ink",
+    "channels": [
+      190,
+      207,
+      171,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a4bf91": {
+    "raw": "#a4bf91",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      191,
+      145,
+      1
+    ]
+  },
+  "--nxs-surface-1d2919fa": {
+    "raw": "#1d2919fa",
+    "role": "surface",
+    "channels": [
+      29,
+      41,
+      25,
+      0.9803921568627451
+    ]
+  },
+  "--nxs-border-71815a": {
+    "raw": "#71815a",
+    "role": "border",
+    "channels": [
+      113,
+      129,
+      90,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aebd97": {
+    "raw": "#aebd97",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      189,
+      151,
+      1
+    ]
+  },
+  "--nxs-border-7d8353": {
+    "raw": "#7d8353",
+    "role": "border",
+    "channels": [
+      125,
+      131,
+      83,
+      1
+    ]
+  },
+  "--nxs-critical-ink-ffc0a6": {
+    "raw": "#ffc0a6",
+    "role": "critical-ink",
+    "channels": [
+      255,
+      192,
+      166,
+      1
+    ]
+  },
+  "--nxs-critical-tint-af786180": {
+    "raw": "#af786180",
+    "role": "critical-tint",
+    "channels": [
+      175,
+      120,
+      97,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-critical-tint-92563420": {
+    "raw": "#92563420",
+    "role": "critical-tint",
+    "channels": [
+      146,
+      86,
+      52,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-elevated-tint-bfa15780": {
+    "raw": "#bfa15780",
+    "role": "elevated-tint",
+    "channels": [
+      191,
+      161,
+      87,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-elevated-tint-bc8a3310": {
+    "raw": "#bc8a3310",
+    "role": "elevated-tint",
+    "channels": [
+      188,
+      138,
+      51,
+      0.06274509803921569
+    ]
+  },
+  "--nxs-normal-tint-afc87780": {
+    "raw": "#afc87780",
+    "role": "normal-tint",
+    "channels": [
+      175,
+      200,
+      119,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-normal-tint-97b65210": {
+    "raw": "#97b65210",
+    "role": "normal-tint",
+    "channels": [
+      151,
+      182,
+      82,
+      0.06274509803921569
+    ]
+  },
+  "--nxs-ink-b1c69e": {
+    "raw": "#b1c69e",
+    "role": "ink",
+    "channels": [
+      177,
+      198,
+      158,
+      1
+    ]
+  },
+  "--nxs-ink-e9dec0": {
+    "raw": "#e9dec0",
+    "role": "ink",
+    "channels": [
+      233,
+      222,
+      192,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acb890": {
+    "raw": "#acb890",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      184,
+      144,
+      1
+    ]
+  },
+  "--nxs-ink-b5c79e": {
+    "raw": "#b5c79e",
+    "role": "ink",
+    "channels": [
+      181,
+      199,
+      158,
+      1
+    ]
+  },
+  "--nxs-ink-b7cba6": {
+    "raw": "#b7cba6",
+    "role": "ink",
+    "channels": [
+      183,
+      203,
+      166,
+      1
+    ]
+  },
+  "--nxs-border-53674060": {
+    "raw": "#53674060",
+    "role": "border",
+    "channels": [
+      83,
+      103,
+      64,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-ink-acc698": {
+    "raw": "#acc698",
+    "role": "ink",
+    "channels": [
+      172,
+      198,
+      152,
+      1
+    ]
+  },
+  "--nxs-ink-c9d8b6": {
+    "raw": "#c9d8b6",
+    "role": "ink",
+    "channels": [
+      201,
+      216,
+      182,
+      1
+    ]
+  },
+  "--nxs-muted-ink-abc992": {
+    "raw": "#abc992",
+    "role": "muted-ink",
+    "channels": [
+      171,
+      201,
+      146,
+      1
+    ]
+  },
+  "--nxs-surface-1b2517": {
+    "raw": "#1b2517",
+    "role": "surface",
+    "channels": [
+      27,
+      37,
+      23,
+      1
+    ]
+  },
+  "--nxs-ink-afc899": {
+    "raw": "#afc899",
+    "role": "ink",
+    "channels": [
+      175,
+      200,
+      153,
+      1
+    ]
+  },
+  "--nxs-surface-060a06b0": {
+    "raw": "#060a06b0",
+    "role": "surface",
+    "channels": [
+      6,
+      10,
+      6,
+      0.6901960784313725
+    ]
+  },
+  "--nxs-surface-202c1c": {
+    "raw": "#202c1c",
+    "role": "surface",
+    "channels": [
+      32,
+      44,
+      28,
+      1
+    ]
+  },
+  "--nxs-border-718763": {
+    "raw": "#718763",
+    "role": "border",
+    "channels": [
+      113,
+      135,
+      99,
+      1
+    ]
+  },
+  "--nxs-shadow-0008": {
+    "raw": "#0008",
+    "role": "shadow",
+    "channels": [
+      0,
+      0,
+      0,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-border-506142": {
+    "raw": "#506142",
+    "role": "border",
+    "channels": [
+      80,
+      97,
+      66,
+      1
+    ]
+  },
+  "--nxs-ink-d6e5c6": {
+    "raw": "#d6e5c6",
+    "role": "ink",
+    "channels": [
+      214,
+      229,
+      198,
+      1
+    ]
+  },
+  "--nxs-ink-b0c69b": {
+    "raw": "#b0c69b",
+    "role": "ink",
+    "channels": [
+      176,
+      198,
+      155,
+      1
+    ]
+  },
+  "--nxs-border-566c4030": {
+    "raw": "#566c4030",
+    "role": "border",
+    "channels": [
+      86,
+      108,
+      64,
+      0.18823529411764706
+    ]
+  },
+  "--nxs-surface-35472b": {
+    "raw": "#35472b",
+    "role": "surface",
+    "channels": [
+      53,
+      71,
+      43,
+      1
+    ]
+  },
+  "--nxs-ink-b3cd9c": {
+    "raw": "#b3cd9c",
+    "role": "ink",
+    "channels": [
+      179,
+      205,
+      156,
+      1
+    ]
+  },
+  "--nxs-ink-b1c99d": {
+    "raw": "#b1c99d",
+    "role": "ink",
+    "channels": [
+      177,
+      201,
+      157,
+      1
+    ]
+  },
+  "--nxs-ink-b5cc9f": {
+    "raw": "#b5cc9f",
+    "role": "ink",
+    "channels": [
+      181,
+      204,
+      159,
+      1
+    ]
+  },
+  "--nxs-border-93a45944": {
+    "raw": "#93a45944",
+    "role": "border",
+    "channels": [
+      147,
+      164,
+      89,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-152014": {
+    "raw": "#152014",
+    "role": "surface",
+    "channels": [
+      21,
+      32,
+      20,
+      1
+    ]
+  },
+  "--nxs-border-90a15344": {
+    "raw": "#90a15344",
+    "role": "border",
+    "channels": [
+      144,
+      161,
+      83,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-surface-304026": {
+    "raw": "#304026",
+    "role": "surface",
+    "channels": [
+      48,
+      64,
+      38,
+      1
+    ]
+  },
+  "--nxs-surface-182319": {
+    "raw": "#182319",
+    "role": "surface",
+    "channels": [
+      24,
+      35,
+      25,
+      1
+    ]
+  },
+  "--nxs-ink-b4c495": {
+    "raw": "#b4c495",
+    "role": "ink",
+    "channels": [
+      180,
+      196,
+      149,
+      1
+    ]
+  },
+  "--nxs-ink-e2e8cd": {
+    "raw": "#e2e8cd",
+    "role": "ink",
+    "channels": [
+      226,
+      232,
+      205,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aabd91": {
+    "raw": "#aabd91",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      189,
+      145,
+      1
+    ]
+  },
+  "--nxs-border-9fb67555": {
+    "raw": "#9fb67555",
+    "role": "border",
+    "channels": [
+      159,
+      182,
+      117,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-9ca95c55": {
+    "raw": "#9ca95c55",
+    "role": "border",
+    "channels": [
+      156,
+      169,
+      92,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-121d12c9": {
+    "raw": "#121d12c9",
+    "role": "surface",
+    "channels": [
+      18,
+      29,
+      18,
+      0.788235294117647
+    ]
+  },
+  "--nxs-accent-fill-c9bb5b22": {
+    "raw": "#c9bb5b22",
+    "role": "accent-fill",
+    "channels": [
+      201,
+      187,
+      91,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-border-dcb06c77": {
+    "raw": "#dcb06c77",
+    "role": "border",
+    "channels": [
+      220,
+      176,
+      108,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-surface-182416": {
+    "raw": "#182416",
+    "role": "surface",
+    "channels": [
+      24,
+      36,
+      22,
+      1
+    ]
+  },
+  "--nxs-border-859d5155": {
+    "raw": "#859d5155",
+    "role": "border",
+    "channels": [
+      133,
+      157,
+      81,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-65783c35": {
+    "raw": "#65783c35",
+    "role": "surface",
+    "channels": [
+      101,
+      120,
+      60,
+      0.20784313725490197
+    ]
+  },
+  "--nxs-surface-111b14": {
+    "raw": "#111b14",
+    "role": "surface",
+    "channels": [
+      17,
+      27,
+      20,
+      1
+    ]
+  },
+  "--nxs-border-91a05533": {
+    "raw": "#91a05533",
+    "role": "border",
+    "channels": [
+      145,
+      160,
+      85,
+      0.2
+    ]
+  },
+  "--nxs-muted-ink-b9c7780a": {
+    "raw": "#b9c7780a",
+    "role": "muted-ink",
+    "channels": [
+      185,
+      199,
+      120,
+      0.0392156862745098
+    ]
+  },
+  "--nxs-surface-a9bd7055": {
+    "raw": "#a9bd7055",
+    "role": "surface",
+    "channels": [
+      169,
+      189,
+      112,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-muted-ink-93a86130": {
+    "raw": "#93a86130",
+    "role": "muted-ink",
+    "channels": [
+      147,
+      168,
+      97,
+      0.18823529411764706
+    ]
+  },
+  "--nxs-border-caab6d55": {
+    "raw": "#caab6d55",
+    "role": "border",
+    "channels": [
+      202,
+      171,
+      109,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-accent-fill-ffb34766": {
+    "raw": "#ffb34766",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.4
+    ]
+  },
+  "--nxs-surface-b4ca81": {
+    "raw": "#b4ca81",
+    "role": "surface",
+    "channels": [
+      180,
+      202,
+      129,
+      1
+    ]
+  },
+  "--nxs-muted-ink-b1c58e": {
+    "raw": "#b1c58e",
+    "role": "muted-ink",
+    "channels": [
+      177,
+      197,
+      142,
+      1
+    ]
+  },
+  "--nxs-border-d0bb6c77": {
+    "raw": "#d0bb6c77",
+    "role": "border",
+    "channels": [
+      208,
+      187,
+      108,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-muted-ink-a6ba83": {
+    "raw": "#a6ba83",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      186,
+      131,
+      1
+    ]
+  },
+  "--nxs-surface-95ab6555": {
+    "raw": "#95ab6555",
+    "role": "surface",
+    "channels": [
+      149,
+      171,
+      101,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-b4c98077": {
+    "raw": "#b4c98077",
+    "role": "surface",
+    "channels": [
+      180,
+      201,
+      128,
+      0.4666666666666667
+    ]
+  },
+  "--nxs-muted-ink-a6ba86": {
+    "raw": "#a6ba86",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      186,
+      134,
+      1
+    ]
+  },
+  "--nxs-border-83984733": {
+    "raw": "#83984733",
+    "role": "border",
+    "channels": [
+      131,
+      152,
+      71,
+      0.2
+    ]
+  },
+  "--nxs-surface-66783f1f": {
+    "raw": "#66783f1f",
+    "role": "surface",
+    "channels": [
+      102,
+      120,
+      63,
+      0.12156862745098039
+    ]
+  },
+  "--nxs-surface-1b2919": {
+    "raw": "#1b2919",
+    "role": "surface",
+    "channels": [
+      27,
+      41,
+      25,
+      1
+    ]
+  },
+  "--nxs-ink-e0e8cf": {
+    "raw": "#e0e8cf",
+    "role": "ink",
+    "channels": [
+      224,
+      232,
+      207,
+      1
+    ]
+  },
+  "--nxs-ink-b9cc95": {
+    "raw": "#b9cc95",
+    "role": "ink",
+    "channels": [
+      185,
+      204,
+      149,
+      1
+    ]
+  },
+  "--nxs-border-879d5033": {
+    "raw": "#879d5033",
+    "role": "border",
+    "channels": [
+      135,
+      157,
+      80,
+      0.2
+    ]
+  },
+  "--nxs-surface-1a2718": {
+    "raw": "#1a2718",
+    "role": "surface",
+    "channels": [
+      26,
+      39,
+      24,
+      1
+    ]
+  },
+  "--nxs-ink-bccbab": {
+    "raw": "#bccbab",
+    "role": "ink",
+    "channels": [
+      188,
+      203,
+      171,
+      1
+    ]
+  },
+  "--nxs-border-94a56533": {
+    "raw": "#94a56533",
+    "role": "border",
+    "channels": [
+      148,
+      165,
+      101,
+      0.2
+    ]
+  },
+  "--nxs-muted-ink-9fb785": {
+    "raw": "#9fb785",
+    "role": "muted-ink",
+    "channels": [
+      159,
+      183,
+      133,
+      1
+    ]
+  },
+  "--nxs-accent-ink-f2d5a0": {
+    "raw": "#f2d5a0",
+    "role": "accent-ink",
+    "channels": [
+      242,
+      213,
+      160,
+      1
+    ]
+  },
+  "--nxs-border-d7b27499": {
+    "raw": "#d7b27499",
+    "role": "border",
+    "channels": [
+      215,
+      178,
+      116,
+      0.6
+    ]
+  },
+  "--nxs-accent-fill-afa04c22": {
+    "raw": "#afa04c22",
+    "role": "accent-fill",
+    "channels": [
+      175,
+      160,
+      76,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-accent-fill-77603218": {
+    "raw": "#77603218",
+    "role": "accent-fill",
+    "channels": [
+      119,
+      96,
+      50,
+      0.09411764705882353
+    ]
+  },
+  "--nxs-border-98a76033": {
+    "raw": "#98a76033",
+    "role": "border",
+    "channels": [
+      152,
+      167,
+      96,
+      0.2
+    ]
+  },
+  "--nxs-ink-b8c99c": {
+    "raw": "#b8c99c",
+    "role": "ink",
+    "channels": [
+      184,
+      201,
+      156,
+      1
+    ]
+  },
+  "--nxs-accent-ink-e2c38a": {
+    "raw": "#e2c38a",
+    "role": "accent-ink",
+    "channels": [
+      226,
+      195,
+      138,
+      1
+    ]
+  },
+  "--nxs-ink-b9caa6": {
+    "raw": "#b9caa6",
+    "role": "ink",
+    "channels": [
+      185,
+      202,
+      166,
+      1
+    ]
+  },
+  "--nxs-muted-ink-8fa975": {
+    "raw": "#8fa975",
+    "role": "muted-ink",
+    "channels": [
+      143,
+      169,
+      117,
+      1
+    ]
+  },
+  "--nxs-accent-fill-d0be6d": {
+    "raw": "#d0be6d",
+    "role": "accent-fill",
+    "channels": [
+      208,
+      190,
+      109,
+      1
+    ]
+  },
+  "--nxs-surface-1d2a1bf0": {
+    "raw": "#1d2a1bf0",
+    "role": "surface",
+    "channels": [
+      29,
+      42,
+      27,
+      0.9411764705882353
+    ]
+  },
+  "--nxs-accent-fill-66532df2": {
+    "raw": "#66532df2",
+    "role": "accent-fill",
+    "channels": [
+      102,
+      83,
+      45,
+      0.9490196078431372
+    ]
+  },
+  "--nxs-accent-fill-ffb34714": {
+    "raw": "#ffb34714",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.0784313725490196
+    ]
+  },
+  "--nxs-border-879c4b33": {
+    "raw": "#879c4b33",
+    "role": "border",
+    "channels": [
+      135,
+      156,
+      75,
+      0.2
+    ]
+  },
+  "--nxs-border-b9c49b12": {
+    "raw": "#b9c49b12",
+    "role": "border",
+    "channels": [
+      185,
+      196,
+      155,
+      0.07058823529411765
+    ]
+  },
+  "--nxs-ink-c2c6b9": {
+    "raw": "#c2c6b9",
+    "role": "ink",
+    "channels": [
+      194,
+      198,
+      185,
+      1
+    ]
+  },
+  "--nxs-border-6c745a": {
+    "raw": "#6c745a",
+    "role": "border",
+    "channels": [
+      108,
+      116,
+      90,
+      1
+    ]
+  },
+  "--nxs-surface-101310": {
+    "raw": "#101310",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      1
+    ]
+  },
+  "--nxs-surface-101310f0": {
+    "raw": "#101310f0",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      0.9411764705882353
+    ]
+  },
+  "--nxs-surface-10131098": {
+    "raw": "#10131098",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      0.596078431372549
+    ]
+  },
+  "--nxs-surface-10131000": {
+    "raw": "#10131000",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      0
+    ]
+  },
+  "--nxs-surface-10131020": {
+    "raw": "#10131020",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-ink-bdc4ad": {
+    "raw": "#bdc4ad",
+    "role": "ink",
+    "channels": [
+      189,
+      196,
+      173,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aeb5a4": {
+    "raw": "#aeb5a4",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      181,
+      164,
+      1
+    ]
+  },
+  "--nxs-ink-c0c5b5": {
+    "raw": "#c0c5b5",
+    "role": "ink",
+    "channels": [
+      192,
+      197,
+      181,
+      1
+    ]
+  },
+  "--nxs-muted-ink-98aa86": {
+    "raw": "#98aa86",
+    "role": "muted-ink",
+    "channels": [
+      152,
+      170,
+      134,
+      1
+    ]
+  },
+  "--nxs-border-68735a": {
+    "raw": "#68735a",
+    "role": "border",
+    "channels": [
+      104,
+      115,
+      90,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9ba58e": {
+    "raw": "#9ba58e",
+    "role": "muted-ink",
+    "channels": [
+      155,
+      165,
+      142,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6ba97": {
+    "raw": "#a6ba97",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      186,
+      151,
+      1
+    ]
+  },
+  "--nxs-ink-d8ddc9": {
+    "raw": "#d8ddc9",
+    "role": "ink",
+    "channels": [
+      216,
+      221,
+      201,
+      1
+    ]
+  },
+  "--nxs-border-a8b4912c": {
+    "raw": "#a8b4912c",
+    "role": "border",
+    "channels": [
+      168,
+      180,
+      145,
+      0.17254901960784313
+    ]
+  },
+  "--nxs-muted-ink-a0b28d": {
+    "raw": "#a0b28d",
+    "role": "muted-ink",
+    "channels": [
+      160,
+      178,
+      141,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acbf96": {
+    "raw": "#acbf96",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      191,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a3b68f": {
+    "raw": "#a3b68f",
+    "role": "muted-ink",
+    "channels": [
+      163,
+      182,
+      143,
+      1
+    ]
+  },
+  "--nxs-ink-d2d8c0": {
+    "raw": "#d2d8c0",
+    "role": "ink",
+    "channels": [
+      210,
+      216,
+      192,
+      1
+    ]
+  },
+  "--nxs-surface-191e17": {
+    "raw": "#191e17",
+    "role": "surface",
+    "channels": [
+      25,
+      30,
+      23,
+      1
+    ]
+  },
+  "--nxs-border-2e3828": {
+    "raw": "#2e3828",
+    "role": "border",
+    "channels": [
+      46,
+      56,
+      40,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9b39a": {
+    "raw": "#a9b39a",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      179,
+      154,
+      1
+    ]
+  },
+  "--nxs-surface-697659": {
+    "raw": "#697659",
+    "role": "surface",
+    "channels": [
+      105,
+      118,
+      89,
+      1
+    ]
+  },
+  "--nxs-ink-d4dac8": {
+    "raw": "#d4dac8",
+    "role": "ink",
+    "channels": [
+      212,
+      218,
+      200,
+      1
+    ]
+  },
+  "--nxs-surface-151c16": {
+    "raw": "#151c16",
+    "role": "surface",
+    "channels": [
+      21,
+      28,
+      22,
+      1
+    ]
+  },
+  "--nxs-border-71815a30": {
+    "raw": "#71815a30",
+    "role": "border",
+    "channels": [
+      113,
+      129,
+      90,
+      0.18823529411764706
+    ]
+  },
+  "--nxs-surface-182016e8": {
+    "raw": "#182016e8",
+    "role": "surface",
+    "channels": [
+      24,
+      32,
+      22,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-muted-ink-a9bf95": {
+    "raw": "#a9bf95",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      191,
+      149,
+      1
+    ]
+  },
+  "--nxs-border-4b5541": {
+    "raw": "#4b5541",
+    "role": "border",
+    "channels": [
+      75,
+      85,
+      65,
+      1
+    ]
+  },
+  "--nxs-border-303a29": {
+    "raw": "#303a29",
+    "role": "border",
+    "channels": [
+      48,
+      58,
+      41,
+      1
+    ]
+  },
+  "--nxs-surface-303a29": {
+    "raw": "#303a29",
+    "role": "surface",
+    "channels": [
+      48,
+      58,
+      41,
+      1
+    ]
+  },
+  "--nxs-border-69704f": {
+    "raw": "#69704f",
+    "role": "border",
+    "channels": [
+      105,
+      112,
+      79,
+      1
+    ]
+  },
+  "--nxs-surface-323c26": {
+    "raw": "#323c26",
+    "role": "surface",
+    "channels": [
+      50,
+      60,
+      38,
+      1
+    ]
+  },
+  "--nxs-surface-182017": {
+    "raw": "#182017",
+    "role": "surface",
+    "channels": [
+      24,
+      32,
+      23,
+      1
+    ]
+  },
+  "--nxs-muted-ink-abb79a": {
+    "raw": "#abb79a",
+    "role": "muted-ink",
+    "channels": [
+      171,
+      183,
+      154,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aabb95": {
+    "raw": "#aabb95",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      187,
+      149,
+      1
+    ]
+  },
+  "--nxs-surface-1b2418": {
+    "raw": "#1b2418",
+    "role": "surface",
+    "channels": [
+      27,
+      36,
+      24,
+      1
+    ]
+  },
+  "--nxs-border-4b5b3d": {
+    "raw": "#4b5b3d",
+    "role": "border",
+    "channels": [
+      75,
+      91,
+      61,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a7bc98": {
+    "raw": "#a7bc98",
+    "role": "muted-ink",
+    "channels": [
+      167,
+      188,
+      152,
+      1
+    ]
+  },
+  "--nxs-ink-b2c59f": {
+    "raw": "#b2c59f",
+    "role": "ink",
+    "channels": [
+      178,
+      197,
+      159,
+      1
+    ]
+  },
+  "--nxs-surface-51442a": {
+    "raw": "#51442a",
+    "role": "surface",
+    "channels": [
+      81,
+      68,
+      42,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a5bd92": {
+    "raw": "#a5bd92",
+    "role": "muted-ink",
+    "channels": [
+      165,
+      189,
+      146,
+      1
+    ]
+  },
+  "--nxs-border-4f5a40": {
+    "raw": "#4f5a40",
+    "role": "border",
+    "channels": [
+      79,
+      90,
+      64,
+      1
+    ]
+  },
+  "--nxs-border-7c7d53": {
+    "raw": "#7c7d53",
+    "role": "border",
+    "channels": [
+      124,
+      125,
+      83,
+      1
+    ]
+  },
+  "--nxs-ink-c3cfb3": {
+    "raw": "#c3cfb3",
+    "role": "ink",
+    "channels": [
+      195,
+      207,
+      179,
+      1
+    ]
+  },
+  "--nxs-surface-1d2819": {
+    "raw": "#1d2819",
+    "role": "surface",
+    "channels": [
+      29,
+      40,
+      25,
+      1
+    ]
+  },
+  "--nxs-border-4d6240": {
+    "raw": "#4d6240",
+    "role": "border",
+    "channels": [
+      77,
+      98,
+      64,
+      1
+    ]
+  },
+  "--nxs-border-454d3b": {
+    "raw": "#454d3b",
+    "role": "border",
+    "channels": [
+      69,
+      77,
+      59,
+      1
+    ]
+  },
+  "--nxs-surface-191f18": {
+    "raw": "#191f18",
+    "role": "surface",
+    "channels": [
+      25,
+      31,
+      24,
+      1
+    ]
+  },
+  "--nxs-surface-42493b": {
+    "raw": "#42493b",
+    "role": "surface",
+    "channels": [
+      66,
+      73,
+      59,
+      1
+    ]
+  },
+  "--nxs-surface-252d23": {
+    "raw": "#252d23",
+    "role": "surface",
+    "channels": [
+      37,
+      45,
+      35,
+      1
+    ]
+  },
+  "--nxs-surface-1b2119": {
+    "raw": "#1b2119",
+    "role": "surface",
+    "channels": [
+      27,
+      33,
+      25,
+      1
+    ]
+  },
+  "--nxs-ink-c1cbb2": {
+    "raw": "#c1cbb2",
+    "role": "ink",
+    "channels": [
+      193,
+      203,
+      178,
+      1
+    ]
+  },
+  "--nxs-ink-c2cdb3": {
+    "raw": "#c2cdb3",
+    "role": "ink",
+    "channels": [
+      194,
+      205,
+      179,
+      1
+    ]
+  },
+  "--nxs-surface-1b231ae8": {
+    "raw": "#1b231ae8",
+    "role": "surface",
+    "channels": [
+      27,
+      35,
+      26,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-muted-ink-a8bd93": {
+    "raw": "#a8bd93",
+    "role": "muted-ink",
+    "channels": [
+      168,
+      189,
+      147,
+      1
+    ]
+  },
+  "--nxs-border-343e2e": {
+    "raw": "#343e2e",
+    "role": "border",
+    "channels": [
+      52,
+      62,
+      46,
+      1
+    ]
+  },
+  "--nxs-ink-aec29e": {
+    "raw": "#aec29e",
+    "role": "ink",
+    "channels": [
+      174,
+      194,
+      158,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9bb688": {
+    "raw": "#9bb688",
+    "role": "muted-ink",
+    "channels": [
+      155,
+      182,
+      136,
+      1
+    ]
+  },
+  "--nxs-ink-d4ddbf": {
+    "raw": "#d4ddbf",
+    "role": "ink",
+    "channels": [
+      212,
+      221,
+      191,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acbf9b": {
+    "raw": "#acbf9b",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      191,
+      155,
+      1
+    ]
+  },
+  "--nxs-ink-bdc8af": {
+    "raw": "#bdc8af",
+    "role": "ink",
+    "channels": [
+      189,
+      200,
+      175,
+      1
+    ]
+  },
+  "--nxs-surface-d4d9c9": {
+    "raw": "#d4d9c9",
+    "role": "surface",
+    "channels": [
+      212,
+      217,
+      201,
+      1
+    ]
+  },
+  "--nxs-on-accent-202b20": {
+    "raw": "#202b20",
+    "role": "on-accent",
+    "channels": [
+      32,
+      43,
+      32,
+      1
+    ]
+  },
+  "--nxs-muted-ink-506249": {
+    "raw": "#506249",
+    "role": "muted-ink",
+    "channels": [
+      80,
+      98,
+      73,
+      1
+    ]
+  },
+  "--nxs-border-a7b29b": {
+    "raw": "#a7b29b",
+    "role": "border",
+    "channels": [
+      167,
+      178,
+      155,
+      1
+    ]
+  },
+  "--nxs-muted-ink-4f6244": {
+    "raw": "#4f6244",
+    "role": "muted-ink",
+    "channels": [
+      79,
+      98,
+      68,
+      1
+    ]
+  },
+  "--nxs-muted-ink-68765a": {
+    "raw": "#68765a",
+    "role": "muted-ink",
+    "channels": [
+      104,
+      118,
+      90,
+      1
+    ]
+  },
+  "--nxs-border-a2b098": {
+    "raw": "#a2b098",
+    "role": "border",
+    "channels": [
+      162,
+      176,
+      152,
+      1
+    ]
+  },
+  "--nxs-muted-ink-495b43": {
+    "raw": "#495b43",
+    "role": "muted-ink",
+    "channels": [
+      73,
+      91,
+      67,
+      1
+    ]
+  },
+  "--nxs-muted-ink-46583d": {
+    "raw": "#46583d",
+    "role": "muted-ink",
+    "channels": [
+      70,
+      88,
+      61,
+      1
+    ]
+  },
+  "--nxs-ink-b0c89d": {
+    "raw": "#b0c89d",
+    "role": "ink",
+    "channels": [
+      176,
+      200,
+      157,
+      1
+    ]
+  },
+  "--nxs-surface-55654812": {
+    "raw": "#55654812",
+    "role": "surface",
+    "channels": [
+      85,
+      101,
+      72,
+      0.07058823529411765
+    ]
+  },
+  "--nxs-ink-c4cdb7": {
+    "raw": "#c4cdb7",
+    "role": "ink",
+    "channels": [
+      196,
+      205,
+      183,
+      1
+    ]
+  },
+  "--nxs-muted-ink-adc396": {
+    "raw": "#adc396",
+    "role": "muted-ink",
+    "channels": [
+      173,
+      195,
+      150,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9c092": {
+    "raw": "#a9c092",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      192,
+      146,
+      1
+    ]
+  },
+  "--nxs-surface-101510": {
+    "raw": "#101510",
+    "role": "surface",
+    "channels": [
+      16,
+      21,
+      16,
+      1
+    ]
+  },
+  "--nxs-surface-101510bb": {
+    "raw": "#101510bb",
+    "role": "surface",
+    "channels": [
+      16,
+      21,
+      16,
+      0.7333333333333333
+    ]
+  },
+  "--nxs-ink-bbc6ad": {
+    "raw": "#bbc6ad",
+    "role": "ink",
+    "channels": [
+      187,
+      198,
+      173,
+      1
+    ]
+  },
+  "--nxs-surface-637f4c": {
+    "raw": "#637f4c",
+    "role": "surface",
+    "channels": [
+      99,
+      127,
+      76,
+      1
+    ]
+  },
+  "--nxs-surface-191e18": {
+    "raw": "#191e18",
+    "role": "surface",
+    "channels": [
+      25,
+      30,
+      24,
+      1
+    ]
+  },
+  "--nxs-surface-343c30": {
+    "raw": "#343c30",
+    "role": "surface",
+    "channels": [
+      52,
+      60,
+      48,
+      1
+    ]
+  },
+  "--nxs-surface-e9ece0": {
+    "raw": "#e9ece0",
+    "role": "surface",
+    "channels": [
+      233,
+      236,
+      224,
+      1
+    ]
+  },
+  "--nxs-surface-a3af99": {
+    "raw": "#a3af99",
+    "role": "surface",
+    "channels": [
+      163,
+      175,
+      153,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb347": {
+    "raw": "#ffb347",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      1
+    ]
+  },
+  "--nxs-surface-d8ed86": {
+    "raw": "#d8ed86",
+    "role": "surface",
+    "channels": [
+      216,
+      237,
+      134,
+      1
+    ]
+  },
+  "--nxs-on-accent-14180f": {
+    "raw": "#14180f",
+    "role": "on-accent",
+    "channels": [
+      20,
+      24,
+      15,
+      1
+    ]
+  },
+  "--nxs-muted-ink-7c8974": {
+    "raw": "#7c8974",
+    "role": "muted-ink",
+    "channels": [
+      124,
+      137,
+      116,
+      1
+    ]
+  },
+  "--nxs-on-accent-12170f": {
+    "raw": "#12170f",
+    "role": "on-accent",
+    "channels": [
+      18,
+      23,
+      15,
+      1
+    ]
+  },
+  "--nxs-on-accent-171a13": {
+    "raw": "#171a13",
+    "role": "on-accent",
+    "channels": [
+      23,
+      26,
+      19,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffc974": {
+    "raw": "#ffc974",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      201,
+      116,
+      1
+    ]
+  },
+  "--nxs-border-5c6950": {
+    "raw": "#5c6950",
+    "role": "border",
+    "channels": [
+      92,
+      105,
+      80,
+      1
+    ]
+  },
+  "--nxs-surface-19211770": {
+    "raw": "#19211770",
+    "role": "surface",
+    "channels": [
+      25,
+      33,
+      23,
+      0.4392156862745098
+    ]
+  },
+  "--nxs-surface-28301f": {
+    "raw": "#28301f",
+    "role": "surface",
+    "channels": [
+      40,
+      48,
+      31,
+      1
+    ]
+  },
+  "--nxs-surface-293322": {
+    "raw": "#293322",
+    "role": "surface",
+    "channels": [
+      41,
+      51,
+      34,
+      1
+    ]
+  },
+  "--nxs-surface-36452c": {
+    "raw": "#36452c",
+    "role": "surface",
+    "channels": [
+      54,
+      69,
+      44,
+      1
+    ]
+  },
+  "--nxs-border-5b6949": {
+    "raw": "#5b6949",
+    "role": "border",
+    "channels": [
+      91,
+      105,
+      73,
+      1
+    ]
+  },
+  "--nxs-ink-c0cdb1": {
+    "raw": "#c0cdb1",
+    "role": "ink",
+    "channels": [
+      192,
+      205,
+      177,
+      1
+    ]
+  },
+  "--nxs-surface-1e2a19b0": {
+    "raw": "#1e2a19b0",
+    "role": "surface",
+    "channels": [
+      30,
+      42,
+      25,
+      0.6901960784313725
+    ]
+  },
+  "--nxs-accent-ink-eeb494": {
+    "raw": "#eeb494",
+    "role": "accent-ink",
+    "channels": [
+      238,
+      180,
+      148,
+      1
+    ]
+  },
+  "--nxs-accent-fill-eeb494": {
+    "raw": "#eeb494",
+    "role": "accent-fill",
+    "channels": [
+      238,
+      180,
+      148,
+      1
+    ]
+  },
+  "--nxs-surface-1e291a": {
+    "raw": "#1e291a",
+    "role": "surface",
+    "channels": [
+      30,
+      41,
+      26,
+      1
+    ]
+  },
+  "--nxs-surface-414831": {
+    "raw": "#414831",
+    "role": "surface",
+    "channels": [
+      65,
+      72,
+      49,
+      1
+    ]
+  },
+  "--nxs-surface-25311e": {
+    "raw": "#25311e",
+    "role": "surface",
+    "channels": [
+      37,
+      49,
+      30,
+      1
+    ]
+  },
+  "--nxs-surface-162115": {
+    "raw": "#162115",
+    "role": "surface",
+    "channels": [
+      22,
+      33,
+      21,
+      1
+    ]
+  },
+  "--nxs-ink-bbcfaa": {
+    "raw": "#bbcfaa",
+    "role": "ink",
+    "channels": [
+      187,
+      207,
+      170,
+      1
+    ]
+  },
+  "--nxs-border-a6aa7959": {
+    "raw": "#a6aa7959",
+    "role": "border",
+    "channels": [
+      166,
+      170,
+      121,
+      0.34901960784313724
+    ]
+  },
+  "--nxs-surface-172114ee": {
+    "raw": "#172114ee",
+    "role": "surface",
+    "channels": [
+      23,
+      33,
+      20,
+      0.9333333333333333
+    ]
+  },
+  "--nxs-ink-dce3cc": {
+    "raw": "#dce3cc",
+    "role": "ink",
+    "channels": [
+      220,
+      227,
+      204,
+      1
+    ]
+  },
+  "--nxs-surface-172017f0": {
+    "raw": "#172017f0",
+    "role": "surface",
+    "channels": [
+      23,
+      32,
+      23,
+      0.9411764705882353
+    ]
+  },
+  "--nxs-border-758564": {
+    "raw": "#758564",
+    "role": "border",
+    "channels": [
+      117,
+      133,
+      100,
+      1
+    ]
+  },
+  "--nxs-ink-d8e4c5": {
+    "raw": "#d8e4c5",
+    "role": "ink",
+    "channels": [
+      216,
+      228,
+      197,
+      1
+    ]
+  },
+  "--nxs-ink-d3dbc2": {
+    "raw": "#d3dbc2",
+    "role": "ink",
+    "channels": [
+      211,
+      219,
+      194,
+      1
+    ]
+  },
+  "--nxs-border-c6be7860": {
+    "raw": "#c6be7860",
+    "role": "border",
+    "channels": [
+      198,
+      190,
+      120,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-muted-ink-a9c094": {
+    "raw": "#a9c094",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      192,
+      148,
+      1
+    ]
+  },
+  "--nxs-surface-172414ee": {
+    "raw": "#172414ee",
+    "role": "surface",
+    "channels": [
+      23,
+      36,
+      20,
+      0.9333333333333333
+    ]
+  },
+  "--nxs-border-526b41": {
+    "raw": "#526b41",
+    "role": "border",
+    "channels": [
+      82,
+      107,
+      65,
+      1
+    ]
+  },
+  "--nxs-ink-b6cc9f": {
+    "raw": "#b6cc9f",
+    "role": "ink",
+    "channels": [
+      182,
+      204,
+      159,
+      1
+    ]
+  },
+  "--nxs-surface-4b4d30": {
+    "raw": "#4b4d30",
+    "role": "surface",
+    "channels": [
+      75,
+      77,
+      48,
+      1
+    ]
+  },
+  "--nxs-ink-f2ebd6": {
+    "raw": "#f2ebd6",
+    "role": "ink",
+    "channels": [
+      242,
+      235,
+      214,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ed9470": {
+    "raw": "#ed9470",
+    "role": "accent-fill",
+    "channels": [
+      237,
+      148,
+      112,
+      1
+    ]
+  },
+  "--nxs-surface-9fcfd3": {
+    "raw": "#9fcfd3",
+    "role": "surface",
+    "channels": [
+      159,
+      207,
+      211,
+      1
+    ]
+  },
+  "--nxs-border-7f8d6d": {
+    "raw": "#7f8d6d",
+    "role": "border",
+    "channels": [
+      127,
+      141,
+      109,
+      1
+    ]
+  },
+  "--nxs-surface-192315f5": {
+    "raw": "#192315f5",
+    "role": "surface",
+    "channels": [
+      25,
+      35,
+      21,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-surface-1b2417": {
+    "raw": "#1b2417",
+    "role": "surface",
+    "channels": [
+      27,
+      36,
+      23,
+      1
+    ]
+  },
+  "--nxs-ink-b0c69f": {
+    "raw": "#b0c69f",
+    "role": "ink",
+    "channels": [
+      176,
+      198,
+      159,
+      1
+    ]
+  },
+  "--nxs-ink-acc39a": {
+    "raw": "#acc39a",
+    "role": "ink",
+    "channels": [
+      172,
+      195,
+      154,
+      1
+    ]
+  },
+  "--nxs-ink-b7cca4": {
+    "raw": "#b7cca4",
+    "role": "ink",
+    "channels": [
+      183,
+      204,
+      164,
+      1
+    ]
+  },
+  "--nxs-border-475c36": {
+    "raw": "#475c36",
+    "role": "border",
+    "channels": [
+      71,
+      92,
+      54,
+      1
+    ]
+  },
+  "--nxs-surface-1c2718": {
+    "raw": "#1c2718",
+    "role": "surface",
+    "channels": [
+      28,
+      39,
+      24,
+      1
+    ]
+  },
+  "--nxs-ink-c0d2ae": {
+    "raw": "#c0d2ae",
+    "role": "ink",
+    "channels": [
+      192,
+      210,
+      174,
+      1
+    ]
+  },
+  "--nxs-ink-adc59b": {
+    "raw": "#adc59b",
+    "role": "ink",
+    "channels": [
+      173,
+      197,
+      155,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acc398": {
+    "raw": "#acc398",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      195,
+      152,
+      1
+    ]
+  },
+  "--nxs-muted-ink-acc497": {
+    "raw": "#acc497",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      196,
+      151,
+      1
+    ]
+  },
+  "--nxs-surface-1c2817": {
+    "raw": "#1c2817",
+    "role": "surface",
+    "channels": [
+      28,
+      40,
+      23,
+      1
+    ]
+  },
+  "--nxs-ink-bcd1a9": {
+    "raw": "#bcd1a9",
+    "role": "ink",
+    "channels": [
+      188,
+      209,
+      169,
+      1
+    ]
+  },
+  "--nxs-ink-b3c99e": {
+    "raw": "#b3c99e",
+    "role": "ink",
+    "channels": [
+      179,
+      201,
+      158,
+      1
+    ]
+  },
+  "--nxs-surface-3a4b2c": {
+    "raw": "#3a4b2c",
+    "role": "surface",
+    "channels": [
+      58,
+      75,
+      44,
+      1
+    ]
+  },
+  "--nxs-surface-1b2617": {
+    "raw": "#1b2617",
+    "role": "surface",
+    "channels": [
+      27,
+      38,
+      23,
+      1
+    ]
+  },
+  "--nxs-ink-b4c89f": {
+    "raw": "#b4c89f",
+    "role": "ink",
+    "channels": [
+      180,
+      200,
+      159,
+      1
+    ]
+  },
+  "--nxs-ink-d7e4c7": {
+    "raw": "#d7e4c7",
+    "role": "ink",
+    "channels": [
+      215,
+      228,
+      199,
+      1
+    ]
+  },
+  "--nxs-accent-ink-e2a992": {
+    "raw": "#e2a992",
+    "role": "accent-ink",
+    "channels": [
+      226,
+      169,
+      146,
+      1
+    ]
+  },
+  "--nxs-surface-586c42": {
+    "raw": "#586c42",
+    "role": "surface",
+    "channels": [
+      88,
+      108,
+      66,
+      1
+    ]
+  },
+  "--nxs-border-6d8454": {
+    "raw": "#6d8454",
+    "role": "border",
+    "channels": [
+      109,
+      132,
+      84,
+      1
+    ]
+  },
+  "--nxs-surface-28341e": {
+    "raw": "#28341e",
+    "role": "surface",
+    "channels": [
+      40,
+      52,
+      30,
+      1
+    ]
+  },
+  "--nxs-ink-c8d7b7": {
+    "raw": "#c8d7b7",
+    "role": "ink",
+    "channels": [
+      200,
+      215,
+      183,
+      1
+    ]
+  },
+  "--nxs-ink-acc697": {
+    "raw": "#acc697",
+    "role": "ink",
+    "channels": [
+      172,
+      198,
+      151,
+      1
+    ]
+  },
+  "--nxs-border-e3ae68": {
+    "raw": "#e3ae68",
+    "role": "border",
+    "channels": [
+      227,
+      174,
+      104,
+      1
+    ]
+  },
+  "--nxs-ink-b9c7a5": {
+    "raw": "#b9c7a5",
+    "role": "ink",
+    "channels": [
+      185,
+      199,
+      165,
+      1
+    ]
+  },
+  "--nxs-accent-ink-eaca99": {
+    "raw": "#eaca99",
+    "role": "accent-ink",
+    "channels": [
+      234,
+      202,
+      153,
+      1
+    ]
+  },
+  "--nxs-ink-b9bc98": {
+    "raw": "#b9bc98",
+    "role": "ink",
+    "channels": [
+      185,
+      188,
+      152,
+      1
+    ]
+  },
+  "--nxs-muted-ink-abc096": {
+    "raw": "#abc096",
+    "role": "muted-ink",
+    "channels": [
+      171,
+      192,
+      150,
+      1
+    ]
+  },
+  "--nxs-ink-e4dbc2": {
+    "raw": "#e4dbc2",
+    "role": "ink",
+    "channels": [
+      228,
+      219,
+      194,
+      1
+    ]
+  },
+  "--nxs-surface-687e50": {
+    "raw": "#687e50",
+    "role": "surface",
+    "channels": [
+      104,
+      126,
+      80,
+      1
+    ]
+  },
+  "--nxs-accent-fill-d9b665": {
+    "raw": "#d9b665",
+    "role": "accent-fill",
+    "channels": [
+      217,
+      182,
+      101,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ee8b54": {
+    "raw": "#ee8b54",
+    "role": "accent-fill",
+    "channels": [
+      238,
+      139,
+      84,
+      1
+    ]
+  },
+  "--nxs-ink-b9c79f": {
+    "raw": "#b9c79f",
+    "role": "ink",
+    "channels": [
+      185,
+      199,
+      159,
+      1
+    ]
+  },
+  "--nxs-border-49604e": {
+    "raw": "#49604e",
+    "role": "border",
+    "channels": [
+      73,
+      96,
+      78,
+      1
+    ]
+  },
+  "--nxs-surface-1a2c23": {
+    "raw": "#1a2c23",
+    "role": "surface",
+    "channels": [
+      26,
+      44,
+      35,
+      1
+    ]
+  },
+  "--nxs-ink-bfd6c6": {
+    "raw": "#bfd6c6",
+    "role": "ink",
+    "channels": [
+      191,
+      214,
+      198,
+      1
+    ]
+  },
+  "--nxs-ink-b3d0bb": {
+    "raw": "#b3d0bb",
+    "role": "ink",
+    "channels": [
+      179,
+      208,
+      187,
+      1
+    ]
+  },
+  "--nxs-border-81a79b": {
+    "raw": "#81a79b",
+    "role": "border",
+    "channels": [
+      129,
+      167,
+      155,
+      1
+    ]
+  },
+  "--nxs-surface-12271d": {
+    "raw": "#12271d",
+    "role": "surface",
+    "channels": [
+      18,
+      39,
+      29,
+      1
+    ]
+  },
+  "--nxs-surface-82b7b58a": {
+    "raw": "#82b7b58a",
+    "role": "surface",
+    "channels": [
+      130,
+      183,
+      181,
+      0.5411764705882353
+    ]
+  },
+  "--nxs-surface-507a7780": {
+    "raw": "#507a7780",
+    "role": "surface",
+    "channels": [
+      80,
+      122,
+      119,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-border-99ccc3": {
+    "raw": "#99ccc3",
+    "role": "border",
+    "channels": [
+      153,
+      204,
+      195,
+      1
+    ]
+  },
+  "--nxs-ink-d1e8dc": {
+    "raw": "#d1e8dc",
+    "role": "ink",
+    "channels": [
+      209,
+      232,
+      220,
+      1
+    ]
+  },
+  "--nxs-ink-b1d0bb": {
+    "raw": "#b1d0bb",
+    "role": "ink",
+    "channels": [
+      177,
+      208,
+      187,
+      1
+    ]
+  },
+  "--nxs-border-ffb347": {
+    "raw": "#ffb347",
+    "role": "border",
+    "channels": [
+      255,
+      179,
+      71,
+      1
+    ]
+  },
+  "--nxs-muted-ink-192515": {
+    "raw": "#192515",
+    "role": "muted-ink",
+    "channels": [
+      25,
+      37,
+      21,
+      1
+    ]
+  },
+  "--nxs-surface-1b291aef": {
+    "raw": "#1b291aef",
+    "role": "surface",
+    "channels": [
+      27,
+      41,
+      26,
+      0.9372549019607843
+    ]
+  },
+  "--nxs-ink-c3d6ae": {
+    "raw": "#c3d6ae",
+    "role": "ink",
+    "channels": [
+      195,
+      214,
+      174,
+      1
+    ]
+  },
+  "--nxs-surface-25331f": {
+    "raw": "#25331f",
+    "role": "surface",
+    "channels": [
+      37,
+      51,
+      31,
+      1
+    ]
+  },
+  "--nxs-ink-e1ecd4": {
+    "raw": "#e1ecd4",
+    "role": "ink",
+    "channels": [
+      225,
+      236,
+      212,
+      1
+    ]
+  },
+  "--nxs-shadow-162312": {
+    "raw": "#162312",
+    "role": "shadow",
+    "channels": [
+      22,
+      35,
+      18,
+      1
+    ]
+  },
+  "--nxs-border-4b613b": {
+    "raw": "#4b613b",
+    "role": "border",
+    "channels": [
+      75,
+      97,
+      59,
+      1
+    ]
+  },
+  "--nxs-surface-1b2816": {
+    "raw": "#1b2816",
+    "role": "surface",
+    "channels": [
+      27,
+      40,
+      22,
+      1
+    ]
+  },
+  "--nxs-border-475f35": {
+    "raw": "#475f35",
+    "role": "border",
+    "channels": [
+      71,
+      95,
+      53,
+      1
+    ]
+  },
+  "--nxs-ink-b8d1a6": {
+    "raw": "#b8d1a6",
+    "role": "ink",
+    "channels": [
+      184,
+      209,
+      166,
+      1
+    ]
+  },
+  "--nxs-border-475f3540": {
+    "raw": "#475f3540",
+    "role": "border",
+    "channels": [
+      71,
+      95,
+      53,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-ink-afca98": {
+    "raw": "#afca98",
+    "role": "ink",
+    "channels": [
+      175,
+      202,
+      152,
+      1
+    ]
+  },
+  "--nxs-ink-b4caa0": {
+    "raw": "#b4caa0",
+    "role": "ink",
+    "channels": [
+      180,
+      202,
+      160,
+      1
+    ]
+  },
+  "--nxs-ink-bbcea5": {
+    "raw": "#bbcea5",
+    "role": "ink",
+    "channels": [
+      187,
+      206,
+      165,
+      1
+    ]
+  },
+  "--nxs-ink-bacfa3": {
+    "raw": "#bacfa3",
+    "role": "ink",
+    "channels": [
+      186,
+      207,
+      163,
+      1
+    ]
+  },
+  "--nxs-ink-b3cba0": {
+    "raw": "#b3cba0",
+    "role": "ink",
+    "channels": [
+      179,
+      203,
+      160,
+      1
+    ]
+  },
+  "--nxs-surface-2c3520": {
+    "raw": "#2c3520",
+    "role": "surface",
+    "channels": [
+      44,
+      53,
+      32,
+      1
+    ]
+  },
+  "--nxs-border-758752": {
+    "raw": "#758752",
+    "role": "border",
+    "channels": [
+      117,
+      135,
+      82,
+      1
+    ]
+  },
+  "--nxs-surface-333d20": {
+    "raw": "#333d20",
+    "role": "surface",
+    "channels": [
+      51,
+      61,
+      32,
+      1
+    ]
+  },
+  "--nxs-ink-b9cda0": {
+    "raw": "#b9cda0",
+    "role": "ink",
+    "channels": [
+      185,
+      205,
+      160,
+      1
+    ]
+  },
+  "--nxs-ink-b9cda8": {
+    "raw": "#b9cda8",
+    "role": "ink",
+    "channels": [
+      185,
+      205,
+      168,
+      1
+    ]
+  },
+  "--nxs-surface-25321e": {
+    "raw": "#25321e",
+    "role": "surface",
+    "channels": [
+      37,
+      50,
+      30,
+      1
+    ]
+  },
+  "--nxs-border-52663b": {
+    "raw": "#52663b",
+    "role": "border",
+    "channels": [
+      82,
+      102,
+      59,
+      1
+    ]
+  },
+  "--nxs-ink-bccfaa": {
+    "raw": "#bccfaa",
+    "role": "ink",
+    "channels": [
+      188,
+      207,
+      170,
+      1
+    ]
+  },
+  "--nxs-border-a1a46a": {
+    "raw": "#a1a46a",
+    "role": "border",
+    "channels": [
+      161,
+      164,
+      106,
+      1
+    ]
+  },
+  "--nxs-surface-36432a": {
+    "raw": "#36432a",
+    "role": "surface",
+    "channels": [
+      54,
+      67,
+      42,
+      1
+    ]
+  },
+  "--nxs-surface-1a2815": {
+    "raw": "#1a2815",
+    "role": "surface",
+    "channels": [
+      26,
+      40,
+      21,
+      1
+    ]
+  },
+  "--nxs-border-849463": {
+    "raw": "#849463",
+    "role": "border",
+    "channels": [
+      132,
+      148,
+      99,
+      1
+    ]
+  },
+  "--nxs-ink-d1e2bb": {
+    "raw": "#d1e2bb",
+    "role": "ink",
+    "channels": [
+      209,
+      226,
+      187,
+      1
+    ]
+  },
+  "--nxs-surface-202e19": {
+    "raw": "#202e19",
+    "role": "surface",
+    "channels": [
+      32,
+      46,
+      25,
+      1
+    ]
+  },
+  "--nxs-border-4d6637": {
+    "raw": "#4d6637",
+    "role": "border",
+    "channels": [
+      77,
+      102,
+      55,
+      1
+    ]
+  },
+  "--nxs-ink-bbd3a3": {
+    "raw": "#bbd3a3",
+    "role": "ink",
+    "channels": [
+      187,
+      211,
+      163,
+      1
+    ]
+  },
+  "--nxs-ink-d1e1bc": {
+    "raw": "#d1e1bc",
+    "role": "ink",
+    "channels": [
+      209,
+      225,
+      188,
+      1
+    ]
+  },
+  "--nxs-ink-b8d1a3": {
+    "raw": "#b8d1a3",
+    "role": "ink",
+    "channels": [
+      184,
+      209,
+      163,
+      1
+    ]
+  },
+  "--nxs-ink-dfedc9": {
+    "raw": "#dfedc9",
+    "role": "ink",
+    "channels": [
+      223,
+      237,
+      201,
+      1
+    ]
+  },
+  "--nxs-border-57754060": {
+    "raw": "#57754060",
+    "role": "border",
+    "channels": [
+      87,
+      117,
+      64,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-muted-ink-acc990": {
+    "raw": "#acc990",
+    "role": "muted-ink",
+    "channels": [
+      172,
+      201,
+      144,
+      1
+    ]
+  },
+  "--nxs-ink-bdd3a4": {
+    "raw": "#bdd3a4",
+    "role": "ink",
+    "channels": [
+      189,
+      211,
+      164,
+      1
+    ]
+  },
+  "--nxs-border-6d8251": {
+    "raw": "#6d8251",
+    "role": "border",
+    "channels": [
+      109,
+      130,
+      81,
+      1
+    ]
+  },
+  "--nxs-surface-2b381f": {
+    "raw": "#2b381f",
+    "role": "surface",
+    "channels": [
+      43,
+      56,
+      31,
+      1
+    ]
+  },
+  "--nxs-ink-c1d2a8": {
+    "raw": "#c1d2a8",
+    "role": "ink",
+    "channels": [
+      193,
+      210,
+      168,
+      1
+    ]
+  },
+  "--nxs-ink-b2c99f": {
+    "raw": "#b2c99f",
+    "role": "ink",
+    "channels": [
+      178,
+      201,
+      159,
+      1
+    ]
+  },
+  "--nxs-ink-bed5ab": {
+    "raw": "#bed5ab",
+    "role": "ink",
+    "channels": [
+      190,
+      213,
+      171,
+      1
+    ]
+  },
+  "--nxs-border-4b643840": {
+    "raw": "#4b643840",
+    "role": "border",
+    "channels": [
+      75,
+      100,
+      56,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-ink-b7ce9f": {
+    "raw": "#b7ce9f",
+    "role": "ink",
+    "channels": [
+      183,
+      206,
+      159,
+      1
+    ]
+  },
+  "--nxs-surface-25341d": {
+    "raw": "#25341d",
+    "role": "surface",
+    "channels": [
+      37,
+      52,
+      29,
+      1
+    ]
+  },
+  "--nxs-border-5b7040": {
+    "raw": "#5b7040",
+    "role": "border",
+    "channels": [
+      91,
+      112,
+      64,
+      1
+    ]
+  },
+  "--nxs-ink-d2e2bf": {
+    "raw": "#d2e2bf",
+    "role": "ink",
+    "channels": [
+      210,
+      226,
+      191,
+      1
+    ]
+  },
+  "--nxs-ink-b1cd99": {
+    "raw": "#b1cd99",
+    "role": "ink",
+    "channels": [
+      177,
+      205,
+      153,
+      1
+    ]
+  },
+  "--nxs-ink-bad0a5": {
+    "raw": "#bad0a5",
+    "role": "ink",
+    "channels": [
+      186,
+      208,
+      165,
+      1
+    ]
+  },
+  "--nxs-surface-2a3a20": {
+    "raw": "#2a3a20",
+    "role": "surface",
+    "channels": [
+      42,
+      58,
+      32,
+      1
+    ]
+  },
+  "--nxs-border-738d50": {
+    "raw": "#738d50",
+    "role": "border",
+    "channels": [
+      115,
+      141,
+      80,
+      1
+    ]
+  },
+  "--nxs-ink-dcebc4": {
+    "raw": "#dcebc4",
+    "role": "ink",
+    "channels": [
+      220,
+      235,
+      196,
+      1
+    ]
+  },
+  "--nxs-ink-c0d5ac": {
+    "raw": "#c0d5ac",
+    "role": "ink",
+    "channels": [
+      192,
+      213,
+      172,
+      1
+    ]
+  },
+  "--nxs-surface-1a2516": {
+    "raw": "#1a2516",
+    "role": "surface",
+    "channels": [
+      26,
+      37,
+      22,
+      1
+    ]
+  },
+  "--nxs-ink-b7cea5": {
+    "raw": "#b7cea5",
+    "role": "ink",
+    "channels": [
+      183,
+      206,
+      165,
+      1
+    ]
+  },
+  "--nxs-ink-b2c69a": {
+    "raw": "#b2c69a",
+    "role": "ink",
+    "channels": [
+      178,
+      198,
+      154,
+      1
+    ]
+  },
+  "--nxs-border-4c6638": {
+    "raw": "#4c6638",
+    "role": "border",
+    "channels": [
+      76,
+      102,
+      56,
+      1
+    ]
+  },
+  "--nxs-ink-caddb3": {
+    "raw": "#caddb3",
+    "role": "ink",
+    "channels": [
+      202,
+      221,
+      179,
+      1
+    ]
+  },
+  "--nxs-ink-b5cca0": {
+    "raw": "#b5cca0",
+    "role": "ink",
+    "channels": [
+      181,
+      204,
+      160,
+      1
+    ]
+  },
+  "--nxs-surface-363c22": {
+    "raw": "#363c22",
+    "role": "surface",
+    "channels": [
+      54,
+      60,
+      34,
+      1
+    ]
+  },
+  "--nxs-border-4d653740": {
+    "raw": "#4d653740",
+    "role": "border",
+    "channels": [
+      77,
+      101,
+      55,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-ink-cbdcb7": {
+    "raw": "#cbdcb7",
+    "role": "ink",
+    "channels": [
+      203,
+      220,
+      183,
+      1
+    ]
+  },
+  "--nxs-ink-b4cba0": {
+    "raw": "#b4cba0",
+    "role": "ink",
+    "channels": [
+      180,
+      203,
+      160,
+      1
+    ]
+  },
+  "--nxs-surface-465d31": {
+    "raw": "#465d31",
+    "role": "surface",
+    "channels": [
+      70,
+      93,
+      49,
+      1
+    ]
+  },
+  "--nxs-border-789158": {
+    "raw": "#789158",
+    "role": "border",
+    "channels": [
+      120,
+      145,
+      88,
+      1
+    ]
+  },
+  "--nxs-surface-b0c695": {
+    "raw": "#b0c695",
+    "role": "surface",
+    "channels": [
+      176,
+      198,
+      149,
+      1
+    ]
+  },
+  "--nxs-accent-fill-c09946": {
+    "raw": "#c09946",
+    "role": "accent-fill",
+    "channels": [
+      192,
+      153,
+      70,
+      1
+    ]
+  },
+  "--nxs-surface-172411": {
+    "raw": "#172411",
+    "role": "surface",
+    "channels": [
+      23,
+      36,
+      17,
+      1
+    ]
+  },
+  "--nxs-ink-bfd3ab": {
+    "raw": "#bfd3ab",
+    "role": "ink",
+    "channels": [
+      191,
+      211,
+      171,
+      1
+    ]
+  },
+  "--nxs-ink-cfe1b9": {
+    "raw": "#cfe1b9",
+    "role": "ink",
+    "channels": [
+      207,
+      225,
+      185,
+      1
+    ]
+  },
+  "--nxs-ink-b6cea4": {
+    "raw": "#b6cea4",
+    "role": "ink",
+    "channels": [
+      182,
+      206,
+      164,
+      1
+    ]
+  },
+  "--nxs-surface-0e1210": {
+    "raw": "#0e1210",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      1
+    ]
+  },
+  "--nxs-surface-1b211b": {
+    "raw": "#1b211b",
+    "role": "surface",
+    "channels": [
+      27,
+      33,
+      27,
+      1
+    ]
+  },
+  "--nxs-surface-394033": {
+    "raw": "#394033",
+    "role": "surface",
+    "channels": [
+      57,
+      64,
+      51,
+      1
+    ]
+  },
+  "--nxs-surface-aab3a0": {
+    "raw": "#aab3a0",
+    "role": "surface",
+    "channels": [
+      170,
+      179,
+      160,
+      1
+    ]
+  },
+  "--nxs-surface-e8ebdc": {
+    "raw": "#e8ebdc",
+    "role": "surface",
+    "channels": [
+      232,
+      235,
+      220,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb3470a": {
+    "raw": "#ffb3470a",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.0392156862745098
+    ]
+  },
+  "--nxs-surface-0e1210ed": {
+    "raw": "#0e1210ed",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-border-7f88652c": {
+    "raw": "#7f88652c",
+    "role": "border",
+    "channels": [
+      127,
+      136,
+      101,
+      0.17254901960784313
+    ]
+  },
+  "--nxs-ink-b9c0ac": {
+    "raw": "#b9c0ac",
+    "role": "ink",
+    "channels": [
+      185,
+      192,
+      172,
+      1
+    ]
+  },
+  "--nxs-surface-72774117": {
+    "raw": "#72774117",
+    "role": "surface",
+    "channels": [
+      114,
+      119,
+      65,
+      0.09019607843137255
+    ]
+  },
+  "--nxs-surface-78816e0a": {
+    "raw": "#78816e0a",
+    "role": "surface",
+    "channels": [
+      120,
+      129,
+      110,
+      0.0392156862745098
+    ]
+  },
+  "--nxs-surface-0e1210f0": {
+    "raw": "#0e1210f0",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.9411764705882353
+    ]
+  },
+  "--nxs-surface-0e1210b0": {
+    "raw": "#0e1210b0",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.6901960784313725
+    ]
+  },
+  "--nxs-muted-ink-aab69c": {
+    "raw": "#aab69c",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      182,
+      156,
+      1
+    ]
+  },
+  "--nxs-surface-81896438": {
+    "raw": "#81896438",
+    "role": "surface",
+    "channels": [
+      129,
+      137,
+      100,
+      0.2196078431372549
+    ]
+  },
+  "--nxs-ink-bbc2af": {
+    "raw": "#bbc2af",
+    "role": "ink",
+    "channels": [
+      187,
+      194,
+      175,
+      1
+    ]
+  },
+  "--nxs-muted-ink-979f8d": {
+    "raw": "#979f8d",
+    "role": "muted-ink",
+    "channels": [
+      151,
+      159,
+      141,
+      1
+    ]
+  },
+  "--nxs-surface-111710e8": {
+    "raw": "#111710e8",
+    "role": "surface",
+    "channels": [
+      17,
+      23,
+      16,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-border-5a6445": {
+    "raw": "#5a6445",
+    "role": "border",
+    "channels": [
+      90,
+      100,
+      69,
+      1
+    ]
+  },
+  "--nxs-muted-ink-abb99a": {
+    "raw": "#abb99a",
+    "role": "muted-ink",
+    "channels": [
+      171,
+      185,
+      154,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aeb799": {
+    "raw": "#aeb799",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      183,
+      153,
+      1
+    ]
+  },
+  "--nxs-border-5561446b": {
+    "raw": "#5561446b",
+    "role": "border",
+    "channels": [
+      85,
+      97,
+      68,
+      0.4196078431372549
+    ]
+  },
+  "--nxs-ink-c0c5b2": {
+    "raw": "#c0c5b2",
+    "role": "ink",
+    "channels": [
+      192,
+      197,
+      178,
+      1
+    ]
+  },
+  "--nxs-muted-ink-879779": {
+    "raw": "#879779",
+    "role": "muted-ink",
+    "channels": [
+      135,
+      151,
+      121,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9da98e": {
+    "raw": "#9da98e",
+    "role": "muted-ink",
+    "channels": [
+      157,
+      169,
+      142,
+      1
+    ]
+  },
+  "--nxs-border-727d4d4d": {
+    "raw": "#727d4d4d",
+    "role": "border",
+    "channels": [
+      114,
+      125,
+      77,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-muted-ink-aab598": {
+    "raw": "#aab598",
+    "role": "muted-ink",
+    "channels": [
+      170,
+      181,
+      152,
+      1
+    ]
+  },
+  "--nxs-muted-ink-abb599": {
+    "raw": "#abb599",
+    "role": "muted-ink",
+    "channels": [
+      171,
+      181,
+      153,
+      1
+    ]
+  },
+  "--nxs-ink-b5bea6": {
+    "raw": "#b5bea6",
+    "role": "ink",
+    "channels": [
+      181,
+      190,
+      166,
+      1
+    ]
+  },
+  "--nxs-surface-1d241a": {
+    "raw": "#1d241a",
+    "role": "surface",
+    "channels": [
+      29,
+      36,
+      26,
+      1
+    ]
+  },
+  "--nxs-surface-141a12": {
+    "raw": "#141a12",
+    "role": "surface",
+    "channels": [
+      20,
+      26,
+      18,
+      1
+    ]
+  },
+  "--nxs-surface-77845d38": {
+    "raw": "#77845d38",
+    "role": "surface",
+    "channels": [
+      119,
+      132,
+      93,
+      0.2196078431372549
+    ]
+  },
+  "--nxs-ink-b0bca1": {
+    "raw": "#b0bca1",
+    "role": "ink",
+    "channels": [
+      176,
+      188,
+      161,
+      1
+    ]
+  },
+  "--nxs-border-3e4733": {
+    "raw": "#3e4733",
+    "role": "border",
+    "channels": [
+      62,
+      71,
+      51,
+      1
+    ]
+  },
+  "--nxs-ink-b6c4a2": {
+    "raw": "#b6c4a2",
+    "role": "ink",
+    "channels": [
+      182,
+      196,
+      162,
+      1
+    ]
+  },
+  "--nxs-muted-ink-83926f": {
+    "raw": "#83926f",
+    "role": "muted-ink",
+    "channels": [
+      131,
+      146,
+      111,
+      1
+    ]
+  },
+  "--nxs-border-7b774f": {
+    "raw": "#7b774f",
+    "role": "border",
+    "channels": [
+      123,
+      119,
+      79,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a3b493": {
+    "raw": "#a3b493",
+    "role": "muted-ink",
+    "channels": [
+      163,
+      180,
+      147,
+      1
+    ]
+  },
+  "--nxs-surface-343e29": {
+    "raw": "#343e29",
+    "role": "surface",
+    "channels": [
+      52,
+      62,
+      41,
+      1
+    ]
+  },
+  "--nxs-surface-1e2718": {
+    "raw": "#1e2718",
+    "role": "surface",
+    "channels": [
+      30,
+      39,
+      24,
+      1
+    ]
+  },
+  "--nxs-surface-111711": {
+    "raw": "#111711",
+    "role": "surface",
+    "channels": [
+      17,
+      23,
+      17,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9dab87": {
+    "raw": "#9dab87",
+    "role": "muted-ink",
+    "channels": [
+      157,
+      171,
+      135,
+      1
+    ]
+  },
+  "--nxs-ink-b6c5a6": {
+    "raw": "#b6c5a6",
+    "role": "ink",
+    "channels": [
+      182,
+      197,
+      166,
+      1
+    ]
+  },
+  "--nxs-border-7b8a582e": {
+    "raw": "#7b8a582e",
+    "role": "border",
+    "channels": [
+      123,
+      138,
+      88,
+      0.1803921568627451
+    ]
+  },
+  "--nxs-ink-c9d2ba": {
+    "raw": "#c9d2ba",
+    "role": "ink",
+    "channels": [
+      201,
+      210,
+      186,
+      1
+    ]
+  },
+  "--nxs-muted-ink-7a8b68": {
+    "raw": "#7a8b68",
+    "role": "muted-ink",
+    "channels": [
+      122,
+      139,
+      104,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6b397": {
+    "raw": "#a6b397",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      179,
+      151,
+      1
+    ]
+  },
+  "--nxs-surface-6b764022": {
+    "raw": "#6b764022",
+    "role": "surface",
+    "channels": [
+      107,
+      118,
+      64,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-muted-ink-afbd6660": {
+    "raw": "#afbd6660",
+    "role": "muted-ink",
+    "channels": [
+      175,
+      189,
+      102,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-border-778a4b60": {
+    "raw": "#778a4b60",
+    "role": "border",
+    "channels": [
+      119,
+      138,
+      75,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-64753622": {
+    "raw": "#64753622",
+    "role": "surface",
+    "channels": [
+      100,
+      117,
+      54,
+      0.13333333333333333
+    ]
+  },
+  "--nxs-border-71855360": {
+    "raw": "#71855360",
+    "role": "border",
+    "channels": [
+      113,
+      133,
+      83,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-ink-b3c498": {
+    "raw": "#b3c498",
+    "role": "ink",
+    "channels": [
+      179,
+      196,
+      152,
+      1
+    ]
+  },
+  "--nxs-border-63744857": {
+    "raw": "#63744857",
+    "role": "border",
+    "channels": [
+      99,
+      116,
+      72,
+      0.3411764705882353
+    ]
+  },
+  "--nxs-border-768653": {
+    "raw": "#768653",
+    "role": "border",
+    "channels": [
+      118,
+      134,
+      83,
+      1
+    ]
+  },
+  "--nxs-surface-27301c80": {
+    "raw": "#27301c80",
+    "role": "surface",
+    "channels": [
+      39,
+      48,
+      28,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-muted-ink-aebd98": {
+    "raw": "#aebd98",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      189,
+      152,
+      1
+    ]
+  },
+  "--nxs-surface-42452c": {
+    "raw": "#42452c",
+    "role": "surface",
+    "channels": [
+      66,
+      69,
+      44,
+      1
+    ]
+  },
+  "--nxs-border-56623c": {
+    "raw": "#56623c",
+    "role": "border",
+    "channels": [
+      86,
+      98,
+      60,
+      1
+    ]
+  },
+  "--nxs-ink-b9c5a4": {
+    "raw": "#b9c5a4",
+    "role": "ink",
+    "channels": [
+      185,
+      197,
+      164,
+      1
+    ]
+  },
+  "--nxs-border-87916e6b": {
+    "raw": "#87916e6b",
+    "role": "border",
+    "channels": [
+      135,
+      145,
+      110,
+      0.4196078431372549
+    ]
+  },
+  "--nxs-surface-4e5a321b": {
+    "raw": "#4e5a321b",
+    "role": "surface",
+    "channels": [
+      78,
+      90,
+      50,
+      0.10588235294117647
+    ]
+  },
+  "--nxs-surface-77845f40": {
+    "raw": "#77845f40",
+    "role": "surface",
+    "channels": [
+      119,
+      132,
+      95,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-accent-fill-ffb34718": {
+    "raw": "#ffb34718",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.09411764705882353
+    ]
+  },
+  "--nxs-muted-ink-a2b092": {
+    "raw": "#a2b092",
+    "role": "muted-ink",
+    "channels": [
+      162,
+      176,
+      146,
+      1
+    ]
+  },
+  "--nxs-ink-b1bba4": {
+    "raw": "#b1bba4",
+    "role": "ink",
+    "channels": [
+      177,
+      187,
+      164,
+      1
+    ]
+  },
+  "--nxs-muted-ink-8fa27c": {
+    "raw": "#8fa27c",
+    "role": "muted-ink",
+    "channels": [
+      143,
+      162,
+      124,
+      1
+    ]
+  },
+  "--nxs-surface-1b2118": {
+    "raw": "#1b2118",
+    "role": "surface",
+    "channels": [
+      27,
+      33,
+      24,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9eae8c": {
+    "raw": "#9eae8c",
+    "role": "muted-ink",
+    "channels": [
+      158,
+      174,
+      140,
+      1
+    ]
+  },
+  "--nxs-muted-ink-879978": {
+    "raw": "#879978",
+    "role": "muted-ink",
+    "channels": [
+      135,
+      153,
+      120,
+      1
+    ]
+  },
+  "--nxs-surface-2a3223": {
+    "raw": "#2a3223",
+    "role": "surface",
+    "channels": [
+      42,
+      50,
+      35,
+      1
+    ]
+  },
+  "--nxs-surface-333723": {
+    "raw": "#333723",
+    "role": "surface",
+    "channels": [
+      51,
+      55,
+      35,
+      1
+    ]
+  },
+  "--nxs-surface-1c231a": {
+    "raw": "#1c231a",
+    "role": "surface",
+    "channels": [
+      28,
+      35,
+      26,
+      1
+    ]
+  },
+  "--nxs-ink-b5c29a": {
+    "raw": "#b5c29a",
+    "role": "ink",
+    "channels": [
+      181,
+      194,
+      154,
+      1
+    ]
+  },
+  "--nxs-ink-b4c1a4": {
+    "raw": "#b4c1a4",
+    "role": "ink",
+    "channels": [
+      180,
+      193,
+      164,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a5b28e": {
+    "raw": "#a5b28e",
+    "role": "muted-ink",
+    "channels": [
+      165,
+      178,
+      142,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9b898": {
+    "raw": "#a9b898",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      184,
+      152,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6b69a": {
+    "raw": "#a6b69a",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      182,
+      154,
+      1
+    ]
+  },
+  "--nxs-surface-182217": {
+    "raw": "#182217",
+    "role": "surface",
+    "channels": [
+      24,
+      34,
+      23,
+      1
+    ]
+  },
+  "--nxs-muted-ink-60724755": {
+    "raw": "#60724755",
+    "role": "muted-ink",
+    "channels": [
+      96,
+      114,
+      71,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-ink-c2d0ad": {
+    "raw": "#c2d0ad",
+    "role": "ink",
+    "channels": [
+      194,
+      208,
+      173,
+      1
+    ]
+  },
+  "--nxs-ink-b1bca2": {
+    "raw": "#b1bca2",
+    "role": "ink",
+    "channels": [
+      177,
+      188,
+      162,
+      1
+    ]
+  },
+  "--nxs-muted-ink-adb899": {
+    "raw": "#adb899",
+    "role": "muted-ink",
+    "channels": [
+      173,
+      184,
+      153,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a2b293": {
+    "raw": "#a2b293",
+    "role": "muted-ink",
+    "channels": [
+      162,
+      178,
+      147,
+      1
+    ]
+  },
+  "--nxs-surface-20281c": {
+    "raw": "#20281c",
+    "role": "surface",
+    "channels": [
+      32,
+      40,
+      28,
+      1
+    ]
+  },
+  "--nxs-border-394832": {
+    "raw": "#394832",
+    "role": "border",
+    "channels": [
+      57,
+      72,
+      50,
+      1
+    ]
+  },
+  "--nxs-on-accent-1c2416": {
+    "raw": "#1c2416",
+    "role": "on-accent",
+    "channels": [
+      28,
+      36,
+      22,
+      1
+    ]
+  },
+  "--nxs-on-accent-283020": {
+    "raw": "#283020",
+    "role": "on-accent",
+    "channels": [
+      40,
+      48,
+      32,
+      1
+    ]
+  },
+  "--nxs-border-283020": {
+    "raw": "#283020",
+    "role": "border",
+    "channels": [
+      40,
+      48,
+      32,
+      1
+    ]
+  },
+  "--nxs-accent-ink-615c32": {
+    "raw": "#615c32",
+    "role": "accent-ink",
+    "channels": [
+      97,
+      92,
+      50,
+      1
+    ]
+  },
+  "--nxs-muted-ink-65734b": {
+    "raw": "#65734b",
+    "role": "muted-ink",
+    "channels": [
+      101,
+      115,
+      75,
+      1
+    ]
+  },
+  "--nxs-surface-20291b": {
+    "raw": "#20291b",
+    "role": "surface",
+    "channels": [
+      32,
+      41,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-85956067": {
+    "raw": "#85956067",
+    "role": "border",
+    "channels": [
+      133,
+      149,
+      96,
+      0.403921568627451
+    ]
+  },
+  "--nxs-border-62744560": {
+    "raw": "#62744560",
+    "role": "border",
+    "channels": [
+      98,
+      116,
+      69,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-6a875f30": {
+    "raw": "#6a875f30",
+    "role": "surface",
+    "channels": [
+      106,
+      135,
+      95,
+      0.18823529411764706
+    ]
+  },
+  "--nxs-surface-8fa37940": {
+    "raw": "#8fa37940",
+    "role": "surface",
+    "channels": [
+      143,
+      163,
+      121,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-border-87986a70": {
+    "raw": "#87986a70",
+    "role": "border",
+    "channels": [
+      135,
+      152,
+      106,
+      0.4392156862745098
+    ]
+  },
+  "--nxs-accent-fill-ffb34755": {
+    "raw": "#ffb34755",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-surface-a3ac7455": {
+    "raw": "#a3ac7455",
+    "role": "surface",
+    "channels": [
+      163,
+      172,
+      116,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-ink-bdcbaa": {
+    "raw": "#bdcbaa",
+    "role": "ink",
+    "channels": [
+      189,
+      203,
+      170,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6b695": {
+    "raw": "#a6b695",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      182,
+      149,
+      1
+    ]
+  },
+  "--nxs-surface-161d13": {
+    "raw": "#161d13",
+    "role": "surface",
+    "channels": [
+      22,
+      29,
+      19,
+      1
+    ]
+  },
+  "--nxs-border-485639": {
+    "raw": "#485639",
+    "role": "border",
+    "channels": [
+      72,
+      86,
+      57,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9eaf8e": {
+    "raw": "#9eaf8e",
+    "role": "muted-ink",
+    "channels": [
+      158,
+      175,
+      142,
+      1
+    ]
+  },
+  "--nxs-border-6876525c": {
+    "raw": "#6876525c",
+    "role": "border",
+    "channels": [
+      104,
+      118,
+      82,
+      0.3607843137254902
+    ]
+  },
+  "--nxs-surface-141a14": {
+    "raw": "#141a14",
+    "role": "surface",
+    "channels": [
+      20,
+      26,
+      20,
+      1
+    ]
+  },
+  "--nxs-surface-414b323d": {
+    "raw": "#414b323d",
+    "role": "surface",
+    "channels": [
+      65,
+      75,
+      50,
+      0.23921568627450981
+    ]
+  },
+  "--nxs-surface-121713": {
+    "raw": "#121713",
+    "role": "surface",
+    "channels": [
+      18,
+      23,
+      19,
+      1
+    ]
+  },
+  "--nxs-surface-7c8c5b25": {
+    "raw": "#7c8c5b25",
+    "role": "surface",
+    "channels": [
+      124,
+      140,
+      91,
+      0.1450980392156863
+    ]
+  },
+  "--nxs-border-82946816": {
+    "raw": "#82946816",
+    "role": "border",
+    "channels": [
+      130,
+      148,
+      104,
+      0.08627450980392157
+    ]
+  },
+  "--nxs-surface-7e90572b": {
+    "raw": "#7e90572b",
+    "role": "surface",
+    "channels": [
+      126,
+      144,
+      87,
+      0.16862745098039217
+    ]
+  },
+  "--nxs-surface-7e90571c": {
+    "raw": "#7e90571c",
+    "role": "surface",
+    "channels": [
+      126,
+      144,
+      87,
+      0.10980392156862745
+    ]
+  },
+  "--nxs-ink-b2c09c": {
+    "raw": "#b2c09c",
+    "role": "ink",
+    "channels": [
+      178,
+      192,
+      156,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a1b389": {
+    "raw": "#a1b389",
+    "role": "muted-ink",
+    "channels": [
+      161,
+      179,
+      137,
+      1
+    ]
+  },
+  "--nxs-surface-1f271beb": {
+    "raw": "#1f271beb",
+    "role": "surface",
+    "channels": [
+      31,
+      39,
+      27,
+      0.9215686274509803
+    ]
+  },
+  "--nxs-surface-5c613950": {
+    "raw": "#5c613950",
+    "role": "surface",
+    "channels": [
+      92,
+      97,
+      57,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-border-9ba16140": {
+    "raw": "#9ba16140",
+    "role": "border",
+    "channels": [
+      155,
+      161,
+      97,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-border-5c6d42": {
+    "raw": "#5c6d42",
+    "role": "border",
+    "channels": [
+      92,
+      109,
+      66,
+      1
+    ]
+  },
+  "--nxs-surface-1b2519": {
+    "raw": "#1b2519",
+    "role": "surface",
+    "channels": [
+      27,
+      37,
+      25,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9fae8c": {
+    "raw": "#9fae8c",
+    "role": "muted-ink",
+    "channels": [
+      159,
+      174,
+      140,
+      1
+    ]
+  },
+  "--nxs-surface-27321f": {
+    "raw": "#27321f",
+    "role": "surface",
+    "channels": [
+      39,
+      50,
+      31,
+      1
+    ]
+  },
+  "--nxs-surface-192017": {
+    "raw": "#192017",
+    "role": "surface",
+    "channels": [
+      25,
+      32,
+      23,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9b895": {
+    "raw": "#a9b895",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      184,
+      149,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a6b58d": {
+    "raw": "#a6b58d",
+    "role": "muted-ink",
+    "channels": [
+      166,
+      181,
+      141,
+      1
+    ]
+  },
+  "--nxs-surface-5b603019": {
+    "raw": "#5b603019",
+    "role": "surface",
+    "channels": [
+      91,
+      96,
+      48,
+      0.09803921568627451
+    ]
+  },
+  "--nxs-border-65774680": {
+    "raw": "#65774680",
+    "role": "border",
+    "channels": [
+      101,
+      119,
+      70,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-muted-ink-6b7c4550": {
+    "raw": "#6b7c4550",
+    "role": "muted-ink",
+    "channels": [
+      107,
+      124,
+      69,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-ink-b6c6a2": {
+    "raw": "#b6c6a2",
+    "role": "ink",
+    "channels": [
+      182,
+      198,
+      162,
+      1
+    ]
+  },
+  "--nxs-accent-fill-554826": {
+    "raw": "#554826",
+    "role": "accent-fill",
+    "channels": [
+      85,
+      72,
+      38,
+      1
+    ]
+  },
+  "--nxs-border-ffcf76": {
+    "raw": "#ffcf76",
+    "role": "border",
+    "channels": [
+      255,
+      207,
+      118,
+      1
+    ]
+  },
+  "--nxs-surface-162015eb": {
+    "raw": "#162015eb",
+    "role": "surface",
+    "channels": [
+      22,
+      32,
+      21,
+      0.9215686274509803
+    ]
+  },
+  "--nxs-surface-0e1210b3": {
+    "raw": "#0e1210b3",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.7019607843137254
+    ]
+  },
+  "--nxs-surface-182016f0": {
+    "raw": "#182016f0",
+    "role": "surface",
+    "channels": [
+      24,
+      32,
+      22,
+      0.9411764705882353
+    ]
+  },
+  "--nxs-border-66744b60": {
+    "raw": "#66744b60",
+    "role": "border",
+    "channels": [
+      102,
+      116,
+      75,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-10160f": {
+    "raw": "#10160f",
+    "role": "surface",
+    "channels": [
+      16,
+      22,
+      15,
+      1
+    ]
+  },
+  "--nxs-border-5f6e454d": {
+    "raw": "#5f6e454d",
+    "role": "border",
+    "channels": [
+      95,
+      110,
+      69,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-muted-ink-a5b595": {
+    "raw": "#a5b595",
+    "role": "muted-ink",
+    "channels": [
+      165,
+      181,
+      149,
+      1
+    ]
+  },
+  "--nxs-surface-3d492752": {
+    "raw": "#3d492752",
+    "role": "surface",
+    "channels": [
+      61,
+      73,
+      39,
+      0.3215686274509804
+    ]
+  },
+  "--nxs-accent-fill-ffb34715": {
+    "raw": "#ffb34715",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.08235294117647059
+    ]
+  },
+  "--nxs-accent-fill-ffb34704": {
+    "raw": "#ffb34704",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.01568627450980392
+    ]
+  },
+  "--nxs-muted-ink-aebe8f": {
+    "raw": "#aebe8f",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      190,
+      143,
+      1
+    ]
+  },
+  "--nxs-muted-ink-97aa87": {
+    "raw": "#97aa87",
+    "role": "muted-ink",
+    "channels": [
+      151,
+      170,
+      135,
+      1
+    ]
+  },
+  "--nxs-border-64704938": {
+    "raw": "#64704938",
+    "role": "border",
+    "channels": [
+      100,
+      112,
+      73,
+      0.2196078431372549
+    ]
+  },
+  "--nxs-surface-141b13ed": {
+    "raw": "#141b13ed",
+    "role": "surface",
+    "channels": [
+      20,
+      27,
+      19,
+      0.9294117647058824
+    ]
+  },
+  "--nxs-border-59644140": {
+    "raw": "#59644140",
+    "role": "border",
+    "channels": [
+      89,
+      100,
+      65,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-border-596c403d": {
+    "raw": "#596c403d",
+    "role": "border",
+    "channels": [
+      89,
+      108,
+      64,
+      0.23921568627450981
+    ]
+  },
+  "--nxs-border-c69c56": {
+    "raw": "#c69c56",
+    "role": "border",
+    "channels": [
+      198,
+      156,
+      86,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb34708": {
+    "raw": "#ffb34708",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.03137254901960784
+    ]
+  },
+  "--nxs-border-53663e": {
+    "raw": "#53663e",
+    "role": "border",
+    "channels": [
+      83,
+      102,
+      62,
+      1
+    ]
+  },
+  "--nxs-surface-353d28": {
+    "raw": "#353d28",
+    "role": "surface",
+    "channels": [
+      53,
+      61,
+      40,
+      1
+    ]
+  },
+  "--nxs-border-65744c": {
+    "raw": "#65744c",
+    "role": "border",
+    "channels": [
+      101,
+      116,
+      76,
+      1
+    ]
+  },
+  "--nxs-muted-ink-aebe93": {
+    "raw": "#aebe93",
+    "role": "muted-ink",
+    "channels": [
+      174,
+      190,
+      147,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a9b799": {
+    "raw": "#a9b799",
+    "role": "muted-ink",
+    "channels": [
+      169,
+      183,
+      153,
+      1
+    ]
+  },
+  "--nxs-border-73834c": {
+    "raw": "#73834c",
+    "role": "border",
+    "channels": [
+      115,
+      131,
+      76,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9eb38a": {
+    "raw": "#9eb38a",
+    "role": "muted-ink",
+    "channels": [
+      158,
+      179,
+      138,
+      1
+    ]
+  },
+  "--nxs-ink-dce5cd": {
+    "raw": "#dce5cd",
+    "role": "ink",
+    "channels": [
+      220,
+      229,
+      205,
+      1
+    ]
+  },
+  "--nxs-border-78884e": {
+    "raw": "#78884e",
+    "role": "border",
+    "channels": [
+      120,
+      136,
+      78,
+      1
+    ]
+  },
+  "--nxs-border-5f71433d": {
+    "raw": "#5f71433d",
+    "role": "border",
+    "channels": [
+      95,
+      113,
+      67,
+      0.23921568627450981
+    ]
+  },
+  "--nxs-border-7c8c5d7a": {
+    "raw": "#7c8c5d7a",
+    "role": "border",
+    "channels": [
+      124,
+      140,
+      93,
+      0.47843137254901963
+    ]
+  },
+  "--nxs-surface-28332188": {
+    "raw": "#28332188",
+    "role": "surface",
+    "channels": [
+      40,
+      51,
+      33,
+      0.5333333333333333
+    ]
+  },
+  "--nxs-surface-1a2217": {
+    "raw": "#1a2217",
+    "role": "surface",
+    "channels": [
+      26,
+      34,
+      23,
+      1
+    ]
+  },
+  "--nxs-muted-ink-90a272": {
+    "raw": "#90a272",
+    "role": "muted-ink",
+    "channels": [
+      144,
+      162,
+      114,
+      1
+    ]
+  },
+  "--nxs-surface-45462966": {
+    "raw": "#45462966",
+    "role": "surface",
+    "channels": [
+      69,
+      70,
+      41,
+      0.4
+    ]
+  },
+  "--nxs-surface-222919": {
+    "raw": "#222919",
+    "role": "surface",
+    "channels": [
+      34,
+      41,
+      25,
+      1
+    ]
+  },
+  "--nxs-ink-b5c3a3": {
+    "raw": "#b5c3a3",
+    "role": "ink",
+    "channels": [
+      181,
+      195,
+      163,
+      1
+    ]
+  },
+  "--nxs-ink-b0c099": {
+    "raw": "#b0c099",
+    "role": "ink",
+    "channels": [
+      176,
+      192,
+      153,
+      1
+    ]
+  },
+  "--nxs-muted-ink-9caf89": {
+    "raw": "#9caf89",
+    "role": "muted-ink",
+    "channels": [
+      156,
+      175,
+      137,
+      1
+    ]
+  },
+  "--nxs-border-6172424a": {
+    "raw": "#6172424a",
+    "role": "border",
+    "channels": [
+      97,
+      114,
+      66,
+      0.2901960784313726
+    ]
+  },
+  "--nxs-surface-3e4a272b": {
+    "raw": "#3e4a272b",
+    "role": "surface",
+    "channels": [
+      62,
+      74,
+      39,
+      0.16862745098039217
+    ]
+  },
+  "--nxs-border-64764a67": {
+    "raw": "#64764a67",
+    "role": "border",
+    "channels": [
+      100,
+      118,
+      74,
+      0.403921568627451
+    ]
+  },
+  "--nxs-border-79895250": {
+    "raw": "#79895250",
+    "role": "border",
+    "channels": [
+      121,
+      137,
+      82,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-1b2518eb": {
+    "raw": "#1b2518eb",
+    "role": "surface",
+    "channels": [
+      27,
+      37,
+      24,
+      0.9215686274509803
+    ]
+  },
+  "--nxs-ink-bdc9a8": {
+    "raw": "#bdc9a8",
+    "role": "ink",
+    "channels": [
+      189,
+      201,
+      168,
+      1
+    ]
+  },
+  "--nxs-surface-52573565": {
+    "raw": "#52573565",
+    "role": "surface",
+    "channels": [
+      82,
+      87,
+      53,
+      0.396078431372549
+    ]
+  },
+  "--nxs-surface-142111d9": {
+    "raw": "#142111d9",
+    "role": "surface",
+    "channels": [
+      20,
+      33,
+      17,
+      0.8509803921568627
+    ]
+  },
+  "--nxs-surface-192415e8": {
+    "raw": "#192415e8",
+    "role": "surface",
+    "channels": [
+      25,
+      36,
+      21,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-border-788b5550": {
+    "raw": "#788b5550",
+    "role": "border",
+    "channels": [
+      120,
+      139,
+      85,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-1a2516e8": {
+    "raw": "#1a2516e8",
+    "role": "surface",
+    "channels": [
+      26,
+      37,
+      22,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-surface-162114e8": {
+    "raw": "#162114e8",
+    "role": "surface",
+    "channels": [
+      22,
+      33,
+      20,
+      0.9098039215686274
+    ]
+  },
+  "--nxs-border-5b704e55": {
+    "raw": "#5b704e55",
+    "role": "border",
+    "channels": [
+      91,
+      112,
+      78,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-muted-ink-a4b895": {
+    "raw": "#a4b895",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      184,
+      149,
+      1
+    ]
+  },
+  "--nxs-border-172116": {
+    "raw": "#172116",
+    "role": "border",
+    "channels": [
+      23,
+      33,
+      22,
+      1
+    ]
+  },
+  "--nxs-surface-182214": {
+    "raw": "#182214",
+    "role": "surface",
+    "channels": [
+      24,
+      34,
+      20,
+      1
+    ]
+  },
+  "--nxs-border-798d54": {
+    "raw": "#798d54",
+    "role": "border",
+    "channels": [
+      121,
+      141,
+      84,
+      1
+    ]
+  },
+  "--nxs-surface-1f291b": {
+    "raw": "#1f291b",
+    "role": "surface",
+    "channels": [
+      31,
+      41,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-73845145": {
+    "raw": "#73845145",
+    "role": "border",
+    "channels": [
+      115,
+      132,
+      81,
+      0.27058823529411763
+    ]
+  },
+  "--nxs-ink-bac8a3": {
+    "raw": "#bac8a3",
+    "role": "ink",
+    "channels": [
+      186,
+      200,
+      163,
+      1
+    ]
+  },
+  "--nxs-surface-1e2819": {
+    "raw": "#1e2819",
+    "role": "surface",
+    "channels": [
+      30,
+      40,
+      25,
+      1
+    ]
+  },
+  "--nxs-border-60754555": {
+    "raw": "#60754555",
+    "role": "border",
+    "channels": [
+      96,
+      117,
+      69,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-7188523d": {
+    "raw": "#7188523d",
+    "role": "border",
+    "channels": [
+      113,
+      136,
+      82,
+      0.23921568627450981
+    ]
+  },
+  "--nxs-surface-29351f": {
+    "raw": "#29351f",
+    "role": "surface",
+    "channels": [
+      41,
+      53,
+      31,
+      1
+    ]
+  },
+  "--nxs-border-7188524d": {
+    "raw": "#7188524d",
+    "role": "border",
+    "channels": [
+      113,
+      136,
+      82,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-border-647d4430": {
+    "raw": "#647d4430",
+    "role": "border",
+    "channels": [
+      100,
+      125,
+      68,
+      0.18823529411764706
+    ]
+  },
+  "--nxs-surface-384a2560": {
+    "raw": "#384a2560",
+    "role": "surface",
+    "channels": [
+      56,
+      74,
+      37,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-55593545": {
+    "raw": "#55593545",
+    "role": "surface",
+    "channels": [
+      85,
+      89,
+      53,
+      0.27058823529411763
+    ]
+  },
+  "--nxs-surface-36442a60": {
+    "raw": "#36442a60",
+    "role": "surface",
+    "channels": [
+      54,
+      68,
+      42,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-7b883229": {
+    "raw": "#7b883229",
+    "role": "surface",
+    "channels": [
+      123,
+      136,
+      50,
+      0.1607843137254902
+    ]
+  },
+  "--nxs-surface-202c1a": {
+    "raw": "#202c1a",
+    "role": "surface",
+    "channels": [
+      32,
+      44,
+      26,
+      1
+    ]
+  },
+  "--nxs-ink-d8e4c3": {
+    "raw": "#d8e4c3",
+    "role": "ink",
+    "channels": [
+      216,
+      228,
+      195,
+      1
+    ]
+  },
+  "--nxs-muted-ink-adbf98": {
+    "raw": "#adbf98",
+    "role": "muted-ink",
+    "channels": [
+      173,
+      191,
+      152,
+      1
+    ]
+  },
+  "--nxs-border-768b514d": {
+    "raw": "#768b514d",
+    "role": "border",
+    "channels": [
+      118,
+      139,
+      81,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-surface-303d25": {
+    "raw": "#303d25",
+    "role": "surface",
+    "channels": [
+      48,
+      61,
+      37,
+      1
+    ]
+  },
+  "--nxs-border-8c9e6260": {
+    "raw": "#8c9e6260",
+    "role": "border",
+    "channels": [
+      140,
+      158,
+      98,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-border-7b96554d": {
+    "raw": "#7b96554d",
+    "role": "border",
+    "channels": [
+      123,
+      150,
+      85,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-border-687c464d": {
+    "raw": "#687c464d",
+    "role": "border",
+    "channels": [
+      104,
+      124,
+      70,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-surface-222e1b": {
+    "raw": "#222e1b",
+    "role": "surface",
+    "channels": [
+      34,
+      46,
+      27,
+      1
+    ]
+  },
+  "--nxs-border-85985d70": {
+    "raw": "#85985d70",
+    "role": "border",
+    "channels": [
+      133,
+      152,
+      93,
+      0.4392156862745098
+    ]
+  },
+  "--nxs-surface-0a1206a8": {
+    "raw": "#0a1206a8",
+    "role": "surface",
+    "channels": [
+      10,
+      18,
+      6,
+      0.6588235294117647
+    ]
+  },
+  "--nxs-surface-28351d": {
+    "raw": "#28351d",
+    "role": "surface",
+    "channels": [
+      40,
+      53,
+      29,
+      1
+    ]
+  },
+  "--nxs-border-6f864e4d": {
+    "raw": "#6f864e4d",
+    "role": "border",
+    "channels": [
+      111,
+      134,
+      78,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-ink-c5d2b3": {
+    "raw": "#c5d2b3",
+    "role": "ink",
+    "channels": [
+      197,
+      210,
+      179,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a7b990": {
+    "raw": "#a7b990",
+    "role": "muted-ink",
+    "channels": [
+      167,
+      185,
+      144,
+      1
+    ]
+  },
+  "--nxs-border-b6c89c": {
+    "raw": "#b6c89c",
+    "role": "border",
+    "channels": [
+      182,
+      200,
+      156,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a8bf92": {
+    "raw": "#a8bf92",
+    "role": "muted-ink",
+    "channels": [
+      168,
+      191,
+      146,
+      1
+    ]
+  },
+  "--nxs-border-637a432d": {
+    "raw": "#637a432d",
+    "role": "border",
+    "channels": [
+      99,
+      122,
+      67,
+      0.17647058823529413
+    ]
+  },
+  "--nxs-surface-132011f5": {
+    "raw": "#132011f5",
+    "role": "surface",
+    "channels": [
+      19,
+      32,
+      17,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-border-7a985580": {
+    "raw": "#7a985580",
+    "role": "border",
+    "channels": [
+      122,
+      152,
+      85,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-ink-c0d4a8": {
+    "raw": "#c0d4a8",
+    "role": "ink",
+    "channels": [
+      192,
+      212,
+      168,
+      1
+    ]
+  },
+  "--nxs-surface-25331c": {
+    "raw": "#25331c",
+    "role": "surface",
+    "channels": [
+      37,
+      51,
+      28,
+      1
+    ]
+  },
+  "--nxs-surface-172315": {
+    "raw": "#172315",
+    "role": "surface",
+    "channels": [
+      23,
+      35,
+      21,
+      1
+    ]
+  },
+  "--nxs-border-6e864b4d": {
+    "raw": "#6e864b4d",
+    "role": "border",
+    "channels": [
+      110,
+      134,
+      75,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-border-6e864b40": {
+    "raw": "#6e864b40",
+    "role": "border",
+    "channels": [
+      110,
+      134,
+      75,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-muted-ink-adc094": {
+    "raw": "#adc094",
+    "role": "muted-ink",
+    "channels": [
+      173,
+      192,
+      148,
+      1
+    ]
+  },
+  "--nxs-surface-344625": {
+    "raw": "#344625",
+    "role": "surface",
+    "channels": [
+      52,
+      70,
+      37,
+      1
+    ]
+  },
+  "--nxs-border-76954e60": {
+    "raw": "#76954e60",
+    "role": "border",
+    "channels": [
+      118,
+      149,
+      78,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-border-71864d4d": {
+    "raw": "#71864d4d",
+    "role": "border",
+    "channels": [
+      113,
+      134,
+      77,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-border-91a65e80": {
+    "raw": "#91a65e80",
+    "role": "border",
+    "channels": [
+      145,
+      166,
+      94,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-surface-31432270": {
+    "raw": "#31432270",
+    "role": "surface",
+    "channels": [
+      49,
+      67,
+      34,
+      0.4392156862745098
+    ]
+  },
+  "--nxs-ink-e0e9ce": {
+    "raw": "#e0e9ce",
+    "role": "ink",
+    "channels": [
+      224,
+      233,
+      206,
+      1
+    ]
+  },
+  "--nxs-ink-b7caa0": {
+    "raw": "#b7caa0",
+    "role": "ink",
+    "channels": [
+      183,
+      202,
+      160,
+      1
+    ]
+  },
+  "--nxs-ink-aec695": {
+    "raw": "#aec695",
+    "role": "ink",
+    "channels": [
+      174,
+      198,
+      149,
+      1
+    ]
+  },
+  "--nxs-border-748a514d": {
+    "raw": "#748a514d",
+    "role": "border",
+    "channels": [
+      116,
+      138,
+      81,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-accent-fill-b77a3438": {
+    "raw": "#b77a3438",
+    "role": "accent-fill",
+    "channels": [
+      183,
+      122,
+      52,
+      0.2196078431372549
+    ]
+  },
+  "--nxs-surface-293821": {
+    "raw": "#293821",
+    "role": "surface",
+    "channels": [
+      41,
+      56,
+      33,
+      1
+    ]
+  },
+  "--nxs-border-82995350": {
+    "raw": "#82995350",
+    "role": "border",
+    "channels": [
+      130,
+      153,
+      83,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-accent-ink-ffbc71": {
+    "raw": "#ffbc71",
+    "role": "accent-ink",
+    "channels": [
+      255,
+      188,
+      113,
+      1
+    ]
+  },
+  "--nxs-surface-203b3460": {
+    "raw": "#203b3460",
+    "role": "surface",
+    "channels": [
+      32,
+      59,
+      52,
+      0.3764705882352941
+    ]
+  },
+  "--nxs-surface-1b2e2180": {
+    "raw": "#1b2e2180",
+    "role": "surface",
+    "channels": [
+      27,
+      46,
+      33,
+      0.5019607843137255
+    ]
+  },
+  "--nxs-border-7da6915e": {
+    "raw": "#7da6915e",
+    "role": "border",
+    "channels": [
+      125,
+      166,
+      145,
+      0.3686274509803922
+    ]
+  },
+  "--nxs-surface-7d995a20": {
+    "raw": "#7d995a20",
+    "role": "surface",
+    "channels": [
+      125,
+      153,
+      90,
+      0.12549019607843137
+    ]
+  },
+  "--nxs-surface-1d2b17": {
+    "raw": "#1d2b17",
+    "role": "surface",
+    "channels": [
+      29,
+      43,
+      23,
+      1
+    ]
+  },
+  "--nxs-border-7d995a50": {
+    "raw": "#7d995a50",
+    "role": "border",
+    "channels": [
+      125,
+      153,
+      90,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-border-839e5950": {
+    "raw": "#839e5950",
+    "role": "border",
+    "channels": [
+      131,
+      158,
+      89,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-2d3c20": {
+    "raw": "#2d3c20",
+    "role": "surface",
+    "channels": [
+      45,
+      60,
+      32,
+      1
+    ]
+  },
+  "--nxs-surface-47552c": {
+    "raw": "#47552c",
+    "role": "surface",
+    "channels": [
+      71,
+      85,
+      44,
+      1
+    ]
+  },
+  "--nxs-surface-24351b": {
+    "raw": "#24351b",
+    "role": "surface",
+    "channels": [
+      36,
+      53,
+      27,
+      1
+    ]
+  },
+  "--nxs-surface-34462470": {
+    "raw": "#34462470",
+    "role": "surface",
+    "channels": [
+      52,
+      70,
+      36,
+      0.4392156862745098
+    ]
+  },
+  "--nxs-border-7c995450": {
+    "raw": "#7c995450",
+    "role": "border",
+    "channels": [
+      124,
+      153,
+      84,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-border-76945350": {
+    "raw": "#76945350",
+    "role": "border",
+    "channels": [
+      118,
+      148,
+      83,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-2b3a20": {
+    "raw": "#2b3a20",
+    "role": "surface",
+    "channels": [
+      43,
+      58,
+      32,
+      1
+    ]
+  },
+  "--nxs-surface-1c2b17": {
+    "raw": "#1c2b17",
+    "role": "surface",
+    "channels": [
+      28,
+      43,
+      23,
+      1
+    ]
+  },
+  "--nxs-border-7b96574d": {
+    "raw": "#7b96574d",
+    "role": "border",
+    "channels": [
+      123,
+      150,
+      87,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-surface-27371e": {
+    "raw": "#27371e",
+    "role": "surface",
+    "channels": [
+      39,
+      55,
+      30,
+      1
+    ]
+  },
+  "--nxs-border-728f4e50": {
+    "raw": "#728f4e50",
+    "role": "border",
+    "channels": [
+      114,
+      143,
+      78,
+      0.3137254901960784
+    ]
+  },
+  "--nxs-surface-4c5631": {
+    "raw": "#4c5631",
+    "role": "surface",
+    "channels": [
+      76,
+      86,
+      49,
+      1
+    ]
+  },
+  "--nxs-border-899965": {
+    "raw": "#899965",
+    "role": "border",
+    "channels": [
+      137,
+      153,
+      101,
+      1
+    ]
+  },
+  "--nxs-surface-1e2d14": {
+    "raw": "#1e2d14",
+    "role": "surface",
+    "channels": [
+      30,
+      45,
+      20,
+      1
+    ]
+  },
+  "--nxs-surface-a6b788": {
+    "raw": "#a6b788",
+    "role": "surface",
+    "channels": [
+      166,
+      183,
+      136,
+      1
+    ]
+  },
+  "--nxs-surface-667a3e": {
+    "raw": "#667a3e",
+    "role": "surface",
+    "channels": [
+      102,
+      122,
+      62,
+      1
+    ]
+  },
+  "--nxs-surface-e3eccd": {
+    "raw": "#e3eccd",
+    "role": "surface",
+    "channels": [
+      227,
+      236,
+      205,
+      1
+    ]
+  },
+  "--nxs-border-6b875142": {
+    "raw": "#6b875142",
+    "role": "border",
+    "channels": [
+      107,
+      135,
+      81,
+      0.25882352941176473
+    ]
+  },
+  "--nxs-border-a2b66d": {
+    "raw": "#a2b66d",
+    "role": "border",
+    "channels": [
+      162,
+      182,
+      109,
+      1
+    ]
+  },
+  "--nxs-surface-1c2617": {
+    "raw": "#1c2617",
+    "role": "surface",
+    "channels": [
+      28,
+      38,
+      23,
+      1
+    ]
+  },
+  "--nxs-border-72814b40": {
+    "raw": "#72814b40",
+    "role": "border",
+    "channels": [
+      114,
+      129,
+      75,
+      0.25098039215686274
+    ]
+  },
+  "--nxs-surface-0e1210f5": {
+    "raw": "#0e1210f5",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.9607843137254902
+    ]
+  },
+  "--nxs-surface-0e1210d9": {
+    "raw": "#0e1210d9",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.8509803921568627
+    ]
+  },
+  "--nxs-surface-0e121055": {
+    "raw": "#0e121055",
+    "role": "surface",
+    "channels": [
+      14,
+      18,
+      16,
+      0.3333333333333333
+    ]
+  },
+  "--nxs-border-64794366": {
+    "raw": "#64794366",
+    "role": "border",
+    "channels": [
+      100,
+      121,
+      67,
+      0.4
+    ]
+  },
+  "--nxs-border-7c8c5d4d": {
+    "raw": "#7c8c5d4d",
+    "role": "border",
+    "channels": [
+      124,
+      140,
+      93,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-surface-172014df": {
+    "raw": "#172014df",
+    "role": "surface",
+    "channels": [
+      23,
+      32,
+      20,
+      0.8745098039215686
+    ]
+  },
+  "--nxs-surface-182314": {
+    "raw": "#182314",
+    "role": "surface",
+    "channels": [
+      24,
+      35,
+      20,
+      1
+    ]
+  },
+  "--nxs-surface-172314eb": {
+    "raw": "#172314eb",
+    "role": "surface",
+    "channels": [
+      23,
+      35,
+      20,
+      0.9215686274509803
+    ]
+  },
+  "--nxs-border-65794766": {
+    "raw": "#65794766",
+    "role": "border",
+    "channels": [
+      101,
+      121,
+      71,
+      0.4
+    ]
+  },
+  "--nxs-surface-28351e": {
+    "raw": "#28351e",
+    "role": "surface",
+    "channels": [
+      40,
+      53,
+      30,
+      1
+    ]
+  },
+  "--nxs-surface-091006a1": {
+    "raw": "#091006a1",
+    "role": "surface",
+    "channels": [
+      9,
+      16,
+      6,
+      0.6313725490196078
+    ]
+  },
+  "--nxs-border-667944": {
+    "raw": "#667944",
+    "role": "border",
+    "channels": [
+      102,
+      121,
+      68,
+      1
+    ]
+  },
+  "--nxs-border-81995366": {
+    "raw": "#81995366",
+    "role": "border",
+    "channels": [
+      129,
+      153,
+      83,
+      0.4
+    ]
+  },
+  "--nxs-surface-2d3b22": {
+    "raw": "#2d3b22",
+    "role": "surface",
+    "channels": [
+      45,
+      59,
+      34,
+      1
+    ]
+  },
+  "--nxs-surface-1c2818": {
+    "raw": "#1c2818",
+    "role": "surface",
+    "channels": [
+      28,
+      40,
+      24,
+      1
+    ]
+  },
+  "--nxs-accent-fill-ffb34706": {
+    "raw": "#ffb34706",
+    "role": "accent-fill",
+    "channels": [
+      255,
+      179,
+      71,
+      0.023529411764705882
+    ]
+  },
+  "--nxs-surface-192216b3": {
+    "raw": "#192216b3",
+    "role": "surface",
+    "channels": [
+      25,
+      34,
+      22,
+      0.7019607843137254
+    ]
+  },
+  "--nxs-border-7c915844": {
+    "raw": "#7c915844",
+    "role": "border",
+    "channels": [
+      124,
+      145,
+      88,
+      0.26666666666666666
+    ]
+  },
+  "--nxs-border-657b404d": {
+    "raw": "#657b404d",
+    "role": "border",
+    "channels": [
+      101,
+      123,
+      64,
+      0.30196078431372547
+    ]
+  },
+  "--nxs-muted-ink-a7b791": {
+    "raw": "#a7b791",
+    "role": "muted-ink",
+    "channels": [
+      167,
+      183,
+      145,
+      1
+    ]
+  },
+  "--nxs-surface-25361e": {
+    "raw": "#25361e",
+    "role": "surface",
+    "channels": [
+      37,
+      54,
+      30,
+      1
+    ]
+  },
+  "--nxs-border-8b9e5f": {
+    "raw": "#8b9e5f",
+    "role": "border",
+    "channels": [
+      139,
+      158,
+      95,
+      1
+    ]
+  },
+  "--nxs-muted-ink-a4b591": {
+    "raw": "#a4b591",
+    "role": "muted-ink",
+    "channels": [
+      164,
+      181,
+      145,
+      1
+    ]
+  },
+  "--nxs-surface-1d2719": {
+    "raw": "#1d2719",
+    "role": "surface",
+    "channels": [
+      29,
+      39,
+      25,
+      1
+    ]
+  },
+  "--nxs-border-506143": {
+    "raw": "#506143",
+    "role": "border",
+    "channels": [
+      80,
+      97,
+      67,
+      1
+    ]
+  },
+  "--nxs-surface-101310ee": {
+    "raw": "#101310ee",
+    "role": "surface",
+    "channels": [
+      16,
+      19,
+      16,
+      0.9333333333333333
+    ]
+  },
+  "--nxs-border-3b4730": {
+    "raw": "#3b4730",
+    "role": "border",
+    "channels": [
+      59,
+      71,
+      48,
+      1
+    ]
+  },
+  "--nxs-surface-040904b0": {
+    "raw": "#040904b0",
+    "role": "surface",
+    "channels": [
+      4,
+      9,
+      4,
+      0.6901960784313725
+    ]
+  },
+  "--nxs-border-3d533040": {
+    "raw": "#3d533040",
+    "role": "border",
+    "channels": [
+      61,
+      83,
+      48,
+      0.25098039215686274
+    ]
+  }
+}

@@ -1,0 +1,345 @@
+/* Controls and narrative live outside Google's roads and attribution area. */
+.aether-operational-map {
+  width: 100%;
+  min-width: 0;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.aether-map-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line);
+}
+.aether-map-heading > div {
+  display: grid;
+  gap: 5px;
+}
+.aether-map-heading strong {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.aether-map-heading > .mono {
+  font-size: 10px;
+  color: var(--muted);
+  text-align: right;
+}
+.aether-map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.aether-map-toolbar button,
+.aether-map-toolbar select,
+.aether-map-demo {
+  min-height: 44px;
+  min-width: 44px;
+  font-size: 12px;
+  line-height: 1.3;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.aether-map-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 9px 12px;
+}
+.aether-map-toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.aether-map-toolbar button[aria-pressed='true'] {
+  border-color: var(--accent-ink);
+  background: var(--amber);
+  color: var(--on-accent);
+}
+.aether-map-toolbar button:focus-visible,
+.aether-map-toolbar select:focus-visible,
+.aether-map-demo:focus-within,
+.aether-map-pin:focus-visible {
+  outline: 2px solid var(--accent-ink);
+  outline-offset: 3px;
+}
+.aether-map-filter {
+  display: grid;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--muted);
+  flex: 1 1 180px;
+}
+.aether-map-filter select {
+  width: 100%;
+  padding: 8px;
+  color: var(--text);
+}
+.aether-map-demo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  flex: 1 1 180px;
+}
+.aether-map-demo input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent-ink);
+  flex-shrink: 0;
+}
+.aether-map-camera,
+.aether-map-modes {
+  display: flex;
+  gap: 5px;
+}
+.aether-map-camera button {
+  padding: 8px;
+}
+.aether-map-surface {
+  position: relative;
+  height: clamp(350px, 48vh, 540px);
+  min-height: 350px;
+  isolation: isolate;
+  background: var(--surface-raised, var(--surface));
+}
+.aether-google-canvas {
+  position: absolute;
+  inset: 0;
+  color-scheme: light;
+}
+/* No filters, transforms or branded layer above Google attribution. */
+.aether-map-state {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 32px;
+  text-align: center;
+  background: var(--surface);
+  z-index: 2;
+}
+.aether-map-state > svg {
+  color: var(--accent-ink);
+}
+.aether-map-state h3 {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.1;
+  font-weight: 500;
+}
+.aether-map-state p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 440px;
+  margin: 0;
+}
+.aether-map-info {
+  border-top: 1px solid var(--line);
+  padding: 14px 18px;
+}
+.aether-map-info p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 8px 0 0;
+  overflow-wrap: anywhere;
+}
+.aether-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  font-size: 12px;
+}
+.aether-map-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.aether-map-legend i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.aether-demo-key {
+  color: var(--text);
+}
+.aether-map-selection {
+  display: grid;
+  gap: 7px;
+  padding: 14px;
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent-ink);
+  border-radius: 6px;
+  font-size: 13px;
+}
+.aether-map-selection span {
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+}
+.aether-map-markers {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.aether-map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+.aether-map-pin[hidden] {
+  display: none;
+}
+.aether-map-pin-dot {
+  width: 19px;
+  height: 19px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--pin-color);
+  box-shadow: 0 2px 8px #000a;
+}
+.aether-map-pin[data-source='DEMO'] .aether-map-pin-dot,
+.aether-map-pin[data-source='TEST'] .aether-map-pin-dot {
+  border-style: dashed;
+}
+.aether-map-pin[data-source='DEMO']::after,
+.aether-map-pin[data-source='TEST']::after {
+  content: attr(data-source);
+  position: absolute;
+  top: 30px;
+  font: 9px var(--font-mono);
+  color: #fff;
+  background: #182626;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.aether-map-pin[aria-pressed='true'] {
+  z-index: 10;
+}
+.aether-map-pin[aria-pressed='true'] .aether-map-pin-dot {
+  outline: 3px solid var(--pin-color);
+  outline-offset: 3px;
+}
+.aether-map-pin-label {
+  display: none;
+  position: absolute;
+  bottom: 46px;
+  max-width: 250px;
+  width: max-content;
+  font: 12px/1.4 var(--font-sans);
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 20px #0004;
+  border-radius: 5px;
+  padding: 9px 11px;
+  pointer-events: none;
+}
+.aether-map-pin:hover,
+.aether-map-pin:focus-visible {
+  z-index: 11;
+}
+.aether-map-pin:hover .aether-map-pin-label,
+.aether-map-pin:focus-visible .aether-map-pin-label,
+.aether-map-pin[aria-pressed='true'] .aether-map-pin-label {
+  display: block;
+}
+/* Replace fixed canvas boxes with content-driven toolbar + map + disclosure rows. */
+.command-app.cinematic-command .command-map-stage,
+.command-app.cinematic-command[data-workspace='command'][data-mode='city'] .command-map-stage,
+.command-app.cinematic-command .command-twin,
+.command-app.cinematic-command .module-map,
+.command-app.cinematic-command .thermal-workspace .module-map {
+  height: auto;
+  overflow: visible;
+  background: transparent;
+  border: 0;
+}
+.module-map .heat-scale {
+  position: static;
+  padding: 12px 16px;
+  margin: 0;
+  background: var(--surface);
+}
+.traffic-map-wrap {
+  background: transparent;
+  min-height: 0;
+}
+.response-geography > .aether-operational-map {
+  border: 0;
+  border-radius: inherit;
+}
+@media (max-width: 600px) {
+  .aether-map-heading {
+    padding: 14px;
+  }
+  .aether-map-heading strong {
+    font-size: 24px;
+  }
+  .aether-map-toolbar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 12px;
+  }
+  .aether-map-filter {
+    grid-column: 1/-1;
+  }
+  .aether-map-demo {
+    grid-column: 1/-1;
+  }
+  .aether-map-modes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+  }
+  .aether-map-camera {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .aether-map-toolbar button {
+    padding: 9px 6px;
+  }
+  .aether-map-state {
+    padding: 24px 18px;
+  }
+  .aether-map-info {
+    padding: 14px;
+  }
+  .aether-map-legend {
+    gap: 8px 12px;
+  }
+  .aether-map-surface {
+    height: 370px;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "theme": "eclipse",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "theme": "eclipse",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "theme": "original",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "errors": []
+}

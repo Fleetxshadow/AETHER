@@ -1,0 +1,12 @@
+{
+  "mode": "actual Google SDK",
+  "consoleErrorCount": 0,
+  "runtimeErrorCount": 0,
+  "mapErrors": [],
+  "requestFailures": [],
+  "state": "ready",
+  "googleMapContainers": 1,
+  "bootstrapScripts": 1,
+  "satelliteControl": true,
+  "trafficControl": true
+}

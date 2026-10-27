@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function scoped() { return request.auth != null && request.auth.token.nexusSite == resource.data.siteId && request.auth.token.nexusRole in ['viewer','operator']; }
+    function operator() { return scoped() && request.auth.token.nexusRole == 'operator'; }
+    match /observations/{id} { allow read: if scoped(); allow write: if false; }
+    match /aiDetections/{id} { allow read: if scoped(); allow write: if false; }
+    match /devices/{id} { allow read: if scoped(); allow write: if false; }
+    match /cameraMetadata/{id} { allow read, write: if false; }
+    match /incidents/{id} { allow read: if operator(); allow write: if false; }
+    match /responseReports/{id} { allow read: if operator(); allow write: if false; }
+    match /eventHistory/{id} { allow read: if operator(); allow write: if false; }
+    // Existing NEXUS MAP v1 public projection. Private case/evidence fields never enter it.
+    match /trafficIncidents/{id} {
+      allow read: if resource.data.publicApproved == true
+        && resource.data.schemaVersion == 1 && resource.data.source == 'AUTHORIZED';
+      allow write: if false;
+    }
+    // All investigation/ingestion/review access passes through the authorized server.
+    match /trafficRegistry/{id} { allow read, write: if false; }
+    match /trafficCases/{id} { allow read, write: if false; }
+    match /trafficPublications/{id} { allow read, write: if false; }
+    match /trafficWorkspaces/{id} { allow read, write: if false; }
+    match /trafficWindows/{id} { allow read, write: if false; }
+    match /trafficAudit/{id} { allow read, write: if false; }
+    match /incidentInvestigations/{id} { allow read, write: if false; }
+    match /inspectionRequests/{id} { allow read, write: if false; }
+    match /incidentEvidence/{id} { allow read, write: if false; }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

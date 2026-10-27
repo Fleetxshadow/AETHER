@@ -1,0 +1,482 @@
+[
+  {
+    "name": "390x844-normal",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 584.203125,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 168,
+        "y": 750,
+        "width": 200,
+        "height": 110,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 22,
+        "y": 876.5,
+        "width": 346,
+        "height": 83.5,
+        "font": 14
+      }
+    ],
+    "storyLayers": "2x2 / >=44px / 11px text",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 190.01889038085938,
+        "y": 11.4068603515625,
+        "width": 91.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 184.76634216308594,
+        "y": 42.59407043457031,
+        "width": 111.01564025878906,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 179.3490447998047,
+        "y": 99.48153686523438,
+        "width": 84.62501525878906,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "390x844-reduced",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 584.203125,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 168,
+        "y": 750,
+        "width": 200,
+        "height": 110,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 22,
+        "y": 876.5,
+        "width": 346,
+        "height": 83.5,
+        "font": 14
+      }
+    ],
+    "storyLayers": "2x2 / >=44px / 11px text",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 190.00030517578125,
+        "y": 11.400772094726562,
+        "width": 91.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 184.74642944335938,
+        "y": 42.573944091796875,
+        "width": 111.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 179.3376922607422,
+        "y": 99.46780395507812,
+        "width": 84.62501525878906,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-normal",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 499.1875,
+        "height": 712.484375,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 528,
+        "y": 581.5,
+        "width": 210,
+        "height": 278.5,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 30,
+        "y": 905,
+        "width": 708,
+        "height": 94,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 489.6065673828125,
+        "y": 40.633941650390625,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 486.1474304199219,
+        "y": 86.65560913085938,
+        "width": 119.01565551757812,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 471.18878173828125,
+        "y": 168.22845458984375,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-reduced",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 499.1875,
+        "height": 712.484375,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 528,
+        "y": 581.5,
+        "width": 210,
+        "height": 278.5,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 30,
+        "y": 905,
+        "width": 708,
+        "height": 94,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 489.57000732421875,
+        "y": 40.632080078125,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 486.1086730957031,
+        "y": 86.6265869140625,
+        "width": 119.01559448242188,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 471.1671142578125,
+        "y": 168.19967651367188,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-normal",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 593.953125,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 988.8125,
+        "y": 288.625,
+        "width": 240,
+        "height": 291.375,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 57.59375,
+        "y": 621,
+        "width": 1164.8125,
+        "height": 77,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 570.8448486328125,
+        "y": 190.36935424804688,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 567.137451171875,
+        "y": 234.61392211914062,
+        "width": 119.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 553.2650146484375,
+        "y": 313.0382080078125,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-reduced",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 593.953125,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 988.8125,
+        "y": 288.625,
+        "width": 240,
+        "height": 291.375,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 57.59375,
+        "y": 621,
+        "width": 1164.8125,
+        "height": 77,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 570.8179321289062,
+        "y": 467.3553771972656,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 567.1090087890625,
+        "y": 511.58087158203125,
+        "width": 119.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 553.2496337890625,
+        "y": 590.0164794921875,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-normal",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 676.796875,
+        "height": 769,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 1113.203125,
+        "y": 430.625,
+        "width": 262,
+        "height": 291.375,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 64.796875,
+        "y": 785,
+        "width": 1310.40625,
+        "height": 85,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 631.1922607421875,
+        "y": 628.240234375,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 627.485107421875,
+        "y": 672.4878540039062,
+        "width": 119.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 613.610595703125,
+        "y": 750.918701171875,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-reduced",
+    "hero": [
+      {
+        "text": "NEXUSTHE CITY THAT THINKS.An aerial perspective.A connected understanding.The intelligence between every signal.Enter NEXUS commandEXPLOREWatch the guided experience05 CHAPTERS",
+        "x": 0,
+        "y": 0,
+        "width": 676.796875,
+        "height": 769,
+        "font": 14
+      },
+      {
+        "text": "SPATIAL FIELD / 01+BENGALURU REFERENCE12.9740° N77.5940° E01Signals02Mobility03Heat04WaterCONCEPTUAL GEOGRAPHY / DEMO DATA",
+        "x": 1113.203125,
+        "y": 430.625,
+        "width": 262,
+        "height": 291.375,
+        "font": 14
+      },
+      {
+        "text": "PERSPECTIVES10CONNECTEDBUILT ENVIRONMENT88CONCEPTUAL STRUCTURESRECORDED SIGNALS0815:00 IST / DEMOSCROLL TO CONNECT ↓",
+        "x": 64.796875,
+        "y": 785,
+        "width": 1310.40625,
+        "height": 85,
+        "font": 14
+      }
+    ],
+    "storyLayers": "keyboard verified",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 631.1616821289062,
+        "y": 628.2303466796875,
+        "width": 99.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 627.4527587890625,
+        "y": 672.4558715820312,
+        "width": 119.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 613.5933837890625,
+        "y": 750.8914794921875,
+        "width": 92.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  }
+]

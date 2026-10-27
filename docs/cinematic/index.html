@@ -1,0 +1,165 @@
+﻿<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>NEXUS — Cinematic transformation evidence</title
+  ><style>
+    body {
+      margin: 0;
+      background: #101910;
+      color: #e0e8cf;
+      font: 14px system-ui;
+    }
+    main {
+      max-width: 1500px;
+      margin: auto;
+      padding: 32px;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: 36px;
+      letter-spacing: -1px;
+    }
+    p {
+      color: #afbd98;
+      line-height: 1.8;
+    }
+    select,
+    a {
+      background: #26371e;
+      color: #efdaaa;
+      border: 1px solid #809649;
+      padding: 12px;
+      border-radius: 6px;
+      font: inherit;
+    }
+    nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 25px 0;
+    }
+    .pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid #586d35;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #1b2818;
+    }
+    figcaption {
+      padding: 15px;
+      color: #dec184;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    video {
+      width: 100%;
+      max-height: 800px;
+      border: 1px solid #617c3d;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    small {
+      color: #a4b88c;
+    }
+    button {
+      background: #ffbe5e;
+      color: #1c2618;
+      border: 0;
+      border-radius: 6px;
+      padding: 12px;
+      font: inherit;
+      cursor: pointer;
+    }
+    @media (max-width: 800px) {
+      .pair {
+        grid-template-columns: 1fr;
+      }
+      main {
+        padding: 20px;
+      }
+    }
+  </style>
+  <main>
+    <small>NXS / VISUAL TRANSFORMATION / LOCAL EVIDENCE</small>
+    <h1>A shared city. A new perspective.</h1>
+    <p>
+      Compare the original implementation with the cinematic observatory, spatial module selector,
+      X1 configurator, and operational field. All data is simulated. No deployment.
+    </p>
+    <nav>
+      <label
+        >View
+        <select id="view">
+          <option value="hero">Cinematic hero</option>
+          <option value="modules">Spatial module explorer</option>
+          <option value="sky">Engineering configurator</option>
+          <option value="command">Command workspace</option>
+        </select></label
+      ><label
+        >Viewport
+        <select id="size">
+          <option value="1440x900">1440 × 900</option>
+          <option value="1280x720">1280 × 720</option>
+          <option value="768x1024">768 × 1024</option>
+          <option value="390x844">390 × 844</option>
+        </select></label
+      ><label
+        >Motion
+        <select id="profile">
+          <option value="normal">Normal</option>
+          <option value="reduced">Reduced</option>
+        </select></label
+      ><a href="after/results.json">Production matrix</a
+      ><a href="../CINEMATIC-TRANSFORMATION.md">Implementation report</a>
+    </nav>
+    <section class="pair">
+      <figure>
+        <figcaption>Before</figcaption>
+        <img id="before" alt="Before transformation screenshot" />
+      </figure>
+      <figure>
+        <figcaption>After · selected motion mode, settled frame</figcaption>
+        <img id="after" alt="After transformation screenshot" />
+      </figure>
+    </section>
+    <p>
+      Motion evidence captures actual rendered entrance, selection, route movement, chart feedback,
+      and inspection. Reduced-motion screenshots and measured transform samples accompany the
+      matrix.
+    </p>
+    <video
+      controls
+      preload="metadata"
+      poster="after/hero-1440x900-normal.png"
+      src="motion/walkthrough.webm"
+    >
+      Motion walkthrough
+    </video>
+    <script>
+      const view = document.querySelector('#view'),
+        size = document.querySelector('#size'),
+        profile = document.querySelector('#profile');
+      function render() {
+        document.querySelector('#before').src =
+          `before/${view.value}-${size.value.split('x')[0]}.png`;
+        document.querySelector('#after').src =
+          `after/${view.value}-${size.value}-${profile.value}.png`;
+      }
+      view.addEventListener('change', render);
+      size.addEventListener('change', render);
+      profile.addEventListener('change', render);
+      render();
+    </script>
+  </main>
+</html>

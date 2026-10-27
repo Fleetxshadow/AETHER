@@ -1,0 +1,234 @@
+- generic [active] [ref=f7e1]:
+  - link "Skip to content" [ref=f7e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f7e3]:
+    - complementary "Command sidebar" [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - link "AETHER CITY home" [ref=f7e6] [cursor=pointer]:
+          - /url: /
+        - button "Close sidebar" [ref=f7e14] [cursor=pointer]
+      - generic [ref=f7e18]: URBAN INTELLIGENCE
+      - navigation "AETHER modules" [ref=f7e19]:
+        - link "CITY TRAFFIC Gurugram investigation" [ref=f7e20] [cursor=pointer]:
+          - /url: /traffic
+          - generic [ref=f7e24]:
+            - text: CITY TRAFFIC
+            - generic [ref=f7e25]: Gurugram investigation
+        - link "RESPONSE Human-reviewed intake" [ref=f7e26] [cursor=pointer]:
+          - /url: /command/response
+          - generic [ref=f7e30]:
+            - text: RESPONSE
+            - generic [ref=f7e31]: Human-reviewed intake
+        - link "COMMAND Unified operations" [ref=f7e32] [cursor=pointer]:
+          - /url: /command
+          - generic [ref=f7e36]:
+            - text: COMMAND
+            - generic [ref=f7e37]: Unified operations
+        - link "SKY Aerial intelligence" [ref=f7e38] [cursor=pointer]:
+          - /url: /command/sky
+          - generic [ref=f7e46]:
+            - text: SKY
+            - generic [ref=f7e47]: Aerial intelligence
+        - link "FLOW Urban mobility" [ref=f7e48] [cursor=pointer]:
+          - /url: /command/flow
+          - generic [ref=f7e53]:
+            - text: FLOW
+            - generic [ref=f7e54]: Urban mobility
+        - link "RESCUE Emergency response" [ref=f7e55] [cursor=pointer]:
+          - /url: /command/rescue
+          - generic [ref=f7e63]:
+            - text: RESCUE
+            - generic [ref=f7e64]: Emergency response
+        - link "THERMAL Heat intelligence" [ref=f7e65] [cursor=pointer]:
+          - /url: /command/thermal
+          - generic [ref=f7e68]:
+            - text: THERMAL
+            - generic [ref=f7e69]: Heat intelligence
+        - link "AQUA Water & resilience" [ref=f7e70] [cursor=pointer]:
+          - /url: /command/aqua
+          - generic [ref=f7e74]:
+            - text: AQUA
+            - generic [ref=f7e75]: Water & resilience
+        - link "ROAD Infrastructure health" [ref=f7e76] [cursor=pointer]:
+          - /url: /command/road
+          - generic [ref=f7e79]:
+            - text: ROAD
+            - generic [ref=f7e80]: Infrastructure health
+        - link "FIRE Fire & smoke detection" [ref=f7e81] [cursor=pointer]:
+          - /url: /command/fire
+          - generic [ref=f7e84]:
+            - text: FIRE
+            - generic [ref=f7e85]: Fire & smoke detection
+        - link "TWIN Geographic intelligence twin" [ref=f7e86] [cursor=pointer]:
+          - /url: /command/twin
+          - generic [ref=f7e90]:
+            - text: TWIN
+            - generic [ref=f7e91]: Geographic intelligence twin
+        - link "CORE Evidence-led intelligence" [ref=f7e92] [cursor=pointer]:
+          - /url: /command/core
+          - generic [ref=f7e105]:
+            - text: CORE
+            - generic [ref=f7e106]: Evidence-led intelligence
+      - generic [ref=f7e107]:
+        - link "Reports" [ref=f7e108] [cursor=pointer]:
+          - /url: /command/reports
+        - link "System settings" [ref=f7e113] [cursor=pointer]:
+          - /url: /command/settings
+        - link "Back to experience" [ref=f7e118] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f7e122]:
+          - generic [ref=f7e123]: DEMO SYSTEM
+          - generic [ref=f7e125]: Device feeds + demo fallbackInspect active sources
+    - generic [ref=f7e126]:
+      - banner [ref=f7e127]:
+        - button "Open command navigation" [ref=f7e128] [cursor=pointer]
+        - strong [ref=f7e131]: RESPONSE
+        - generic [ref=f7e132]:
+          - button "Search city observations" [ref=f7e133] [cursor=pointer]
+          - generic [ref=f7e137]: Search observations and districts
+          - button "Open command palette" [ref=f7e138] [cursor=pointer]: ⌘ K
+        - generic [ref=f7e139]:
+          - button "Open theme configurator" [ref=f7e140] [cursor=pointer]
+          - button "Enable audio" [ref=f7e147] [cursor=pointer]
+          - button "View alert timeline" [ref=f7e152] [cursor=pointer]
+      - main [ref=f7e157]:
+        - generic [ref=f7e159]:
+          - paragraph [ref=f7e160]: AI-ASSISTED INTAKE / HUMAN-REVIEWED DEMO
+          - heading "AETHER RESPONSE" [level=1] [ref=f7e161]
+          - paragraph [ref=f7e162]: Every voice deserves a human response. Hindi, English and Hinglish incident intake.
+        - group [ref=f7e163]:
+          - generic "DEMO DATA · no Firebase configuration Inspect sources" [ref=f7e164] [cursor=pointer]:
+            - generic [ref=f7e165]: DEMO DATA · no Firebase configuration
+            - generic [ref=f7e166]: Inspect sources
+        - generic [ref=f7e167]:
+          - generic [ref=f7e168]:
+            - generic [ref=f7e173]:
+              - strong [ref=f7e174]: NON-OPERATIONAL DEMO
+              - text: Local extraction · simulated handoff · no emergency dispatch. For a real emergency in India, contact 112 directly.
+            - link "Call 112" [ref=f7e175] [cursor=pointer]:
+              - /url: tel:112
+          - generic [ref=f7e178]:
+            - generic [ref=f7e179]:
+              - generic [ref=f7e180]: QUEUE
+              - strong [ref=f7e181]: "0"
+            - generic [ref=f7e182]:
+              - generic [ref=f7e183]: URGENT
+              - strong [ref=f7e184]: "0"
+            - generic [ref=f7e185]:
+              - generic [ref=f7e186]: HUMAN REVIEW
+              - strong [ref=f7e187]: "0"
+            - generic [ref=f7e188]:
+              - generic [ref=f7e189]: RETENTION
+              - strong [ref=f7e190]: 30 MIN
+          - generic [ref=f7e191]:
+            - generic [ref=f7e192]:
+              - generic [ref=f7e193]:
+                - generic [ref=f7e194]: COMMUNICATIONS / LOCAL DEMO
+                - status [ref=f7e201]: idle
+              - heading "A voice. A location. A human decision." [level=2] [ref=f7e227]: A voice. A location.A human decision.
+              - paragraph [ref=f7e228]: Welcome to AETHER RESPONSE. How can I help you?
+              - generic "Intake language" [ref=f7e229]:
+                - button "English" [pressed] [ref=f7e230] [cursor=pointer]
+                - button "हिन्दी" [ref=f7e232] [cursor=pointer]
+                - button "Hinglish" [ref=f7e233] [cursor=pointer]
+              - paragraph [ref=f7e234]: BROWSER VOICE / SEPARATE MICROPHONE DEMO
+              - generic [ref=f7e235] [cursor=pointer]:
+                - checkbox "I consent to browser microphone transcription. Browser/vendor may process audio; AETHER stores no audio recording." [ref=f7e236]
+                - generic [ref=f7e237]: I consent to browser microphone transcription. Browser/vendor may process audio; AETHER stores no audio recording.
+              - generic [ref=f7e238]:
+                - button "Start microphone" [disabled] [ref=f7e239]
+                - button "Read welcome aloud" [ref=f7e243] [cursor=pointer]
+                - button "Stop voice" [ref=f7e248] [cursor=pointer]
+              - paragraph [ref=f7e253]: Hinglish uses the Hindi recognizer; mixed speech accuracy depends on your browser. Text always works.
+              - generic [ref=f7e254]:
+                - generic [ref=f7e255]: PHONE CHANNEL / SIMULATED
+                - button "Simulate incoming call" [disabled] [ref=f7e256]
+            - generic [ref=f7e260]:
+              - generic [ref=f7e261]:
+                - generic [ref=f7e262]: 01 / INCIDENT INTAKE
+                - generic [ref=f7e263]: EN / HI / MIXED
+              - heading "Tell us what happened." [level=3] [ref=f7e264]
+              - paragraph [ref=f7e265]: Use a natural sentence. Urgent reports can be submitted immediately; location and evidence are optional.
+              - generic [ref=f7e266]: Caller statement / live transcript
+              - textbox "Caller statement / live transcript" [ref=f7e267]:
+                - /placeholder: Describe the incident, location and anything uncertain.
+              - generic [ref=f7e268]:
+                - generic [ref=f7e269]:
+                  - text: Incident location (optional)
+                  - textbox "Incident location (optional)" [ref=f7e270]:
+                    - /placeholder: Caller-supplied place
+                - generic [ref=f7e271]:
+                  - text: Nearby landmark (optional)
+                  - textbox "Nearby landmark (optional)" [ref=f7e272]:
+                    - /placeholder: Known reference point
+              - button "Voluntarily share device location" [ref=f7e273] [cursor=pointer]
+              - group [ref=f7e277]:
+                - generic "+ Optional callback, with consent" [ref=f7e278] [cursor=pointer]
+              - button "Submit demo report" [disabled] [ref=f7e279]
+          - generic [ref=f7e283]:
+            - generic [ref=f7e288]:
+              - heading "Human review requires operator access" [level=3] [ref=f7e289]
+              - paragraph [ref=f7e290]: Private server session. Reports expire after 30 minutes or server restart. Only your own reports are visible.
+            - generic [ref=f7e291]:
+              - generic [ref=f7e292]: Operator password
+              - textbox "Operator password" [ref=f7e293]:
+                - /placeholder: Local operator password
+              - button "Sign in" [disabled] [ref=f7e294]
+          - generic [ref=f7e295]:
+            - generic [ref=f7e296]:
+              - generic [ref=f7e297]:
+                - text: 02 / HUMAN REVIEW QUEUE
+                - heading "Every report deserves context." [level=3] [ref=f7e298]
+              - paragraph [ref=f7e299]: Urgent first. Incomplete evidence never means a report is discarded.
+              - generic [ref=f7e301]:
+                - paragraph [ref=f7e308]: No reports in your session.
+                - generic [ref=f7e309]: Submit a statement or authenticate to load simulated incidents.
+            - region "Incident geography" [ref=f7e310]:
+              - region "AETHER operational geography" [ref=f7e311]:
+                - generic [ref=f7e312]:
+                  - generic [ref=f7e313]:
+                    - generic [ref=f7e314]: AETHER GEO
+                    - strong [ref=f7e315]: Gurugram, Haryana
+                  - generic [ref=f7e316]: GEOGRAPHIC WORKSPACE
+                - group "Operational map controls" [ref=f7e317]:
+                  - generic [ref=f7e318]:
+                    - text: Overlay
+                    - combobox "Incident map overlay" [ref=f7e319]:
+                      - option "Reports" [selected]
+                      - option "FLOW observations"
+                      - option "AQUA observations"
+                      - option "ROAD observations"
+                  - generic [ref=f7e320] [cursor=pointer]:
+                    - checkbox "Show simulated reports" [ref=f7e321]
+                    - text: Show simulated reports
+                  - group "Basemap mode" [ref=f7e322]:
+                    - button "Roadmap" [disabled] [pressed] [ref=f7e323]
+                    - button "Satellite" [disabled] [ref=f7e324]
+                  - button "Google traffic" [disabled] [ref=f7e325]
+                  - button "My location" [disabled] [ref=f7e326]
+                  - group "Map camera controls" [ref=f7e330]:
+                    - button "Zoom map in" [disabled] [ref=f7e331]
+                    - button "Zoom map out" [disabled] [ref=f7e333]
+                    - button "Reset map camera to Gurugram" [disabled] [ref=f7e335]
+                    - button "Fit visible records" [disabled] [ref=f7e339]
+                - generic [ref=f7e342]:
+                  - region "Google map of Gurugram. Use arrow keys to pan and plus or minus to zoom. Record list provides equivalent selection." [ref=f7e343]
+                  - status [ref=f7e344]:
+                    - heading "Google Maps awaits your key." [level=3] [ref=f7e348]
+                    - paragraph [ref=f7e349]: Real streets and satellite imagery appear after the web map configuration is added.
+                    - paragraph [ref=f7e350]: Observation details and module controls remain available.
+                - generic [ref=f7e351]:
+                  - generic "Severity legend" [ref=f7e352]:
+                    - generic [ref=f7e353]: critical
+                    - generic [ref=f7e355]: elevated
+                    - generic [ref=f7e357]: normal
+                    - generic [ref=f7e359]: Dashed / DEMO = simulated
+                  - paragraph [ref=f7e360]: 0 authorized records · 0 simulated records with coordinates. Basemap availability does not indicate an AETHER data feed.
+                  - paragraph [ref=f7e362]: Caller locations are voluntary and unverified until reviewed. Reports without coordinates remain unplaced in the report list; no address is geocoded automatically. All local RESPONSE reports are simulated.
+          - generic [ref=f7e363]:
+            - text: INBOUND TELEPHONY / NOT CONFIGURED
+            - paragraph [ref=f7e364]: Browser speech depends on your device. Phone events and outgoing handoffs are simulated. GEO routing, live traffic, hazard-aware navigation and organizational dispatch remain future milestones.
+        - generic [ref=f7e365]:
+          - generic [ref=f7e366]: AETHER V2 / INSPECT EACH RECORD’S DATA SOURCE
+          - generic [ref=f7e368]: SYSTEM FOUNDATION / 02.00
+  - alert [ref=f7e369]

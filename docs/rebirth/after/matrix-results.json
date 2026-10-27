@@ -1,0 +1,58 @@
+[
+  {
+    "name": "390-normal",
+    "motionSamples": 13,
+    "transformStates": 6,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "390-reduced",
+    "motionSamples": 52,
+    "transformStates": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "768-normal",
+    "motionSamples": 34,
+    "transformStates": 10,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "768-reduced",
+    "motionSamples": 53,
+    "transformStates": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "1280-normal",
+    "motionSamples": 35,
+    "transformStates": 10,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "1280-reduced",
+    "motionSamples": 56,
+    "transformStates": 1,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "1440-normal",
+    "motionSamples": 35,
+    "transformStates": 10,
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "1440-reduced",
+    "motionSamples": 30,
+    "transformStates": 1,
+    "errors": [],
+    "failed": []
+  }
+]

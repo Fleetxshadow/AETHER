@@ -1,0 +1,5 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=f8e3]:
+    - paragraph [ref=f8e8]: INITIALIZING AETHER

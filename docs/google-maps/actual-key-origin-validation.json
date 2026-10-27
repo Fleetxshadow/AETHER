@@ -1,0 +1,22 @@
+[
+  {
+    "origin": "http://192.168.3.72:3000",
+    "width": 390,
+    "height": 844,
+    "mapErrors": [],
+    "runtimeErrors": 0,
+    "consoleErrors": 0,
+    "state": "ready",
+    "noHorizontalOverflow": true
+  },
+  {
+    "origin": "http://localhost:3000",
+    "width": 768,
+    "height": 1024,
+    "mapErrors": [],
+    "runtimeErrors": 0,
+    "consoleErrors": 0,
+    "state": "ready",
+    "noHorizontalOverflow": true
+  }
+]

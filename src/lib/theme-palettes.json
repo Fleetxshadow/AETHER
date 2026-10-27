@@ -1,0 +1,178 @@
+{
+  "prism": {
+    "name": "AETHER Prism",
+    "subtitle": "Vibrant / magenta, ion blue, sunset gradients",
+    "mode": "dark",
+    "swatches": ["#0B0620", "#FF4FA3", "#3DF5FF", "#FF9F1C", "#B8FF3D"],
+    "background": "#0B0620",
+    "surface": "#170E3A",
+    "text": "#FFF6FD",
+    "muted": "#C9BCEB",
+    "primary": "#FF4FA3",
+    "accentInk": "#FF8FCB",
+    "secondary": "#3DF5FF",
+    "border": "#3F2C80",
+    "onAccent": "#1A0614",
+    "scene": {
+      "background": "#0B0620",
+      "surface": "#1D1247",
+      "text": "#FFF6FD",
+      "muted": "#C9BCEB",
+      "rim": "#FF4FA3"
+    }
+  },
+  "nova": {
+    "name": "AETHER Nova",
+    "subtitle": "Deep space / ion light / violet aurora",
+    "mode": "dark",
+    "swatches": ["#05060D", "#0F1224", "#46E8FF", "#9B7BFF", "#FF8A72"],
+    "background": "#05060D",
+    "surface": "#0F1224",
+    "text": "#EEF3FF",
+    "muted": "#9CA6C8",
+    "primary": "#46E8FF",
+    "accentInk": "#7CF0FF",
+    "secondary": "#9B7BFF",
+    "border": "#2D3460",
+    "onAccent": "#021018",
+    "scene": {
+      "background": "#05060D",
+      "surface": "#121633",
+      "text": "#EEF3FF",
+      "muted": "#9CA6C8",
+      "rim": "#46E8FF"
+    }
+  },
+  "obsidian": {
+    "name": "AETHER Obsidian",
+    "subtitle": "Graphite / amber signal / chartreuse",
+    "mode": "dark",
+    "swatches": ["#0A0B0D", "#16181C", "#F2A93B", "#C6F05C", "#5FC9BC"],
+    "background": "#0A0B0D",
+    "surface": "#16181C",
+    "text": "#ECECE6",
+    "muted": "#A3A69E",
+    "primary": "#F2A93B",
+    "accentInk": "#FFC46B",
+    "secondary": "#C6F05C",
+    "border": "#3A3E44",
+    "onAccent": "#1A1104",
+    "scene": {
+      "background": "#0B0D10",
+      "surface": "#181B20",
+      "text": "#ECECE6",
+      "muted": "#A3A69E",
+      "rim": "#F2A93B"
+    }
+  },
+  "eclipse": {
+    "name": "AETHER Eclipse",
+    "subtitle": "Midnight / aerospace intelligence",
+    "mode": "dark",
+    "swatches": ["#080D13", "#081522", "#12B8A6", "#69E3D1", "#E6B774"],
+    "background": "#080D13",
+    "surface": "#172630",
+    "text": "#F3F8FA",
+    "muted": "#A9BAC4",
+    "primary": "#12B8A6",
+    "accentInk": "#69E3D1",
+    "secondary": "#E6B774",
+    "border": "#49616F",
+    "onAccent": "#041A19",
+    "scene": {
+      "background": "#081522",
+      "surface": "#172630",
+      "text": "#F3F8FA",
+      "muted": "#A9BAC4",
+      "rim": "#69E3D1"
+    }
+  },
+  "original": {
+    "name": "Original",
+    "subtitle": "Olive / amber observatory",
+    "mode": "dark",
+    "swatches": ["#0E1210", "#1B211B", "#FFB347", "#D8ED86", "#E8EBDC"],
+    "background": "#0e1210",
+    "surface": "#1b211b",
+    "text": "#e8ebdc",
+    "muted": "#aab3a0",
+    "primary": "#ffb347",
+    "accentInk": "#ffb347",
+    "secondary": "#d8ed86",
+    "border": "#394033",
+    "onAccent": "#171a13",
+    "scene": {
+      "background": "#101514",
+      "surface": "#1c2b1b",
+      "text": "#e8ebdc",
+      "muted": "#aab3a0",
+      "rim": "#d4c486"
+    }
+  },
+  "aqua": {
+    "name": "Aqua Future",
+    "subtitle": "Cyan atmosphere / mint signals",
+    "mode": "light",
+    "swatches": ["#49C6E5", "#54DEFD", "#FFFBFA", "#00BD9D", "#8BD7D2"],
+    "background": "#FFFBFA",
+    "surface": "#EFFAFC",
+    "text": "#163B46",
+    "muted": "#3F606C",
+    "primary": "#49C6E5",
+    "accentInk": "#086F89",
+    "secondary": "#00BD9D",
+    "border": "#9ECBD3",
+    "onAccent": "#092F3A",
+    "scene": {
+      "background": "#071D27",
+      "surface": "#133641",
+      "text": "#E9FCFF",
+      "muted": "#B0D8DE",
+      "rim": "#54DEFD"
+    }
+  },
+  "spectrum": {
+    "name": "Signal Spectrum",
+    "subtitle": "Graphite control / warm signal",
+    "mode": "dark",
+    "swatches": ["#50514F", "#F25F5C", "#FFE066", "#247BA0", "#70C1B3"],
+    "background": "#202321",
+    "surface": "#353A37",
+    "text": "#FFF5DA",
+    "muted": "#D0D2C8",
+    "primary": "#F25F5C",
+    "accentInk": "#FFE066",
+    "secondary": "#70C1B3",
+    "border": "#737870",
+    "onAccent": "#211713",
+    "scene": {
+      "background": "#151D21",
+      "surface": "#26353A",
+      "text": "#FFF5DA",
+      "muted": "#D0D2C8",
+      "rim": "#FFE066"
+    }
+  },
+  "sage": {
+    "name": "Bio-Tech Sage",
+    "subtitle": "Tea green / environmental intelligence",
+    "mode": "light",
+    "swatches": ["#56A3A6", "#484538", "#CAD49D", "#D4EAC8", "#C0D8E0"],
+    "background": "#D4EAC8",
+    "surface": "#F2F6E9",
+    "text": "#484538",
+    "muted": "#506052",
+    "primary": "#56A3A6",
+    "accentInk": "#27666A",
+    "secondary": "#CAD49D",
+    "border": "#93B0A0",
+    "onAccent": "#10262A",
+    "scene": {
+      "background": "#172722",
+      "surface": "#293C31",
+      "text": "#D4EAC8",
+      "muted": "#C0D8E0",
+      "rim": "#56A3A6"
+    }
+  }
+}

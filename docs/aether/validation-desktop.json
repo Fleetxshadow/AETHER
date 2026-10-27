@@ -1,0 +1,718 @@
+{
+  "matrix": [
+    {
+      "name": "eclipse-1440x900-no-preference",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-no-preference",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-no-preference",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-no-preference",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-no-preference",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "eclipse-1440x900-reduce",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-reduce",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-reduce",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-reduce",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-reduce",
+      "layout": {
+        "copy": {
+          "left": 64.796875,
+          "right": 434.796875,
+          "top": 180,
+          "bottom": 766.125
+        },
+        "dock": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 689,
+          "bottom": 780
+        },
+        "footer": {
+          "left": 64.796875,
+          "right": 1375.203125,
+          "top": 790,
+          "bottom": 876
+        },
+        "scene": {
+          "left": 432,
+          "right": 1396.8125,
+          "top": 162,
+          "bottom": 665
+        },
+        "navBrand": {
+          "left": 49,
+          "right": 270.921875,
+          "top": 30,
+          "bottom": 74
+        },
+        "navActions": {
+          "left": 1007.390625,
+          "right": 1391,
+          "top": 30,
+          "bottom": 74
+        },
+        "wordmarkWidth": 120,
+        "overflow": false,
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)",
+        "targets": [
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          },
+          {
+            "width": 165.203125,
+            "height": 44
+          }
+        ]
+      },
+      "errors": [],
+      "network": []
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "eclipse",
+      "surface": "home",
+      "violations": []
+    },
+    {
+      "theme": "eclipse",
+      "surface": "command",
+      "violations": []
+    },
+    {
+      "theme": "original",
+      "surface": "home",
+      "violations": []
+    },
+    {
+      "theme": "original",
+      "surface": "command",
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "surface": "home",
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "surface": "command",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "surface": "home",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "surface": "command",
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "surface": "home",
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "surface": "command",
+      "violations": []
+    },
+    {
+      "theme": "eclipse",
+      "surface": "response-demo",
+      "violations": []
+    }
+  ],
+  "motion": {
+    "heroTransformChanged": true,
+    "routeTransition": true,
+    "demoCall": true,
+    "video": "aether-motion.webm"
+  },
+  "failures": []
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "t": 109.80000001192093,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 221,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 327.30000001192093,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 440.6000000089407,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 501.80000001192093,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 754.4000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 830.7000000029802,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 913.4000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 962.7000000029802,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1017.8000000119209,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1319.4000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1455,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1502.6000000089407,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1543.7000000029802,
+    "heading": "none",
+    "portal": "none",
+    "projection": "none",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1958.4000000059605,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.247, 98.0293)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 1992.7000000029802,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.252, 109.826)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  },
+  {
+    "t": 2058,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.252, 109.826)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null,
+    "inspection": null,
+    "droneProjection": null
+  }
+]

@@ -1,0 +1,374 @@
+{
+  "legend": [
+    {
+      "name": "original-390x844-normal",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-390x844-reduced",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-768x1024-normal",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-768x1024-reduced",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1280x720-normal",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1280x720-reduced",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-normal",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-reduced",
+      "contrast": {
+        "ratio": 11.889399540483096,
+        "fontPx": 12,
+        "color": "rgb(232, 235, 220)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-390x844-normal",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-390x844-reduced",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-768x1024-normal",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-768x1024-reduced",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1280x720-normal",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1280x720-reduced",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-normal",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-reduced",
+      "contrast": {
+        "ratio": 9.099059505342161,
+        "fontPx": 12,
+        "color": "rgb(233, 252, 255)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-390x844-normal",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-390x844-reduced",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-768x1024-normal",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-768x1024-reduced",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1280x720-normal",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1280x720-reduced",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-normal",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-reduced",
+      "contrast": {
+        "ratio": 11.42784884410953,
+        "fontPx": 12,
+        "color": "rgb(255, 245, 218)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-390x844-normal",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-390x844-reduced",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-768x1024-normal",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-768x1024-reduced",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1280x720-normal",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1280x720-reduced",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-normal",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-reduced",
+      "contrast": {
+        "ratio": 7.142871065494135,
+        "fontPx": 12,
+        "color": "rgb(212, 234, 200)",
+        "text": "SEVERITY / DEMO\nCritical\nElevated\nNormal"
+      },
+      "errors": [],
+      "network": []
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "original",
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "violations": []
+    }
+  ]
+}

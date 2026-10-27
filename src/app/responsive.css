@@ -1,0 +1,1453 @@
+﻿@media (min-width: 1700px) {
+  .hero-content {
+    padding-top: 190px;
+  }
+  .hero-description {
+    font-size: 15px;
+  }
+  .hero-buttons {
+    margin-top: 35px;
+  }
+  .hero h1 {
+    font-size: 160px;
+  }
+}
+@media (max-width: 1200px) {
+  .experience-nav nav {
+    gap: 19px;
+    font-size: 11px;
+  }
+  .nav-actions {
+    gap: 8px;
+  }
+  .hero h1 {
+    font-size: 110px;
+  }
+  .hero-content {
+    padding-top: 155px;
+  }
+  .hero-telemetry {
+    gap: 30px;
+  }
+  .hero-telemetry strong > span {
+    display: none;
+  }
+  .intelligence-strip {
+    gap: 18px;
+    font-size: 15px;
+  }
+  .intelligence-strip > .mono {
+    display: none;
+  }
+  .orbit-layout {
+    gap: 45px;
+  }
+  .orbit-center {
+    width: 155px;
+    height: 155px;
+  }
+  .engineering-info {
+    padding: 30px 24px;
+  }
+  .engineering-info h3 {
+    font-size: 45px;
+  }
+  .technology-list > div > .mono {
+    display: none;
+  }
+  .team-chapter {
+    gap: 65px;
+  }
+  .command-topbar {
+    padding: 0 24px;
+    gap: 15px;
+  }
+  .topbar-actions {
+    gap: 7px;
+  }
+  .topbar-actions > .demo-badge {
+    display: none;
+  }
+  .global-search {
+    width: 275px;
+  }
+  .command-main {
+    padding: 26px 24px 0;
+  }
+  .metric-strip > div {
+    padding: 17px 15px;
+  }
+  .metric-strip strong {
+    font-size: 38px;
+    gap: 6px;
+  }
+  .metric-strip strong small.amber {
+    display: none;
+  }
+  .city-controls.compact {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .city-controls.compact .city-camera-controls {
+    align-self: flex-end;
+  }
+  .command-lower {
+    grid-template-columns: 1.4fr 1fr;
+  }
+  .observation-row {
+    padding: 14px 13px;
+    gap: 10px;
+  }
+  .observation-row small > span {
+    display: none;
+  }
+  .insight-summary > h3 {
+    font-size: 30px;
+  }
+  .module-two-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .module-workspace {
+    padding: 20px;
+  }
+  .module-controlbar > div {
+    gap: 10px;
+  }
+  .module-controlbar select {
+    max-width: 170px;
+    font-size: 10px;
+  }
+  .quality-options {
+    gap: 10px;
+  }
+  .quality-options > button {
+    padding: 17px 12px;
+  }
+  .quality-options > button > svg {
+    top: 7px;
+    right: 7px;
+    width: 12px;
+  }
+  .report-actions {
+    flex-wrap: wrap;
+  }
+  .core-workspace {
+    padding: 30px;
+  }
+  .core-sources > button > span:not(.mono) {
+    display: none;
+  }
+  .focus-bar .snapshot-label {
+    display: none;
+  }
+  .module-controlbar .segmented button {
+    font-size: 10px;
+    padding: 9px 11px;
+  }
+}
+@media (max-width: 960px) {
+  .experience-nav {
+    padding: 0 25px;
+    height: 78px;
+  }
+  .experience-nav nav {
+    display: none;
+  }
+  .experience-nav nav.open {
+    display: flex;
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+    padding: 20px 28px;
+    background: var(--nxs-surface-1d2719);
+    border-bottom: 1px solid var(--nxs-border-506143);
+    flex-direction: column;
+    gap: 8px;
+  }
+  .mobile-menu {
+    display: inline-flex;
+  }
+  .hero-content {
+    padding-left: 30px;
+    width: 70%;
+  }
+  .hero h1 {
+    font-size: 106px;
+  }
+  .hero-coordinate {
+    right: 30px;
+  }
+  .hero-bottom {
+    left: 30px;
+    right: 30px;
+  }
+  .hero-telemetry {
+    gap: 35px;
+  }
+  .intro-status > .mono {
+    display: none;
+  }
+  .hero-scene-label {
+    right: 6%;
+    bottom: 180px;
+  }
+  .section-pad {
+    padding: 80px 30px;
+  }
+  .manifesto {
+    gap: 50px;
+    grid-template-columns: 1.4fr 1fr;
+  }
+  .manifesto h2 {
+    font-size: 60px;
+  }
+  .manifesto-copy > p:first-of-type {
+    font-size: 14px;
+  }
+  .orbit-layout {
+    gap: 35px;
+  }
+  .orbit-copy h2 {
+    font-size: 63px;
+  }
+  .orbit-node {
+    width: 49px;
+    height: 49px;
+  }
+  .orbit-node > span {
+    font-size: 7px;
+  }
+  .orbit-center {
+    width: 130px;
+    height: 130px;
+  }
+  .orbit-center > strong {
+    font-size: 29px;
+  }
+  .orbit-center > svg {
+    width: 28px;
+  }
+  .orbit-center > small {
+    font-size: 5px;
+  }
+  .intelligence-chapter {
+    gap: 45px;
+  }
+  .signal-graphic {
+    height: 390px;
+  }
+  .intelligence-copy h2 {
+    font-size: 61px;
+  }
+  .pipeline > div {
+    grid-template-columns: 25px 72px 1fr;
+    gap: 10px;
+  }
+  .pipeline p {
+    font-size: 10px;
+  }
+  .engineering-explorer {
+    grid-template-columns: 1.4fr 1fr;
+  }
+  .engineering-stage {
+    height: 550px;
+  }
+  .stage-topline {
+    left: 15px;
+    right: 15px;
+    gap: 10px;
+  }
+  .stage-topline .tag {
+    display: none;
+  }
+  .part-list button {
+    font-size: 10px;
+    gap: 9px;
+  }
+  .mission-bottom {
+    gap: 30px;
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+  .mission-bottom > p {
+    grid-column: 1/-1;
+    max-width: 550px;
+  }
+  .team-chapter {
+    gap: 40px;
+  }
+  .team-chapter h2 {
+    font-size: 62px;
+  }
+  .enter-copy {
+    right: 35px;
+    bottom: 125px;
+  }
+  .enter-chapter h2 {
+    font-size: 150px;
+  }
+  .experience-footer {
+    padding: 28px 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .experience-footer > .mono {
+    display: none;
+  }
+  .command-sidebar {
+    width: 200px;
+  }
+  .sidebar-brand {
+    padding: 0 19px;
+  }
+  .sidebar-heading {
+    padding-left: 21px;
+  }
+  .sidebar-bottom {
+    padding-left: 21px;
+  }
+  .command-body {
+    margin-left: 200px;
+  }
+  .command-main {
+    padding: 24px 20px 0;
+  }
+  .command-topbar {
+    padding: 0 20px;
+  }
+  .command-breadcrumb > span,
+  .command-breadcrumb > svg {
+    display: none;
+  }
+  .global-search {
+    width: 230px;
+  }
+  .topbar-actions > .sound-button {
+    display: none;
+  }
+  .workspace-heading {
+    gap: 10px;
+  }
+  .workspace-context {
+    min-width: 160px;
+  }
+  .workspace-context > .mono {
+    font-size: 7px;
+  }
+  .workspace-heading h1 {
+    font-size: 29px;
+  }
+  .metric-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .metric-strip > div:nth-child(2) {
+    border-right: 0;
+  }
+  .metric-strip > div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+  .command-map-stage {
+    height: 470px;
+  }
+  .map-caption {
+    max-width: 220px;
+  }
+  .map-caption-sub {
+    font-size: 8px;
+  }
+  .map-layers {
+    width: 155px;
+    padding: 10px;
+    left: 15px;
+    top: 17px;
+  }
+  .map-layers button {
+    font-size: 9px;
+  }
+  .map-districts > span:last-child {
+    display: none;
+  }
+  .command-lower {
+    grid-template-columns: 1fr;
+  }
+  .analytics-grid {
+    gap: 14px;
+  }
+  .chart {
+    padding: 15px;
+  }
+  .chart-head > strong {
+    font-size: 27px;
+  }
+  .mission-workspace {
+    grid-template-columns: 1fr;
+  }
+  .module-two-columns {
+    grid-template-columns: 1fr;
+  }
+  .module-map,
+  .thermal-workspace .module-map {
+    height: 350px;
+  }
+  .module-controlbar .text-button {
+    font-size: 9px;
+  }
+  .module-controlbar {
+    gap: 12px;
+  }
+  .module-workspace .sensor-strip strong {
+    font-size: 28px;
+  }
+  .module-workspace .sensor-strip > div {
+    padding: 16px 12px;
+  }
+  .thermal-reading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .thermal-reading > svg {
+    display: none;
+  }
+  .thermal-reading .eyebrow {
+    width: 100%;
+  }
+  .thermal-reading strong {
+    font-size: 55px;
+    margin: 0;
+  }
+  .thermal-reading p {
+    margin-left: auto;
+    text-align: right;
+  }
+  .sky-workspace .engineering-explorer {
+    grid-template-columns: 1fr;
+  }
+  .sky-workspace .engineering-info {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+  .sky-workspace .engineering-info h3 {
+    font-size: 37px;
+  }
+  .sky-workspace .part-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+  }
+  .sky-recording {
+    grid-template-columns: 1fr;
+  }
+  .sensor-strip strong {
+    font-size: 27px;
+  }
+  .sensor-strip > div {
+    padding: 16px 12px;
+  }
+  .sensor-strip .eyebrow {
+    font-size: 7px;
+  }
+  .core-workspace {
+    padding: 26px;
+  }
+  .core-intro h2 {
+    font-size: 56px;
+  }
+  .core-prompt-chips {
+    grid-template-columns: 1fr;
+  }
+  .report-hero {
+    gap: 20px;
+  }
+  .report-hero h2 {
+    font-size: 47px;
+  }
+  .report-symbol {
+    width: 90px;
+    height: 110px;
+  }
+  .report-symbol svg {
+    width: 38px;
+  }
+  .reports-workspace {
+    padding: 24px;
+  }
+  .quality-options {
+    grid-template-columns: 1fr 1fr;
+  }
+  .settings-workspace > section {
+    padding: 25px;
+  }
+  .settings-workspace h2 {
+    font-size: 44px;
+  }
+  .core-answer {
+    padding: 19px;
+  }
+  .observation-detail {
+    width: 345px;
+    right: 12px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    scroll-padding-top: 76px;
+  }
+  .experience-nav {
+    padding: 0 20px;
+    height: 74px;
+  }
+  .experience-nav .brand {
+    font-size: 20px;
+    gap: 8px;
+  }
+  .experience-nav .brand > svg {
+    width: 25px;
+  }
+  .experience-nav .brand-version {
+    font-size: 7px;
+    padding: 3px;
+  }
+  .experience-nav nav.open {
+    top: 74px;
+  }
+  .nav-actions {
+    gap: 4px;
+  }
+  .nav-command {
+    font-size: 9px;
+    padding: 9px 10px;
+    gap: 9px;
+  }
+  .nav-command svg {
+    width: 13px;
+  }
+  .nav-actions .sound-button {
+    display: none;
+  }
+  .hero {
+    height: 980px;
+    min-height: 980px;
+    max-height: none;
+  }
+  .hero-content {
+    padding: 124px 22px 0;
+    width: 100%;
+    max-width: none;
+  }
+  .hero h1 {
+    font-size: clamp(79px, 15.8vw, 117px);
+    line-height: 0.93;
+  }
+  .hero-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    margin-bottom: 23px;
+  }
+  .hero-description {
+    font-size: 12px;
+    margin-top: 21px;
+    line-height: 1.9;
+    max-width: 330px;
+  }
+  .desktop-break {
+    display: none;
+  }
+  .hero-buttons {
+    margin-top: 22px;
+    gap: 9px;
+  }
+  .hero-buttons .button {
+    font-size: 10px;
+    padding: 13px 15px;
+    gap: 10px;
+    min-height: 43px;
+  }
+  .hero-presentation {
+    font-size: 10px;
+    margin-top: 18px;
+  }
+  .hero-presentation .mono {
+    font-size: 8px;
+  }
+  .hero-city {
+    inset: 405px -105px 75px -150px;
+    opacity: 0.9;
+  }
+  .hero-vignette {
+    background: linear-gradient(
+      180deg,
+      var(--nxs-surface-101310),
+      var(--nxs-surface-101310ee) 41%,
+      var(--nxs-surface-10131000) 56%,
+      var(--nxs-surface-10131000) 74%,
+      var(--nxs-surface-101310) 92%
+    );
+  }
+  .hero-coordinate,
+  .hero-scene-label {
+    display: none;
+  }
+  .hero-bottom {
+    left: 22px;
+    right: 22px;
+    bottom: 26px;
+    display: block;
+    padding-top: 18px;
+  }
+  .hero-telemetry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .hero-telemetry .mono {
+    font-size: 6px;
+    letter-spacing: 0.03em;
+  }
+  .hero-telemetry strong {
+    font-size: 29px;
+  }
+  .intro-status {
+    justify-content: space-between;
+    margin-top: 19px;
+    border-top: 1px solid var(--nxs-border-3b4730);
+    padding-top: 14px;
+  }
+  .intro-status > .mono {
+    display: block;
+    font-size: 7px;
+  }
+  .intro-status .text-button {
+    font-size: 9px;
+  }
+  .intelligence-strip {
+    height: 60px;
+    justify-content: flex-start;
+    padding: 0 22px;
+    gap: 20px;
+  }
+  .section-pad {
+    padding: 68px 22px;
+  }
+  .section-label {
+    font-size: 9px;
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+  .section-label > span {
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 57px;
+  }
+  .manifesto {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .manifesto h2 {
+    font-size: 58px;
+  }
+  .manifesto-copy {
+    padding-top: 0;
+    justify-self: start;
+    max-width: 100%;
+  }
+  .large-plus {
+    font-size: 33px;
+  }
+  .manifesto-copy > p:first-of-type {
+    font-size: 15px;
+  }
+  .manifesto-copy > p {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .chapter-heading {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .chapter-heading .section-description {
+    margin-top: 24px;
+    font-size: 12px;
+    max-width: none;
+  }
+  .city-explorer {
+    height: 540px;
+  }
+  .city-topline {
+    left: 16px;
+    right: 16px;
+    top: 17px;
+    gap: 10px;
+  }
+  .city-topline > .mono {
+    font-size: 7px;
+  }
+  .city-topline .tag {
+    font-size: 6px;
+  }
+  .city-controls {
+    left: 14px;
+    right: 14px;
+    bottom: 65px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .city-layer-controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 3px;
+    gap: 3px;
+  }
+  .city-layer-controls button {
+    font-size: 9px;
+    padding: 9px 10px;
+    justify-content: flex-start;
+  }
+  .city-camera-controls {
+    align-self: flex-end;
+  }
+  .city-camera-controls select {
+    font-size: 9px;
+  }
+  .city-explorer-bottom {
+    padding: 0 16px;
+  }
+  .city-explorer-bottom > .mono {
+    font-size: 6px;
+    max-width: 115px;
+    line-height: 1.7;
+  }
+  .city-explorer-bottom .text-button {
+    font-size: 9px;
+    gap: 7px;
+  }
+  .scene-marker {
+    font-size: 7px;
+    padding: 5px;
+  }
+  .landmark-label {
+    font-size: 6px;
+  }
+  .building-detail {
+    right: 0;
+    bottom: 116px;
+    width: 255px;
+    padding: 14px;
+  }
+  .orbit-layout {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+  .orbit-copy h2 {
+    font-size: 58px;
+  }
+  .orbit-copy > .section-description {
+    font-size: 12px;
+    margin-top: 22px;
+  }
+  .orbit-module-copy {
+    max-width: none;
+    margin-top: 26px;
+    min-height: 195px;
+  }
+  .orbit-module-copy h3 {
+    font-size: 37px;
+  }
+  .orbit-visual {
+    max-width: 450px;
+    margin: 0 auto 25px;
+  }
+  .orbit-node {
+    width: 49px;
+    height: 49px;
+  }
+  .orbit-node > span {
+    font-size: 7px;
+    top: calc(100% + 8px);
+  }
+  .orbit-center {
+    width: 140px;
+    height: 140px;
+  }
+  .orbit-center > strong {
+    font-size: 31px;
+  }
+  .orbit-coordinate {
+    font-size: 6px;
+    bottom: -28px;
+  }
+  .intelligence-chapter {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .intelligence-copy {
+    order: 0;
+  }
+  .signal-graphic {
+    order: 1;
+    height: 350px;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+  }
+  .intelligence-copy h2 {
+    font-size: 58px;
+  }
+  .intelligence-copy .section-description {
+    font-size: 12px;
+  }
+  .pipeline > div {
+    grid-template-columns: 25px 80px 1fr;
+  }
+  .pipeline p {
+    font-size: 10px;
+  }
+  .engineering-explorer {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .engineering-stage {
+    height: 410px;
+  }
+  .engineering-info {
+    border-left: none;
+    border-top: 1px solid var(--nxs-border-454d3b);
+    padding: 28px 24px;
+  }
+  .engineering-info h3 {
+    font-size: 47px;
+  }
+  .part-list button {
+    font-size: 11px;
+    padding: 13px 0;
+  }
+  .part-detail {
+    min-height: 0;
+    margin-top: 24px;
+  }
+  .stage-topline .mono {
+    font-size: 7px;
+  }
+  .assembly-switch.segmented button {
+    font-size: 9px;
+    padding: 9px 11px;
+  }
+  .mission-chapter {
+    padding: 58px 22px;
+  }
+  .mission-chapter h2 {
+    font-size: clamp(46px, 9.4vw, 65px);
+    line-height: 1.05;
+  }
+  .mission-bottom {
+    margin-top: 33px;
+    padding-top: 28px;
+    gap: 27px 15px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mission-bottom > p {
+    font-size: 11px;
+  }
+  .mission-stat strong {
+    font-size: 49px;
+  }
+  .mission-stat span {
+    font-size: 9px;
+    line-height: 1.6;
+    margin-top: 8px;
+  }
+  .team-chapter {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .team-chapter h2 {
+    font-size: 58px;
+  }
+  .technology-list > div {
+    padding: 17px 0;
+  }
+  .technology-list > div > span:first-child {
+    font-size: 12px;
+  }
+  .enter-chapter {
+    padding-top: 64px;
+    padding-bottom: 265px;
+    min-height: 660px;
+  }
+  .enter-chapter .section-label {
+    font-size: 8px;
+  }
+  .enter-chapter h2 {
+    font-size: 128px;
+    line-height: 0.84;
+    margin-top: 30px;
+  }
+  .enter-copy {
+    left: 22px;
+    right: 22px;
+    bottom: 93px;
+    gap: 15px;
+  }
+  .enter-copy > p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .enter-copy > .button {
+    font-size: 11px;
+    min-height: 45px;
+  }
+  .enter-caption {
+    bottom: 32px;
+    left: 22px;
+    font-size: 7px;
+    letter-spacing: 0.06em;
+  }
+  .experience-footer {
+    padding: 26px 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 19px 15px;
+    font-size: 8px;
+  }
+  .experience-footer > .brand {
+    font-size: 17px;
+  }
+  .experience-footer > span:not(.mono) {
+    line-height: 1.8;
+    text-align: right;
+  }
+  .experience-footer > .text-button {
+    font-size: 9px;
+    grid-column: 1/-1;
+    justify-self: end;
+  }
+  .presentation-top {
+    left: 20px;
+    right: 20px;
+    top: 22px;
+  }
+  .presentation-top > .brand {
+    font-size: 19px;
+  }
+  .presentation-top > .mono {
+    display: none;
+  }
+  .presentation-copy {
+    left: 22px;
+    right: 22px;
+    bottom: 135px;
+  }
+  .presentation-copy > h2 {
+    font-size: 60px;
+  }
+  .presentation-copy > p:last-child {
+    font-size: 12px;
+  }
+  .presentation-controls {
+    left: 22px;
+    right: 22px;
+    bottom: 35px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .presentation-controls > .button {
+    padding: 10px 13px;
+    min-height: 40px;
+    font-size: 10px;
+  }
+  .chapter-dots {
+    gap: 7px;
+    margin-left: 0;
+  }
+  .chapter-dots > button {
+    width: 18px;
+    height: 5px;
+  }
+  .command-sidebar {
+    width: 235px !important;
+    transform: translateX(-100%);
+    transition: transform 0.25s;
+    z-index: 100;
+  }
+  .command-sidebar.open {
+    transform: translateX(0);
+  }
+  .command-body,
+  .sidebar-collapsed .command-body {
+    margin-left: 0;
+  }
+  .sidebar-collapse {
+    display: none;
+  }
+  .sidebar-mobile-close,
+  .sidebar-mobile-open {
+    display: inline-flex;
+  }
+  .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    display: block;
+    border: none;
+    background: var(--nxs-surface-040904b0);
+    z-index: 90;
+    backdrop-filter: blur(4px);
+  }
+  .command-topbar {
+    height: 68px;
+    padding: 0 15px;
+    gap: 10px;
+  }
+  .command-breadcrumb {
+    font-size: 8px;
+    min-width: 46px;
+  }
+  .global-search {
+    width: auto;
+    flex: 1;
+    min-width: 0;
+    gap: 7px;
+    padding: 8px;
+    margin-left: 0;
+  }
+  .global-search input {
+    font-size: 9px;
+  }
+  .global-search .shortcut {
+    display: none;
+  }
+  .global-search svg {
+    width: 12px;
+  }
+  .topbar-actions {
+    gap: 3px;
+  }
+  .avatar {
+    width: 26px;
+    height: 26px;
+    font-size: 8px;
+  }
+  .command-main {
+    padding: 23px 17px 0;
+  }
+  .workspace-heading {
+    display: block;
+    margin-bottom: 23px;
+  }
+  .workspace-heading h1 {
+    font-size: 28px;
+  }
+  .workspace-heading > div > p:last-child:not(.eyebrow) {
+    font-size: 10px;
+  }
+  .workspace-context {
+    margin-top: 17px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 0;
+    border-top: 1px solid var(--nxs-border-3d533040);
+    min-width: 0;
+  }
+  .workspace-context > .mono {
+    font-size: 6px;
+    letter-spacing: 0;
+  }
+  .workspace-context > .mono:last-child {
+    display: none;
+  }
+  .workspace-context > strong {
+    font-size: 10px;
+  }
+  .metric-strip > div {
+    padding: 17px 14px;
+  }
+  .metric-strip > div > span {
+    font-size: 9px;
+  }
+  .metric-strip strong {
+    font-size: 35px;
+  }
+  .metric-strip strong small {
+    font-size: 8px;
+  }
+  .metric-strip p {
+    font-size: 7px;
+    line-height: 1.7;
+    max-width: 130px;
+  }
+  .focus-bar {
+    margin: 20px 0 14px;
+  }
+  .focus-bar .segmented {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .focus-bar .segmented button {
+    font-size: 9px;
+    padding: 9px 10px;
+    gap: 6px;
+  }
+  .mode-word {
+    display: none;
+  }
+  .command-map-stage {
+    height: 455px;
+  }
+  .map-layers {
+    width: 145px;
+    left: 12px;
+    top: 15px;
+    padding: 9px;
+  }
+  .map-layers > button {
+    font-size: 8px;
+    padding: 9px 5px;
+    gap: 8px;
+  }
+  .map-caption {
+    right: 13px;
+    top: 19px;
+    max-width: 146px;
+    font-size: 6px;
+    gap: 5px;
+    line-height: 1.8;
+  }
+  .map-caption-sub {
+    font-size: 7px;
+  }
+  .map-districts {
+    padding-left: 35px;
+    padding-top: 145px;
+  }
+  .map-districts > span {
+    font-size: 6px;
+  }
+  .map-summary {
+    padding: 0 12px;
+    gap: 6px;
+  }
+  .map-summary > .mono {
+    font-size: 6px;
+  }
+  .map-summary > .text-button {
+    font-size: 8px;
+    gap: 5px;
+  }
+  .time-machine {
+    padding: 19px 0;
+    margin-bottom: 20px;
+  }
+  .time-title > .eyebrow {
+    font-size: 7px;
+  }
+  .time-title > .mono {
+    font-size: 6px;
+  }
+  .time-track {
+    gap: 10px;
+  }
+  .time-track > .icon-button {
+    width: 23px;
+    height: 23px;
+  }
+  .time-ticks {
+    gap: 4px;
+  }
+  .time-ticks > button {
+    font-size: 6px;
+    white-space: nowrap;
+  }
+  .panel-heading {
+    padding: 16px 15px;
+  }
+  .panel-heading h3 {
+    font-size: 11px;
+  }
+  .observation-row {
+    padding: 15px 12px;
+    gap: 9px;
+  }
+  .observation-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .observation-row strong {
+    font-size: 10px;
+  }
+  .observation-row small {
+    font-size: 8px;
+  }
+  .observation-time {
+    font-size: 8px;
+  }
+  .observation-time small {
+    font-size: 6px;
+  }
+  .insight-summary > h3 {
+    font-size: 32px;
+  }
+  .observation-detail {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    top: auto;
+    width: auto;
+    max-height: 82dvh;
+    border-radius: 8px;
+    padding: 22px;
+  }
+  .command-twin .city-controls.compact {
+    bottom: 24px;
+    left: 12px;
+    right: 12px;
+  }
+  .analytics-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .mission-workspace {
+    padding: 23px;
+    gap: 25px;
+  }
+  .mission-workspace h2 {
+    font-size: 51px;
+  }
+  .module-workspace {
+    padding: 17px;
+  }
+  .module-two-columns {
+    gap: 24px;
+  }
+  .sensor-strip > div,
+  .module-workspace .sensor-strip > div {
+    padding: 16px 10px;
+  }
+  .sensor-strip .eyebrow {
+    font-size: 6px;
+    letter-spacing: 0.03em;
+  }
+  .sensor-strip strong,
+  .module-workspace .sensor-strip strong {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+  .sensor-strip small {
+    font-size: 7px;
+    line-height: 1.7;
+  }
+  .sky-workspace .engineering-stage {
+    height: 370px;
+  }
+  .sky-workspace .engineering-info {
+    padding: 23px;
+  }
+  .sky-workspace .part-list {
+    grid-template-columns: 1fr;
+  }
+  .sky-workspace .part-list button {
+    font-size: 10px;
+  }
+  .sky-recording {
+    padding: 19px;
+    gap: 20px;
+  }
+  .module-controlbar {
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  .module-controlbar label {
+    font-size: 7px;
+  }
+  .module-controlbar .button {
+    min-height: 35px;
+    font-size: 9px;
+  }
+  .module-controlbar select {
+    font-size: 9px;
+    padding: 9px;
+  }
+  .module-map {
+    height: 335px;
+  }
+  .module-controlbar .segmented {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .module-controlbar .segmented button {
+    font-size: 9px;
+    padding: 9px 11px;
+  }
+  .chart {
+    padding: 17px;
+  }
+  .chart-head > span {
+    font-size: 10px;
+  }
+  .chart-head > strong {
+    font-size: 28px;
+  }
+  .chart-times > button {
+    font-size: 7px;
+    padding: 4px;
+  }
+  .road-comparison .evidence-frame {
+    height: 245px;
+  }
+  .comparison-label {
+    font-size: 6px;
+    bottom: 39px;
+    padding: 4px 5px;
+  }
+  .comparison-control {
+    font-size: 9px;
+  }
+  .core-workspace {
+    padding: 25px 17px;
+  }
+  .core-intro h2 {
+    font-size: 56px;
+  }
+  .core-intro > p:last-child {
+    font-size: 10px;
+  }
+  .core-prompt-chips > button {
+    font-size: 9px;
+    padding: 12px;
+  }
+  .core-form {
+    gap: 7px;
+  }
+  .core-form > input {
+    padding: 8px;
+    font-size: 9px;
+  }
+  .core-form > .button {
+    width: 35px;
+    min-height: 36px;
+  }
+  .core-answer {
+    padding: 18px 14px;
+  }
+  .core-answer-heading {
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .core-answer-heading .eyebrow {
+    font-size: 6px;
+  }
+  .core-answer > h3 {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .core-answer > p {
+    font-size: 10px;
+  }
+  .core-sources > button {
+    gap: 9px;
+  }
+  .core-sources > button > strong {
+    font-size: 9px;
+    flex: 1;
+  }
+  .reports-workspace {
+    padding: 23px 17px;
+  }
+  .report-hero {
+    display: block;
+  }
+  .report-symbol {
+    width: 75px;
+    height: 80px;
+    margin-bottom: 25px;
+  }
+  .report-symbol > svg {
+    width: 29px;
+  }
+  .report-hero h2 {
+    font-size: 45px;
+  }
+  .report-actions {
+    width: 100%;
+    gap: 9px;
+  }
+  .report-actions .button {
+    font-size: 8px;
+    padding: 10px;
+    min-height: 35px;
+    gap: 7px;
+  }
+  .settings-workspace > section {
+    padding: 23px 18px;
+  }
+  .settings-workspace h2 {
+    font-size: 43px;
+  }
+  .quality-options > button > span {
+    font-size: 11px;
+  }
+  .quality-options > button > small {
+    font-size: 8px;
+  }
+  .setting-row {
+    gap: 20px;
+    padding: 23px 0;
+  }
+  .setting-row h3 {
+    font-size: 12px;
+  }
+  .setting-row p {
+    font-size: 10px;
+  }
+  .settings-workspace .setting-row:has(.button) {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .button:hover {
+    transform: none;
+  }
+}
+[data-motion='off'] *,
+[data-motion='off'] *:before,
+[data-motion='off'] *:after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+[data-motion='off'] {
+  scroll-behavior: auto;
+}
+@media (max-width: 700px) {
+  .command-sidebar nav > a {
+    font-size: 12px;
+  }
+  .observation-row strong {
+    font-size: 11px;
+  }
+  .observation-row small {
+    font-size: 9px;
+  }
+  .workspace-heading > div > p:last-child:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .insight-summary > p:not(.eyebrow) {
+    font-size: 11px;
+  }
+}

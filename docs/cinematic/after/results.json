@@ -1,0 +1,410 @@
+[
+  {
+    "name": "390x844-normal",
+    "headingStates": 4,
+    "cityFrameStates": 6,
+    "cameraProjectionStates": 9,
+    "routeShutterStates": 5,
+    "moduleSelectionStates": 10,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "2x2 / >=44px"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 184.8663787841797,
+          "y": 694.6205444335938,
+          "width": 101.21876525878906,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 179.7010955810547,
+          "y": 725.7357177734375,
+          "width": 121.01564025878906,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 174.49310302734375,
+          "y": 783.069091796875,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 3,
+      "droneStates": 20
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "390x844-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "moduleSelectionStates": 1,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "2x2 / >=44px"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 184.84817504882812,
+          "y": 694.613037109375,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 179.68145751953125,
+          "y": 725.716552734375,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 174.48182678222656,
+          "y": 783.0577392578125,
+          "width": 94.62498474121094,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 3
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-normal",
+    "headingStates": 5,
+    "cityFrameStates": 9,
+    "cameraProjectionStates": 8,
+    "routeShutterStates": 7,
+    "moduleSelectionStates": 12,
+    "commandProof": {
+      "chartStates": 3,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 443.6364440917969,
+          "y": 734.9649047851562,
+          "width": 101.21878051757812,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 440.28753662109375,
+          "y": 781.7838134765625,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 424.8478698730469,
+          "y": 864.7532958984375,
+          "width": 94.62503051757812,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 3,
+      "droneStates": 10
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 1,
+    "moduleSelectionStates": 1,
+    "commandProof": {
+      "chartStates": 1,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 443.611572265625,
+          "y": 734.9652099609375,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 440.26165771484375,
+          "y": 781.7557373046875,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 424.8331298828125,
+          "y": 864.74072265625,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 3
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-normal",
+    "headingStates": 5,
+    "cityFrameStates": 9,
+    "cameraProjectionStates": 8,
+    "routeShutterStates": 10,
+    "moduleSelectionStates": 14,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 597.0185546875,
+          "y": 434.0382080078125,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 594.5504760742188,
+          "y": 487.13055419921875,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 575.26123046875,
+          "y": 581.2593994140625,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 11
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "moduleSelectionStates": 1,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 596.976806640625,
+          "y": 434.03582763671875,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 594.5057983398438,
+          "y": 487.1064147949219,
+          "width": 121.015625,
+          "height": 44.000030517578125,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 575.2354736328125,
+          "y": 581.2291870117188,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 4
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-normal",
+    "headingStates": 4,
+    "cityFrameStates": 6,
+    "cameraProjectionStates": 6,
+    "routeShutterStates": 10,
+    "moduleSelectionStates": 9,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 649.120849609375,
+          "y": 266.38702392578125,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 646.6607666015625,
+          "y": 319.5018310546875,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 627.318115234375,
+          "y": 413.6329040527344,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 4
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "moduleSelectionStates": 1,
+    "commandProof": {
+      "chartStates": 2,
+      "chartCursor": {
+        "before": 287.5,
+        "after": 25
+      },
+      "observationDetails": "metadata / evidence / replay / Escape and marker focus restored",
+      "mapLayers": "44px targets"
+    },
+    "engineeringProof": {
+      "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+      "callouts": [
+        {
+          "text": "03 / BATTERY",
+          "x": 648.976806640625,
+          "y": 784.3014526367188,
+          "width": 101.21875,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "05 / CONTROLLER",
+          "x": 646.5057983398438,
+          "y": 837.3720703125,
+          "width": 121.015625,
+          "height": 44,
+          "font": 11
+        },
+        {
+          "text": "04 / CAMERA",
+          "x": 627.2354736328125,
+          "y": 931.4948120117188,
+          "width": 94.625,
+          "height": 44,
+          "font": 11
+        }
+      ],
+      "inspectionStates": 1,
+      "droneStates": 4
+    },
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  }
+]
