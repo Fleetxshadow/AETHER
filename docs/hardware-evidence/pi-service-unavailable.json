@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "device_id": "nexus-local-gateway",
+  "device_type": "gateway",
+  "timestamp": "2026-10-27T06:05:34.136906Z",
+  "source": "STALE",
+  "upstream_connected": false,
+  "upstream_age_seconds": 6.884,
+  "devices": [],
+  "telemetry": [],
+  "cameraStatus": [],
+  "aiDetections": [],
+  "observations": [],
+  "incidents": []
+}

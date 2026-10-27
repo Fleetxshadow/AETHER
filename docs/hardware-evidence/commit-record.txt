@@ -1,0 +1,7 @@
+Branch: hardware/aether-link
+
+d268441b48a7742014a823d4cea1c53275573ea8 Implement read-only Pi device agent and local AETHER hardware gateway
+eefa60326dd272aa4c463adc5a15b9fa96372034 Record hardware audit and preserve existing firmware baseline
+
+Code was authored in /home/nexus/nexus-sky on the Pi; desktop snapshot hashes verified in pi-source-manifest.json.
+This record is committed separately after the implementation commit; use git log for its own hash. No pushes performed.

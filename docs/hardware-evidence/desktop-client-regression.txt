@@ -1,0 +1,15 @@
+test_atomic_replace (test_client.ClientTests.test_atomic_replace) ... ok
+test_bad_header (test_client.ClientTests.test_bad_header) ... ok
+test_bad_jpeg (test_client.ClientTests.test_bad_jpeg) ... ok
+test_frames (test_client.ClientTests.test_frames) ... ok
+test_health (test_client.ClientTests.test_health) ... ok
+test_host_validation (test_client.ClientTests.test_host_validation) ... ok
+test_html_rejected (test_client.ClientTests.test_html_rejected) ... ok
+test_http_transport (test_client.ClientTests.test_http_transport) ... ok
+test_oversized (test_client.ClientTests.test_oversized) ... ok
+test_truncated (test_client.ClientTests.test_truncated) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.566s
+
+OK
