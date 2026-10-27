@@ -1,0 +1,13 @@
+Aether Link repository location — 27 October 2026
+
+Repository: https://github.com/Fleetxshadow/AETHER
+Branch: hardware/aether-link
+Branch URL: https://github.com/Fleetxshadow/AETHER/tree/hardware/aether-link
+Hardware prefix: hardware/nexus-sky/
+AETHER base: feature/nexus-ai-integration at b64884bfa7324a1dd974be42c08914c2fc533895
+Hardware import commit: 7e9dfab2f9a7f57136bb00a78047a1d059893d27
+Original hardware source snapshot: bbb0693 in /home/blu/Projects/nexus-sky
+
+All 45 committed hardware files were imported with identical Git tree content. Existing AETHER files were not changed. No runtime tokens, weights, datasets or unrelated untracked files were imported. The website checkout remains on feature/nexus-ai-integration.
+
+The branch uses the same AETHER origin. Local branch worktree: /home/blu/Projects/nexus-sky/.tools/aether-link-worktree. Pi authoritative code stays in /home/nexus/nexus-sky; no Pi files were moved by this repository operation. No pull request or merge was performed.
