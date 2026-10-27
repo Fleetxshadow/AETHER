@@ -27,9 +27,8 @@ cleanup() {
   if [ -n "${PY_PID:-}" ]; then
     kill "$PY_PID" 2>/dev/null || true
   fi
-  exit 0
 }
-trap cleanup SIGINT SIGTERM EXIT
+trap cleanup SIGINT SIGTERM
 
 # Free port 8000 if already bound
 if lsof -Pi :8000 -sTCP:LISTEN -t >/dev/null 2>&1; then
@@ -63,4 +62,5 @@ fi
 echo "[2/2] Starting AETHER CITY Next.js Web on http://localhost:3000..."
 cd "$AETHER_ROOT"
 export NEXUS_BACKEND_URL="http://127.0.0.1:8000"
-exec npm run dev
+npm run dev
+cleanup
