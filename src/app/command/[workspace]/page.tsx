@@ -10,7 +10,9 @@ export async function generateMetadata({ params }: { params: Promise<{ workspace
       ? 'Intelligence reports'
       : workspace === 'settings'
         ? 'System settings'
-        : 'AETHER ' + workspace.toUpperCase();
+        : workspace === 'lab'
+          ? 'AETHER AI TESTING LAB'
+          : 'AETHER ' + workspace.toUpperCase();
   return { title };
 }
 
@@ -21,6 +23,7 @@ export function generateStaticParams() {
     { workspace: 'settings' },
     { workspace: 'response' },
     { workspace: 'geo' },
+    { workspace: 'lab' },
   ];
 }
 export default async function WorkspacePage({

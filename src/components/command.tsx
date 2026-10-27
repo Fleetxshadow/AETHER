@@ -38,6 +38,7 @@ import { Presentation } from './presentation';
 import { DataSourcePanel, LiveModuleData, FirebaseAccess } from './data-source';
 import { CameraPanel } from './camera-panel';
 import { ResponseWorkspace, LinkedResponseEvidence } from './response-workspace';
+import { AiLabWorkspace } from './ai-lab';
 import { AppShell, routeGroup } from './app-shell';
 import { OpsPipeline } from './ops-pipeline';
 const GeoIntelligence = dynamic(() => import('./geo-intelligence'), {
@@ -208,6 +209,11 @@ const focusModes: { id: FocusMode; name: string; icon: typeof Box }[] = [
   { id: 'mission', name: 'Mission', icon: CommandIcon },
 ];
 const headings: Partial<Record<Workspace, { eyebrow: string; title: string; text: string }>> = {
+  lab: {
+    eyebrow: 'Evaluate / NEXUS AI testing lab',
+    title: 'AETHER AI TESTING LAB',
+    text: 'Independent model testing environments for VISION object detection, CORE deterministic safety guards, and MAVERICK navigation planning.',
+  },
   response: {
     eyebrow: 'Respond / AI-assisted intake · human-reviewed demo',
     title: 'AETHER RESPONSE',
@@ -367,7 +373,8 @@ export function Command({ workspace, incidentId }: { workspace: Workspace; incid
     workspace !== 'reports' &&
     workspace !== 'settings' &&
     workspace !== 'response' &&
-    workspace !== 'geo';
+    workspace !== 'geo' &&
+    workspace !== 'lab';
   const config = isModule ? moduleById[workspace] : null;
   const available = visibleObservations(records, step, isModule ? workspace : undefined, query);
   const filtered = available.filter((o) => severity === 'all' || o.severity === severity);
@@ -494,7 +501,8 @@ export function Command({ workspace, incidentId }: { workspace: Workspace; incid
             {selectedRecord &&
               workspace !== 'settings' &&
               workspace !== 'reports' &&
-              workspace !== 'response' && (
+              workspace !== 'response' &&
+              workspace !== 'lab' && (
                 <ObservationDetail key={selectedRecord.id} observation={selectedRecord} />
               )}
           </AnimatePresence>
@@ -504,8 +512,8 @@ export function Command({ workspace, incidentId }: { workspace: Workspace; incid
     >
       <main id="main" className="command-main os-main" ref={scope}>
         <WorkspaceHeading workspace={workspace} spatialView={spatialView} step={step} />
-        <DataSourcePanel module={workspace} />
-        <LiveModuleData module={workspace} />
+        {workspace !== 'lab' && <DataSourcePanel module={workspace} />}
+        {workspace !== 'lab' && <LiveModuleData module={workspace} />}
         {status === 'error' && (
           <div className="service-error" role="status">
             <h2>Demo service is offline.</h2>
@@ -524,6 +532,8 @@ export function Command({ workspace, incidentId }: { workspace: Workspace; incid
           </>
         ) : workspace === 'reports' ? (
           <ReportsWorkspace records={globalRecords} />
+        ) : workspace === 'lab' ? (
+          <AiLabWorkspace />
         ) : (
           <>
             {workspace === 'sky' && (

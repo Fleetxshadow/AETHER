@@ -1,4 +1,4 @@
-﻿@import 'tailwindcss';
+@import 'tailwindcss';
 @import './foundation.css';
 @import './experience.css';
 @import './command.css';
@@ -19,6 +19,7 @@
 @import './geo-intelligence.css';
 @import './awakening.css';
 @import './beyond-visible.css';
+@import './ai-lab.css';
 @theme {
   --color-nexus-amber: var(--nxs-accent-fill-ffb347);
   --color-nexus-lime: var(--nxs-surface-d8ed86);

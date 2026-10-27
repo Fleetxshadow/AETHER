@@ -26,7 +26,7 @@ export const moduleIds = [
   'command',
 ] as const;
 export type ModuleId = (typeof moduleIds)[number];
-export type Workspace = ModuleId | 'reports' | 'settings' | 'response' | 'geo';
+export type Workspace = ModuleId | 'reports' | 'settings' | 'response' | 'geo' | 'lab';
 export type Layer = 'network' | 'traffic' | 'thermal' | 'water';
 export interface ModuleConfig {
   id: ModuleId;
@@ -160,7 +160,8 @@ export function isWorkspace(id: string): id is Workspace {
     id === 'reports' ||
     id === 'settings' ||
     id === 'response' ||
-    id === 'geo'
+    id === 'geo' ||
+    id === 'lab'
   );
 }
 export const layerLabels: Record<Layer, string> = {

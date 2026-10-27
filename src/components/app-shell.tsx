@@ -8,6 +8,7 @@ import {
   ChevronLeft,
   ChevronRight,
   FileText,
+  FlaskConical,
   Gauge,
   Grid2x2,
   Layers3,
@@ -72,7 +73,19 @@ export const navGroups: { label: string; items: NavItem[] }[] = [
   },
   { label: 'Observe', items: (['sky', 'flow', 'thermal', 'aqua'] as const).map(moduleItem) },
   { label: 'Assess', items: (['road', 'fire', 'rescue'] as const).map(moduleItem) },
-  { label: 'Understand', items: (['core', 'twin'] as const).map(moduleItem) },
+  {
+    label: 'Understand',
+    items: [
+      ...(['core', 'twin'] as const).map(moduleItem),
+      {
+        id: 'lab',
+        name: 'AI LAB',
+        label: 'Model testing lab',
+        href: '/command/lab',
+        icon: FlaskConical,
+      },
+    ],
+  },
 ];
 const utilityItems: NavItem[] = [
   { id: 'reports', name: 'Reports', label: '', href: '/command/reports', icon: FileText },
