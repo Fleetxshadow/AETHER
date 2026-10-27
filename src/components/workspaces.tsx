@@ -1,12 +1,13 @@
-﻿'use client';
+'use client';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   ArrowRight,
   ArrowUpRight,
   BrainCircuit,
   Check,
+  Compass,
   Download,
   Radio,
   ShieldCheck,
@@ -131,6 +132,13 @@ function FlowWorkspace({ records }: { records: Observation[] }) {
 }
 function RescueWorkspace({ records }: { records: Observation[] }) {
   const [acknowledged, setAcknowledged] = useState<string[]>([]);
+  const [maverickPlan, setMaverickPlan] = useState<{
+    status: string;
+    steps: number;
+    duration_ms: number;
+    interventions: number;
+  } | null>(null);
+  const [planning, setPlanning] = useState(false);
   const selected = useNexus((s) => s.selectedId);
   const select = useNexus((s) => s.select);
   const step = useNexus((s) => s.timeStep);
@@ -138,6 +146,31 @@ function RescueWorkspace({ records }: { records: Observation[] }) {
   if (!record) return <ModuleEmpty module="rescue" />;
   const resolved = observationStatus(record, step) === 'resolved';
   const ack = acknowledged.includes(record.id);
+
+  const calculateMaverickRoute = async () => {
+    setPlanning(true);
+    try {
+      const res = await fetch('/api/nexus/maverick/plan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          start: [0, 0],
+          goal: [8, 8],
+          enable_supervisor: true,
+        }),
+      });
+      const data = await res.json();
+      if (data?.success) {
+        setMaverickPlan({
+          status: data.status,
+          steps: data.steps,
+          duration_ms: data.duration_ms,
+          interventions: data.supervisor_interventions || 0,
+        });
+      }
+    } catch {}
+    setPlanning(false);
+  };
   return (
     <div className="module-workspace rescue-workspace">
       <div className="module-two-columns">
@@ -204,6 +237,36 @@ function RescueWorkspace({ records }: { records: Observation[] }) {
                   ? 'Mark observation reviewed locally'
                   : 'Mark demo observation reviewed'}
           </button>
+          <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <button
+              className="button outline"
+              disabled={planning}
+              onClick={calculateMaverickRoute}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              <Compass size={15} />
+              {planning ? 'Planning route...' : 'Calculate MAVERICK Dispatch Route'}
+            </button>
+            {maverickPlan && (
+              <div
+                style={{
+                  padding: '8px 12px',
+                  borderRadius: '6px',
+                  border: '1px solid var(--line)',
+                  background: 'rgba(8, 18, 21, 0.5)',
+                  fontSize: '12px',
+                }}
+              >
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
+                  <span className="mono" style={{ color: 'var(--color-nexus-lime)' }}>
+                    MAVERICK / {maverickPlan.status.toUpperCase()}
+                  </span>
+                  <span className="mono">{maverickPlan.duration_ms}ms</span>
+                </div>
+                <div>Optimal Path: {maverickPlan.steps} waypoints · Supervisor Interventions: {maverickPlan.interventions}</div>
+              </div>
+            )}
+          </div>
           <p className="data-note">
             Local review only. This action does not contact emergency services.
           </p>
@@ -518,6 +581,13 @@ function FireWorkspace({ records }: { records: Observation[] }) {
 function CoreWorkspace({ records }: { records: Observation[] }) {
   const [question, setQuestion] = useState('');
   const [submitted, setSubmitted] = useState('Give me the city overview');
+  const [coreEval, setCoreEval] = useState<{
+    raw_class: string;
+    recommendation: string;
+    safety_reason: string;
+    guard_intervened: boolean;
+    duration_ms: number;
+  } | null>(null);
   const select = useNexus((s) => s.select);
   const step = useNexus((s) => s.timeStep);
   const rules: [string[], ModuleId][] = [
@@ -540,6 +610,35 @@ function CoreWorkspace({ records }: { records: Observation[] }) {
   const active = sources.filter(
     (o) => o.severity !== 'normal' && observationStatus(o, step) !== 'resolved',
   ).length;
+
+  useEffect(() => {
+    let activeReq = true;
+    void fetch('/api/nexus/core/evaluate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        text_description: submitted,
+        incident_type: matched[0] || 'CITY_OVERVIEW',
+        confidence: 0.89,
+      }),
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (activeReq && data?.success) {
+          setCoreEval({
+            raw_class: data.raw_class,
+            recommendation: data.recommendation,
+            safety_reason: data.safety_reason,
+            guard_intervened: data.guard_intervened,
+            duration_ms: data.duration_ms,
+          });
+        }
+      })
+      .catch(() => {});
+    return () => {
+      activeReq = false;
+    };
+  }, [submitted, matched.length]);
   return (
     <div className="core-workspace">
       <div className="core-intro">
@@ -639,6 +738,52 @@ function CoreWorkspace({ records }: { records: Observation[] }) {
             No matching source is available in this snapshot. Try a supported topic or move the time
             machine forward. The demo does not generate unsupported findings.
           </p>
+        )}
+        {coreEval && (
+          <div
+            style={{
+              marginTop: '1.25rem',
+              padding: '1rem',
+              borderRadius: '8px',
+              border: `1px solid ${coreEval.guard_intervened ? 'rgba(245, 158, 11, 0.4)' : 'rgba(16, 185, 129, 0.4)'}`,
+              background: 'rgba(8, 18, 21, 0.6)',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <ShieldCheck size={16} color={coreEval.guard_intervened ? '#f59e0b' : '#10b981'} />
+                <span className="mono" style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}>
+                  NEXUS CORE DETERMINISTIC SAFETY GUARD
+                </span>
+              </div>
+              <span
+                style={{
+                  padding: '2px 8px',
+                  borderRadius: '4px',
+                  fontSize: '0.7rem',
+                  fontWeight: 600,
+                  letterSpacing: '0.05em',
+                  background: coreEval.guard_intervened ? 'rgba(245, 158, 11, 0.2)' : 'rgba(16, 185, 129, 0.2)',
+                  color: coreEval.guard_intervened ? '#f59e0b' : '#10b981',
+                }}
+              >
+                {coreEval.guard_intervened ? 'GUARD INTERVENED' : 'SAFETY PROTOCOL VERIFIED'}
+              </span>
+            </div>
+            <div style={{ fontSize: '0.875rem', lineHeight: '1.5' }}>
+              <p style={{ margin: '0 0 0.25rem 0' }}>
+                <strong>Recommendation:</strong> {coreEval.recommendation}
+              </p>
+              <p style={{ margin: 0, opacity: 0.8, fontSize: '0.8rem' }}>
+                <strong>Constraint Reason:</strong> {coreEval.safety_reason}
+              </p>
+            </div>
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '0.5rem', fontSize: '0.75rem', opacity: 0.6 }} className="mono">
+              <span>RAW: {coreEval.raw_class}</span>
+              <span>EVAL: {coreEval.duration_ms}ms</span>
+              <span>ENGINE: ONNX</span>
+            </div>
+          </div>
         )}
         <p className="data-note">Template-based analysis · no automatic inference or dispatch.</p>
       </div>

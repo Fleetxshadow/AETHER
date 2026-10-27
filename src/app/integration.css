@@ -120,7 +120,8 @@
   background: var(--bg);
 }
 .camera-viewer iframe,
-.camera-viewer video {
+.camera-viewer video,
+.camera-viewer img {
   position: absolute;
   inset: 0;
   width: 100%;

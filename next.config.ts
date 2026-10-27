@@ -19,6 +19,15 @@ const config: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   devIndicators: false,
+  async rewrites() {
+    const nexusUrl = process.env.NEXUS_BACKEND_URL || 'http://127.0.0.1:8000';
+    return [
+      {
+        source: '/api/camera/:path*',
+        destination: `${nexusUrl}/api/camera/:path*`,
+      },
+    ];
+  },
   async headers() {
     return [
       {

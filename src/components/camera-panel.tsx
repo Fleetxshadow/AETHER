@@ -13,13 +13,55 @@ const demo: PlaybackReport = {
   state: 'DEMO',
   message: 'No live camera connected — demonstration view',
 };
+
+interface NexusSourceStatus {
+  name: string;
+  connected: boolean;
+  running: boolean;
+  frame_count: number;
+  error_count: number;
+  last_frame_age_s: number | null;
+  last_error: string | null;
+}
+
+const defaultNexusCameras: ViewerCamera[] = [
+  {
+    id: 'pi',
+    deviceId: 'DEV-RPI-50',
+    name: 'Raspberry Pi Camera',
+    provider: 'mediamtx',
+    development: true,
+    updatedAt: new Date().toISOString(),
+    viewerUrl: '/api/camera/stream',
+  },
+  {
+    id: 'dataset_loop',
+    deviceId: 'SIM-VISDRONE-01',
+    name: 'Simulation: VisDrone Aerial Loop',
+    provider: 'mediamtx',
+    development: true,
+    updatedAt: new Date().toISOString(),
+    viewerUrl: '/api/camera/stream',
+  },
+  {
+    id: 'synthetic',
+    deviceId: 'SIM-SYNTH-01',
+    name: 'Simulation: City Grid Intersection',
+    provider: 'mediamtx',
+    development: true,
+    updatedAt: new Date().toISOString(),
+    viewerUrl: '/api/camera/stream',
+  },
+];
 export function CameraPanel() {
   const role = useNexus((s) => s.integration.role);
   const health = useNexus((s) => s.integration.fresh.cameraStatus);
-  const [cameras, setCameras] = useState<ViewerCamera[]>([]);
+  const [cameras, setCameras] = useState<ViewerCamera[]>(defaultNexusCameras);
+  const [sourcesStatus, setSourcesStatus] = useState<Record<string, NexusSourceStatus>>({});
+  const [annotate, setAnnotate] = useState(true);
   const [authorized, setAuthorized] = useState(false),
     [canManage, setCanManage] = useState(false);
-  const [selected, setSelected] = useState(''),
+  const [selected, setSelected] = useState('pi'),
     [open, setOpen] = useState(false),
     [attempt, setAttempt] = useState(0);
   const [report, setReport] = useState<PlaybackReport>(demo),
@@ -35,6 +77,15 @@ export function CameraPanel() {
   const reload = useCallback(async () => {
     const current = ++generation.current;
     try {
+      // Check local NEXUS camera backend sources & fallback status
+      try {
+        const srcRes = await fetch('/api/camera/sources');
+        if (srcRes.ok) {
+          const srcData = await srcRes.json();
+          if (srcData?.sources) setSourcesStatus(srcData.sources);
+        }
+      } catch {}
+
       const token = await (await import('@/lib/firebase/client')).getFirebaseToken();
       const response = await fetch('/api/response/cameras', {
         cache: 'no-store',
@@ -45,24 +96,27 @@ export function CameraPanel() {
       if (!response.ok) throw new Error('Registry unavailable');
       setAuthorized(data.authorized === true);
       setCanManage(data.canManage === true);
-      setCameras(data.cameras || []);
+      const combined = [...defaultNexusCameras, ...(data.cameras || [])];
+      setCameras(combined);
       setSelected((previous) =>
-        data.cameras?.some((c: ViewerCamera) => c.id === previous)
+        combined.some((c: ViewerCamera) => c.id === previous)
           ? previous
-          : data.cameras?.[0]?.id || '',
+          : 'pi',
       );
       setMessage(
         data.authorized
           ? 'Approved camera registry loaded.'
-          : 'Protected registry: sign in with device access or the local RESPONSE operator account, then refresh.',
+          : 'Local NEXUS camera sources active. Sign in for external protected cameras.',
       );
     } catch {
       if (current === generation.current) {
-        setCameras([]);
+        setCameras(defaultNexusCameras);
         setAuthorized(false);
         setCanManage(false);
-        setOpen(false);
-        setMessage('Camera registry unavailable. Demonstration remains available.');
+        setSelected((previous) =>
+          defaultNexusCameras.some((c) => c.id === previous) ? previous : 'pi',
+        );
+        setMessage('Using local NEXUS camera feeds (Hardware Pi + Simulation Fallbacks).');
       }
     }
   }, []);
@@ -92,6 +146,39 @@ export function CameraPanel() {
   }, [role, reload]);
   useEffect(() => {
     if (!open || !camera) return;
+
+    if (['pi', 'dataset_loop', 'synthetic'].includes(camera.id)) {
+      void fetch('/api/camera/source', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: camera.id }),
+      }).catch(() => {});
+
+      if (camera.id === 'pi') {
+        const isPiConnected = sourcesStatus.pi?.connected;
+        setReport({
+          state: isPiConnected ? 'LIVE' : 'DEMO',
+          message: isPiConnected
+            ? 'Transmitting live camera frames from Raspberry Pi (192.168.50.2).'
+            : 'Raspberry Pi feed unavailable (offline) — active fallback: VisDrone aerial simulation with AI detection.',
+          transport: isPiConnected ? 'Hardware / Pi' : 'YOLOv8 Simulation Fallback',
+        });
+      } else if (camera.id === 'dataset_loop') {
+        setReport({
+          state: 'DEMO',
+          message: 'Simulating drone flight over city grid via VisDrone aerial validation loop.',
+          transport: 'YOLOv8 Aerial Stream',
+        });
+      } else {
+        setReport({
+          state: 'DEMO',
+          message: 'Simulating animated urban crossroad with live vehicle tracking.',
+          transport: 'Synthetic Grid Engine',
+        });
+      }
+      return;
+    }
+
     const abort = new AbortController();
     let lastState = '';
     const notify = (value: PlaybackReport) => {
@@ -190,7 +277,7 @@ export function CameraPanel() {
         </label>
         <button
           className="button outline"
-          disabled={!camera || !authorized}
+          disabled={!camera || (!authorized && !['pi', 'dataset_loop', 'synthetic'].includes(selected))}
           onClick={() => {
             setOpen(true);
             setAttempt((n) => n + 1);
@@ -201,6 +288,15 @@ export function CameraPanel() {
         <button className="button outline" disabled={!open} onClick={close}>
           Close camera
         </button>
+        {['pi', 'dataset_loop', 'synthetic'].includes(selected) && (
+          <button
+            className={`button outline ${annotate ? 'active' : ''}`}
+            onClick={() => setAnnotate(!annotate)}
+            title="Toggle YOLO bounding box detections"
+          >
+            AI Overlay: {annotate ? 'ON' : 'OFF'}
+          </button>
+        )}
         <button
           className="icon-button"
           aria-label="Fullscreen camera viewer"
@@ -242,7 +338,58 @@ export function CameraPanel() {
         </button>
       )}
       <div className="camera-viewer" ref={viewer}>
-        {open && camera?.provider === 'vdo-ninja' && (
+        {open && ['pi', 'dataset_loop', 'synthetic'].includes(selected) ? (
+          <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`/api/camera/stream?annotate=${annotate ? 'true' : 'false'}&ts=${attempt}`}
+              alt={`SKY Camera ${camera?.name || selected}`}
+              style={{ width: '100%', height: '100%', objectFit: 'contain', background: '#081215', display: 'block' }}
+            />
+            {selected === 'pi' && !sourcesStatus.pi?.connected && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: 12,
+                  left: 12,
+                  padding: '4px 8px',
+                  background: 'rgba(239, 68, 68, 0.85)',
+                  color: '#fff',
+                  fontSize: '11px',
+                  fontWeight: 600,
+                  letterSpacing: '0.05em',
+                  borderRadius: 4,
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 6,
+                  backdropFilter: 'blur(4px)',
+                }}
+              >
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#fff' }} />
+                PI OFFLINE · SIMULATION FALLBACK ACTIVE
+              </div>
+            )}
+            {annotate && (
+              <div
+                style={{
+                  position: 'absolute',
+                  top: 12,
+                  right: 12,
+                  padding: '4px 8px',
+                  background: 'rgba(16, 185, 129, 0.85)',
+                  color: '#fff',
+                  fontSize: '11px',
+                  fontWeight: 600,
+                  letterSpacing: '0.05em',
+                  borderRadius: 4,
+                  backdropFilter: 'blur(4px)',
+                }}
+              >
+                AI VISION ACTIVE (YOLOv8)
+              </div>
+            )}
+          </div>
+        ) : open && camera?.provider === 'vdo-ninja' ? (
           <iframe
             ref={frame}
             src={camera.viewerUrl}
@@ -251,8 +398,7 @@ export function CameraPanel() {
             allowFullScreen
             referrerPolicy="no-referrer"
           />
-        )}
-        {open && camera?.provider === 'mediamtx' && (
+        ) : open && camera?.provider === 'mediamtx' ? (
           <video
             ref={video}
             autoPlay
@@ -261,12 +407,11 @@ export function CameraPanel() {
             controls
             aria-label={`Authorized camera ${camera.name}`}
           />
-        )}
-        {(!open || report.state === 'OFFLINE' || report.state === 'ERROR') && (
+        ) : (
           <div className="camera-fallback">
             <EvidenceFrame observation={observations[0]} />
             <strong>No live camera connected — demonstration view</strong>
-            <p>Synthetic context illustration. No camera footage received in this view.</p>
+            <p>Select a camera source above and click &quot;Open camera&quot; to begin stream.</p>
           </div>
         )}
       </div>
@@ -278,8 +423,20 @@ export function CameraPanel() {
         <div>
           <dt>Source / transport</dt>
           <dd>
-            {camera ? `${camera.provider}${camera.development ? ' / DEVELOPMENT' : ''}` : 'DEMO'}
-            {report.transport ? ` / ${report.transport}` : ''}
+            {['pi', 'dataset_loop', 'synthetic'].includes(selected)
+              ? selected === 'pi'
+                ? sourcesStatus.pi?.connected
+                  ? 'Raspberry Pi / HTTP Stream'
+                  : 'Simulation Fallback / VisDrone Loop'
+                : selected === 'dataset_loop'
+                  ? 'Simulation Loop / VisDrone Dataset'
+                  : 'Simulation Engine / Synthetic Intersection'
+              : camera
+                ? `${camera.provider}${camera.development ? ' / DEVELOPMENT' : ''}`
+                : 'DEMO'}
+            {report.transport && !['pi', 'dataset_loop', 'synthetic'].includes(selected)
+              ? ` / ${report.transport}`
+              : ''}
           </dd>
         </div>
         <div>
