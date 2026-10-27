@@ -1,0 +1,9 @@
+
+# Hardware agent local state
+.venv/
+__pycache__/
+*.pyc
+config/*.private.env
+config/*.private.json
+logs/
+captures/

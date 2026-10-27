@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "device_id": "nexus-local-gateway",
+  "device_type": "gateway",
+  "timestamp": "2026-10-27T06:06:20.034595Z",
+  "source": "LIVE",
+  "upstream_connected": true,
+  "upstream_age_seconds": 0.17,
+  "status": "ok",
+  "upstream_health": {
+    "schema_version": "1.0.0",
+    "device_id": "pi-e47bdf738da35eea",
+    "device_type": "raspberry-pi",
+    "timestamp": "2026-10-27T06:06:18.193549Z",
+    "source": "LIVE",
+    "status": "ok",
+    "uptime_seconds": 6.11,
+    "metrics": {
+      "cpu_percent": {
+        "value": 3.015,
+        "unit": "%",
+        "observed_at": "2026-10-27T06:06:17.209774Z",
+        "source": "LIVE",
+        "error": null
+      },
+      "ram_percent": {
+        "value": 19.796,
+        "unit": "%",
+        "observed_at": "2026-10-27T06:06:17.209774Z",
+        "source": "LIVE",
+        "error": null
+      },
+      "cpu_temperature": {
+        "value": 47.774,
+        "unit": "\u00b0C",
+        "observed_at": "2026-10-27T06:06:17.209774Z",
+        "source": "LIVE",
+        "error": null
+      },
+      "storage_available": {
+        "value": 8442384384,
+        "unit": "bytes",
+        "observed_at": "2026-10-27T06:06:17.209774Z",
+        "source": "LIVE",
+        "error": null
+      }
+    },
+    "network": [
+      {
+        "interface": "eth0",
+        "state": "DOWN",
+        "addresses": []
+      },
+      {
+        "interface": "wlan0",
+        "state": "UP",
+        "addresses": [
+          "192.168.3.224",
+          "fe80::6b94:84ba:fd52:c737"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "timestamp": "2026-10-27T06:06:12.090688Z",
+        "event": "agent_started",
+        "device_id": "pi-e47bdf738da35eea"
+      }
+    ],
+    "camera_count": 0
+  },
+  "error": null
+}

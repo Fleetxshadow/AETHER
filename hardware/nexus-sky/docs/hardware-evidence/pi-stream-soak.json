@@ -1,0 +1,70 @@
+{
+  "test_kind": "MOCK_MJPEG_TRANSPORT_ON_REAL_PI",
+  "duration_seconds": 30.74,
+  "frames_per_viewer": [
+    122,
+    122
+  ],
+  "unique_frames_per_viewer": [
+    122,
+    122
+  ],
+  "health_checks": 116,
+  "source_outages_seconds": [
+    [
+      8,
+      10
+    ],
+    [
+      18,
+      20
+    ]
+  ],
+  "events": [
+    {
+      "timestamp": "2026-10-27T06:06:14.226422Z",
+      "event": "agent_started",
+      "device_id": "pi-e47bdf738da35eea"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:14.260201Z",
+      "event": "camera_connected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:22.447804Z",
+      "event": "camera_disconnected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:25.466284Z",
+      "event": "camera_connected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:32.671176Z",
+      "event": "camera_disconnected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:35.681706Z",
+      "event": "camera_connected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:44.495342Z",
+      "event": "camera_disconnected",
+      "device_id": "fixture-camera"
+    },
+    {
+      "timestamp": "2026-10-27T06:06:44.496016Z",
+      "event": "agent_stopped",
+      "device_id": "pi-e47bdf738da35eea"
+    }
+  ],
+  "errors": [],
+  "max_rss_kib": 28732,
+  "physical_camera_tested": false,
+  "jpeg_decode_tested": false,
+  "passed": true
+}

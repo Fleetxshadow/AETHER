@@ -1,0 +1,9 @@
+State  Recv-Q Send-Q Local Address:Port Peer Address:Port
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*
+LISTEN 0      128             [::]:22           [::]:*
+600 /home/nexus/nexus-sky/config/aether.private.env
+
+Laptop temporary port 8766: closed
+Laptop temporary port 18765: closed
+Pi temporary API port 8765: closed
+Desktop private config mode: 0o600

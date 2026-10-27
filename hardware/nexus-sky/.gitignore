@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+firmware/nexus_eye/secrets.h
+build/
+.tools/
+*.jpg
+*.mjpeg
+.env
+.env.*
+
+# Local RunPod credentials, private diagnostics and extracted fixture keys.
+runpod-preflight/runtime/stable-rootfs/
+runpod-preflight/execution/*.private.*
+runpod-preflight/execution/ssh_config
+runpod-preflight/execution/known_hosts
+runpod-preflight/execution/ssh-mux
+runpod-preflight/execution/sessions/
+**/id_ed25519
+**/id_rsa
+**/ssh_host_*_key
+**/rclone.conf
+
+# AETHER hardware integration local runtime secrets and logs
+hardware/config/*.private.env
+hardware/config/*.private.json
+hardware/runtime/

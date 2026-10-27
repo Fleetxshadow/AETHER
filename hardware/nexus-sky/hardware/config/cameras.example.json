@@ -1,0 +1,7 @@
+{
+  "cameras": [
+    {"id": "eye-configured-01", "kind": "esp32", "capture_url": "http://192.168.60.2/capture", "fps": 2},
+    {"id": "pi-csi-01", "kind": "csi", "index": 0, "fps": 5},
+    {"id": "usb-configured-01", "kind": "v4l2", "device": "/dev/video0", "fps": 5}
+  ]
+}

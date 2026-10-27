@@ -1,0 +1,86 @@
+Desktop implementation files (relative to /home/blu/Projects/nexus-sky):
+.gitignore
+README.md
+firmware/nexus_eye/nexus_eye.ino
+firmware/nexus_eye/config.h
+tools/compile-test.sh
+tools/setup.sh
+hardware/gateway.py
+hardware/types.ts
+hardware/README.md
+hardware/config/agent.example.json
+hardware/config/cameras.example.json
+hardware/tests/test_gateway.py
+hardware/tests/smoke_live_pi.py
+hardware/tests/check_aether_schemas.ts
+hardware/pi-source/ (review snapshot from Pi; see manifest below)
+docs/NEXUS-INTEGRATION-CONTRACT.md (additive proposed hardware section)
+docs/NEXUS-HARDWARE-INVENTORY.md
+docs/NEXUS-HARDWARE-CONTRACT-PROPOSAL.md
+docs/NEXUS-HARDWARE-INTEGRATION.md
+docs/NEXUS-HARDWARE-TEST-REPORT.md
+docs/NEXUS-AGY-HANDOFF.md
+docs/hardware-evidence/ (test logs, timestamped API evidence, manifests and commit record)
+
+Pi files (relative to /home/nexus/nexus-sky):
+aether_device/__init__.py (new)
+aether_device/agent.py (new)
+aether_device/api.py (new)
+aether_device/cameras.py (new)
+tests/test_aether_device.py (new)
+tests/soak_aether_stream.py (new)
+config/aether-agent.example.json (new safe empty config)
+README.md (additive service instructions)
+.gitignore (preserved/appended ignores)
+
+Private runtime files, deliberately not committed or copied into source snapshots:
+Pi config/aether.private.env (0600)
+Pi logs/aether-device.log and logs/aether-stream-soak.json
+Desktop hardware/config/local.private.env (0600)
+Temporary .tools/pi-ssh.sock (removed when tunnel closes)
+Python bytecode/cache folders ignored.
+
+No AETHER files changed. No model weights changed. No legacy Pi code deleted.
+
+Exact implementation commit d268441 file manifest:
+M	.gitignore
+A	README.md
+A	docs/NEXUS-AGY-HANDOFF.md
+A	docs/NEXUS-HARDWARE-CONTRACT-PROPOSAL.md
+A	docs/NEXUS-HARDWARE-INTEGRATION.md
+A	docs/NEXUS-HARDWARE-TEST-REPORT.md
+M	docs/NEXUS-INTEGRATION-CONTRACT.md
+A	docs/hardware-evidence/aether-schema-check.txt
+A	docs/hardware-evidence/changed-files.txt
+A	docs/hardware-evidence/desktop-client-regression.txt
+A	docs/hardware-evidence/esp32-compile.txt
+A	docs/hardware-evidence/gateway-tests.txt
+A	docs/hardware-evidence/pi-agent-tests.txt
+A	docs/hardware-evidence/pi-baseline.txt
+A	docs/hardware-evidence/pi-service-recovered.json
+A	docs/hardware-evidence/pi-service-unavailable.json
+A	docs/hardware-evidence/pi-source-manifest.json
+A	docs/hardware-evidence/pi-stream-soak.json
+A	docs/hardware-evidence/real-pi-api.json
+A	docs/hardware-evidence/runtime-cleanup.txt
+A	firmware/nexus_eye/config.h
+M	firmware/nexus_eye/nexus_eye.ino
+A	hardware/README.md
+A	hardware/config/agent.example.json
+A	hardware/config/cameras.example.json
+A	hardware/gateway.py
+A	hardware/pi-source/.gitignore
+A	hardware/pi-source/README.md
+A	hardware/pi-source/aether_device/__init__.py
+A	hardware/pi-source/aether_device/agent.py
+A	hardware/pi-source/aether_device/api.py
+A	hardware/pi-source/aether_device/cameras.py
+A	hardware/pi-source/config/aether-agent.example.json
+A	hardware/pi-source/tests/soak_aether_stream.py
+A	hardware/pi-source/tests/test_aether_device.py
+A	hardware/tests/check_aether_schemas.ts
+A	hardware/tests/smoke_live_pi.py
+A	hardware/tests/test_gateway.py
+A	hardware/types.ts
+M	tools/compile-test.sh
+M	tools/setup.sh
