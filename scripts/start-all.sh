@@ -21,14 +21,32 @@ if [ ! -f "$VENV_PY" ]; then
 fi
 
 # Cleanup on exit
+GW_PID=""
 cleanup() {
   echo ""
   echo "Stopping all services..."
   if [ -n "${PY_PID:-}" ]; then
     kill "$PY_PID" 2>/dev/null || true
   fi
+  if [ -n "${GW_PID:-}" ]; then
+    kill "$GW_PID" 2>/dev/null || true
+  fi
 }
 trap cleanup SIGINT SIGTERM
+
+# Optional: Launch local Hardware Gateway if configured and not already running
+if [ -f "$NEXUS_ROOT/hardware/config/local.private.env" ] && [ -f "$NEXUS_ROOT/hardware/gateway.py" ]; then
+  if ! lsof -Pi :8766 -sTCP:LISTEN -t >/dev/null 2>&1; then
+    echo "Starting local Hardware Gateway on 127.0.0.1:8766..."
+    (
+      set +u
+      . "$NEXUS_ROOT/hardware/config/local.private.env"
+      cd "$NEXUS_ROOT"
+      exec python3 hardware/gateway.py
+    ) &
+    GW_PID=$!
+  fi
+fi
 
 # Free port 8000 if already bound
 if lsof -Pi :8000 -sTCP:LISTEN -t >/dev/null 2>&1; then
