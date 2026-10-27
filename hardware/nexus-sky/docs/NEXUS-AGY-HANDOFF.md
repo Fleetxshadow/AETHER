@@ -1,3 +1,5 @@
+> Earlier hardware implementation record. Use the [current AGY repository handoff](../../../docs/AGY-AETHER-LINK-HANDOFF.md) for branch locations, startup instructions and acceptance checks.
+
 # AGY handoff — Aether Link
 
 Shared filesystem review artifact, 27 October 2026. No AGY acknowledgement or website end-to-end completion is claimed. Work is confined to nexus-sky and the Pi; AETHER has not been edited.
