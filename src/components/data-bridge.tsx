@@ -54,6 +54,16 @@ export function DataBridge() {
         .catch(() => {
           if (!disposed) controller.receive('observations', 'error');
         });
+    else
+      void import('@/lib/data/nexus-provider')
+        .then((provider) => {
+          if (disposed) return;
+          controller.configure(true, 'operator');
+          stop = controller.attach(provider.createNexusProvider());
+        })
+        .catch(() => {
+          if (!disposed) controller.receive('observations', 'error');
+        });
     // Controlled, explicitly labeled fixtures only in a localhost development build.
     const fixture = (event: Event) => {
       const data = (event as CustomEvent).detail;

@@ -10,7 +10,7 @@
     "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "test": "tsx --test tests/domain.test.ts tests/response.test.ts tests/integration.test.ts tests/traffic.test.ts tests/geo.test.ts",
+    "test": "tsx --test tests/domain.test.ts tests/response.test.ts tests/integration.test.ts tests/traffic.test.ts tests/geo.test.ts tests/nexus-ai-integration.test.ts",
     "test:e2e": "playwright test",
     "check": "npm run typecheck && npm run lint && npm test",
     "format": "prettier --write src tests scripts *.ts *.mjs",
