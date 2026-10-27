@@ -22,6 +22,7 @@ import { EngineeringExplorer } from './engineering';
 import { DetectionReplay, EvidenceFrame } from './replay';
 import { LoadingPanel } from './ui';
 import { readingTime } from '@/lib/data/hooks';
+import { MaverickLab } from './ai-lab';
 const GeoMap = dynamic(() => import('./geo-map'), { ssr: false, loading: () => <LoadingPanel /> });
 
 const series = telemetry;
@@ -132,13 +133,7 @@ function FlowWorkspace({ records }: { records: Observation[] }) {
 }
 function RescueWorkspace({ records }: { records: Observation[] }) {
   const [acknowledged, setAcknowledged] = useState<string[]>([]);
-  const [maverickPlan, setMaverickPlan] = useState<{
-    status: string;
-    steps: number;
-    duration_ms: number;
-    interventions: number;
-  } | null>(null);
-  const [planning, setPlanning] = useState(false);
+  const [rescueView, setRescueView] = useState<'evidence' | 'maverick'>('evidence');
   const selected = useNexus((s) => s.selectedId);
   const select = useNexus((s) => s.select);
   const step = useNexus((s) => s.timeStep);
@@ -147,30 +142,6 @@ function RescueWorkspace({ records }: { records: Observation[] }) {
   const resolved = observationStatus(record, step) === 'resolved';
   const ack = acknowledged.includes(record.id);
 
-  const calculateMaverickRoute = async () => {
-    setPlanning(true);
-    try {
-      const res = await fetch('/api/nexus/maverick/plan', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          start: [0, 0],
-          goal: [8, 8],
-          enable_supervisor: true,
-        }),
-      });
-      const data = await res.json();
-      if (data?.success) {
-        setMaverickPlan({
-          status: data.status,
-          steps: data.steps,
-          duration_ms: data.duration_ms,
-          interventions: data.supervisor_interventions || 0,
-        });
-      }
-    } catch {}
-    setPlanning(false);
-  };
   return (
     <div className="module-workspace rescue-workspace">
       <div className="module-two-columns">
@@ -237,41 +208,44 @@ function RescueWorkspace({ records }: { records: Observation[] }) {
                   ? 'Mark observation reviewed locally'
                   : 'Mark demo observation reviewed'}
           </button>
-          <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          <div style={{ marginTop: '0.75rem' }}>
             <button
-              className="button outline"
-              disabled={planning}
-              onClick={calculateMaverickRoute}
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+              className={`button outline ${rescueView === 'maverick' ? 'active' : ''}`}
+              onClick={() => setRescueView(rescueView === 'maverick' ? 'evidence' : 'maverick')}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', width: '100%', justifyContent: 'center' }}
             >
               <Compass size={15} />
-              {planning ? 'Planning route...' : 'Calculate MAVERICK Dispatch Route'}
+              {rescueView === 'maverick' ? 'Hide Pathfinding Simulation' : 'Launch MAVERICK Pathfinding Simulation'}
             </button>
-            {maverickPlan && (
-              <div
-                style={{
-                  padding: '8px 12px',
-                  borderRadius: '6px',
-                  border: '1px solid var(--line)',
-                  background: 'rgba(8, 18, 21, 0.5)',
-                  fontSize: '12px',
-                }}
-              >
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 4 }}>
-                  <span className="mono" style={{ color: 'var(--color-nexus-lime)' }}>
-                    MAVERICK / {maverickPlan.status.toUpperCase()}
-                  </span>
-                  <span className="mono">{maverickPlan.duration_ms}ms</span>
-                </div>
-                <div>Optimal Path: {maverickPlan.steps} waypoints · Supervisor Interventions: {maverickPlan.interventions}</div>
-              </div>
-            )}
           </div>
           <p className="data-note">
             Local review only. This action does not contact emergency services.
           </p>
         </div>
-        <DetectionReplay key={record.id} observation={record} />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', width: '100%', minWidth: 0 }}>
+          <div className="segmented" role="group" aria-label="Rescue inspection view" style={{ alignSelf: 'flex-start' }}>
+            <button
+              className={rescueView === 'evidence' ? 'active' : ''}
+              onClick={() => setRescueView('evidence')}
+            >
+              Recorded Evidence
+            </button>
+            <button
+              className={rescueView === 'maverick' ? 'active' : ''}
+              onClick={() => setRescueView('maverick')}
+            >
+              <Compass size={14} style={{ marginRight: 6, verticalAlign: 'middle' }} />
+              MAVERICK Pathfinding Simulation
+            </button>
+          </div>
+          {rescueView === 'evidence' ? (
+            <DetectionReplay key={record.id} observation={record} />
+          ) : (
+            <div style={{ border: '1px solid var(--line)', borderRadius: '8px', padding: '1rem', background: 'rgba(8, 18, 21, 0.4)' }}>
+              <MaverickLab compact />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
