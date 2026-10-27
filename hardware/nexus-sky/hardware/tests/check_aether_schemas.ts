@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { deviceSchema, readingSchema, cameraHealthSchema } from '/home/blu/Projects/AETHER/src/lib/data/validators.ts';
+import { deviceSchema, readingSchema, cameraHealthSchema } from '@/lib/data/validators';
 const evidence = JSON.parse(readFileSync(new URL('../../docs/hardware-evidence/real-pi-api.json', import.meta.url), 'utf8'));
 const feeds = evidence.aether_feeds;
 assert.equal(feeds.source, 'LIVE');

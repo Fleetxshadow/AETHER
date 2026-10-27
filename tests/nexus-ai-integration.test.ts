@@ -7,6 +7,7 @@ import {
   liveObservationSchema,
   aiSchema,
   deviceSchema,
+  cameraHealthSchema,
 } from '../src/lib/data/validators';
 import {
   type NexusVisionInferResponse,
@@ -372,4 +373,71 @@ test('10. Fully Offline Demonstration Mode: Completely functional with no backen
   assert.deepEqual(published, observations);
   assert.equal(published.length, observations.length);
   assert.ok(published.every((o) => o.source === 'Simulated aerial observation'));
+});
+
+test('11. Hardware Link: Real Pi device validation, empty unsupported feeds, and MJPEG schema bounds', () => {
+  // Real Pi device record as emitted by the hardware gateway (from real-pi-api.json)
+  const realPiDevice = {
+    id: 'pi-b3628e937d57',
+    name: 'pi-b3628e937d57',
+    module: 'sky' as const,
+    status: 'online' as const,
+    lastSeen: makeIso(),
+    source: 'LIVE' as const,
+  };
+
+  // 1. Device schema passes without any frontend changes
+  const devResult = deviceSchema.safeParse(realPiDevice);
+  assert.ok(devResult.success);
+
+  // 2. Hardware feeds have empty telemetry and cameraStatus because no external sensors/cameras exist
+  const honestFeeds = {
+    schema_version: '1.0.0',
+    device_id: 'nexus-local-gateway',
+    device_type: 'gateway',
+    timestamp: makeIso(),
+    source: 'LIVE' as const,
+    upstream_connected: true,
+    devices: [realPiDevice],
+    telemetry: [],
+    cameraStatus: [],
+    aiDetections: [],
+    observations: [],
+    incidents: [],
+  };
+
+  assert.equal(honestFeeds.devices.length, 1);
+  assert.equal(honestFeeds.telemetry.length, 0);
+  assert.equal(honestFeeds.cameraStatus.length, 0);
+
+  // 3. Confirm that unbridged MJPEG is rejected by strict camera validator (preserving offline camera state)
+  const rawMjpegCamera = {
+    cameraId: 'cam-01',
+    deviceId: 'pi-b3628e937d57',
+    online: true,
+    lastSeen: makeIso(),
+    streamType: 'mjpeg', // Invalid: schema allows only 'mediamtx' | 'vdo-ninja'
+    source: 'LIVE',
+  };
+  assert.equal(cameraHealthSchema.safeParse(rawMjpegCamera).success, false);
+
+  // 4. Controller integrates real Pi device cleanly
+  let published: Observation[] = [];
+  const controller = new NexusDataController(
+    (records) => {
+      published = records;
+    },
+    'main',
+    60000,
+    () => nowMs,
+  );
+  controller.configure(true, 'operator');
+  controller.receive('devices', 'connected', honestFeeds.devices);
+  controller.receive('telemetry', 'connected', honestFeeds.telemetry);
+  controller.receive('cameraStatus', 'connected', honestFeeds.cameraStatus);
+
+  // Mode is connected-awaiting or live depending on rows; demo records remain preserved
+  assert.equal(published.length, observations.length);
+  assert.equal(controller.state.lastKnown.devices.length, 1);
+  assert.equal(controller.state.lastKnown.devices[0].id, 'pi-b3628e937d57');
 });
