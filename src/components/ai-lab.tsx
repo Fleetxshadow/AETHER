@@ -1,21 +1,17 @@
 'use client';
+/* eslint-disable @next/next/no-img-element */
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Camera,
   Cpu,
   Compass,
   AlertTriangle,
-  CheckCircle2,
   Play,
   RotateCcw,
-  Sparkles,
   Shield,
-  Layers,
-  ArrowRight,
   Info,
   Clock,
-  Crosshair,
 } from 'lucide-react';
 
 // ==============================================================================
@@ -123,7 +119,7 @@ type LabTab = 'vision' | 'core' | 'maverick';
 // 1. VISION LAB COMPONENT
 // ==============================================================================
 
-function VisionLab() {
+export function VisionLab() {
   const [samples, setSamples] = useState<VisionSample[]>([]);
   const [selectedSample, setSelectedSample] = useState<string>('');
   const [uploadFile, setUploadFile] = useState<File | null>(null);
@@ -422,7 +418,7 @@ function VisionLab() {
 // 2. CORE DECISION LAB COMPONENT
 // ==============================================================================
 
-function CoreLab() {
+export function CoreLab() {
   const [presets, setPresets] = useState<CorePreset[]>([]);
   const [selectedPresetId, setSelectedPresetId] = useState<string>('routine_patrol');
   const [battery, setBattery] = useState<number>(88);
@@ -847,7 +843,7 @@ function CoreLab() {
 
 type GridTool = 'building' | 'hazard' | 'road' | 'start' | 'goal';
 
-export function MaverickLab({ compact = false }: { compact?: boolean }) {
+export function MaverickLab() {
   const [presets, setPresets] = useState<MaverickPreset[]>([]);
   const [selectedPresetId, setSelectedPresetId] = useState<string>('downtown_corridors');
   const [gridSize, setGridSize] = useState<number>(12);
@@ -938,8 +934,10 @@ export function MaverickLab({ compact = false }: { compact?: boolean }) {
       const row: number[] = [];
       for (let x = 0; x < n; x++) {
         const r = Math.random();
-        if (r < 0.2) row.push(1); // Building
-        else if (r < 0.28) row.push(2); // Hazard
+        if (r < 0.2)
+          row.push(1); // Building
+        else if (r < 0.28)
+          row.push(2); // Hazard
         else row.push(0);
       }
       grid.push(row);
@@ -993,7 +991,9 @@ export function MaverickLab({ compact = false }: { compact?: boolean }) {
 
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
-        throw new Error(errData.error || errData.detail || `Route planning failed: HTTP ${res.status}`);
+        throw new Error(
+          errData.error || errData.detail || `Route planning failed: HTTP ${res.status}`,
+        );
       }
 
       const data: MaverickPlanResult = await res.json();
@@ -1212,11 +1212,17 @@ export function MaverickLab({ compact = false }: { compact?: boolean }) {
             <span className="lab-legend-box" style={{ background: '#991b1b' }} /> Hazard (Danger)
           </span>
           <span className="lab-legend-item">
-            <span className="lab-legend-box" style={{ background: '#10b981', borderRadius: '50%' }} />{' '}
+            <span
+              className="lab-legend-box"
+              style={{ background: '#10b981', borderRadius: '50%' }}
+            />{' '}
             Start Pin
           </span>
           <span className="lab-legend-item">
-            <span className="lab-legend-box" style={{ background: '#f59e0b', borderRadius: '50%' }} />{' '}
+            <span
+              className="lab-legend-box"
+              style={{ background: '#f59e0b', borderRadius: '50%' }}
+            />{' '}
             Goal Pin
           </span>
           <span className="lab-legend-item">

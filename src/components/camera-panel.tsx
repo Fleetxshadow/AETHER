@@ -156,24 +156,30 @@ export function CameraPanel() {
 
       if (camera.id === 'pi') {
         const isPiConnected = sourcesStatus.pi?.connected;
-        setReport({
-          state: isPiConnected ? 'LIVE' : 'DEMO',
-          message: isPiConnected
-            ? 'Transmitting live camera frames from Raspberry Pi (192.168.50.2).'
-            : 'Raspberry Pi feed unavailable (offline) — active fallback: VisDrone aerial simulation with AI detection.',
-          transport: isPiConnected ? 'Hardware / Pi' : 'YOLOv8 Simulation Fallback',
+        queueMicrotask(() => {
+          setReport({
+            state: isPiConnected ? 'LIVE' : 'DEMO',
+            message: isPiConnected
+              ? 'Transmitting live camera frames from Raspberry Pi (192.168.50.2).'
+              : 'Raspberry Pi feed unavailable (offline) — active fallback: VisDrone aerial simulation with AI detection.',
+            transport: isPiConnected ? 'Hardware / Pi' : 'YOLOv8 Simulation Fallback',
+          });
         });
       } else if (camera.id === 'dataset_loop') {
-        setReport({
-          state: 'DEMO',
-          message: 'Simulating drone flight over city grid via VisDrone aerial validation loop.',
-          transport: 'YOLOv8 Aerial Stream',
+        queueMicrotask(() => {
+          setReport({
+            state: 'DEMO',
+            message: 'Simulating drone flight over city grid via VisDrone aerial validation loop.',
+            transport: 'YOLOv8 Aerial Stream',
+          });
         });
       } else {
-        setReport({
-          state: 'DEMO',
-          message: 'Simulating animated urban crossroad with live vehicle tracking.',
-          transport: 'Synthetic Grid Engine',
+        queueMicrotask(() => {
+          setReport({
+            state: 'DEMO',
+            message: 'Simulating animated urban crossroad with live vehicle tracking.',
+            transport: 'Synthetic Grid Engine',
+          });
         });
       }
       return;
