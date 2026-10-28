@@ -1,0 +1,86 @@
+{
+  "selected": {
+    "status": "ok",
+    "active_source": "pi"
+  },
+  "sources": {
+    "active_source": "dataset_loop",
+    "sources": {
+      "synthetic": {
+        "name": "synthetic",
+        "connected": true,
+        "running": true,
+        "frame_count": 111,
+        "error_count": 0,
+        "last_frame_age_s": 0.08,
+        "last_error": null
+      },
+      "dataset_loop": {
+        "name": "dataset_loop",
+        "connected": true,
+        "running": true,
+        "frame_count": 58,
+        "error_count": 0,
+        "last_frame_age_s": 0.16,
+        "last_error": null
+      },
+      "pi": {
+        "name": "pi",
+        "connected": true,
+        "running": true,
+        "frame_count": 22,
+        "error_count": 0,
+        "last_frame_age_s": 0.24,
+        "last_error": null
+      },
+      "esp32": {
+        "name": "esp32",
+        "connected": false,
+        "running": true,
+        "frame_count": 0,
+        "error_count": 4,
+        "last_frame_age_s": null,
+        "last_error": "Connection failure to 192.168.60.1: timed out"
+      }
+    }
+  },
+  "decoded_shape": [
+    240,
+    320,
+    3
+  ],
+  "snapshot_bytes": 5899,
+  "web_stream": {
+    "decoded_frames": 30,
+    "unique_frame_hashes": 6,
+    "elapsed_seconds": 2.96,
+    "physical_camera": true
+  },
+  "website_feeds": {
+    "source": "LIVE",
+    "timestamp": "2026-10-28T08:05:21.322508Z",
+    "devices": [
+      {
+        "id": "pi-e47bdf738da35eea",
+        "name": "NEXUS Pi edge node",
+        "module": "sky",
+        "status": "online",
+        "lastSeen": "2026-10-28T08:05:19.650354Z",
+        "source": "LIVE"
+      },
+      {
+        "id": "pi-usb-cam-01",
+        "name": "pi-usb-cam-01",
+        "module": "sky",
+        "status": "online",
+        "lastSeen": "2026-10-28T08:05:19.466220Z",
+        "source": "LIVE"
+      }
+    ],
+    "telemetry": [],
+    "cameraStatus": [],
+    "aiDetections": [],
+    "observations": [],
+    "incidents": []
+  }
+}

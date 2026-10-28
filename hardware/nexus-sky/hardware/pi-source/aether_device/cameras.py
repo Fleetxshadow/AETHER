@@ -80,8 +80,14 @@ class Camera:
         self.index = config.get('index', 0)
         if not isinstance(self.index, int) or not 0 <= self.index < 16:
             raise ValueError('invalid CSI index')
-        if not re.fullmatch(r'/dev/video\d+', self.device):
+        if not re.fullmatch(r'/dev/video\d+|/dev/v4l/by-id/[A-Za-z0-9_.:-]+-video-index\d+', self.device):
             raise ValueError('invalid V4L2 device')
+        self.input_format = config.get('input_format')
+        self.input_fps = config.get('input_fps', max(1, self.fps))
+        if self.input_format not in (None, 'mjpeg', 'yuyv422'):
+            raise ValueError('invalid V4L2 input format')
+        if type(self.input_fps) not in (int, float) or not 1 <= self.input_fps <= 30:
+            raise ValueError('V4L2 input FPS must be 1–30')
         self.event = event
         self.lock = threading.Lock()
         self.halt = threading.Event()
@@ -161,8 +167,12 @@ class Camera:
         else:
             if not Path(self.device).exists():
                 raise OSError('Configured capture device is absent')
-            cmd = ['ffmpeg', '-nostdin', '-loglevel', 'error', '-f', 'v4l2', '-framerate', str(self.fps),
-                   '-video_size', '320x240', '-i', self.device, '-f', 'image2pipe', '-vcodec', 'mjpeg', '-q:v', '10', '-']
+            cmd = ['ffmpeg', '-nostdin', '-loglevel', 'error', '-threads', '1', '-f', 'v4l2']
+            if self.input_format:
+                cmd += ['-input_format', self.input_format]
+            cmd += ['-framerate', str(self.input_fps), '-video_size', '320x240', '-i', self.device,
+                    '-vf', 'fps=' + str(self.fps), '-threads', '1', '-f', 'image2pipe',
+                    '-vcodec', 'mjpeg', '-q:v', '10', '-']
         self.process = p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
         buf = bytearray()
         last = time.monotonic()

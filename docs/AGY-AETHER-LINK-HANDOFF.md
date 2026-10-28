@@ -1,3 +1,5 @@
+> **28 October update:** A real USB camera is now capturing and streaming through the existing AETHER camera API. See the [physical camera activation record](../hardware/nexus-sky/docs/NEXUS-USB-CAMERA-2026-10-28.md). The earlier inventory and pending-camera statements below describe the 27 October handoff.
+
 # AGY handoff — Operation Aether Link
 
 **Prepared for:** Antigravity (AGY), AETHER website and AI/backend integration owner
