@@ -1,0 +1,25 @@
+[Unit]
+Description=NEXUS Pi device telemetry and camera agent
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=nexus
+Group=nexus
+WorkingDirectory=/home/nexus/nexus-sky
+ExecStart=/home/nexus/nexus-sky/tools/run-device-agent.sh
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=15
+KillMode=control-group
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+SyslogIdentifier=nexus-device
+
+[Install]
+WantedBy=multi-user.target

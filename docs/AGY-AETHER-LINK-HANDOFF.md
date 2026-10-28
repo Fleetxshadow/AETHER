@@ -1,3 +1,5 @@
+> **Boot update (28 October):** Pi agent and USB camera now start automatically through an enabled system service, verified after an actual reboot. Use [Pi service controls](../hardware/nexus-sky/docs/NEXUS-PI-AUTOSTART.md); earlier manual-start instructions below are superseded for the Pi. The laptop stack/tunnel remain separate.
+
 > **28 October update:** A real USB camera is now capturing and streaming through the existing AETHER camera API. See the [physical camera activation record](../hardware/nexus-sky/docs/NEXUS-USB-CAMERA-2026-10-28.md). The earlier inventory and pending-camera statements below describe the 27 October handoff.
 
 # AGY handoff — Operation Aether Link

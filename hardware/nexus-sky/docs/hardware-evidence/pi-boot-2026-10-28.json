@@ -1,0 +1,112 @@
+{
+  "boot_id_before": "0f5dd3b7-d925-40e7-a52b-7937a8968e8e",
+  "boot_id_after": "7a2edc84-8cfe-44e8-b7bc-300d5c19d84b",
+  "uptime_seconds": 84.98,
+  "service_properties": "MainPID=723\nNRestarts=0\nActiveState=active\nSubState=running\nUnitFileState=enabled\nActiveEnterTimestamp=Wed 2026-10-28 13:50:19 IST\nActiveEnterTimestampMonotonic=35707341\n",
+  "api": {
+    "/health": {
+      "schema_version": "1.0.0",
+      "device_id": "pi-e47bdf738da35eea",
+      "device_type": "raspberry-pi",
+      "timestamp": "2026-10-28T08:21:21.453253Z",
+      "source": "LIVE",
+      "status": "ok",
+      "uptime_seconds": 48.02,
+      "metrics": {
+        "cpu_percent": {
+          "value": 5.128,
+          "unit": "%",
+          "observed_at": "2026-10-28T08:21:20.689069Z",
+          "source": "LIVE",
+          "error": null
+        },
+        "ram_percent": {
+          "value": 19.713,
+          "unit": "%",
+          "observed_at": "2026-10-28T08:21:20.689069Z",
+          "source": "LIVE",
+          "error": null
+        },
+        "cpu_temperature": {
+          "value": 47.774,
+          "unit": "\u00b0C",
+          "observed_at": "2026-10-28T08:21:20.689069Z",
+          "source": "LIVE",
+          "error": null
+        },
+        "storage_available": {
+          "value": 8441970688,
+          "unit": "bytes",
+          "observed_at": "2026-10-28T08:21:20.689069Z",
+          "source": "LIVE",
+          "error": null
+        }
+      },
+      "network": [
+        {
+          "interface": "eth0",
+          "state": "DOWN",
+          "addresses": []
+        },
+        {
+          "interface": "wlan0",
+          "state": "UP",
+          "addresses": [
+            "192.168.3.224",
+            "fe80::6b94:84ba:fd52:c737"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "timestamp": "2026-10-28T08:20:20.723467Z",
+          "event": "agent_started",
+          "device_id": "pi-e47bdf738da35eea"
+        },
+        {
+          "timestamp": "2026-10-28T08:20:26.972417Z",
+          "event": "camera_connected",
+          "device_id": "pi-usb-cam-01"
+        }
+      ],
+      "camera_count": 1
+    },
+    "/camera/status": {
+      "schema_version": "1.0.0",
+      "device_id": "pi-e47bdf738da35eea",
+      "device_type": "raspberry-pi",
+      "timestamp": "2026-10-28T08:21:21.461708Z",
+      "source": "LIVE",
+      "cameras": [
+        {
+          "id": "pi-usb-cam-01",
+          "device_type": "v4l2",
+          "online": true,
+          "source": "LIVE",
+          "last_seen": "2026-10-28T08:21:21.360046Z",
+          "frame_age_seconds": 0.102,
+          "frames_received": 209,
+          "error_count": 0,
+          "capture_ms": 202.61,
+          "target_fps": 5,
+          "received_fps": 4.98,
+          "error": null,
+          "transport": "mjpeg",
+          "calibration": {
+            "kind": "none",
+            "note": "JPEG envelope checked; no image calibration"
+          }
+        }
+      ],
+      "discovered": [
+        {
+          "kind": "v4l2",
+          "path": "/dev/video0",
+          "name": "USB 2.0 Camera: USB Camera",
+          "verified_capture": false
+        }
+      ]
+    }
+  },
+  "verified_after_real_reboot": true
+}

@@ -1,3 +1,5 @@
+> **Autostart update (28 October):** The Pi agent and USB camera now start through `nexus-device.service`, verified by a real reboot. See [Pi autostart](NEXUS-PI-AUTOSTART.md). Do not launch a second manual agent while the service is running. Earlier manual-start instructions below describe the initial setup.
+
 # NEXUS hardware integration — Operation Aether Link
 
 Implemented 27 October 2026 on branch `hardware/aether-link`. Status: real Pi host metrics verified; camera transport software tested with fixtures; physical camera/sensor connections and AGY website adoption pending. The dedicated hardware gateway does not alter the running AI backend or website.
