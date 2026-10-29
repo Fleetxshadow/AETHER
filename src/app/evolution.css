@@ -1,0 +1,611 @@
+/* Observatory: unobstructed geometry, shared dock, readable information. */
+.city-portal {
+  isolation: isolate;
+}
+.portal-scene-clip {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  isolation: isolate;
+  clip-path: inset(0 round 50% 50% 14px 14px / 30% 30% 14px 14px);
+}
+.portal-scene-clip .city-scene,
+.portal-scene-clip canvas {
+  background: transparent;
+}
+.cinematic-command .command-map-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+}
+.cinematic-command .command-map-toolbar .map-layers {
+  position: static;
+  inset: auto;
+  width: auto;
+  flex: 1 1 540px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+.cinematic-command .command-map-toolbar .map-layers > .eyebrow {
+  grid-column: 1/-1;
+  font-size: 11px;
+  color: var(--muted);
+  margin: 0 0 3px;
+}
+.cinematic-command .command-map-toolbar .map-layers button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 12px;
+  padding: 8px;
+  color: var(--text);
+  line-height: 1.4;
+}
+.cinematic-command .command-map-toolbar .map-layers button.active {
+  color: var(--accent-ink);
+}
+.cinematic-command .command-map-toolbar .map-summary {
+  position: static;
+  inset: auto;
+  flex: 1 1 200px;
+  max-width: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.cinematic-command .command-map-toolbar .map-summary .mono {
+  font-size: 11px;
+  color: var(--muted);
+  max-width: none;
+}
+.cinematic-command .command-map-toolbar .map-summary .text-button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.cinematic-command .instrument-title {
+  font-size: 14px;
+  color: var(--text);
+}
+.cinematic-command .telemetry-instrument > p {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.6;
+}
+.kpi-context {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 9px;
+  row-gap: 2px;
+  font-size: 11px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+.kpi-context > .kpi-source {
+  font: 500 11px/1.8 var(--mono);
+  color: var(--accent-ink);
+}
+.cinematic-command .telemetry-instrument > strong > small {
+  font-size: 13px;
+  color: var(--text);
+}
+.presentation-copy > p:last-child {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text);
+}
+.presentation-top {
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.presentation-top > .mono {
+  font-size: 12px;
+}
+.cinematic-command .geospatial-heading,
+.cinematic-command .snapshot-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+.cinematic-command .chart-head > span {
+  font-size: 14px;
+  color: var(--text);
+}
+.cinematic-command .geospatial-heading {
+  flex-wrap: wrap;
+  row-gap: 7px;
+}
+.cinematic-command .geospatial-heading > .mono,
+.cinematic-command .geospatial-heading > .mono:last-child {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: none;
+  justify-content: flex-start;
+  text-align: left;
+}
+.cinematic-command .chart-head strong > small {
+  font-size: 13px;
+  color: var(--text);
+}
+.cinematic-command .chart-head .text-button {
+  font-size: 12px;
+  min-height: 44px;
+}
+.cinematic-command .chart-legend {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+.cinematic-command .map-caption {
+  font-size: 12px;
+}
+.cinematic-command .map-caption-sub {
+  font-size: 11px;
+}
+.cinematic-command .map-districts {
+  font-size: 11px;
+}
+.cinematic-command .map-popup-label {
+  font-size: 13px;
+  line-height: 1.6;
+}
+@media (max-width: 700px) {
+  .cinematic-command .command-map-toolbar .map-layers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cinematic-command .command-map-toolbar .map-summary {
+    max-width: none;
+  }
+  .cinematic-command .instrument-title {
+    font-size: 13px;
+  }
+  .presentation-copy > p:last-child {
+    font-size: 15px;
+  }
+  .kpi-context {
+    font-size: 11px;
+  }
+}
+.cinematic .city-portal {
+  top: 18%;
+  left: 30%;
+  right: 3%;
+  bottom: 235px;
+}
+.cinematic .cinema-copy {
+  top: 24%;
+  width: 330px;
+}
+.cinematic .cinema-description {
+  font-size: 15px;
+  line-height: 1.75;
+  max-width: 330px;
+}
+.hero-data-disclosure {
+  font: 11px/1.65 var(--body);
+  color: var(--muted);
+  margin: 9px 0 18px;
+  max-width: 300px;
+}
+.observatory-dock {
+  position: absolute;
+  left: 30%;
+  right: 3%;
+  bottom: 120px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 245px;
+  gap: 14px;
+  z-index: 22;
+  align-items: stretch;
+}
+.cinematic .hero-layer-dock,
+.cinematic .hero-intelligence {
+  position: relative;
+  inset: auto;
+  width: auto;
+  bottom: auto;
+  right: auto;
+  border-radius: 12px;
+  box-shadow: none;
+  min-width: 0;
+}
+.cinematic .hero-layer-dock {
+  order: 0;
+  padding: 13px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--surface);
+}
+.cinematic .hero-layer-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px;
+}
+.cinematic .hero-layer-shortcuts button {
+  min-height: 44px;
+  font-size: 12px;
+  padding: 8px;
+  gap: 7px;
+  line-height: 1.4;
+}
+.cinematic .hero-layer-shortcuts button > .mono {
+  font-size: 9px;
+}
+.cinematic .dock-label {
+  font-size: 9px;
+  color: var(--muted);
+}
+.cinematic .hero-intelligence {
+  order: 1;
+  overflow: visible;
+  background: var(--surface);
+}
+.cinematic .intelligence-trigger {
+  height: 100%;
+  min-height: 86px;
+  padding: 12px 16px;
+  color: var(--text);
+}
+.cinematic .intelligence-trigger > .mono {
+  font-size: 9px;
+  color: var(--muted);
+}
+.cinematic .intelligence-count {
+  margin-top: 7px;
+  gap: 12px;
+}
+.cinematic .intelligence-count > strong {
+  font-size: 38px;
+}
+.cinematic .intelligence-count > span {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.cinematic .intelligence-count b {
+  font-size: 10px;
+}
+.cinematic .intelligence-trigger > svg {
+  display: none;
+}
+.cinematic .hero-signal-list {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  right: 0;
+  width: 340px;
+  max-width: calc(100vw - 34px);
+  max-height: 360px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px #0004;
+}
+.cinematic .hero-signal-list > button {
+  font-size: 13px;
+  min-height: 64px;
+  color: var(--text);
+}
+.cinematic .hero-signal-list small {
+  font-size: 11px;
+  color: var(--muted);
+}
+.cinematic .cinema-footer > .mono,
+.cinematic .cinema-footer > div > .mono {
+  font-size: 10px;
+}
+.cinematic .cinema-footer strong small {
+  font-size: 9px;
+  line-height: 1.5;
+}
+.cinematic .hero-presentation {
+  font-size: 13px;
+  min-height: 44px;
+}
+.scene-marker {
+  font-size: 13px !important;
+  line-height: 1.4;
+  min-width: 44px;
+  min-height: 44px;
+}
+.scene-marker.selected {
+  background: var(--primary-fill) !important;
+  color: var(--on-accent) !important;
+  border-color: var(--primary-fill) !important;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--primary-fill) 25%, transparent);
+  max-width: 250px;
+  white-space: normal;
+}
+.projected-label[data-displaced='true']::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--leader-length);
+  height: 1px;
+  background: color-mix(in srgb, var(--primary-fill) 60%, transparent);
+  transform: rotate(var(--leader-angle));
+  transform-origin: 0 0;
+  pointer-events: none;
+  z-index: -1;
+}
+.cinematic-command .telemetry-instrument > p {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.cinematic-command .instrument-title {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.cinematic-command .snapshot-label,
+.cinematic-command .chart-legend {
+  font-size: 12px;
+}
+.cinematic-command .map-severity-legend {
+  font-size: 12px;
+}
+.cinematic-command .observation-row strong {
+  font-size: 14px;
+}
+.cinematic-command .observation-row small {
+  font-size: 12px;
+}
+.cinematic-detail .detail-location .mono {
+  font-size: 12px;
+}
+.cinematic-detail .detail-description {
+  font-size: 14px;
+}
+.cinematic-detail .detail-metadata > div {
+  font-size: 13px;
+}
+.cinematic-detail .detail-evidence-preview > .mono {
+  font-size: 10px;
+}
+.engineering-configurator .part-list > button {
+  font-size: 13px;
+}
+.engineering-configurator .part-detail > p:last-child {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.engineering-configurator .stage-topline,
+.engineering-configurator .scene-instructions {
+  font-size: 10px;
+}
+.presentation-description {
+  font-size: 16px;
+  line-height: 1.8;
+}
+@media (min-width: 961px) and (max-height: 780px) {
+  .cinematic .cinema-copy {
+    top: 24%;
+    width: 315px;
+  }
+  .cinematic .cinematic-hero h1 {
+    font-size: 64px;
+  }
+  .cinematic .cinema-description {
+    font-size: 13px;
+    line-height: 1.65;
+    margin-top: 15px;
+  }
+  .hero-data-disclosure {
+    font-size: 11px;
+    margin: 5px 0 10px;
+  }
+  .cinematic .hero-presentation {
+    font-size: 12px;
+  }
+  .cinematic .city-portal {
+    top: 145px;
+    bottom: 220px;
+  }
+  .observatory-dock {
+    bottom: 115px;
+    grid-template-columns: minmax(0, 1fr) 215px;
+    gap: 10px;
+  }
+  .cinematic .hero-layer-shortcuts button {
+    font-size: 11px;
+  }
+  .cinematic .cinema-footer {
+    bottom: 25px;
+    gap: 30px;
+  }
+  .cinematic .cinema-footer strong {
+    font-size: 28px;
+  }
+  .cinematic .cinema-footer strong small {
+    font-size: 8px;
+  }
+}
+@media (min-width: 701px) and (max-width: 960px) {
+  .cinematic .cinema-copy {
+    top: 225px;
+    left: 30px;
+    width: 300px;
+    padding: 15px 0;
+    background: linear-gradient(90deg, var(--bg) 78%, transparent);
+    border-radius: 18px;
+  }
+  .cinematic .cinematic-hero h1 {
+    font-size: 72px;
+  }
+  .cinematic .city-portal {
+    top: 285px;
+    left: 44%;
+    right: -5%;
+    bottom: 270px;
+  }
+  .observatory-dock {
+    left: 30px;
+    right: 30px;
+    bottom: 145px;
+    grid-template-columns: minmax(0, 1fr) 205px;
+  }
+  .cinematic .hero-layer-shortcuts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cinematic .intelligence-trigger {
+    min-height: 120px;
+  }
+  .cinematic .hero-layer-shortcuts button {
+    font-size: 12px;
+  }
+  .cinematic .cinema-description {
+    font-size: 14px;
+  }
+  .hero-data-disclosure {
+    font-size: 12px;
+  }
+  .cinematic .cinema-footer {
+    bottom: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .cinematic .cinematic-hero {
+    height: 1340px;
+    min-height: 1340px;
+  }
+  .cinematic .cinema-copy {
+    top: 255px;
+    width: auto;
+    left: 22px;
+    right: 22px;
+  }
+  .cinematic .cinema-description {
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 335px;
+  }
+  .hero-data-disclosure {
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 8px 0 15px;
+  }
+  .cinematic .city-portal {
+    top: 660px;
+    left: 9px;
+    right: 9px;
+    bottom: 330px;
+  }
+  .observatory-dock {
+    left: 17px;
+    right: 17px;
+    bottom: 120px;
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+  .cinematic .hero-layer-shortcuts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cinematic .hero-layer-shortcuts button {
+    font-size: 12px;
+    min-height: 44px;
+  }
+  .cinematic .hero-intelligence {
+    order: 1;
+  }
+  .cinematic .intelligence-trigger {
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .cinematic .intelligence-trigger > .mono {
+    max-width: 85px;
+    line-height: 1.6;
+  }
+  .cinematic .intelligence-count {
+    margin: 0;
+    gap: 10px;
+  }
+  .cinematic .intelligence-count > strong {
+    font-size: 32px;
+  }
+  .cinematic .intelligence-count > span {
+    font-size: 11px;
+  }
+  .cinematic .hero-signal-list {
+    bottom: calc(100% + 10px);
+    width: 100%;
+    right: 0;
+    max-height: 360px;
+  }
+  .cinematic .cinema-footer {
+    bottom: 22px;
+    left: 22px;
+    right: 22px;
+    gap: 15px;
+  }
+  .cinematic .cinema-footer > div > .mono {
+    font-size: 8px;
+  }
+  .cinematic .cinema-footer strong small {
+    font-size: 8px;
+  }
+  .cinematic .cinema-footer .cinema-replay {
+    left: auto;
+    right: 0;
+    bottom: 320px;
+    background: var(--surface);
+    border-radius: 50%;
+  }
+  .city-scene .scene-marker:not(.selected) {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .city-scene .scene-marker:not(.selected) .marker-copy {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+  .city-scene .scene-marker > i {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+  }
+  .city-scene .scene-marker.selected {
+    max-width: 180px;
+    font-size: 12px !important;
+  }
+  .cinematic-command .map-severity-legend {
+    font-size: 12px;
+  }
+  .cinematic-command .observation-row small {
+    font-size: 11px;
+  }
+  .cinematic-command .telemetry-instrument > p {
+    font-size: 12px;
+  }
+  .cinematic-detail .detail-metadata > div {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "url": "http://localhost:3000/",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "http://192.168.31.225:3000/",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "http://127.0.0.1:3001/brand/aether-icon.svg?v=2",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://127.0.0.1:3001/manifest.webmanifest",
+      "status": 200,
+      "type": "application/manifest+json"
+    },
+    {
+      "url": "http://127.0.0.1:3001/opengraph-image.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:3001/twitter-image.png",
+      "status": 200,
+      "type": "image/png"
+    }
+  ],
+  "officialArtworkHashMatches": true,
+  "notFound": {
+    "status": 404,
+    "aetherReturnLink": true
+  }
+}

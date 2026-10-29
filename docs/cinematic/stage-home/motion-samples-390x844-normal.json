@@ -1,0 +1,2009 @@
+[
+  {
+    "t": 407.19999998807907,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 474.79999999701977,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 535.2999999970198,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 739.3999999910593,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 802.7999999970198,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 1003.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 1476.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 2706.5,
+    "heading": "matrix(1, 0, 0, 1, 0, 64.0578)",
+    "portal": "matrix(0.881662, 0, 0, 0.881662, 0, 0)",
+    "projection": null,
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 3585.5999999940395,
+    "heading": "matrix(1, 0, 0, 1, 0, 0.0211274)",
+    "portal": "matrix(0.996727, 0, 0, 0.996727, 0, 0)",
+    "projection": "none",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 3598.5999999940395,
+    "heading": "matrix(1, 0, 0, 1, 0, 0.00779758)",
+    "portal": "matrix(0.997225, 0, 0, 0.997225, 0, 0)",
+    "projection": "none",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 4851.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.931, 115.624)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 4978.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5024.399999991059,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5140,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5156.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5221.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5286.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5352.899999991059,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5412.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5474.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5548.0999999940395,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5605.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 285.51, 109.306)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 5912,
+    "heading": "matrix(1, 0, 0, 1, 0, 64.0578)",
+    "portal": "matrix(0.88, 0, 0, 0.88, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 285.526, 110.18)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6033.5999999940395,
+    "heading": "matrix(1, 0, 0, 1, 0, 64.0578)",
+    "portal": "matrix(0.88, 0, 0, 0.88, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 285.403, 109.506)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6071.899999991059,
+    "heading": "matrix(1, 0, 0, 1, 0, 64.0578)",
+    "portal": "matrix(0.88, 0, 0, 0.88, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 285.403, 109.506)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6137.199999988079,
+    "heading": "matrix(1, 0, 0, 1, 0, 64.0578)",
+    "portal": "matrix(0.88, 0, 0, 0.88, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 285.403, 109.506)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 6454.5,
+    "heading": "matrix(1, 0, 0, 1, 0, 8.16068)",
+    "portal": "matrix(0.970116, 0, 0, 0.970116, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 286.394, 117.397)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7179.5999999940395,
+    "heading": "none",
+    "portal": "matrix(0.999242, 0, 0, 0.999242, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 278.11, 110.883)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7240,
+    "heading": "none",
+    "portal": "matrix(0.999335, 0, 0, 0.999335, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.634, 106.311)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7294.699999988079,
+    "heading": "none",
+    "portal": "matrix(0.999701, 0, 0, 0.999701, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.64, 106.434)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7363.29999999702,
+    "heading": "none",
+    "portal": "matrix(0.999801, 0, 0, 0.999801, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.625, 106.305)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7436.399999991059,
+    "heading": "none",
+    "portal": "matrix(0.999801, 0, 0, 0.999801, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.625, 106.305)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7501.29999999702,
+    "heading": "none",
+    "portal": "matrix(0.999801, 0, 0, 0.999801, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.625, 106.305)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7566.399999991059,
+    "heading": "none",
+    "portal": "matrix(0.999801, 0, 0, 0.999801, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.625, 106.305)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7638.29999999702,
+    "heading": "none",
+    "portal": "matrix(1, 0, 0, 1, 0, 0)",
+    "projection": "matrix(1, 0, 0, 1, 277.632, 106.464)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7774.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.632, 106.464)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7815.399999991059,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.632, 106.464)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 7881.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.632, 106.464)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 8905.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.602, 106.236)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 8921.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 8991.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9056.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9116.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9188.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9253.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9319.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9383.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9443.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9505.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9936.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 9961.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10037.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10090.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10155.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10219.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10294.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10350.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10418.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10488.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10546.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10619.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10677.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10750.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 10812.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 11794.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.156)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 12187.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 238.744, 98.8638)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 12415.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 281.087, 85.4384)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 12434.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 281.087, 85.4384)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 12884.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 272.713, 98.1256)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 12954.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.777, 104.371)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13027.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.777, 104.371)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13084.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 276.928, 104.218)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13161.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 276.928, 104.218)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13214.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.395, 105.126)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13279.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.395, 105.126)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13353.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.499, 105.442)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13410.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.523, 105.614)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13476.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 105.748)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13536.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.565, 105.827)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13611.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.571, 105.892)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13669,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.571, 105.892)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13909.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.577, 106.044)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13928.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.6, 106.077)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 13990.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.6, 106.077)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14067.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.6, 106.077)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14125.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.569, 106.074)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14186.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.569, 106.074)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14501,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14523.699999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14588,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14640,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 14937.199999988079,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15010.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15457.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 15495,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.56, 106.113)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16453.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16460,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16533.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16591.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16656.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16721.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 16787.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17102,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17113.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17179.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17569.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17634.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17697.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17771.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17828.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17893.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 17959.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18025.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18093.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18156.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18237.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18281.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18344.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18412.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18477,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18540.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18615.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 18683.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19043.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19060.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19133,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19196.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19260.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19327.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19385.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19457.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19798.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19845.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19915.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 19969.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20036,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20102.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20180.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20230.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20526.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20560.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20631.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20687.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20756.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20817.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20884.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 20947.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21079.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21393,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21464.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21538,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21597.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21663.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 21737,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22003,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22059.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22116,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22185.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22246.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 22311,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.997894, 0, 0.00654987, 0, 0, 0.997915, 0, 0, -0.00653621, 0, 0.999979, 0, -0.833961, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 23734.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.855951, 0, 0.309017, 0, 0, 0.9, 0, 0, -0.278115, 0, 0.951057, 0, -40, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 23806.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 23906.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 23938.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24003.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24069.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.670191, 0, -0.4101, 0, 0, 0.734826, 0, 0, 0.301352, 0, 0.912041, 0, 60.9396, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24142.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.670191, 0, -0.4101, 0, 0, 0.734826, 0, 0, 0.301352, 0, 0.912041, 0, 60.9396, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24199.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.838209, 0, 0.0418129, 0, 0, 0.838942, 0, 0, -0.0350787, 0, 0.999125, 0, -2.68705, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24272.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.838209, 0, 0.0418129, 0, 0, 0.838942, 0, 0, -0.0350787, 0, 0.999125, 0, -2.68705, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24338.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.838209, 0, 0.0418129, 0, 0, 0.838942, 0, 0, -0.0350787, 0, 0.999125, 0, -2.68705, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24395.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.856146, 0, 0.306086, 0, 0, 0.899309, 0, 0, -0.275266, 0, 0.952004, 0, -39.5779, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24458.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.855951, 0, 0.309017, 0, 0, 0.9, 0, 0, -0.278115, 0, 0.951057, 0, -40.5144, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24526.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24585,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.635722, 0, -0.469472, 0, 0, 0.72, 0, 0, 0.33802, 0, 0.882948, 0, 70, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24658.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.768818, 0, -0.322102, 0, 0, 0.812099, 0, 0, 0.261579, 0, 0.946705, 0, 46.9753, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24725,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.768818, 0, -0.322102, 0, 0, 0.812099, 0, 0, 0.261579, 0, 0.946705, 0, 46.9753, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24790.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.768818, 0, -0.322102, 0, 0, 0.812099, 0, 0, 0.261579, 0, 0.946705, 0, 46.9753, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24859.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.768818, 0, -0.322102, 0, 0, 0.812099, 0, 0, 0.261579, 0, 0.946705, 0, 46.9753, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24922.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "matrix3d(0.768818, 0, -0.322102, 0, 0, 0.812099, 0, 0, 0.261579, 0, 0.946705, 0, 46.9753, 0, 0, 1)",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 24979.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25045.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25110.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25178.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25235.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25300.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25366.79999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25430.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25519,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25562.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25627,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25695.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25764.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25826,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25899.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 25956.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26021.89999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26080.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26145.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26211.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26275.39999999106,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26340.59999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26409.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.0707713, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26481.09999999404,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.235679, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26537.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.887896, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26602.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.940507, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26679,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.996059, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26749.29999999702,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "matrix(1, 0, 0, 0.996059, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 26807,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 27389.5,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 27478.19999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 277.594, 106.155)",
+    "module": "none",
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 27884,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.252, 109.826)",
+    "module": "none",
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 27909.69999998808,
+    "heading": "none",
+    "portal": "none",
+    "projection": "matrix(1, 0, 0, 1, 286.252, 109.826)",
+    "module": "none",
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 28270.89999999106,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "none",
+    "chart": null
+  },
+  {
+    "t": 28294.89999999106,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.766772, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28359.39999999106,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.419818, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28496.69999998808,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.0633693, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28554.09999999404,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.0575063, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28657.09999999404,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.0575063, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28687.39999999106,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.0575063, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 28753,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0.0575063, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 29132.79999999702,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  },
+  {
+    "t": 29212.29999999702,
+    "heading": null,
+    "portal": null,
+    "projection": null,
+    "module": null,
+    "shutter": "matrix(1, 0, 0, 0, 0, 0)",
+    "chart": null
+  }
+]

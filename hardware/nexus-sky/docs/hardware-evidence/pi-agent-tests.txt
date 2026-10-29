@@ -1,0 +1,25 @@
+test_http_access_and_mutation (test_aether_device.Tests.test_http_access_and_mutation) ... ok
+test_measurements_and_invalid_values (test_aether_device.Tests.test_measurements_and_invalid_values) ... ok
+test_missing_camera_and_codec_discovery (test_aether_device.Tests.test_missing_camera_and_codec_discovery) ... ok
+test_multiple_cameras_reconnect_and_shutdown (test_aether_device.Tests.test_multiple_cameras_reconnect_and_shutdown) ... ok
+test_restart_and_config_validation (test_aether_device.Tests.test_restart_and_config_validation) ... ok
+test_stale_and_disconnect (test_aether_device.Tests.test_stale_and_disconnect) ... ok
+test_atomic_replace (test_nexus_eye.ClientTests.test_atomic_replace) ... ok
+test_bad_header (test_nexus_eye.ClientTests.test_bad_header) ... ok
+test_bad_jpeg (test_nexus_eye.ClientTests.test_bad_jpeg) ... ok
+test_cli_failed_capture_preserves_output (test_nexus_eye.ClientTests.test_cli_failed_capture_preserves_output) ... Camera error: mock capture failure
+ok
+test_cli_missing_host (test_nexus_eye.ClientTests.test_cli_missing_host) ... ok
+test_frames (test_nexus_eye.ClientTests.test_frames) ... ok
+test_health (test_nexus_eye.ClientTests.test_health) ... ok
+test_host_validation (test_nexus_eye.ClientTests.test_host_validation) ... ok
+test_html_rejected (test_nexus_eye.ClientTests.test_html_rejected) ... ok
+test_http_transport (test_nexus_eye.ClientTests.test_http_transport) ... ok
+test_oversized (test_nexus_eye.ClientTests.test_oversized) ... ok
+test_timeout_validation (test_nexus_eye.ClientTests.test_timeout_validation) ... ok
+test_truncated (test_nexus_eye.ClientTests.test_truncated) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.642s
+
+OK

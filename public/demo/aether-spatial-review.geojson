@@ -1,0 +1,709 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DEMO-SKY-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0332,
+            28.4528
+          ],
+          [
+            77.0364,
+            28.4541
+          ],
+          [
+            77.0398,
+            28.4559
+          ],
+          [
+            77.0433,
+            28.4578
+          ],
+          [
+            77.0456,
+            28.4605
+          ],
+          [
+            77.0482,
+            28.4626
+          ],
+          [
+            77.051,
+            28.4644
+          ],
+          [
+            77.0534,
+            28.4661
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:30:00.000Z",
+        "updatedAt": "2026-10-12T04:44:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": "SIMULATED",
+        "sampleTimes": [
+          "2026-10-12T04:30:00.000Z",
+          "2026-10-12T04:32:00.000Z",
+          "2026-10-12T04:34:00.000Z",
+          "2026-10-12T04:36:00.000Z",
+          "2026-10-12T04:38:00.000Z",
+          "2026-10-12T04:40:00.000Z",
+          "2026-10-12T04:42:00.000Z",
+          "2026-10-12T04:44:00.000Z"
+        ],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": false,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "sky",
+        "kind": "TRAIL",
+        "title": "Sector review / simulated aerial trail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-SKY-PROPOSED",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.036,
+            28.463
+          ],
+          [
+            77.042,
+            28.466
+          ],
+          [
+            77.049,
+            28.468
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:31:00.000Z",
+        "updatedAt": "2026-10-12T04:31:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": "PROPOSED",
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "sky",
+        "kind": "TRAIL",
+        "title": "Alternative observation / proposed only"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-GEO-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.029,
+              28.449
+            ],
+            [
+              77.058,
+              28.449
+            ],
+            [
+              77.058,
+              28.471
+            ],
+            [
+              77.029,
+              28.471
+            ],
+            [
+              77.029,
+              28.449
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "DEMO boundary only. This does not establish permission to fly, airspace clearance or an operational geofence.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:28:00.000Z",
+        "updatedAt": "2026-10-12T04:30:00.000Z",
+        "verification": "VERIFIED",
+        "verifiedAt": "2026-10-12T04:30:00.000Z",
+        "verifiedBy": "Demo reviewer",
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": false,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "geo",
+        "kind": "GEOFENCE",
+        "title": "Observation region / DEMO boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-AQUA-AREA",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.039,
+              28.455
+            ],
+            [
+              77.044,
+              28.4555
+            ],
+            [
+              77.0444,
+              28.4594
+            ],
+            [
+              77.0388,
+              28.459
+            ],
+            [
+              77.039,
+              28.455
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "Fictional affected-region example. Boundary is an approximate demo sketch, not a measured flood extent.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:34:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": "DEMO-SKY-01",
+        "evidenceIds": [
+          "DEMO-AQUA-POINT"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "aqua",
+        "kind": "AFFECTED_AREA",
+        "title": "Potential pooling / demo estimate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-AQUA-POINT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0412,
+          28.4572
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:34:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": "DEMO-SKY-01",
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "aqua",
+        "kind": "OBSERVATION",
+        "title": "Waterlogging observation / simulated"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-FLOW-ROAD",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.034,
+            28.4516
+          ],
+          [
+            77.038,
+            28.4535
+          ],
+          [
+            77.043,
+            28.456
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:32:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "flow",
+        "kind": "ROAD_SEGMENT",
+        "title": "Road disruption / approximate demo segment"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-FLOW-POINT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.038,
+          28.4535
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:32:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Example observation: slow movement. No real speed feed.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "flow",
+        "kind": "OBSERVATION",
+        "title": "Slow movement / demo observation"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-ROAD-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0462,
+          28.4593
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:36:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "road",
+        "kind": "OBSERVATION",
+        "title": "Road surface review / demo report A"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-ROAD-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0462,
+          28.4593
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:38:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "road",
+        "kind": "OBSERVATION",
+        "title": "Obstruction review / demo report B"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-SKY-FRAME",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0433,
+          28.4578
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:36:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": "DEMO-SKY-01",
+        "evidenceIds": [
+          "DEMO-SYNTHETIC-FRAME"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "sky",
+        "kind": "OBSERVATION",
+        "title": "Aerial evidence point / simulated frame"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-FIRE-AREA",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                77.049,
+                28.462
+              ],
+              [
+                77.051,
+                28.462
+              ],
+              [
+                77.051,
+                28.464
+              ],
+              [
+                77.049,
+                28.464
+              ],
+              [
+                77.049,
+                28.462
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                77.053,
+                28.465
+              ],
+              [
+                77.055,
+                28.465
+              ],
+              [
+                77.055,
+                28.467
+              ],
+              [
+                77.053,
+                28.467
+              ],
+              [
+                77.053,
+                28.465
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "Fictional hazard review zones. No actual fire, thermal measurement or hazard perimeter is asserted.",
+        "severity": "critical",
+        "observedAt": "2026-10-12T04:40:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-FIRE-POINT"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "fire",
+        "kind": "AFFECTED_AREA",
+        "title": "Two review zones / DEMO MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-FIRE-POINT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.05,
+          28.463
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "critical",
+        "observedAt": "2026-10-12T04:40:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": "DEMO-SKY-01",
+        "evidenceIds": [
+          "DEMO-EVIDENCE"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Demonstration only; no actual processed observation.",
+          "suggestedCause": null,
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "fire",
+        "kind": "OBSERVATION",
+        "title": "Hazard signature / simulated report"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEMO-CORE-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0414,
+          28.4574
+        ]
+      },
+      "properties": {
+        "schemaVersion": 1,
+        "siteId": "main",
+        "source": "DEMO",
+        "audience": "SITE",
+        "location": "Gurugram reference geography ? fictional demo",
+        "description": "SIMULATED geometry and events. No incident, observation flight or approval actually occurred here.",
+        "severity": "elevated",
+        "observedAt": "2026-10-12T04:38:00.000Z",
+        "updatedAt": "2026-10-12T04:48:00.000Z",
+        "verification": "UNDER_REVIEW",
+        "verifiedAt": null,
+        "verifiedBy": null,
+        "confidence": null,
+        "pathStatus": null,
+        "sampleTimes": [],
+        "sessionId": null,
+        "evidenceIds": [
+          "DEMO-AQUA-POINT"
+        ],
+        "geometryBasis": "Hand-drawn demo sketch on geographic coordinates; not surveyed or measured.",
+        "estimated": true,
+        "analysis": {
+          "finding": "Synthetic example links an AQUA point to its supplied demo boundary.",
+          "suggestedCause": "Example hypothesis: local pooling. No verified cause.",
+          "verifiedCause": null,
+          "method": "DEMO_ANNOTATION"
+        },
+        "module": "core",
+        "kind": "OBSERVATION",
+        "title": "Evidence correlation / demo finding"
+      }
+    }
+  ]
+}

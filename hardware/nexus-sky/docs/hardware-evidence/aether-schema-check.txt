@@ -1,0 +1,1 @@
+PASS: real Pi device record validates against unmodified AETHER schema. Unsupported city telemetry/camera bridges/detections are absent. MJPEG restriction confirmed.

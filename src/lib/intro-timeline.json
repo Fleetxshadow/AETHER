@@ -1,0 +1,20 @@
+{
+  "duration": 17,
+  "fps": 30,
+  "cues": {
+    "wake": 0.2,
+    "pulse": 1.4,
+    "crane": 3.0,
+    "spinup": 5.3,
+    "liftoff": 6.55,
+    "chase": 8.6,
+    "intersection": 10.7,
+    "scan": 10.9,
+    "incident": 11.5,
+    "route": 12.0,
+    "pullback": 12.8,
+    "logo": 14.0,
+    "tagline": 14.7,
+    "handoff": 16.0
+  }
+}

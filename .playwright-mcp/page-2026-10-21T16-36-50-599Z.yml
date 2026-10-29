@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "AETHER CITY home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e10]:
+          - text: AETHER
+          - generic [ref=e11]: CITY
+      - generic [ref=e12]:
+        - text: URBAN OBSERVATORY
+        - generic [ref=e14]: 12.9740° N / 77.5940° E
+      - generic [ref=e15]:
+        - button "Open theme configurator" [ref=e16] [cursor=pointer]
+        - button "Enable audio" [ref=e23] [cursor=pointer]
+        - link "Enter command" [ref=e28] [cursor=pointer]:
+          - /url: /command
+        - button "Open navigation" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: EXPLORE
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: AETHER CITY / URBAN INTELLIGENCE
+          - generic [ref=e39]: DEMO SYSTEM
+        - generic [aria-hidden]:
+          - generic: A
+          - generic: E
+          - generic: T
+          - generic: H
+          - generic: E
+          - generic: R
+        - generic [ref=e41]:
+          - group "Interactive conceptual city. Drag to orbit. Use camera controls for accessible navigation." [ref=e47]:
+            - generic [ref=e48]:
+              - img "Simplified conceptual city plan" [ref=e49]
+              - generic [ref=e142]:
+                - generic [ref=e146]: Establishing city renderer
+                - button "Inspect landmark" [ref=e147] [cursor=pointer]
+          - generic:
+            - generic: SPATIAL FIELD 01
+            - generic: CONCEPTUAL GEOGRAPHY
+          - generic: 12.9740° N 77.5940° E
+        - generic:
+          - paragraph: INTELLIGENCE ABOVE. SAFETY BELOW.
+          - heading "AETHER CITY" [level=1]:
+            - generic: AETHER
+            - generic: CITY
+          - paragraph: The Intelligence Behind Every City.
+          - paragraph: An integrated AI-powered urban intelligence ecosystem connecting aerial observation, infrastructure monitoring, traffic analysis, hazard awareness, and smarter navigation.
+          - paragraph: Inspect each observation’s source. Unconnected panels retain recorded demonstration data.
+          - generic:
+            - link "Enter AETHER command" [ref=e151] [cursor=pointer]:
+              - /url: /command
+            - link "Explore the city" [ref=e155] [cursor=pointer]:
+              - /url: "#city"
+          - button "Watch the guided experience 05 CHAPTERS" [ref=e158] [cursor=pointer]:
+            - text: Watch the guided experience
+            - generic [ref=e161]: 05 CHAPTERS
+        - group "City intelligence dock" [ref=e162]:
+          - complementary [ref=e163]:
+            - button "Show recorded city observations" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: RECORDED INTELLIGENCE
+              - generic [ref=e167]:
+                - strong [ref=e168]: "08"
+                - generic [ref=e169]:
+                  - text: shared observations
+                  - generic [ref=e170]: 15:00 IST / DEMO
+          - generic "Hero intelligence layers" [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: ILLUMINATE THE CITY
+              - generic [ref=e176]: 04 LAYERS
+            - generic [ref=e177]:
+              - button "01 Intelligence network" [pressed] [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: "01"
+                - text: Intelligence network
+              - button "02 Mobility" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]: "02"
+                - text: Mobility
+              - button "03 Surface heat" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: "03"
+                - text: Surface heat
+              - button "04 Water systems" [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]: "04"
+                - text: Water systems
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - text: PERSPECTIVES
+            - strong [ref=e189]:
+              - text: "10"
+              - generic [ref=e190]: CONNECTED
+          - generic [ref=e191]:
+            - text: BUILT ENVIRONMENT
+            - strong [ref=e192]:
+              - text: "88"
+              - generic [ref=e193]: CONCEPTUAL STRUCTURES
+          - generic [ref=e194]:
+            - text: OBSERVATIONS
+            - strong [ref=e195]:
+              - text: "08"
+              - generic [ref=e196]: SIMULATED DATA
+          - generic [ref=e197]:
+            - button "Skip intro" [ref=e198] [cursor=pointer]
+            - generic [ref=e202]: SCROLL TO CONNECT
+      - generic [ref=e205]:
+        - generic [ref=e206]: ONE CITY.
+        - generic [ref=e207]: TEN PERSPECTIVES.
+        - generic [ref=e208]: A SHARED CONTEXT.
+        - generic [ref=e209]: SOURCE-LABELED INTELLIGENCE ↗
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - paragraph [ref=e213]:
+            - generic [ref=e214]: "01"
+            - text: THE LIVING CITY
+          - generic [aria-hidden]: "01"
+          - generic [ref=e215]:
+            - heading "Every signal has a place." [level=2] [ref=e216]
+            - paragraph [ref=e217]: A shared spatial context connects the recorded observations. Select a signal to inspect the evidence behind it.
+            - generic [ref=e218]: BUNDLED OBSERVATIONS / SPATIAL CONTEXT
+          - generic "City story chapters" [ref=e219]:
+            - button "01 Intelligence network" [pressed] [ref=e220] [cursor=pointer]:
+              - generic [ref=e221]: "01"
+              - text: Intelligence network
+            - button "02 Mobility" [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]: "02"
+              - text: Mobility
+            - button "03 Surface heat" [ref=e225] [cursor=pointer]:
+              - generic [ref=e226]: "03"
+              - text: Surface heat
+            - button "04 Water systems" [ref=e227] [cursor=pointer]:
+              - generic [ref=e228]: "04"
+              - text: Water systems
+          - link "Open digital twin" [ref=e229] [cursor=pointer]:
+            - /url: /command/twin
+        - generic [ref=e233]:
+          - generic [ref=e235]:
+            - img "Simplified conceptual city plan" [ref=e236]
+            - generic [ref=e329]:
+              - generic [ref=e333]: Conceptual city · simplified view
+              - button "Inspect landmark" [ref=e334] [cursor=pointer]
+          - generic:
+            - generic: SPATIAL SYSTEM / ATH-01
+            - generic: DEMO / CONCEPTUAL TWIN
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - button "Intelligence network" [pressed] [ref=e340] [cursor=pointer]
+              - button "Mobility" [ref=e342] [cursor=pointer]
+              - button "Surface heat" [ref=e344] [cursor=pointer]
+              - button "Water systems" [ref=e346] [cursor=pointer]
+            - generic [ref=e348]:
+              - generic [ref=e349]: Camera preset
+              - combobox "Camera preset" [ref=e350]:
+                - option "Overview camera" [selected]
+                - option "Central district"
+                - option "Riverfront"
+                - option "West parkland"
+                - option "Selected observation"
+              - button "Switch to day lighting" [ref=e351] [cursor=pointer]
+              - button "Reset city view" [ref=e354] [cursor=pointer]
+          - generic [ref=e358]: DRAG TO ORBIT / USE CAMERA PRESETS
+      - generic [ref=e359]:
+        - generic [ref=e360]: ATH / 02
+        - paragraph [ref=e361]: EVERY SIGNAL. A SHARED CONTEXT. ↗
+        - generic [ref=e363]: NEW PERSPECTIVE / SAME CITY
+      - generic [ref=e364]:
+        - generic [ref=e365]:
+          - paragraph [ref=e366]:
+            - generic [ref=e367]: "02"
+            - text: THE INTELLIGENCE NETWORK
+          - heading "CONNECTED BY DESIGN. UNDERSTOOD IN CONTEXT." [level=2] [ref=e369]: CONNECTED BY DESIGN.UNDERSTOOD IN CONTEXT.
+          - paragraph [ref=e370]: Different lenses. The same evidence.One shared understanding of the city.
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - generic [ref=e373]: DEMO SOURCES + DOMAIN LENSES
+            - button "01 SKY Aerial intelligence" [ref=e374] [cursor=pointer]:
+              - generic [ref=e375]: "01"
+              - strong [ref=e383]: SKY
+              - generic [ref=e384]: Aerial intelligence
+            - button "02 FLOW Urban mobility" [ref=e388] [cursor=pointer]:
+              - generic [ref=e389]: "02"
+              - strong [ref=e394]: FLOW
+              - generic [ref=e395]: Urban mobility
+            - button "03 RESCUE Emergency response" [ref=e399] [cursor=pointer]:
+              - generic [ref=e400]: "03"
+              - strong [ref=e408]: RESCUE
+              - generic [ref=e409]: Emergency response
+            - button "04 THERMAL Heat intelligence" [ref=e413] [cursor=pointer]:
+              - generic [ref=e414]: "04"
+              - strong [ref=e417]: THERMAL
+              - generic [ref=e418]: Heat intelligence
+            - button "05 AQUA Water & resilience" [ref=e422] [cursor=pointer]:
+              - generic [ref=e423]: "05"
+              - strong [ref=e427]: AQUA
+              - generic [ref=e428]: Water & resilience
+            - button "06 ROAD Infrastructure health" [ref=e432] [cursor=pointer]:
+              - generic [ref=e433]: "06"
+              - strong [ref=e436]: ROAD
+              - generic [ref=e437]: Infrastructure health
+            - button "07 FIRE Fire & smoke detection" [ref=e441] [cursor=pointer]:
+              - generic [ref=e442]: "07"
+              - strong [ref=e445]: FIRE
+              - generic [ref=e446]: Fire & smoke detection
+          - generic [ref=e458]:
+            - text: SHARED SPATIAL RECORDS
+            - generic [ref=e459]:
+              - strong [ref=e465]: DEMODATA
+              - generic [ref=e466]: LOCATION / TIME / EVIDENCE
+            - text: Bundled observations + sensor samples
+          - generic [ref=e467]:
+            - button "TWIN Spatial visualization" [ref=e468] [cursor=pointer]:
+              - strong [ref=e472]: TWIN
+              - generic [ref=e473]: Spatial visualization
+            - button "CORE Deterministic, source-linked analysis" [pressed] [ref=e474] [cursor=pointer]:
+              - strong [ref=e487]: CORE
+              - generic [ref=e488]: Deterministic, source-linked analysis
+            - button "COMMAND Operational review" [ref=e489] [cursor=pointer]:
+              - strong [ref=e493]: COMMAND
+              - generic [ref=e494]: Operational review
+        - generic [ref=e495]:
+          - generic [ref=e499]: AETHER CORE
+          - paragraph [ref=e500]: Connect signals to understanding. Inspect structured, source-linked analysis from the demo dataset.
+          - link "Inspect workspace" [ref=e501] [cursor=pointer]:
+            - /url: /command/core
+        - paragraph [ref=e505]: Demonstration architecture. Available device feeds are identified separately; no automated inference runs in this browser.
+      - generic [ref=e506]:
+        - generic [ref=e507]:
+          - paragraph [ref=e508]:
+            - generic [ref=e509]: "03"
+            - text: TEN PERSPECTIVES / ONE INTELLIGENCE
+          - heading "FIND YOUR PERSPECTIVE." [level=2] [ref=e511]: FIND YOURPERSPECTIVE.
+          - paragraph [ref=e512]: Explore the systems around a shared spatial core.Each lens opens a different understanding.
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - generic [aria-hidden]: "01"
+            - generic:
+              - generic:
+                - generic:
+                  - generic: AETHER X1 / CONCEPTUAL PLATFORM
+                  - img "Illustrative four-motor airframe plan"
+                  - generic: 04 PROPULSION ASSEMBLIES / ILLUSTRATIVE
+            - group "Choose intelligence module" [ref=e515]:
+              - button "Explore AETHER SKY" [pressed] [ref=e516] [cursor=pointer]:
+                - generic [ref=e524]:
+                  - generic [ref=e525]: "01"
+                  - text: SKY
+              - button "Explore AETHER FLOW" [ref=e527] [cursor=pointer]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]: "02"
+                  - text: FLOW
+              - button "Explore AETHER RESCUE" [ref=e534] [cursor=pointer]:
+                - generic [ref=e542]:
+                  - generic [ref=e543]: "03"
+                  - text: RESCUE
+              - button "Explore AETHER THERMAL" [ref=e544] [cursor=pointer]:
+                - generic [ref=e547]:
+                  - generic [ref=e548]: "04"
+                  - text: THERMAL
+              - button "Explore AETHER AQUA" [ref=e549] [cursor=pointer]:
+                - generic [ref=e553]:
+                  - generic [ref=e554]: "05"
+                  - text: AQUA
+              - button "Explore AETHER ROAD" [ref=e555] [cursor=pointer]:
+                - generic [ref=e558]:
+                  - generic [ref=e559]: "06"
+                  - text: ROAD
+              - button "Explore AETHER FIRE" [ref=e560] [cursor=pointer]:
+                - generic [ref=e563]:
+                  - generic [ref=e564]: "07"
+                  - text: FIRE
+              - button "Explore AETHER TWIN" [ref=e565] [cursor=pointer]:
+                - generic [ref=e569]:
+                  - generic [ref=e570]: "08"
+                  - text: TWIN
+              - button "Explore AETHER CORE" [ref=e571] [cursor=pointer]:
+                - generic [ref=e584]:
+                  - generic [ref=e585]: "09"
+                  - text: CORE
+              - button "Explore AETHER COMMAND" [ref=e586] [cursor=pointer]:
+                - generic [ref=e590]:
+                  - generic [ref=e591]: "10"
+                  - text: COMMAND
+          - generic [ref=e592]:
+            - generic [ref=e593]: LENS 01 / CONNECTED TO SHARED DEMO RECORDS
+            - generic [ref=e595]:
+              - text: Aerial intelligence
+              - heading "AETHER SKY" [level=3] [ref=e596]
+              - paragraph [ref=e597]: A new perspective on everything below. Explore the aerial platform, its sensors, and recorded observations.
+              - link "Open workspace" [ref=e599] [cursor=pointer]:
+                - /url: /command/sky
+              - generic [ref=e603]: FLIGHT ALTITUDE / m
+            - generic [ref=e604]:
+              - button "Previous module" [ref=e605] [cursor=pointer]
+              - generic [ref=e608]: 01 / 10
+              - button "Next module" [ref=e609] [cursor=pointer]
+        - paragraph [ref=e612]: Use arrow keys, Home / End, or the direction controls to explore.
+      - generic [ref=e613]:
+        - generic [ref=e614]: ATH / 04
+        - paragraph [ref=e615]: CHANGE YOUR PERSPECTIVE. ↗
+        - generic [ref=e617]: NEW PERSPECTIVE / SAME CITY
+      - generic [ref=e618]:
+        - generic [ref=e619]:
+          - paragraph [ref=e620]:
+            - generic [ref=e621]: "04"
+            - text: AETHER SKY / THE ENGINEERING STUDIO
+          - heading "A HIGHER PERSPECTIVE." [level=2] [ref=e623]: A HIGHERPERSPECTIVE.
+          - paragraph [ref=e624]: Precision in every assembly.Explore the conceptual aerial platform.
+        - status [ref=e626]:
+          - generic [ref=e628]: Engineering explorer
+      - generic [ref=e629]:
+        - generic [ref=e630]:
+          - paragraph [ref=e631]:
+            - generic [ref=e632]: "05"
+            - text: INTELLIGENCE IN ACTION
+          - heading "A SIGNAL. A PLACE. A REASON." [level=2] [ref=e634]: A SIGNAL.A PLACE. A REASON.
+          - paragraph [ref=e635]: Inspect the observation.Trace it to its recorded context.
+        - generic [ref=e636]:
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - img "Synthetic THERMAL evidence illustration. Not a real camera recording." [ref=e639]:
+                - generic [ref=e689]: DEMO / 94.6%
+              - generic:
+                - generic: SYNTHETIC EVIDENCE
+                - generic: NX-2401
+              - generic:
+                - generic: RGB / LWIR / 640 × 512
+                - generic: ILLUSTRATION · NOT A REAL RECORDING
+            - generic [ref=e694]:
+              - generic [ref=e695]: 12.9760° N / 77.5960° E
+              - generic [ref=e696]: SYNTHETIC EVIDENCE
+            - generic [ref=e697]: Central district / CONCEPTUAL LOCATION
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - generic [ref=e704]: NX-2401
+              - generic [ref=e705]: elevated
+            - heading "Surface heat anomaly" [level=3] [ref=e706]
+            - paragraph [ref=e707]: Illustrative rooftop surface temperature exceeds the neighborhood baseline by 8.2°C. Review the thermal sample before making any operational decision.
+            - generic [ref=e708]:
+              - strong [ref=e709]: "42.8"
+              - generic [ref=e710]: °C
+            - generic [ref=e711]: 08:42 IST / DEMO AERIAL DATASET
+            - button "Inspect observation" [ref=e712] [cursor=pointer]
+            - generic "Preview recorded observations" [ref=e716]:
+              - button "Preview Surface heat anomaly" [pressed] [ref=e717] [cursor=pointer]: "2401"
+              - button "Preview Junction congestion" [ref=e719] [cursor=pointer]: "2402"
+              - button "Preview Drainage overflow risk" [ref=e721] [cursor=pointer]: "2403"
+              - button "Preview Road surface fracture" [ref=e723] [cursor=pointer]: "2404"
+              - button "Preview Smoke signature detected" [ref=e725] [cursor=pointer]: "2405"
+              - button "Preview Assistance observation" [ref=e727] [cursor=pointer]: "2406"
+            - paragraph [ref=e729]: Simulated observations. No real incidents verified.
+      - generic [ref=e730]:
+        - generic [ref=e731]:
+          - text: NEW PERSPECTIVE / HUMAN-REVIEWED INTELLIGENCE
+          - heading "EVERY VOICE. A HUMAN RESPONSE." [level=2] [ref=e732]: EVERY VOICE.A HUMAN RESPONSE.
+        - generic [ref=e733]:
+          - paragraph [ref=e734]: Hindi, English, or both. Explore a responsible incident-intake demonstration with voluntary location sharing, a private review queue and simulated handoffs.
+          - link "Explore AETHER RESPONSE" [ref=e735] [cursor=pointer]:
+            - /url: /command/response
+          - generic [ref=e739]: Non-operational demo. No emergency dispatch or live calling.
+      - generic [ref=e740]:
+        - paragraph [ref=e741]:
+          - generic [ref=e742]: "06"
+          - text: THE HUMAN POSSIBILITY
+        - heading "BETTER AWARENESS. MORE RESILIENT CITIES." [level=2] [ref=e744]: BETTER AWARENESS.MORE RESILIENT CITIES.
+        - generic [ref=e745]:
+          - paragraph [ref=e746]: Movement, temperature, water, infrastructure. AETHER connects the signals into a shared understanding of the places we call home.
+          - paragraph [ref=e747]: A conceptual exploration built across spatial design, software, and aerial engineering. Every finding can be traced to the simulated evidence that supports it.
+          - paragraph [ref=e748]: Advanced Ecosystem for Traffic, Hazards, Emergencies & Routing
+      - generic [ref=e749]:
+        - paragraph [ref=e750]:
+          - generic [ref=e751]: "07"
+          - text: THE NEXT PERSPECTIVE IS YOURS
+        - heading "TAKE COMMAND." [level=2] [ref=e753]: TAKECOMMAND.
+        - generic [ref=e754]:
+          - generic "Command center preview using current demo snapshot" [ref=e755]:
+            - generic [ref=e756]:
+              - text: AETHER COMMAND
+              - generic [ref=e758]: 15:00 IST
+            - generic [ref=e766]: 12.9740° N / 77.5940° E
+            - generic [ref=e767]:
+              - generic [ref=e768]:
+                - strong [ref=e769]: "6"
+                - text: ACTIVE / DEMO
+              - generic [ref=e770]:
+                - strong [ref=e771]: 42.8°
+                - text: SURFACE / °C
+              - generic [ref=e772]:
+                - strong [ref=e773]: "23.1"
+                - text: MOBILITY / KM/H
+          - generic [ref=e774]:
+            - paragraph [ref=e775]: Every perspective.One connected city.Your next move.
+            - link "Launch command center" [ref=e777] [cursor=pointer]:
+              - /url: /command
+            - button "Start guided presentation" [ref=e781] [cursor=pointer]
+            - generic [ref=e784]: Conceptual city. Simulated intelligence.
+    - contentinfo [ref=e785]:
+      - link "AETHER CITY home" [ref=e786] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e791]:
+          - text: AETHER
+          - generic [ref=e792]: CITY
+      - generic [ref=e793]: Observe. Understand. Anticipate.
+      - generic [ref=e794]: A conceptual perspective on urban resilience.
+      - link "Back to top" [ref=e795] [cursor=pointer]:
+        - /url: "#main"
+  - alert [ref=e799]

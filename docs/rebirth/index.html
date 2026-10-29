@@ -1,0 +1,242 @@
+﻿<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>NEXUS / Visual Rebirth evidence</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111710;
+      color: #e4ecd8;
+      font:
+        15px system-ui,
+        sans-serif;
+    }
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 24px;
+    }
+    h1 {
+      font-size: clamp(36px, 7vw, 82px);
+      line-height: 1;
+      margin: 18px 0 24px;
+      letter-spacing: -0.04em;
+    }
+    p {
+      color: #b1c29c;
+      line-height: 1.7;
+    }
+    small {
+      color: #ffb347;
+      letter-spacing: 0.14em;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 25px 0;
+    }
+    a {
+      color: #d8ed86;
+      text-underline-offset: 4px;
+    }
+    section {
+      margin: 55px 0;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+    .comparison {
+      position: relative;
+      aspect-ratio: 8/5;
+      overflow: hidden;
+      border: 1px solid #728652;
+      --split: 50%;
+    }
+    .comparison img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #0e1210;
+    }
+    .comparison .after {
+      clip-path: inset(0 calc(100% - var(--split)) 0 0);
+    }
+    .comparison:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: var(--split);
+      width: 2px;
+      background: #ffb347;
+      pointer-events: none;
+    }
+    .label {
+      position: absolute;
+      top: 15px;
+      padding: 7px 10px;
+      background: #111b0fe8;
+      font-size: 10px;
+      letter-spacing: 0.1em;
+    }
+    .left {
+      left: 15px;
+    }
+    .right {
+      right: 15px;
+    }
+    input {
+      width: 100%;
+      min-height: 44px;
+      accent-color: #ffb347;
+    }
+    label {
+      display: block;
+      color: #bfccad;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    video {
+      width: 100%;
+      background: #0c100b;
+      border: 1px solid #728652;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #465939;
+    }
+    .gallery a {
+      font-size: 12px;
+    }
+    .gallery a span {
+      display: block;
+      padding: 10px 0;
+    }
+    @media (max-width: 650px) {
+      main {
+        padding: 25px 16px;
+      }
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <main>
+    <small>NEXUS V2 / OPERATION: VISUAL REBIRTH</small>
+    <h1>THE CITY<br />THAT THINKS.</h1>
+    <p>
+      Original engineering. Rebuilt experience. Drag the comparison sliders to inspect the before
+      and after screenshots, then watch the recorded interactions.
+    </p>
+    <nav>
+      <a href="#home">Homepage</a><a href="#command">Command</a
+      ><a href="#motion">Motion recording</a><a href="after/matrix-results.json">Viewport proof</a
+      ><a href="../VISUAL-REBIRTH.md">Implementation notes</a>
+    </nav>
+    <section id="home">
+      <h2>01 / Cinematic homepage</h2>
+      <div class="comparison">
+        <img src="before/home-1440.png" alt="Homepage before the overhaul" /><img
+          class="after"
+          src="after/home-1440-normal.png"
+          alt="Rebuilt cinematic homepage"
+        /><span class="label left">AFTER</span><span class="label right">BEFORE</span>
+      </div>
+      <label
+        >Compare homepage<input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          aria-label="Homepage before and after comparison"
+      /></label>
+    </section>
+    <section id="command">
+      <h2>02 / Command instrument field</h2>
+      <div class="comparison">
+        <img src="before/command-1440.png" alt="Command dashboard before the overhaul" /><img
+          class="after"
+          src="after/command-1440.png"
+          alt="Command center with spatial field and side telemetry"
+        /><span class="label left">AFTER</span><span class="label right">BEFORE</span>
+      </div>
+      <label
+        >Compare command center<input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          aria-label="Command before and after comparison"
+      /></label>
+    </section>
+    <section id="motion">
+      <h2>03 / Recorded interactions</h2>
+      <p>
+        Hero entrance, magnetic control, scroll-linked city, moving signal paths, module selection,
+        exploded assembly, observation drawer and chart readouts. Sound stays off.
+      </p>
+      <video
+        controls
+        preload="metadata"
+        src="after/recordings/motion-tour.webm"
+        aria-label="NEXUS interaction walkthrough"
+      ></video>
+    </section>
+    <section>
+      <h2>04 / Distinct compositions</h2>
+      <div class="gallery">
+        <a href="after/living-city.png"
+          ><img src="after/living-city.png" alt="Sticky city narrative" /><span
+            >Living city</span
+          ></a
+        ><a href="after/network.png"
+          ><img src="after/network.png" alt="Shared intelligence architecture" /><span
+            >Intelligence network</span
+          ></a
+        ><a href="after/modules-1440.png"
+          ><img src="after/modules-1440.png" alt="Module explorer with actual demo preview" /><span
+            >Module explorer</span
+          ></a
+        ><a href="after/sky-studio.png"
+          ><img src="after/sky-studio.png" alt="Drone engineering studio" /><span
+            >Engineering studio</span
+          ></a
+        ><a href="after/intelligence-action.png"
+          ><img
+            src="after/intelligence-action.png"
+            alt="Recorded evidence and linked location"
+          /><span>Intelligence in action</span></a
+        ><a href="after/analytics.png"
+          ><img src="after/analytics.png" alt="Charts with simulated telemetry and readouts" /><span
+            >Analytics</span
+          ></a
+        >
+      </div>
+    </section>
+    <p>
+      Simulated intelligence. Conceptual geography. Illustrative engineering. No live incidents or
+      hardware connection.
+    </p>
+  </main>
+  <script>
+    for (const slider of document.querySelectorAll('input'))
+      slider.addEventListener('input', () =>
+        slider
+          .closest('section')
+          .querySelector('.comparison')
+          .style.setProperty('--split', slider.value + '%'),
+      );
+  </script>
+</html>

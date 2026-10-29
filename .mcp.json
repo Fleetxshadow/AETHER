@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "google-maps-code-assist": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@googlemaps/code-assist-mcp@0.2.1"],
+      "env": {}
+    },
+    "firebase": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "firebase",
+        "mcp",
+        "--tools",
+        "firebase_get_environment,firebase_list_projects,firebase_get_project,firebase_list_apps,firebase_get_sdk_config,firebase_get_security_rules,firebase_validate_security_rules,firebase_read_resources,firestore_list_databases,firestore_get_database,firestore_list_collections,firestore_list_documents,firestore_get_document,firestore_query_collection,firestore_list_indexes,firestore_get_index,realtimedatabase_get_data"
+      ],
+      "env": {}
+    },
+    "blender": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-for-blender"],
+      "env": {
+        "PYTHONUTF8": "1"
+      }
+    }
+  }
+}

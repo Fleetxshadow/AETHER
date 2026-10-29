@@ -1,0 +1,91 @@
+--- a/backend/cameras.py
++++ b/backend/cameras.py
+@@ -256,6 +256,79 @@
+ 
+             time.sleep(self.poll_interval)
+ 
++class GatewayCameraSource(BaseCameraSource):
++    """Authenticated local Pi relay; never return disconnected or stale camera frames."""
++    def __init__(self, name="pi"):
++        super().__init__(name)
++        self.thread = None
++        self._stop = threading.Event()
++
++    def start(self):
++        super().start()
++        self._stop.clear()
++        self.thread = threading.Thread(target=self._worker, daemon=True)
++        self.thread.start()
++
++    def stop(self):
++        super().stop()
++        self._stop.set()
++        if self.thread:
++            self.thread.join(timeout=3)
++
++    def get_frame(self):
++        with self._lock:
++            if self.connected and self.last_frame_time and 0 <= time.time() - self.last_frame_time <= 3:
++                return self.last_frame, self.last_frame_time
++            return None, self.last_frame_time
++
++    def _worker(self):
++        from datetime import datetime
++        from urllib.request import Request, build_opener, ProxyHandler, HTTPRedirectHandler
++        import re
++        class NoRedirect(HTTPRedirectHandler):
++            def redirect_request(self, *args):
++                return None
++        opener = build_opener(ProxyHandler({}), NoRedirect())
++        while not self._stop.is_set():
++            try:
++                config = {}
++                private = Path(__file__).resolve().parents[1] / 'hardware/config/local.private.env'
++                for line in private.read_text().splitlines():
++                    line = line.strip().removeprefix('export ')
++                    if '=' in line:
++                        key, value = line.split('=', 1)
++                        config[key] = value.strip().strip("\"'")
++                camera_id = config.get('NEXUS_CAMERA_IDS', '').split(',')[0]
++                token = config.get('NEXUS_GATEWAY_TOKEN', '')
++                if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', camera_id) or len(token) < 32:
++                    raise ValueError('Pi relay configuration unavailable')
++                request = Request('http://127.0.0.1:8766/camera/snapshot?id=' + camera_id,
++                                  headers={'Authorization': 'Bearer ' + token})
++                with opener.open(request, timeout=2) as response:
++                    if response.headers.get_content_type() != 'image/jpeg':
++                        raise ValueError('Pi relay returned non-JPEG content')
++                    stamp = datetime.fromisoformat(response.headers['X-Frame-Observed-At'].replace('Z', '+00:00')).timestamp()
++                    if not -1 <= time.time() - stamp <= 3:
++                        raise ValueError('Pi camera frame is stale')
++                    data = response.read(2 * 1024 * 1024 + 1)
++                    if check_jpeg is None:
++                        raise ValueError('JPEG validator unavailable')
++                    check_jpeg(data)
++                with self._lock:
++                    if self.last_frame_time != stamp:
++                        self.frame_count += 1
++                    self.last_frame = data
++                    self.last_frame_time = stamp
++                    self.connected = True
++                    self.last_error = None
++            except Exception as exc:
++                if hasattr(exc, 'close'):
++                    exc.close()
++                with self._lock:
++                    self.connected = False
++                self.record_error('Pi gateway camera unavailable or invalid')
++            self._stop.wait(0.5)
++
+ class CameraManager:
+     """Manages active camera source and automatic fallback."""
+     def __init__(self, dataset_dir: Optional[Path] = None):
+@@ -265,7 +338,7 @@
+         self.sources: Dict[str, BaseCameraSource] = {
+             "synthetic": SyntheticCameraSource(fps=10),
+             "dataset_loop": DatasetLoopCameraSource(dataset_dir, fps=5),
+-            "pi": NetworkCameraSource("pi", "192.168.50.2", timeout=2.0),
++            "pi": GatewayCameraSource("pi"),
+             "esp32": NetworkCameraSource("esp32", "192.168.60.1", timeout=2.0)
+         }
+         self.active_source_name = "dataset_loop" if dataset_dir.exists() else "synthetic"

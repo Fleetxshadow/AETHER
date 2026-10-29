@@ -1,0 +1,1276 @@
+{
+  "mode": "Actual Google Maps",
+  "cases": [
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 3095.5999999940395,
+          "canvasCount": 0,
+          "heading": {
+            "x": 24,
+            "y": 520.890625,
+            "width": 342,
+            "height": 87.96875,
+            "top": 520.890625,
+            "right": 366,
+            "bottom": 608.859375,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 5154.79999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 498.890625,
+            "width": 342,
+            "height": 87.96875,
+            "top": 498.890625,
+            "right": 366,
+            "bottom": 586.859375,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: visible; transform: translate(179.849px, 207.004px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 2,
+          "at": 6422.899999991059,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 519.6875,
+            "width": 342,
+            "height": 87.96875,
+            "top": 519.6875,
+            "right": 366,
+            "bottom": 607.65625,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: visible; transform: translate(194.85px, 148.91px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 3,
+          "at": 7923.5999999940395,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 498.890625,
+            "width": 342,
+            "height": 87.96875,
+            "top": 498.890625,
+            "right": 366,
+            "bottom": 586.859375,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: hidden; transform: translate(183.365px, 21.5px) translate(-50%, -50%); --leader-length: 81.617742105498px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 4,
+          "at": 9235.59999999404,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 498.890625,
+            "width": 342,
+            "height": 87.96875,
+            "top": 498.890625,
+            "right": 366,
+            "bottom": 586.859375,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: hidden; transform: translate(183.365px, 21.5px) translate(-50%, -50%); --leader-length: 81.617742105498px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 5,
+          "at": 10333.5,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 519.6875,
+            "width": 342,
+            "height": 87.96875,
+            "top": 519.6875,
+            "right": 366,
+            "bottom": 607.65625,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: visible; transform: translate(137.597px, 134.43px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 11249.79999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 24,
+            "y": 563.671875,
+            "width": 342,
+            "height": 43.984375,
+            "top": 563.671875,
+            "right": 366,
+            "bottom": 607.65625,
+            "left": 24
+          },
+          "actions": {
+            "x": 18,
+            "y": 16,
+            "width": 354,
+            "height": 95,
+            "top": 16,
+            "right": 372,
+            "bottom": 111,
+            "left": 18
+          },
+          "projection": "visibility: visible; transform: translate(194.61px, 73.2073px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 1755,
+        "longTasks": 56,
+        "maxLongTaskMs": 1168
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "performance": {
+        "domReadyMs": 515,
+        "longTasks": 24,
+        "maxLongTaskMs": 498
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 3075.5,
+          "canvasCount": 0,
+          "heading": {
+            "x": 46.078125,
+            "y": 693.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 693.953125,
+            "right": 568.3125,
+            "bottom": 809.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 4597.29999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 671.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 671.953125,
+            "right": 568.3125,
+            "bottom": 787.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: visible; transform: translate(361.903px, 208.24px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 2,
+          "at": 5866.20000000298,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 671.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 671.953125,
+            "right": 568.3125,
+            "bottom": 787.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: visible; transform: translate(383.416px, 124.914px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 3,
+          "at": 7366.4000000059605,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 671.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 671.953125,
+            "right": 568.3125,
+            "bottom": 787.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: hidden; transform: translate(372.769px, 21.5px) translate(-50%, -50%); --leader-length: 96.47951527860558px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 4,
+          "at": 8661.40000000596,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 647.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 647.953125,
+            "right": 568.3125,
+            "bottom": 763.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: hidden; transform: translate(372.769px, 21.5px) translate(-50%, -50%); --leader-length: 96.47951527860558px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 5,
+          "at": 9775.60000000894,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 671.953125,
+            "width": 522.234375,
+            "height": 115.5,
+            "top": 671.953125,
+            "right": 568.3125,
+            "bottom": 787.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: visible; transform: translate(301.533px, 103.943px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 10683.29999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 46.078125,
+            "y": 729.703125,
+            "width": 522.234375,
+            "height": 57.75,
+            "top": 729.703125,
+            "right": 568.3125,
+            "bottom": 787.453125,
+            "left": 46.078125
+          },
+          "actions": {
+            "x": 30.71875,
+            "y": 28,
+            "width": 706.5625,
+            "height": 52,
+            "top": 28,
+            "right": 737.28125,
+            "bottom": 80,
+            "left": 30.71875
+          },
+          "projection": "visibility: visible; transform: translate(383.109px, 21.5px) translate(-50%, -50%); --leader-length: 4.982810239310968px; --leader-angle: -1.5707963267948966rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 583,
+        "longTasks": 46,
+        "maxLongTaskMs": 981
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "performance": {
+        "domReadyMs": 437,
+        "longTasks": 30,
+        "maxLongTaskMs": 484
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 3149.6000000089407,
+          "canvasCount": 0,
+          "heading": {
+            "x": 76.796875,
+            "y": 418.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 418.796875,
+            "right": 756.796875,
+            "bottom": 577.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 4720.20000000298,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 396.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 396.796875,
+            "right": 756.796875,
+            "bottom": 555.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(622.682px, 119.645px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 2,
+          "at": 5984.100000008941,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 396.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 396.796875,
+            "right": 756.796875,
+            "bottom": 555.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(639.732px, 53.5998px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 3,
+          "at": 7490.4000000059605,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 396.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 396.796875,
+            "right": 756.796875,
+            "bottom": 555.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: hidden; transform: translate(634.333px, 21.5px) translate(-50%, -50%); --leader-length: 72.19720990698391px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 4,
+          "at": 8805.29999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 372.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 372.796875,
+            "right": 756.796875,
+            "bottom": 531.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: hidden; transform: translate(634.333px, 21.5px) translate(-50%, -50%); --leader-length: 72.19720990698391px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 5,
+          "at": 9896.20000000298,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 396.796875,
+            "width": 680,
+            "height": 158.8125,
+            "top": 396.796875,
+            "right": 756.796875,
+            "bottom": 555.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(575.253px, 37.035px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 10843.5,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 476.203125,
+            "width": 680,
+            "height": 79.40625,
+            "top": 476.203125,
+            "right": 756.796875,
+            "bottom": 555.609375,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 28,
+            "width": 1177.625,
+            "height": 52,
+            "top": 28,
+            "right": 1228.8125,
+            "bottom": 80,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(639.53px, 21.5px) translate(-50%, -50%); --leader-length: 53.63840262174484px; --leader-angle: -1.5707963267948966rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 542,
+        "longTasks": 34,
+        "maxLongTaskMs": 1115
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "performance": {
+        "domReadyMs": 386,
+        "longTasks": 13,
+        "maxLongTaskMs": 773
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 2706.7999999970198,
+          "canvasCount": 0,
+          "heading": {
+            "x": 86.390625,
+            "y": 548.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 548.3125,
+            "right": 766.390625,
+            "bottom": 727,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 4391.79999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 526.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 526.3125,
+            "right": 766.390625,
+            "bottom": 705,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: visible; transform: translate(698.644px, 149.609px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 2,
+          "at": 5680.199999988079,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 526.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 526.3125,
+            "right": 766.390625,
+            "bottom": 705,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: visible; transform: translate(719.944px, 66.9794px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 3,
+          "at": 7155.199999988079,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 526.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 526.3125,
+            "right": 766.390625,
+            "bottom": 705,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: hidden; transform: translate(713.167px, 21.5px) translate(-50%, -50%); --leader-length: 88.82172925540125px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 4,
+          "at": 8465.699999988079,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 502.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 502.3125,
+            "right": 766.390625,
+            "bottom": 681,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: hidden; transform: translate(713.167px, 21.5px) translate(-50%, -50%); --leader-length: 88.82172925540125px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 5,
+          "at": 9569.699999988079,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 526.3125,
+            "width": 680,
+            "height": 178.6875,
+            "top": 526.3125,
+            "right": 766.390625,
+            "bottom": 705,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: visible; transform: translate(641.736px, 47.1235px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 10485.5,
+          "canvasCount": 1,
+          "heading": {
+            "x": 86.390625,
+            "y": 615.65625,
+            "width": 680,
+            "height": 89.34375,
+            "top": 615.65625,
+            "right": 766.390625,
+            "bottom": 705,
+            "left": 86.390625
+          },
+          "actions": {
+            "x": 57.59375,
+            "y": 28,
+            "width": 1324.8125,
+            "height": 52,
+            "top": 28,
+            "right": 1382.40625,
+            "bottom": 80,
+            "left": 57.59375
+          },
+          "projection": "visibility: visible; transform: translate(717.874px, 21.5px) translate(-50%, -50%); --leader-length: 71.64719940612889px; --leader-angle: -1.5707963267948966rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 562,
+        "longTasks": 59,
+        "maxLongTaskMs": 487
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "reduce",
+      "passed": true,
+      "performance": {
+        "domReadyMs": 454,
+        "longTasks": 24,
+        "maxLongTaskMs": 603
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 1503.7999999970198,
+          "canvasCount": 0,
+          "heading": {
+            "x": 50.625,
+            "y": 191.421875,
+            "width": 523.265625,
+            "height": 101.5,
+            "top": 191.421875,
+            "right": 573.890625,
+            "bottom": 292.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 2513.8999999910593,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 169.421875,
+            "width": 523.265625,
+            "height": 101.5,
+            "top": 169.421875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: visible; transform: translate(419.7px, 51.4878px) translate(-50%, -50%); --leader-length: 50px; --leader-angle: 1.5707963267948966rad;"
+        },
+        {
+          "scene": 2,
+          "at": 3787.7999999970198,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 169.421875,
+            "width": 523.265625,
+            "height": 101.5,
+            "top": 169.421875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: visible; transform: translate(519.692px, 47.9591px) translate(-50%, -50%); --leader-length: 100px; --leader-angle: 3.141592653589793rad;"
+        },
+        {
+          "scene": 3,
+          "at": 5294.0999999940395,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 220.171875,
+            "width": 523.265625,
+            "height": 50.75,
+            "top": 220.171875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: hidden; transform: translate(515.708px, 21.5px) translate(-50%, -50%); --leader-length: 111.34646233966718px; --leader-angle: -2.6862211047311564rad;"
+        },
+        {
+          "scene": 4,
+          "at": 6580.79999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 220.171875,
+            "width": 523.265625,
+            "height": 50.75,
+            "top": 220.171875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: hidden; transform: translate(515.708px, 21.5px) translate(-50%, -50%); --leader-length: 111.34646233966718px; --leader-angle: -2.6862211047311564rad;"
+        },
+        {
+          "scene": 5,
+          "at": 7668.899999991059,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 169.421875,
+            "width": 523.265625,
+            "height": 101.5,
+            "top": 169.421875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: visible; transform: translate(388.386px, 39.973px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 8603.5,
+          "canvasCount": 1,
+          "heading": {
+            "x": 50.625,
+            "y": 220.171875,
+            "width": 523.265625,
+            "height": 50.75,
+            "top": 220.171875,
+            "right": 573.890625,
+            "bottom": 270.921875,
+            "left": 50.625
+          },
+          "actions": {
+            "x": 33.75,
+            "y": 15,
+            "width": 776.5,
+            "height": 52,
+            "top": 15,
+            "right": 810.25,
+            "bottom": 67,
+            "left": 33.75
+          },
+          "projection": "visibility: visible; transform: translate(469.504px, 21.5px) translate(-50%, -50%); --leader-length: 52.359313483705705px; --leader-angle: -2.8402537038300775rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 446,
+        "longTasks": 38,
+        "maxLongTaskMs": 486
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    },
+    {
+      "width": 1280,
+      "height": 600,
+      "reducedMotion": "no-preference",
+      "passed": true,
+      "scenes": [
+        {
+          "scene": 0,
+          "at": 1644.0999999940395,
+          "canvasCount": 0,
+          "heading": {
+            "x": 76.796875,
+            "y": 408.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 408.0625,
+            "right": 870.390625,
+            "bottom": 458.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": ""
+        },
+        {
+          "scene": 1,
+          "at": 2524,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(610.816px, 98.4891px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 2,
+          "at": 3792.5,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(624.873px, 44.1078px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 3,
+          "at": 5289.29999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: hidden; transform: translate(620.312px, 21.5px) translate(-50%, -50%); --leader-length: 64.61607084520838px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 4,
+          "at": 6584,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: hidden; transform: translate(620.312px, 21.5px) translate(-50%, -50%); --leader-length: 64.61607084520838px; --leader-angle: -1.5707963267948966rad;"
+        },
+        {
+          "scene": 5,
+          "at": 7696.79999999702,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(570.676px, 30.2328px) translate(-50%, -50%); --leader-length: 0px; --leader-angle: 0rad;"
+        },
+        {
+          "scene": 6,
+          "at": 8604.70000000298,
+          "canvasCount": 1,
+          "heading": {
+            "x": 76.796875,
+            "y": 386.0625,
+            "width": 793.59375,
+            "height": 50.75,
+            "top": 386.0625,
+            "right": 870.390625,
+            "bottom": 436.8125,
+            "left": 76.796875
+          },
+          "actions": {
+            "x": 51.1875,
+            "y": 15,
+            "width": 1177.625,
+            "height": 52,
+            "top": 15,
+            "right": 1228.8125,
+            "bottom": 67,
+            "left": 51.1875
+          },
+          "projection": "visibility: visible; transform: translate(624.821px, 21.5px) translate(-50%, -50%); --leader-length: 47.29305716271948px; --leader-angle: -1.5707963267948966rad;"
+        }
+      ],
+      "introRenderer": "WebGL city",
+      "performance": {
+        "domReadyMs": 430,
+        "longTasks": 43,
+        "maxLongTaskMs": 513
+      },
+      "consoleErrors": [],
+      "networkFailures": []
+    }
+  ],
+  "checks": [
+    {
+      "theme": "original",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "aqua",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "spectrum",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "sage",
+      "accessibility": "passed"
+    },
+    {
+      "name": "Sound remains silent until explicit consent; mute and Escape work",
+      "passed": true
+    },
+    {
+      "name": "RESPONSE demo call, simulated transcript and End Demo Call preserved",
+      "passed": true
+    },
+    {
+      "name": "Aqua normal-motion curved frame, COMMAND transition and one SDK load across both maps",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

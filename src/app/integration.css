@@ -1,0 +1,267 @@
+.data-source-panel,
+.firebase-access,
+.live-module-data,
+.camera-panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  margin: 0 0 18px;
+  padding: 16px;
+}
+.data-source-panel summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.data-source-state {
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.data-source-state[data-mode='LIVE'] {
+  color: var(--normal-ink, var(--lime));
+}
+.data-source-state[data-mode='OFFLINE'],
+.data-source-state[data-mode='STALE'] {
+  color: var(--accent-ink);
+}
+.data-source-panel p,
+.firebase-access p,
+.live-module-data p {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.data-source-panel ul {
+  padding: 0;
+  list-style: none;
+  max-height: 320px;
+  overflow: auto;
+}
+.data-source-panel li {
+  display: grid;
+  gap: 4px;
+  border-top: 1px solid var(--line);
+  padding: 10px 0;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.firebase-access h2 {
+  font-size: 30px;
+}
+.firebase-access form {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.firebase-access label,
+.camera-admin label {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  flex: 1 1 180px;
+}
+.firebase-access input,
+.camera-admin input,
+.camera-admin select,
+.camera-toolbar select {
+  min-height: 44px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--line);
+  padding: 10px;
+  max-width: 100%;
+}
+.live-module-data .sensor-strip {
+  margin: 12px 0;
+}
+.live-module-data article {
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+}
+.live-module-data small {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.camera-toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.camera-toolbar label {
+  font-size: 12px;
+  display: grid;
+  gap: 6px;
+  flex: 1 1 220px;
+}
+.camera-toolbar button,
+.camera-admin button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.camera-viewer {
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+}
+.camera-viewer iframe,
+.camera-viewer video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+  background: #081215;
+}
+.camera-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  background: var(--bg);
+  font-size: 14px;
+}
+.camera-fallback p {
+  max-width: 430px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.camera-info {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 16px 0;
+  font-size: 12px;
+}
+.camera-info dt {
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+.camera-info dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+.camera-admin {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.camera-admin form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.camera-admin summary {
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.camera-fallback .evidence-frame {
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  pointer-events: none;
+}
+.camera-fallback strong,
+.camera-fallback p {
+  position: relative;
+  z-index: 1;
+}
+.camera-checkbox {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+.camera-checkbox input {
+  min-width: 24px;
+}
+.camera-status {
+  min-height: 2.8em;
+  overflow-wrap: anywhere;
+}
+.reported-table {
+  max-height: 360px;
+  overflow: auto;
+}
+.reported-chart svg {
+  width: 100%;
+  height: auto;
+}
+.live-evidence-placeholder {
+  display: flex;
+  min-height: 180px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.camera-panel .panel-heading h2 {
+  font-size: 26px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.camera-panel :focus-visible,
+.data-source-panel :focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+.camera-viewer:fullscreen {
+  aspect-ratio: auto;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 700px) {
+  .sky-workspace .sensor-strip strong {
+    white-space: normal;
+  }
+  .data-source-panel,
+  .firebase-access,
+  .live-module-data,
+  .camera-panel {
+    padding: 12px;
+  }
+  .camera-info {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .camera-toolbar .button {
+    flex: 1 1 auto;
+  }
+  .camera-viewer {
+    min-height: 220px;
+  }
+  .camera-admin label {
+    flex-basis: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .camera-panel * {
+    scroll-behavior: auto;
+  }
+}

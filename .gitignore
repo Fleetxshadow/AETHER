@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+test-results-*/
+playwright-report/
+*.log
+.npm-cache/
+public/maplibre/
+.firebase/
+public/draco/

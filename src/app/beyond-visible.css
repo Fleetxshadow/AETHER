@@ -1,0 +1,486 @@
+/* V9: the opening and live hero share one full-viewport photographic field. */
+.awakening .beyond-visible-hero {
+  min-height: 100svh;
+  height: auto;
+  padding: 165px 4.5vw 28px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 22px;
+  align-content: space-between;
+  isolation: auto;
+  z-index: auto;
+  overflow: hidden;
+  background: var(--bg);
+}
+.awakening .beyond-visible-hero .city-portal {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  height: 100svh;
+  max-height: none;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  transform: none;
+}
+.awakening .beyond-visible-hero .city-portal.genesis-portal {
+  position: fixed;
+}
+.beyond-visible-hero .portal-scene-clip,
+.awakening .beyond-visible-hero .hero-city {
+  inset: 0;
+}
+.beyond-visible-hero .portal-scene-clip,
+.beyond-visible-hero .portal-vignette {
+  border-radius: 0;
+  clip-path: none;
+}
+.beyond-visible-hero .hero-city {
+  border-radius: 0;
+  clip-path: none;
+}
+.cinematic-poster-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.city-fallback.cinematic-fallback {
+  background: #08131f url('/cinematic/city-poster.webp') center / cover no-repeat;
+}
+.city-fallback.cinematic-fallback > svg {
+  visibility: hidden;
+}
+.beyond-visible-hero .portal-orbit,
+.beyond-visible-hero .portal-corner,
+.beyond-visible-hero .portal-heading {
+  display: none;
+}
+.beyond-visible-hero .portal-vignette {
+  opacity: 1;
+  background:
+    linear-gradient(90deg, #08131fed 0%, #08131fb3 26%, #08131f00 65%),
+    linear-gradient(0deg, #08131f 0%, #08131f00 36%);
+}
+.beyond-visible-hero .portal-coordinates {
+  left: auto;
+  right: 4.5vw;
+  bottom: 192px;
+  color: #c5d8d6;
+  font-size: 10px;
+}
+.beyond-visible-hero .cinema-copy {
+  position: relative;
+  inset: auto;
+  grid-column: 1;
+  width: auto;
+  max-width: 440px;
+  padding: 0;
+  z-index: 5;
+  background: none;
+}
+.beyond-visible-hero .cinema-copy h1 {
+  font-size: clamp(76px, 7.4vw, 118px);
+}
+.beyond-visible-hero .aether-supporting-headline {
+  font-size: 25px;
+  max-width: 340px;
+}
+.beyond-visible-hero .cinema-description {
+  max-width: 340px;
+  font-size: 13px;
+}
+.beyond-visible-hero .cinema-wordmark {
+  top: 15%;
+  left: 45%;
+  right: auto;
+  font-size: clamp(100px, 14vw, 230px);
+  opacity: 0.18;
+}
+.beyond-visible-hero .cinema-edition {
+  top: 112px;
+  left: 4.5vw;
+  right: 4.5vw;
+}
+.beyond-visible-hero .observatory-dock {
+  position: relative;
+  inset: auto;
+  grid-column: 1/-1;
+  width: 100%;
+  z-index: 5;
+  margin: 12px 0 0;
+}
+.beyond-visible-hero .cinema-footer {
+  position: relative;
+  inset: auto;
+  grid-column: 1/-1;
+  width: 100%;
+  z-index: 5;
+  margin-top: 0;
+}
+.beyond-visible-hero .cinema-atmosphere {
+  display: none;
+}
+.genesis {
+  background: linear-gradient(90deg, #07121b99, transparent 75%);
+}
+.genesis::after {
+  background: linear-gradient(0deg, #050d13eb, transparent 55%);
+}
+.genesis-story h2 {
+  font-size: clamp(55px, 7.4vw, 118px);
+}
+.genesis-story {
+  bottom: 20%;
+}
+.genesis-context {
+  bottom: 20%;
+}
+.genesis[data-genesis-scene='6'] .genesis-story,
+.genesis[data-genesis-scene='6'] .genesis-context,
+.genesis[data-genesis-scene='6'] .genesis-official-mark {
+  visibility: hidden;
+}
+.genesis[data-playback='reading'] .genesis-story,
+.genesis[data-playback='reading'] .genesis-context {
+  visibility: visible;
+}
+/* Theme tokens still own HTML; dark backing is local to the cinematic picture. */
+.beyond-visible-hero .cinema-copy {
+  /* The cinematic picture stays dark even when the surrounding theme is light. */
+  --text: #f3f8fa;
+  --muted: #c7d9dc;
+  --accent-ink: #69e3d1;
+  --nxs-ink-b9c5a6: #c7d9dc;
+  --nxs-muted-ink-9baa83: #aebfc7;
+  color: var(--text);
+}
+.beyond-visible-hero .cinema-copy .cinema-kicker,
+.beyond-visible-hero .cinema-copy .hero-data-disclosure,
+.beyond-visible-hero .hero-presentation {
+  color: #c7d9dc;
+}
+@media (max-width: 1000px) {
+  .awakening .beyond-visible-hero {
+    padding-top: 175px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .beyond-visible-hero .cinema-copy {
+    max-width: 390px;
+  }
+  .beyond-visible-hero .portal-vignette {
+    background:
+      linear-gradient(90deg, #08131ff2, #08131f88 45%, transparent),
+      linear-gradient(0deg, #08131f, transparent 45%);
+  }
+}
+@media (max-width: 600px) {
+  .awakening .beyond-visible-hero {
+    padding: 150px 22px 28px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .beyond-visible-hero .cinema-copy {
+    max-width: 100%;
+  }
+  .beyond-visible-hero .cinema-copy h1 {
+    font-size: 76px;
+  }
+  .beyond-visible-hero .aether-supporting-headline {
+    font-size: 23px;
+    max-width: 290px;
+  }
+  .beyond-visible-hero .cinema-description {
+    max-width: 310px;
+  }
+  .beyond-visible-hero .cinema-wordmark {
+    display: none;
+  }
+  .beyond-visible-hero .cinema-edition {
+    top: 110px;
+    left: 22px;
+    right: 22px;
+  }
+  .beyond-visible-hero .portal-coordinates {
+    display: none;
+  }
+  .beyond-visible-hero .observatory-dock {
+    margin-top: 10px;
+  }
+  .beyond-visible-hero .portal-vignette {
+    background:
+      linear-gradient(90deg, #08131feb, #08131f55), linear-gradient(0deg, #08131f, transparent 60%);
+  }
+  .genesis-story {
+    bottom: 24%;
+  }
+  .genesis-story h2 {
+    font-size: 49px;
+  }
+}
+@media (max-height: 660px) and (min-width: 601px) {
+  .awakening .beyond-visible-hero {
+    min-height: 850px;
+  }
+}
+.story-worlds {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5px;
+  margin-bottom: 12px;
+}
+.story-worlds > .mono {
+  grid-column: 1/-1;
+  color: var(--muted);
+  font-size: 10px;
+  margin: 0 0 5px;
+}
+.story-worlds button {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 7px;
+  text-align: left;
+}
+.story-worlds button > .mono {
+  color: var(--accent-ink);
+  font-size: 9px;
+}
+.story-worlds button[aria-pressed='true'] {
+  background: var(--surface);
+  box-shadow: inset 0 -2px var(--accent-ink);
+}
+.world-caption {
+  position: absolute;
+  left: 24px;
+  bottom: 122px;
+  z-index: 14;
+  max-width: 280px;
+  padding: 14px 17px;
+  border-left: 2px solid var(--accent-ink);
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  border-radius: 0 5px 15px 0;
+  pointer-events: none;
+}
+.world-caption > .mono {
+  color: var(--accent-ink);
+  font-size: 10px;
+}
+.world-caption strong {
+  display: block;
+  font: 500 30px/1.1 var(--font-display);
+  margin-top: 7px;
+}
+.world-caption p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 7px 0 0;
+  color: var(--muted);
+}
+.awakening .story-intelligence {
+  width: 260px;
+}
+@media (max-height: 780px) and (min-width: 1001px) {
+  .awakening .story-narrative {
+    margin-top: 16px;
+  }
+  .awakening .story-narrative h2 {
+    font-size: 44px;
+  }
+  .awakening .story-narrative p {
+    margin: 12px 0;
+  }
+  .awakening .story-chapters {
+    margin-top: 12px;
+  }
+  .awakening .story-copy {
+    padding-bottom: 10px;
+  }
+  .story-worlds {
+    margin-bottom: 4px;
+  }
+  .story-disclosure {
+    margin-top: 6px;
+  }
+  .world-caption {
+    max-width: 245px;
+    padding: 10px 13px;
+  }
+}
+@media (max-width: 700px) {
+  .story-worlds {
+    margin: 0 0 16px;
+  }
+  .world-caption {
+    left: 14px;
+    bottom: 142px;
+    width: 210px;
+    padding: 11px 13px;
+  }
+  .world-caption strong {
+    font-size: 25px;
+  }
+  .awakening .story-intelligence {
+    width: 220px;
+  }
+}
+.sky-reel-caption {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 0 25px;
+  background: var(--bg);
+}
+.sky-reel-caption > div:first-child {
+  max-width: 620px;
+}
+.sky-reel-caption .mono {
+  font-size: 10px;
+  color: var(--accent-ink);
+}
+.sky-reel-caption h3 {
+  font: 500 clamp(30px, 3vw, 46px)/1.05 var(--font-display);
+  margin: 10px 0;
+}
+.sky-reel-caption p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+  margin: 0;
+}
+.reel-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  flex: none;
+}
+.reel-actions > div {
+  display: flex;
+  gap: 5px;
+}
+.reel-actions > div > button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font: 11px var(--font-mono);
+}
+.reel-actions button[aria-pressed='true'] {
+  background: var(--surface);
+  box-shadow: inset 0 -2px var(--accent-ink);
+}
+.reel-actions .text-button {
+  min-height: 44px;
+  font-size: 11px;
+}
+@media (min-width: 1001px) and (min-height: 700px) and (prefers-reduced-motion: no-preference) {
+  .sky-reel:not(.manual-reel) {
+    min-height: 220svh;
+    position: relative;
+  }
+  .sky-reel-content {
+    position: sticky;
+    top: 92px;
+  }
+  .sky-reel .engineering-configurator .engineering-stage {
+    height: clamp(360px, calc(100svh - 365px), 520px);
+  }
+  .sky-reel .engineering-info {
+    padding: 20px;
+  }
+  .sky-reel .configurator-title {
+    display: none;
+  }
+  .sky-reel .part-list {
+    margin-top: 14px;
+  }
+  .sky-reel .part-list button {
+    min-height: 44px;
+    padding: 10px 8px;
+  }
+  .sky-reel .configurator-header {
+    padding: 15px 22px;
+  }
+  .sky-reel .configurator-header h3 {
+    font-size: 38px;
+  }
+  .sky-reel .configurator-disclosure {
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+  .sky-reel .part-detail {
+    padding: 14px 0;
+  }
+  .sky-reel .part-detail-index {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .sky-reel-caption {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .sky-reel-caption h3 {
+    font-size: 34px;
+  }
+  .reel-actions {
+    width: 100%;
+  }
+}
+
+.story-intelligence > summary {
+  list-style: none;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font: 11px/1.5 var(--font-mono);
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+.story-intelligence > summary::-webkit-details-marker {
+  display: none;
+}
+.story-intelligence > summary:focus-visible {
+  outline: 2px solid var(--accent-ink);
+  outline-offset: 5px;
+}
+.story-intelligence[open] > summary {
+  margin-bottom: 9px;
+  border-bottom: 1px solid var(--line);
+}
+.story-intelligence[open] > summary > span {
+  transform: rotate(45deg);
+}
+
+.beyond-visible-hero .cinema-copy h1,
+.beyond-visible-hero .aether-supporting-headline {
+  color: #f3f8fa;
+}
+.beyond-visible-hero .cinema-description,
+.beyond-visible-hero .cinema-edition {
+  color: #c7d9dc;
+}
+
+/* A stacked tablet story cannot share the desktop pin's vertical budget. */
+@media (min-width: 701px) and (max-width: 1000px) {
+  .awakening .static-story .story-sticky {
+    height: auto;
+    min-height: 0;
+  }
+  .awakening .static-story .story-stage {
+    flex: none;
+    height: 680px;
+    min-height: 680px;
+  }
+  .awakening .static-story .world-caption {
+    bottom: 230px;
+  }
+}

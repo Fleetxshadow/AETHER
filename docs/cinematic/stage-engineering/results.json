@@ -1,0 +1,274 @@
+[
+  {
+    "name": "390x844-normal",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 184.86705017089844,
+        "y": 694.9449462890625,
+        "width": 101.21876525878906,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 179.70175170898438,
+        "y": 726.0634765625,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 174.49374389648438,
+        "y": 783.3953857421875,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "390x844-reduced",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 184.84817504882812,
+        "y": 694.941162109375,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 179.68145751953125,
+        "y": 726.044677734375,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 174.48182678222656,
+        "y": 783.3858642578125,
+        "width": 94.62498474121094,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "768x1024-normal",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 489.64813232421875,
+        "y": 731.8572998046875,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 486.3006286621094,
+        "y": 778.6702270507812,
+        "width": 121.01565551757812,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 470.8547668457031,
+        "y": 861.6624755859375,
+        "width": 94.62496948242188,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-reduced",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 489.611572265625,
+        "y": 731.8558349609375,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 486.26165771484375,
+        "y": 778.6463623046875,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 470.8331298828125,
+        "y": 861.63134765625,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "1280x720-normal",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 594.660888671875,
+        "y": 433.2962341308594,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 592.1920166015625,
+        "y": 486.39093017578125,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 572.9053344726562,
+        "y": 580.501708984375,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-reduced",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 594.625244140625,
+        "y": 433.28582763671875,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 592.1542358398438,
+        "y": 486.3564147949219,
+        "width": 121.015625,
+        "height": 44.000030517578125,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 572.8839111328125,
+        "y": 580.4791870117188,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "1440x900-normal",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 649.1090087890625,
+        "y": 266.15667724609375,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 646.6392211914062,
+        "y": 319.2623291015625,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 627.3556518554688,
+        "y": 413.36767578125,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-reduced",
+    "assemblies": "01 airframe / 02 propulsion / 03 battery / 04 camera / 05 controller",
+    "callouts": [
+      {
+        "text": "03 / BATTERY",
+        "x": 649.078369140625,
+        "y": 798.1608276367188,
+        "width": 101.21875,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "05 / CONTROLLER",
+        "x": 646.6073608398438,
+        "y": 851.2314453125,
+        "width": 121.015625,
+        "height": 44,
+        "font": 11
+      },
+      {
+        "text": "04 / CAMERA",
+        "x": 627.3370361328125,
+        "y": 945.3541870117188,
+        "width": 94.625,
+        "height": 44,
+        "font": 11
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  }
+]

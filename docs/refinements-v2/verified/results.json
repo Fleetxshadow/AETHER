@@ -1,0 +1,656 @@
+{
+  "matrix": [
+    {
+      "name": "original-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "original-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "aqua-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "spectrum-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-390x844-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-390x844-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 15,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-768x1024-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-768x1024-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1280x720-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1280x720-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-normal",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    },
+    {
+      "name": "sage-1440x900-reduced",
+      "city": {
+        "alpha": true,
+        "clip": "inset(0px round 50% 50% 14px 14px / 30% 30% 14px 14px)"
+      },
+      "toolbarMarkersClear": true,
+      "captionPx": 17,
+      "errors": [],
+      "network": []
+    }
+  ],
+  "accessibility": [
+    {
+      "theme": "original",
+      "workspace": "command",
+      "violations": []
+    },
+    {
+      "theme": "original",
+      "workspace": "response-call",
+      "violations": []
+    },
+    {
+      "theme": "aqua",
+      "workspace": "command",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00bd9d",
+                    "bgColor": "#e8f8fb",
+                    "contrastRatio": 2.19,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"observation-list\" aria-label=\"Observation timeline\">",
+                      "target": [
+                        ".observation-list"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.19 (foreground color: #00bd9d, background color: #e8f8fb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<small class=\"normal\">NORMAL</small>",
+              "target": [
+                ".observation-row:nth-child(7) > .observation-time.mono > .normal"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #00bd9d, background color: #e8f8fb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#00bd9d",
+                    "bgColor": "#e8f8fb",
+                    "contrastRatio": 2.19,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"observation-list\" aria-label=\"Observation timeline\">",
+                      "target": [
+                        ".observation-list"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.19 (foreground color: #00bd9d, background color: #e8f8fb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<small class=\"normal\">NORMAL</small>",
+              "target": [
+                ".observation-row:nth-child(8) > .observation-time.mono > .normal"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #00bd9d, background color: #e8f8fb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "aqua",
+      "workspace": "response-call",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "workspace": "command",
+      "violations": []
+    },
+    {
+      "theme": "spectrum",
+      "workspace": "response-call",
+      "violations": []
+    },
+    {
+      "theme": "sage",
+      "workspace": "command",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#cad49d",
+                    "bgColor": "#ecf3e6",
+                    "contrastRatio": 1.38,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"observation-list\" aria-label=\"Observation timeline\">",
+                      "target": [
+                        ".observation-list"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #ecf3e6, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<small class=\"normal\">NORMAL</small>",
+              "target": [
+                ".observation-row:nth-child(7) > .observation-time.mono > .normal"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #ecf3e6, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#cad49d",
+                    "bgColor": "#ecf3e6",
+                    "contrastRatio": 1.38,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"observation-list\" aria-label=\"Observation timeline\">",
+                      "target": [
+                        ".observation-list"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #ecf3e6, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<small class=\"normal\">NORMAL</small>",
+              "target": [
+                ".observation-row:nth-child(8) > .observation-time.mono > .normal"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #ecf3e6, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "sage",
+      "workspace": "response-call",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#cad49d",
+                    "bgColor": "#edf3e6",
+                    "contrastRatio": 1.38,
+                    "fontSize": "6.8pt (9px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<header class=\"command-topbar\">",
+                      "target": [
+                        ".command-topbar"
+                      ]
+                    },
+                    {
+                      "html": "<section class=\"response-transcript-panel\">",
+                      "target": [
+                        ".response-transcript-panel"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #edf3e6, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"demo-badge \"><i></i>DEMO SYSTEM</span>",
+              "target": [
+                ".topbar-actions > .demo-badge"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.38 (foreground color: #cad49d, background color: #edf3e6, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "playback": [
+    {
+      "reducedMotion": "no-preference",
+      "fullPlaybackComplete": true
+    },
+    {
+      "reducedMotion": "reduce",
+      "fullPlaybackComplete": true
+    },
+    {
+      "browserVoiceFixture": "Separate report/channel, no inherited sample statement/location; original sample preserved."
+    }
+  ],
+  "failureFallback": [
+    "Intentional 503: no false saved-report claim; end control stays usable."
+  ]
+}

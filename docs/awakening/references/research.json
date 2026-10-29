@@ -1,0 +1,321 @@
+[
+  {
+    "url": "https://motion.dev/",
+    "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+    "excerpt": "Skip to content\nMotion\nDOCS\nDOCS\nEXAMPLES\nEXAMPLES\nUI\nUI\nAI KIT\nAI KIT\nSTUDIO\nSTUDIO\nMOTION+\nMOTION+\n\nMotion is deployed and sponsored\nby the best teams in the industry\n\nThe animation library loved by humans and agents alike.\n\nLayout, scroll, gestures, 3D, and hardware acceleration for React, Vue and JavaScript.\n\nFree and open source. Previously Framer Motion.\n\nnpm install motion && npx motion-ai\nGET STARTED\nGET STARTED\nLEARN MORE\nSmall APIs.\nExpressive interfaces.\n\nIt only takes a few lines of Motion to bring an interface to life in React, JavaScript or Vue. Learn once, build anything.\n\nRUNWAY\nBACKSTAGE\nOBJECTS\nLayout animations\n\nAnimate changes to size, position and order that CSS can’t, even from one component to another, with fast transforms.\n\n<motion.img layoutId={id} onClick={() => setOpen(id)} />\n\n<AnimatePresence>\n  {open && <motion.img layoutId={open} className=\"detail\" />}\n</AnimatePresence>\nLAYOUT DOCS\nLAYOUT EXAMPLES\nGesture animations\n\nGestures that feel native. Press works from the keyboard, hover ignores touch, and drag throws with momentum.\n\n<motion.div\n  drag\n  dragSnapToOrigin\n  whileHover={{ scale: 1.1 }}\n  whileTap={{ scale: 1 }}\n  whileDrag={{ scale: 1.2 }}\n/>\nGESTURES DOCS\nGESTURES EXAMPLES\n0%\nScroll animations\n\nLink any value to scroll progress. Motion uses the browser’s ScrollTimeline when possible for smooth, hardware-accelerated scroll effects.\n\nconst { scrollXProgress } = useScroll({ container })\n\n<motion.div style={{ scaleX: scrollXProgress }} />\nSCROLL DOCS\nSCROLL EXAMPLES\nStiffness\n200\nDamping\n18\nMass\n1\nSpring animations\n\nPhysics springs that carry velocity. A value follows its target with real stiffness, damping and mass, and stays fluid when the target moves again mid-flight.\n\nconst x = useSpring(0, { stiffness: 200, damping: 18, mass: 1 ",
+    "animations": [],
+    "canvasCount": 1,
+    "status": 200
+  },
+  {
+    "url": "https://transitions.dev/",
+    "title": "Transitions.dev: UI transitions for AI agents",
+    "excerpt": "Skip to content\nTransitions.dev\nProducts\nLibrary\nProduction-ready UI transitions\nBuilder\nNew\nBuild components with the AI agent\nMotion Agent\nFind and fix janky motion in your app\nMotion Skill\nTeach your coding agent the transitions\nCommunity\nNew\nDocs\nPricing\nSearch\nCtrl K\nGet Pro\n5.5k\nSign in\nAppearance\nSystem\nFeedback\nSupport\nFeedback\nSend feedback\nAppearance\nLight\nDark\nSystem\nBetter UI motion\nand craft start here\n\nAI agents for motion and UI craft, a component builder, a library of 43+ crafted transitions, and a skill that fits your workflow.\n\nDescribe a component\nAttach image\nAdd skill\nAdd library\nRemix\nModal open/close\nAgent\n\nTransitions UI agent\n\nSonnet 5.5\nFast, everyday edits · usually 5 to 20 credits\nOpus 5.5\nBest for complex work · usually 10 to 35 credits\nPro\n\nBuilds in\n\nHTML/CSS\nReact\n\nUsed by designers and engineers at\n\nLibrary includes 43+ crafted transitions, ready to drop into your project.\nAll\nEssential\nAI Agents\nEffects\nTexts\nPro\nBrowse all\nAnimate\nCard resize\nSmooth card resize transition\n6\n5\n.\n7\n8\nAnimate\nNumber pop-in\nDigit flip with blur and stagger\n1\nAnimate\nNotification badge\nDiagonal slide with spring pop-in\nTransaction processing...\nAnimate\nText states swap\nText swap transition with blur\nCommunity components people build with the Builder.\nSee more\nTransitions Motion Agent scans your codebase, scores its motion and fixes it as pull requests.\nLearn more\nA motion score for every codebase\n\nOne command scores your motion 0 to 100, every finding mapped to the recipe that fixes it. Local and deterministic: no AI, no account.\n\n$ npx transitions-agent\nScanning 142 files in ./src\nMotion score 64 / 100 (needs work)\nModal.tsx:24 modal pops in with no transition\nrecipe: modal open/close\nTooltip.tsx:41 tooltip appears with no transition\nrecipe: tooltip open/c",
+    "animations": [
+      {
+        "target": "DIV",
+        "duration": 600
+      },
+      {
+        "target": "SPAN",
+        "duration": 700
+      },
+      {
+        "target": "SPAN",
+        "duration": 1000
+      }
+    ],
+    "canvasCount": 3,
+    "status": 200
+  },
+  {
+    "url": "https://reactbits.dev/",
+    "title": "React Bits — Free Animated React Components",
+    "excerpt": "/\nDocs\nToolsNew\nPro\nSponsors\n43.5k\nGet React Bits Pro\nNew\nReact Bits 2.0\nCenter Stage\nSound Lab\n35 Micro components\nAnimated React components for\nwebsites people remember.\n\n217 animated components and backgrounds for React.\nTune them yourself, or hand them to your agent.\n\nBrowse components\nStar on GitHub\nTerminal\n$ npx shadcn@latest add @react-bits/GradientWaves-TS-TW\n✔ Checking registry.\n✔ Created 2 files.\nHero.jsx\nimport GradientWaves from './GradientWaves';\n \nexport default function Hero() {\n  return (\n    <GradientWaves\n      waveColor=\n\"#FF9FFC\"\n      amplitude={2.5}\n      swell={35}\n      lightAngle={120}\n      speed={0.4}\n    />\n  );\n}\nPresets\nOcean\namplitude 1.8 · swell 25\nDune\namplitude 3.2 · swell 40\nDusk\namplitude 2.5 · swell 35\nSilk\namplitude 2.2 · swell 30\nAurora\namplitude 2.6 · swell 38\nOpen in Background Studio\nWhat's inside\nDot Field\nLine Waves\nBlob Cursor\nSoft Aurora\nMagnet Lines\nAntigravity\nBallpit\nPixel Trail\nMagic Rings\nDot Field\nLine Waves\nBlob Cursor\nSoft Aurora\nMagnet Lines\nAntigravity\nBallpit\nPixel Trail\nMagic Rings\nRadar\nShape Grid\nRibbons\nGrainient\nOrbit Images\nMetallic Paint\nBalatro\nAurora\nSplash Cursor\nBeams\nRadar\nShape Grid\nRibbons\nGrainient\nOrbit Images\nMetallic Paint\nBalatro\nAurora\nSplash Cursor\nBeams\n215+ Components\n\nBackgrounds, text effects, animations, creative UI components. The stuff you'd build from scratch, already done and battle-tested.\n\nBackground Studio\nCenter Stage\nShape Magic\nTexture Lab\nSound Lab\nVisual Editors\n\nFive free tools to play with components & create stunning assets for your work.\n\nWell Organized\n\nFive clear categories so you're not scrolling through a wall of unrelated stuff.\n\nJS + CSS\nTS + CSS\nJS + Tailwind\nTS + Tailwind\nPick Your Stack\n\nJavaScript or TypeScript, CSS or Tailwind. Every component comes in all four",
+    "animations": [
+      {
+        "target": "svg",
+        "duration": 1800
+      },
+      {
+        "target": "HEADER",
+        "duration": 1100
+      },
+      {
+        "target": "DIV",
+        "duration": 1200
+      },
+      {
+        "target": "DIV",
+        "duration": 1400
+      },
+      {
+        "target": "DIV",
+        "duration": 1000
+      },
+      {
+        "target": "DIV",
+        "duration": 1000
+      },
+      {
+        "target": "DIV",
+        "duration": 1000
+      },
+      {
+        "target": "DIV",
+        "duration": 25000
+      },
+      {
+        "target": "DIV",
+        "duration": 28000
+      },
+      {
+        "target": "DIV",
+        "duration": 20000
+      },
+      {
+        "target": "svg",
+        "duration": 20000
+      },
+      {
+        "target": "svg",
+        "duration": 20000
+      }
+    ],
+    "canvasCount": 2,
+    "status": 200
+  },
+  {
+    "url": "https://www.scrolltide.co/",
+    "title": "Scrolltide — Cinematic website prompts & templates",
+    "excerpt": "REGIONAL PRICING\n$39\n$29/month — 26% off\n—\n02:08:01 left\nClaim →\nscrolltide\nLibrary\nComponents\nShaders\nSections\nUI\neBook\nPricing\nFAQ\nContact\nLog in\nGo Unlimited\nFRESH DROPS EVERY FRIDAY\n→\nShip websites that\nmove like the tide.\n\nA curated library of scroll-driven templates and prompts. Copy one, paste it into your AI, and launch a site that doesn't look AI-made.\n\nGo Unlimited\n→\nBrowse the library\n10,000+ builders shipping faster\nWhy Scrolltide?\n3 min 35 sec watch\n→\nREACT✦\nVITE✦\nNEXT.JS✦\nTAILWIND✦\nFRAMER MOTION✦\nGSAP✦\nTHREE.JS✦\nWEBGL✦\nSHADERS✦\nLENIS✦\nREACT✦\nVITE✦\nNEXT.JS✦\nTAILWIND✦\nFRAMER MOTION✦\nGSAP✦\nTHREE.JS✦\nWEBGL✦\nSHADERS✦\nLENIS✦\n\n127 TEMPLATES IN THE LIBRARY\n\nThe library, at a glance\nFeatured\nPopular\nRecent\nAll\nComponents\n→\nSections\n→\nUI\n→\nShaders\n→\nLanding Page\nHero Section\nPortfolio\nEcommerce\n3D Website\nBackground\nPreview →\nVALMORA\n\nLanding Page\n\nPremium\nPreview →\nWhisker Ops\n\nHero Section\n\nPremium\nPreview →\nSELENE\n\nLanding Page\n\nFree\nPreview →\nEarshot\n\nHero Section\n\nPremium\nPreview →\nOra\n\nLanding Page\n\nPremium\n\nTHE STUDIO\n\nWant a one-of-a-kind site built for you?\n\nClient work from the team behind Scrolltide — never published to the library.\n\nStart a project\n→\nPreview →\nZephyr\n\nHero Section\n\nPremium\nPreview →\nToucan\n\nHero Section\n\nPremium\nPreview →\nMacaw\n\nHero Section\n\nPremium\nPreview →\nPouterby\n\nHero Section\n\nPremium\nPreview →\nODDBALL\n\nLanding Page\n\nPremium\nPreview →\nSynapse\n\n3D Website\n\nPremium\nPreview →\nFirnlight\n\nLanding Page\n\nPremium\nPreview →\nVesper\n\n3D Website\n\nPremium\nPreview →\nCold Club\n\nLanding Page\n\nPremium\nPreview →\nVIVANT\n\nLanding Page\n\nPremium\nPreview →\nGummy Grove\n\n3D Website\n\nPremium\nPreview →\nScowlby\n\nHero Section\n\nPremium\nPreview →\nHelix\n\nHero Section\n\nPremium\nPreview →\nGrana\n\nLanding Page\n\nPremium\nPreview →\nHouse\n\nHero Section\n\nPremium\nPreview →",
+    "animations": [
+      {
+        "target": "A",
+        "duration": 150
+      },
+      {
+        "target": "SPAN",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 32000
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "DIV",
+        "duration": 300
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      },
+      {
+        "target": "ARTICLE",
+        "duration": 400
+      }
+    ],
+    "canvasCount": 1,
+    "status": 200
+  },
+  {
+    "url": "https://beui.dev/",
+    "title": "Animated Components for React, Next.js and React Native · beUI",
+    "excerpt": "beUI Native is free — Pro mobile blocks and screens are in presale from $99\n\nReserve\nbeUI Pro for mobile\nbeUI\nComponents\nBlocks\nAgents\nCharts\nPlayground\nSponsors\nLight theme\nLight theme\nDark theme\nDark theme\nSystem theme\nSystem theme\n1.9k\nGet Pro\n144 React\ncomponents\n71 React Native\ncomponents\nAnimated components\nfor React and React Native\n\nCopy-paste components for React and Next.js, built with Motion and Tailwind CSS. Now on React Native too. Free, open source, and fully customizable.\n\nExplore Pro\n(opens in a new tab)\nBrowse components\nSPONSORED BY\nTracwell\nIllos\nWeb\nWeb\nReact Native\nReact Native\nBuilt on Framer Motion. Distributed via shadcn.\nbun\nbun\nnpm\nnpm\npnpm\npnpm\nyarn\nyarn\n$ bunx --bun shadcn add @beui/\ntimeline\ntimeline\n\nNew\n\nRecently launched\nTimeline\nNEW\n\nA draggable timeline of dated events around a focused card.\n\nbeUI Native\n\nNow on React Native\n\n71 components rebuilt for touch with Reanimated, Gesture Handler and Uniwind. The same motion language as beUI, designed for fingers.\n\nBrowse components\nbun\nbun\nnpm\nnpm\npnpm\npnpm\nyarn\nyarn\n$ bunx beui-native add \nbutton\nbutton\nPause clips\nTabs\nColor Picker\nAlert\nSwipeable List\n\nComponents\n\nMotion primitives\nBrowse animated React components\nButton\n\nSpring-pressed Button plus StatefulButton, MagneticButton, and MetallicButton variants.\n\nMorphing Modal\n\nFamily-app-style modal. A single panel that morphs its height as you navigate between inner views, with blur cross-fade on content.\n\nAnimated Toast Stack\n\nStacked toasts with status morphs, swipe dismissal, actions and layout-aware motion.\n\nAction Swap\n\nCTA button and slot primitives for swapping text and icons with blur motion.\n\nDock\n\nmacOS-style dock with grouped actions and a gliding active pill.\n\nTabs\n\nPill, segment or underline tabs with a spring layoutId indicato",
+    "animations": [
+      {
+        "target": "svg",
+        "duration": 24000
+      },
+      {
+        "target": "svg",
+        "duration": 32000
+      },
+      {
+        "target": "DIV",
+        "duration": 4000
+      },
+      {
+        "target": "DIV",
+        "duration": 600
+      },
+      {
+        "target": "A",
+        "duration": 3000
+      },
+      {
+        "target": "DIV",
+        "duration": 3000
+      },
+      {
+        "target": "DIV",
+        "duration": 600
+      },
+      {
+        "target": "MARK",
+        "duration": 650
+      },
+      {
+        "target": "MARK",
+        "duration": 650
+      },
+      {
+        "target": "DIV",
+        "duration": 60000
+      },
+      {
+        "target": "DIV",
+        "duration": 60000
+      },
+      {
+        "target": "DIV",
+        "duration": 60000
+      }
+    ],
+    "canvasCount": 0,
+    "status": 200
+  },
+  {
+    "url": "https://kokonutui.com/",
+    "title": "Kokonut UI - Free Open Source UI Components for React and Tailwind CSS",
+    "excerpt": "Kokonut UI Pro - 100+ components to build websites faster, works with Claude Code, Cursor and more\nKokonut UI\n|\nComponents\nChangelog\nTemplates\nTestimonials\n2.2K\n|\n\nKokonut UI\n\nComponent catalog\n\nReact, Tailwind CSS, Motion\n\nFree and open source\n\nComponents\nthat feel right.\n\nOpen-source React components built with Tailwind CSS, Motion and shadcn/ui. Every component on this page is live: try it, then install it with one command or one prompt.\n\nCD-04\nRings fill as it mounts\nReplay\nMOVE\n479 of 800 CAL\n479/800CAL\nEXERCISE\n42 of 30 MIN\n42/30MIN\nSTAND\n6 of 12 HR\n6/12HR\nApple Activity Card\nmotion\nAgent\nCopy\n\nAsk your agent\n\n›\nAdd @kokonutui/apple-activity-card to my dashboard\n\nConnect your editor once\nshadcn MCP\n\nYour editor\nClaude Code\nCursor\nVS Code\nCodex\n$\nnpx shadcn@latest mcp init --client claude\nLibrary\n102 components\nBT-04\nMagnet Button\nBrowse all\nBacked by\nVercel OSS\n\n01\n\nAnimated React components\n\nLive demos, not screenshots. Each component installs as a single file you own.\n\nAI-01\nType / for commands, drop a file\nLoading…\nAI Input Selector\nlucide-react, motion\nAgent\nCopy\nIN-05\nTurn it, or flick and let it coast\nLoading…\nDetent Dial\nmotion\nAgent\nCopy\nAI-03\nAn agent working through its steps\nLoading…\nAI State Loading\nlucide-react, motion\nAgent\nCopy\nBT-10\nTear the stub off to confirm\nLoading…\nTear Button\nno extra packages\nAgent\nCopy\nBG-06\nSweep through it, or grab a fold\nLoading…\nDrape Background\nno extra packages\nAgent\nCopy\nIN-06\nFlick a wheel\nWheel Picker\nmotion\nAgent\nCopy\nTX-05\nPluck the string under the words\nPlucked Text\nno extra packages\nAgent\nCopy\nBT-09\nPull the cord\nPull Cord\nno extra packages\nAgent\nCopy\nCD-10\nDrag to turn the terrain\nActivity Terrain\nno extra packages\nAgent\nCopy\nCD-09\nDrag sideways to slosh it\nLiquid Gauge\nno extra packages\nAgent\nCopy\nBT-11\nClic",
+    "animations": [
+      {
+        "target": "P",
+        "duration": 300
+      },
+      {
+        "target": "P",
+        "duration": 300
+      },
+      {
+        "target": "P",
+        "duration": 300
+      },
+      {
+        "target": "P",
+        "duration": 300
+      },
+      {
+        "target": "H1",
+        "duration": 300
+      },
+      {
+        "target": "P",
+        "duration": 300
+      },
+      {
+        "target": "FIGURE",
+        "duration": 300
+      },
+      {
+        "target": "DIV",
+        "duration": 300
+      },
+      {
+        "target": "DIV",
+        "duration": 300
+      },
+      {
+        "target": "DIV",
+        "duration": 300
+      },
+      {
+        "target": "A",
+        "duration": 300
+      }
+    ],
+    "canvasCount": 1,
+    "status": 200
+  },
+  {
+    "url": "https://ui.bklit.com/",
+    "title": "Bklit UI - Charts & Data Visualization Components",
+    "excerpt": "Bklit\nUI\nDocs\nComponents\nBlocks\nCharts\nStudio\n⌘\nK\n...\nDesign engineered charts and data visualization\nGet started\nBrowse 190 charts\n\nTrusted by people at\n\nFeel the love\n\nWhat people are saying\n\nView on X\njordi\n@jordienr\n\nbklit saved my marriage\n\nView on X\nRob Austin\n@ausrobdev\n\nMakes me want to replace Recharts and Tremor charts with Bklit\n\nView on X\nShaban\n@shabanhr\n\nCongrats on the launch, Matt! It looks incredibly clean. Glad we finally have a solid chart builder, but that video export feature is elite. 🔥\n\nCarl Lindesvärd\n@CarlLindesvard\n\nLooks f**king awesome! Well done!\n\nView on X\nOrcDev\n@orcdev\n\nman this is awesome, I think this is the only chart builder I've seen so far — awesome work man, have to put it on some video\n\nView on X\nshadcn\n@shadcn\n\nAmazing Matt.\n\nSee more\nOur sponsors\n\nThank you for believing in what we're building\n\nPremium sponsor\nPremium sponsor\n+\nSilver sponsor\nSilver sponsor\n+\n+\n+\n\nPast sponsors\n\nChánh Đại\nBklit UI\n\nProduct\n\nDocs\nComponents\nBlocks\nStudio\n\nExplore\n\nArea Chart\nBar Chart\nCandlestick Chart\nChoropleth Chart\nComposed Chart\nFunnel Chart\nGauge\nHeatmap Chart\nLine Chart\nProfit/Loss Line\nLive Line Chart\nPie Chart\nRadar Chart\nRing Chart\nScatter Chart\nSankey Chart\n\nCommunity\n\nSkills\nGitHub\nDiscord\nbuilt by uixmat",
+    "animations": [
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      },
+      {
+        "target": "DIV",
+        "duration": 2000
+      }
+    ],
+    "canvasCount": 0,
+    "status": 200
+  },
+  {
+    "url": "https://gsap.com/",
+    "title": "Homepage | GSAP",
+    "excerpt": "Skip to main content\n\nGSAP is now free for everyone, thanks to Webflow's support!\n\nTools\nShowcase\nCommunity\nLearn GSAP\nDocs\nDemos\nGet GSAP\nAnimate Anything\nA\nn\na\ni\nm\na\nt\ne\na\na\nn\nn\ny\nt\nh\nn\n\nGSAP – A wildly robust JavaScript animation library built for professionals\n\nGet\nGSAP\n\nWhy GSAP®\n\nGSAP allows you to effortlessly animate anything JS can touch. Delivering silky-smooth performance and unmatched support so you can focus on the fun stuff.\nGSAP allows you to \neffortlessly animate anything JS can touch. Delivering silky-smooth performance and unmatched support so you can focus on the fun stuff.\nAnimate Anything\nAnimate Anything\n\nThat's right, Anything\n\nThat's right, Anything\n\nWhether you're animating UI, SVG or creating immersive WebGL experiences, GSAP has your back.\n\nWhether you're animating UI, SVG or creating immersive WebGL experiences, GSAP has your back.\n\nNice and easy easing. Add personality to your animations with a huge variety of super plug-and-play eases, or build your own custom curves. Choreograph animation sequences in a snap.\n\n  \nChoreograph  \nanimation\nsequences\n   \n\nGSAP® Tools\n\nScroll\n\nTurn scrolling into silky-smooth storytelling.\n\nExplore Scroll\nSVG\n\nMove, morph and much more with our SVG plugins\n\nExplore SVG\nText\n\nLeave them lost for words with seamless text effects.\n\nExplore Text\nUI Interactions\n\nCreate polished, engaging and accessible interactions.\n\nExplore UI\n\nBrands using GSAP®\n\nShowcase\n\nGSAP Showreel 2025\n\nGionatan Nese '26 / Gionatan Nese\n\nJesper Landberg / Portfolio\n\nEdolus / Yann Trevelot\n\nBombon / Square43 Studio\n\nCodapress Publishing / Dave Holloway\n\nWatch Previous Showreels\n\nScrollTrigger, SplitText, Text, CustomEase, useGSAP\n\nGSAP Core\n\nScrollTrigger\n\nScrollTrigger, Draggable, SplitText\n\nScrollTrigger, Observer, DrawSVG, Draggable, Spli",
+    "animations": [],
+    "canvasCount": 0,
+    "status": 200
+  },
+  {
+    "url": "https://www.awwwards.com/",
+    "title": "Awwwards - Website Awards - Best Web Design Trends",
+    "excerpt": "Explore\nDirectory\nAcademy\nNew\nJobs\nMarket\nLog in\nSign Up\nBe Pro\nSubmit Website\nSite of the Day\nOct 22, 2026\nScore 7.56 of 10\nEMOTION AGENCY\nEmotion Agency PRO\nLeonid Kostetskyi\nRoman Stets\nLatest\nNOMINEES\nVote for the latest websites on awwwards\nNova Dental\nby\nPhenomenon Studio PRO\nFitosauna\nby\nQream PRO\nCheck out all submitted websites\nView Nominees\nWinners\nRecent Sites\nof the Day.\nAscension — Pegassi®\nby\nJesper Landberg PRO\nCartier - Le Chœur des Pierres\nby\nmakemepulse PRO\nFORMAT\nby\nObys PRO\nSignal-A Studio\nby\nSignal-A PRO\nBelgrade Arbor\nby\nSquare43 Studio PRO\nOFFFForum\nby\nREF Digital PRO\nCheck out all submitted websites\nView Winners\nAcademy\nLearn from the\nbest instructors.\nLearn UI Design with Figma from Scratch\nInstructor\nDaniele Buffa\nScore 4.9/5\nNordic Design Intensive Course: Complete Branding\nInstructor\nHmmm Creative Studio\nScore 5/5\nInnovative Web Design in Figma: A Step-by-Step Process\nInstructor\nLouis Paquet\nScore 5/5\nChoose from over hundreds of courses\nView Academy\nCollections\nExplore a wide\nvariety of collections.\nPastel colors\nfollowed by\n+170\nWebGL / HTML5 Games\nfollowed by\n+74\nFind inspiration for your projects\nView Collections\nDirectory\nW.CREATORS\nActive creators in your country.\n\nInternational\n\nClay\nWorks\n18\nclay.global\n14 awards\n\nInternational\n\nReadymag\nWorks\n78\nreadymag.com\n68 awards\nName\tProfile\tAwards\tCategories\t\n\nUnity Infoway PRO\n\tAgency\t0\t\nWeb Design , Web Development , UX/UI\n\t\nView\n\n\nChinmay Patil PRO\n\tFreelance\t0\t\nWeb Design , Web Development , UX/UI\n\t\nView\n\n\nRed Dash Media PRO\n\tAgency\t1\t\nWeb Design , UX/UI , Social Media\n\t\nView\n\n\nLumina PRO\n\tStudio\t5\t\nWeb Design , Web Development , UX/UI\n\t\nView\nConnect with over 6,105 Agencies and Professionals\nView Directory\nBlog\nExplore these\npopular posts.\nShopify vs WooCommerce: What's the better?\nWhat's",
+    "animations": [
+      {
+        "target": "SPAN",
+        "duration": 6000
+      }
+    ],
+    "canvasCount": 0,
+    "status": 200
+  },
+  {
+    "url": "https://www.godly.design/",
+    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.godly.design/"
+  }
+]

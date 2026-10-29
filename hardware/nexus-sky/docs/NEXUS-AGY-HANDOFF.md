@@ -1,0 +1,15 @@
+> Earlier hardware implementation record. Use the [current AGY repository handoff](../../../docs/AGY-AETHER-LINK-HANDOFF.md) for branch locations, startup instructions and acceptance checks.
+
+# AGY handoff — Aether Link
+
+Shared filesystem review artifact, 27 October 2026. No AGY acknowledgement or website end-to-end completion is claimed. Work is confined to nexus-sky and the Pi; AETHER has not been edited.
+
+1. Read NEXUS-INTEGRATION-CONTRACT.md section 6 and NEXUS-HARDWARE-CONTRACT-PROPOSAL.md. Hardware API v1 is locally implemented; adoption is pending.
+2. Launch the manual Pi service, SSH tunnel and gateway per NEXUS-HARDWARE-INTEGRATION.md. Server-side base URL is http://127.0.0.1:8766. Read NEXUS_GATEWAY_TOKEN from the ignored 0600 private config; never send it to the browser. Keep the AI backend on :8000; do not point its inference routes at the read-only hardware gateway.
+3. Fetch `/api/nexus/feeds` server-side with Bearer auth and a timeout; merge validated device rows with separately verified inference outputs. The actual Pi device record passed the existing AETHER deviceSchema without changing frontend code. CPU/RAM/storage telemetry stays in `/telemetry` with component-level units and provenance; do not call CPU temperature ambient temperature or invent battery/altitude.
+4. Camera transport is MJPEG, not MediaMTX. `/camera/status` reports availability; `/camera/snapshot?id=ID` and `/camera/stream?id=ID` require an explicitly configured source/relay ID. AETHER's strict camera validator only accepts mediamtx/vdo-ninja, so cameraStatus is intentionally empty until AGY implements a verified bridge or schema support. No physical camera is currently detected; no live stream URL is promised.
+5. Replace the fixed LIVE records in `/home/blu/Projects/nexus-sky/backend/server.py` (get_live_devices_data, get_live_telemetry_data, get_live_cameras_data, get_live_observations_data and get_nexus_feeds). Battery 78.4%, altitude 45m, speed 38.2km/h, phantom flow/radar devices and the fixed AI detection are code constants, not hardware measurements. Do not ship the existing feeds as physical evidence. This handoff does not assert that existing model inference APIs or all UI sources are fabricated; the finding is scoped to those functions.
+6. Treat OFFLINE and STALE as unavailable; no relabelling to LIVE or refreshing observedAt. Preserve explicitly labelled DEMO fallback solely in the website provider. Gateway health LIVE describes the Pi link; camera health remains independently OFFLINE.
+7. Read hardware/types.ts and docs/hardware-evidence/real-pi-api.json for typed/captured payloads. No external sensors/controllers were identified. No arming, motor commands, model training or cloud spend occurred.
+
+Validation: real Pi host metrics, authenticated tunnel/gateway, actual agent SIGTERM/restart and strict AETHER device-schema compatibility passed. Mock camera reconnect/multiple-source and 30-second dual-viewer transport tests passed. Physical camera unplug, Wi-Fi/Ethernet interruption/failover, ESP32 runtime and website merge/stream bridge remain pending.

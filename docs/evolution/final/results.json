@@ -1,0 +1,32 @@
+[
+  {
+    "theme": "original",
+    "reducedCityMapDroneAndResponse": true,
+    "errors": []
+  },
+  {
+    "theme": "aqua",
+    "reducedCityMapDroneAndResponse": true,
+    "errors": []
+  },
+  {
+    "theme": "spectrum",
+    "reducedCityMapDroneAndResponse": true,
+    "errors": []
+  },
+  {
+    "theme": "sage",
+    "reducedCityMapDroneAndResponse": true,
+    "errors": []
+  },
+  {
+    "normalHeroFrameSample": {
+      "frames": 118,
+      "elapsedMs": 2001.4000000007454,
+      "meanFrameMs": 16.96101694915886,
+      "p95FrameMs": 16.800000000000182,
+      "longTasksSupported": true
+    },
+    "qualification": "Local headless browser sample, not a device performance guarantee."
+  }
+]

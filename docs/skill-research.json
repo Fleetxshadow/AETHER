@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://motion.dev/docs/ai-kit-install",
+    "status": 200,
+    "links": [
+      "https://motion.dev/docs/ai-kit-install",
+      "https://motion.dev/assets/docs.slug-CgVSCSD_.js",
+      "https://motion.dev/assets/docs.slug-aMUGeCfo.js",
+      "https://motion.dev/assets/docs-6HmC72Pb.js",
+      "https://motion.dev/assets/docs-seo-p5zLqw2q.js",
+      "https://motion.dev/assets/docs-ad-B19T4t5V.js",
+      "https://motion.dev/assets/docs-grid-demo-DKxyvDzz.js",
+      "https://motion.dev/assets/docs-DSrE_da_.js",
+      "https://motion.dev/assets/docs-BPOZD0H1.css",
+      "https://motion.dev/assets/docs-DH8B3mrn.css",
+      "https://motion.dev/assets/docs-fresh-DankQtXc.css",
+      "https://motion.dev/assets/docs-grid-demo-DzBDp8tI.css",
+      "https://motion.dev/assets/docs-ad-3xkcta-3.css",
+      "/docs",
+      "/docs/react",
+      "/docs/quick-start",
+      "/docs/vue",
+      "/docs/ai-kit",
+      "/docs/ai-kit-install",
+      "/docs/ai-kit-context",
+      "/docs/motionscore-code-audit",
+      "/docs/ai-kit-generate-css",
+      "/docs/ai-kit-transition-editor",
+      "/docs/studio",
+      "cursor://anysphere.cursor-deeplink/prompt?text=Install%20the%20Motion%20plugin%20for%20Cursor.%0A%0AIt%20is%20on%20GitHub%20at%20https%3A%2F%2Fgithub.com%2Fmotiondivision%2Fcursor-plugin%20and%20needs%20no%20token%2C%20no%20account%20and%20no%20configuration.%0A%0A1.%20Clone%20it%20to%20a%20temporary%20directory%3A%0A%0Agit%20clone%20--depth%201%20https%3A%2F%2Fgithub.com%2Fmotiondivision%2Fcursor-plugin%20%2Ftmp%2Fmotion-cursor-plugin%0A%0A2.%20Copy%20the%20plugin%20into%20Cursor%27s%20local%20plugin%20directory%3A%0A%0Amkdir%20-p%20~%2F.cursor%2Fplugins%2Flocal%0Arm%20-rf%20~%2F.cursor%2Fplugins%2Flocal%2Fmotion%0Acp%20-R%20%2Ftmp%2Fmotion-cursor-plugin%2Fplugins%2Fmotion%20~%2F.cursor%2Fplugins%2Flocal%2Fmotion%0Arm%20-rf%20%2Ftmp%2Fmotion-cursor-plugin%0A%0A3.%20Verify%20~%2F.cursor%2Fplugins%2Flocal%2Fmotion%2F.cursor-plugin%2Fplugin.json%20exists%20and%20names%20the%20plugin%20%22motion%22.%0A%0ADo%20not%20touch%20any%20other%20plugin%20in%20that%20directory%2C%20and%20do%20not%20edit%20~%2F.cursor%2Fmcp.json%3A%20the%20plugin%20brings%20its%20own%20MCP%20server.%0A%0AThen%20tell%20me%20to%20fully%20restart%20Cursor%2C%20and%20to%20enable%20Motion%20under%20Settings%20%3E%20Plugins%20if%20it%20is%20not%20already%20on.",
+      "/docs/react-animation",
+      "/docs/react-layout-animations",
+      "/docs/react-svg-animation",
+      "/docs/react-motion-component",
+      "/docs/gsap-vs-motion"
+    ],
+    "installNotes": [
+      " Install the Motion AI Kit | Motion for AI Skip to article Motion Docs Docs Examples Examples UI UI AI Kit AI AI Kit AI Studio Studio Motion+ Motion+ Motion React JS Vue AI Browse docs Install React JS Vue AI AI Kit Quick start Install Context MotionScore fo",
+      "r Agents CSS generation Transition editor Studio Get started Docs / AI Install the Motion AI Kit Install the Motion AI Kit with our easy installer script. Copy page Copy page Presented by Install Motion AI Kit with a single command. npx motion-ai Copy code Copy code It prompts whether to install for this project or globally , and which agents to set up: Claude Code, Cursor, Amp, OpenCode, Ge",
+      "mini CLI, Copilot, or a custom folder. The installer and the /motion skill it installs are free and open source (MIT). The source is on GitHub at motiondivision/ai-kit . Once installed, you might need to manually activate the MCP servers via your agent&#x27;s MCP options. The free MCP server searches current documentation and example",
+      "tor and premium source. Sign in to the Motion+ MCP server from your agent&#x27;s MCP settings to use these tools. Cursor &gt; Free · Cursor One click install for Cursor Documentation search is free. No token, account or configuration is required. Motion+ unlocks CSS spring generation, MotionScore performance audits, plus example and Motion UI source in the editor. Add Motion for Cursor Membership Everyth",
+      "e Motion+ Transition editor For agents, the transition editor is automatically available anywhere that supports MCP Apps . It&#x27;s also possible to install a real-time editor via the official Motion Extension via the VS Code Marketplace , and on the Open VSX marketplace for other editors. Upgrading Re-run the installer at the same scope to upgrade: npx motion-ai@latest Copy code Copy code It rewrites t",
+      "he installed skills and the motion MCP configuration in place. Earlier versions of the kit configured a local MCP server with a Motion+ API key. That flow is retired: if your agent still lists a motion server that runs an npx command with a TOKEN , remove it. The kit ",
+      "ed MCP servers, and Motion+ access comes from signing in via your agent instead. Your API key is no longer needed. Previous Motion AI Kit: the Motion skill and MCP for your agent Next Docs &amp; examples for your agent Motion is supported by the community Help support Motion’s open-source development. Support Motion via GitHub Victor Aremu StackBlitz Related docs 03 topics 01 Docs &amp; examples for yo"
+    ]
+  },
+  {
+    "url": "https://transitions.dev/skill.html",
+    "status": 200,
+    "links": [
+      "https://transitions.dev/skill.html",
+      "/agent.html",
+      "/skill.html",
+      "/skill.html#installation"
+    ],
+    "installNotes": [
+      " Transitions.dev Skill — Teach your AI about product motion Skip to content Transitions .dev Products Library Production-ready UI transitions Builder Build components with the AI agent Motion Agent Find and fix janky motion in your app Transitions Motion Skill Teach your ",
+      "rch ⌘K Get Pro — Sign in Appearance System Feedback Support Feedback Send feedback Appearance Light Dark System Products Library Builder Motion Agent Skill Community Docs Get Pro Sign in Transitions Skill Teaches your coding agent product motion: every transition from the library, and the commands to apply and refine them. Get started View on GitHub Generic AI output With Transitions.dev skill Generic ",
+      "AI output With Transitions Skill Generic AI output With Transitions.dev skill Installation Run these in a terminal at your project's root folder, or paste them to your coding agent and it runs them for you. Skill npx skills add Jakubantalik/transitions.dev Installs the main skill with the library of 27+ production-ready transitions. ",
+      "Works with Claude Code, Cursor, GitHub Copilot, Codex and Gemini CLI. Polish skill npx skills add Jakubantalik/transitions.dev -s transitions-polish An add-on that aligns motion you already have to the transitions.dev token scale. Works alongside the main skill or on its own. Pro skill npx transitions-dev skill Installs the Pro transitions ",
+      "as an agent skill, with CSS, React and TypeScript for every recipe. Needs a Transitions Pro plan: it opens your browser once to confirm your account, then drops the recipes into your skills directory. Pro recipes npx transitions-dev add --pro Copies every Pro recipe ",
+      "straight into ./transitions/ . Signs you in through the browser the first time. Prefer the free set? Use npx transitions-dev add --free . Commands Type them to your agent, or say it in plain words: each command lists the phrases that route to it. Reveal transitions reveal Lists every transition in the skill as a numbered text list, handy when you have forg",
+      " my animations\". Apply transitions apply Detects the best-fit transition for your current cursor context, proposes it with a one-line rationale, then installs it after you confirm. Name a transition to skip the detection, for example transitions apply menu-dropdown . Also triggers on \"add the right transition here\". Refine transitions refine Scans the whole project for ad-hoc transitions, hardcoded durat",
+      " delay rules on top of the token matching from transitions refine , plus explicit distance coverage. Read-only, nothing gets edited. Needs the Polish skill installed. Also triggers on \"polish my transitions\" or \"align to the motion tokens\". Try it Prompts Update dropdowns transition based on transitions-dev skill Update all icon swap transitions based on transitions-dev skill Update all modals transiti",
+      "ons based on transitions-dev skill Paste one to your agent in a project that has the skill installed. It picks the matching recipe, adapts it to your selectors and shows the diff. Transitions .dev Collection of the most essential UI transitions for web apps Site Home Transitions Community Skill Motion Agent Get Pro Docs Introduction Installation "
+    ]
+  }
+]

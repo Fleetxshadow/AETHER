@@ -1,0 +1,60 @@
+{
+  "name": "nexus-v2",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/copy-vendor-assets.mjs",
+    "prebuild": "node scripts/copy-vendor-assets.mjs",
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "tsx --test tests/domain.test.ts tests/response.test.ts tests/integration.test.ts tests/traffic.test.ts tests/geo.test.ts tests/nexus-ai-integration.test.ts",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm run lint && npm test",
+    "format": "prettier --write src tests scripts *.ts *.mjs",
+    "format:check": "prettier --check src tests scripts *.ts *.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/manrope": "^5.2.8",
+    "@googlemaps/js-api-loader": "^2.0.2",
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.5.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "firebase": "12.10.0",
+    "firebase-admin": "14.5.0",
+    "gsap": "^3.14.0",
+    "hls.js": "^1.7.3",
+    "lucide-react": "^0.577.0",
+    "maplibre-gl": "6.14.0",
+    "motion": "^12.35.0",
+    "next": "^16.4.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.2.0",
+    "three": "0.182.0",
+    "zod": "^4.3.0",
+    "zustand": "^5.0.11"
+  },
+  "overrides": {
+    "@firebase/app": "0.14.9",
+    "@firebase/app-compat": "0.5.9",
+    "@grpc/grpc-js": "^1.13.6"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "0.182.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.4.3",
+    "prettier": "^3.9.10",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

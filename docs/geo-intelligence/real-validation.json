@@ -1,0 +1,111 @@
+{
+  "mode": "Actual Google Maps API",
+  "matrix": [
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 621,
+        "longTaskCount": 48,
+        "maxLongTaskMs": 532
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 1740,
+        "longTaskCount": 57,
+        "maxLongTaskMs": 604
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 2152,
+        "longTaskCount": 39,
+        "maxLongTaskMs": 290
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 1573,
+        "longTaskCount": 28,
+        "maxLongTaskMs": 3192
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 2314,
+        "longTaskCount": 87,
+        "maxLongTaskMs": 1488
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 725,
+        "longTaskCount": 30,
+        "maxLongTaskMs": 518
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 603,
+        "longTaskCount": 45,
+        "maxLongTaskMs": 502
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 878,
+        "longTaskCount": 28,
+        "maxLongTaskMs": 738
+      }
+    }
+  ],
+  "checks": [],
+  "failures": []
+}

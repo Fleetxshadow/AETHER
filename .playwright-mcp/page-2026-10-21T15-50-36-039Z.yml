@@ -1,0 +1,402 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1e3]:
+    - banner [ref=f1e4]:
+      - link "NEXUS home" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e9]:
+          - text: NEXUS
+          - generic [ref=f1e10]: V.02
+      - generic [ref=f1e11]:
+        - text: URBAN OBSERVATORY
+        - generic [ref=f1e13]: 12.9740° N / 77.5940° E
+      - generic [ref=f1e14]:
+        - button "Open theme configurator" [ref=f1e15] [cursor=pointer]
+        - button "Enable audio" [ref=f1e22] [cursor=pointer]
+        - link "Enter command" [ref=f1e27] [cursor=pointer]:
+          - /url: /command
+        - button "Open navigation" [ref=f1e31] [cursor=pointer]:
+          - generic [ref=f1e32]: EXPLORE
+    - main [ref=f1e34]:
+      - generic [ref=f1e35]:
+        - generic [ref=f1e36]:
+          - generic [ref=f1e37]: NXS—02 / AN URBAN OBSERVATORY
+          - generic [ref=f1e38]: DEMO SYSTEM
+        - generic [aria-hidden]:
+          - generic: "N"
+          - generic: E
+          - generic: X
+          - generic: U
+          - generic: S
+        - generic [ref=f1e40]:
+          - generic [ref=f1e46]:
+            - img "Simplified conceptual city plan" [ref=f1e47]
+            - generic [ref=f1e140]:
+              - generic [ref=f1e144]: Preparing the living city
+              - button "Inspect landmark" [ref=f1e145] [cursor=pointer]
+          - generic:
+            - generic: SPATIAL FIELD 01
+            - generic: CONCEPTUAL GEOGRAPHY
+          - generic: 12.9740° N 77.5940° E
+        - generic:
+          - paragraph: INTELLIGENCE BEYOND INFRASTRUCTURE
+          - heading "NEXUS. THE CITY THAT THINKS." [level=1]:
+            - generic: THE CITY
+            - generic: THAT
+            - generic: THINKS.
+          - paragraph: Inspect heat, traffic, and drainage observations in one interactive city view.
+          - paragraph: Inspect each observation’s source. Unconnected panels retain recorded demonstration data.
+          - generic:
+            - link "Enter NEXUS command" [ref=f1e149] [cursor=pointer]:
+              - /url: /command
+            - link "Explore the city" [ref=f1e153] [cursor=pointer]:
+              - /url: "#city"
+          - button "Watch the guided experience 05 CHAPTERS" [ref=f1e156] [cursor=pointer]:
+            - text: Watch the guided experience
+            - generic [ref=f1e159]: 05 CHAPTERS
+        - group "City intelligence dock" [ref=f1e160]:
+          - complementary [ref=f1e161]:
+            - button "Show recorded city observations" [ref=f1e162] [cursor=pointer]:
+              - generic [ref=f1e163]: RECORDED INTELLIGENCE
+              - generic [ref=f1e165]:
+                - strong [ref=f1e166]: "08"
+                - generic [ref=f1e167]:
+                  - text: shared observations
+                  - generic [ref=f1e168]: 15:00 IST / DEMO
+          - generic "Hero intelligence layers" [ref=f1e171]:
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]: ILLUMINATE THE CITY
+              - generic [ref=f1e174]: 04 LAYERS
+            - generic [ref=f1e175]:
+              - button "01 Intelligence network" [pressed] [ref=f1e176] [cursor=pointer]:
+                - generic [ref=f1e177]: "01"
+                - text: Intelligence network
+              - button "02 Mobility" [ref=f1e179] [cursor=pointer]:
+                - generic [ref=f1e180]: "02"
+                - text: Mobility
+              - button "03 Surface heat" [ref=f1e181] [cursor=pointer]:
+                - generic [ref=f1e182]: "03"
+                - text: Surface heat
+              - button "04 Water systems" [ref=f1e183] [cursor=pointer]:
+                - generic [ref=f1e184]: "04"
+                - text: Water systems
+        - generic [ref=f1e185]:
+          - generic [ref=f1e186]:
+            - text: PERSPECTIVES
+            - strong [ref=f1e187]:
+              - text: "10"
+              - generic [ref=f1e188]: CONNECTED
+          - generic [ref=f1e189]:
+            - text: BUILT ENVIRONMENT
+            - strong [ref=f1e190]:
+              - text: "88"
+              - generic [ref=f1e191]: CONCEPTUAL STRUCTURES
+          - generic [ref=f1e192]:
+            - text: OBSERVATIONS
+            - strong [ref=f1e193]:
+              - text: "08"
+              - generic [ref=f1e194]: SIMULATED DATA
+          - generic [ref=f1e195]:
+            - button "Skip intro" [ref=f1e196] [cursor=pointer]
+            - generic [ref=f1e200]: SCROLL TO CONNECT
+      - generic [ref=f1e203]:
+        - generic [ref=f1e204]: ONE CITY.
+        - generic [ref=f1e205]: TEN PERSPECTIVES.
+        - generic [ref=f1e206]: A SHARED CONTEXT.
+        - generic [ref=f1e207]: SOURCE-LABELED INTELLIGENCE ↗
+      - generic [ref=f1e209]:
+        - generic [ref=f1e210]:
+          - paragraph [ref=f1e211]:
+            - generic [ref=f1e212]: "01"
+            - text: THE LIVING CITY
+          - generic [aria-hidden]: "01"
+          - generic [ref=f1e213]:
+            - heading "Every signal has a place." [level=2] [ref=f1e214]
+            - paragraph [ref=f1e215]: A shared spatial context connects the recorded observations. Select a signal to inspect the evidence behind it.
+            - generic [ref=f1e216]: BUNDLED OBSERVATIONS / SPATIAL CONTEXT
+          - generic "City story chapters" [ref=f1e217]:
+            - button "01 Intelligence network" [pressed] [ref=f1e218] [cursor=pointer]:
+              - generic [ref=f1e219]: "01"
+              - text: Intelligence network
+            - button "02 Mobility" [ref=f1e221] [cursor=pointer]:
+              - generic [ref=f1e222]: "02"
+              - text: Mobility
+            - button "03 Surface heat" [ref=f1e223] [cursor=pointer]:
+              - generic [ref=f1e224]: "03"
+              - text: Surface heat
+            - button "04 Water systems" [ref=f1e225] [cursor=pointer]:
+              - generic [ref=f1e226]: "04"
+              - text: Water systems
+          - link "Open digital twin" [ref=f1e227] [cursor=pointer]:
+            - /url: /command/twin
+        - generic [ref=f1e231]:
+          - generic [ref=f1e233]:
+            - img "Simplified conceptual city plan" [ref=f1e234]
+            - generic [ref=f1e327]:
+              - generic [ref=f1e331]: Conceptual city · simplified view
+              - button "Inspect landmark" [ref=f1e332] [cursor=pointer]
+          - generic:
+            - generic: SPATIAL SYSTEM / NXS-01
+            - generic: DEMO / CONCEPTUAL TWIN
+          - generic [ref=f1e336]:
+            - generic [ref=f1e337]:
+              - button "Intelligence network" [pressed] [ref=f1e338] [cursor=pointer]
+              - button "Mobility" [ref=f1e340] [cursor=pointer]
+              - button "Surface heat" [ref=f1e342] [cursor=pointer]
+              - button "Water systems" [ref=f1e344] [cursor=pointer]
+            - generic [ref=f1e346]:
+              - generic [ref=f1e347]: Camera preset
+              - combobox "Camera preset" [ref=f1e348]:
+                - option "Overview camera" [selected]
+                - option "Central district"
+                - option "Riverfront"
+                - option "West parkland"
+                - option "Selected observation"
+              - button "Switch to day lighting" [ref=f1e349] [cursor=pointer]
+              - button "Reset city view" [ref=f1e352] [cursor=pointer]
+          - generic [ref=f1e356]: DRAG TO ORBIT / USE CAMERA PRESETS
+      - generic [ref=f1e357]:
+        - generic [ref=f1e358]: NXS / 02
+        - paragraph [ref=f1e359]: EVERY SIGNAL. A SHARED CONTEXT. ↗
+        - generic [ref=f1e361]: NEW PERSPECTIVE / SAME CITY
+      - generic [ref=f1e362]:
+        - generic [ref=f1e363]:
+          - paragraph [ref=f1e364]:
+            - generic [ref=f1e365]: "02"
+            - text: THE INTELLIGENCE NETWORK
+          - heading "CONNECTED BY DESIGN. UNDERSTOOD IN CONTEXT." [level=2] [ref=f1e367]: CONNECTED BY DESIGN.UNDERSTOOD IN CONTEXT.
+          - paragraph [ref=f1e368]: Different lenses. The same evidence.One shared understanding of the city.
+        - generic [ref=f1e369]:
+          - generic [ref=f1e370]:
+            - generic [ref=f1e371]: DEMO SOURCES + DOMAIN LENSES
+            - button "01 SKY Aerial intelligence" [ref=f1e372] [cursor=pointer]:
+              - generic [ref=f1e373]: "01"
+              - strong [ref=f1e381]: SKY
+              - generic [ref=f1e382]: Aerial intelligence
+            - button "02 FLOW Urban mobility" [ref=f1e386] [cursor=pointer]:
+              - generic [ref=f1e387]: "02"
+              - strong [ref=f1e392]: FLOW
+              - generic [ref=f1e393]: Urban mobility
+            - button "03 RESCUE Emergency response" [ref=f1e397] [cursor=pointer]:
+              - generic [ref=f1e398]: "03"
+              - strong [ref=f1e406]: RESCUE
+              - generic [ref=f1e407]: Emergency response
+            - button "04 THERMAL Heat intelligence" [ref=f1e411] [cursor=pointer]:
+              - generic [ref=f1e412]: "04"
+              - strong [ref=f1e415]: THERMAL
+              - generic [ref=f1e416]: Heat intelligence
+            - button "05 AQUA Water & resilience" [ref=f1e420] [cursor=pointer]:
+              - generic [ref=f1e421]: "05"
+              - strong [ref=f1e425]: AQUA
+              - generic [ref=f1e426]: Water & resilience
+            - button "06 ROAD Infrastructure health" [ref=f1e430] [cursor=pointer]:
+              - generic [ref=f1e431]: "06"
+              - strong [ref=f1e434]: ROAD
+              - generic [ref=f1e435]: Infrastructure health
+            - button "07 FIRE Fire & smoke detection" [ref=f1e439] [cursor=pointer]:
+              - generic [ref=f1e440]: "07"
+              - strong [ref=f1e443]: FIRE
+              - generic [ref=f1e444]: Fire & smoke detection
+          - generic [ref=f1e456]:
+            - text: SHARED SPATIAL RECORDS
+            - generic [ref=f1e457]:
+              - strong [ref=f1e463]: DEMODATA
+              - generic [ref=f1e464]: LOCATION / TIME / EVIDENCE
+            - text: Bundled observations + sensor samples
+          - generic [ref=f1e465]:
+            - button "TWIN Spatial visualization" [ref=f1e466] [cursor=pointer]:
+              - strong [ref=f1e470]: TWIN
+              - generic [ref=f1e471]: Spatial visualization
+            - button "CORE Deterministic, source-linked analysis" [pressed] [ref=f1e472] [cursor=pointer]:
+              - strong [ref=f1e485]: CORE
+              - generic [ref=f1e486]: Deterministic, source-linked analysis
+            - button "COMMAND Operational review" [ref=f1e487] [cursor=pointer]:
+              - strong [ref=f1e491]: COMMAND
+              - generic [ref=f1e492]: Operational review
+        - generic [ref=f1e493]:
+          - generic [ref=f1e497]: NEXUS CORE
+          - paragraph [ref=f1e498]: Connect signals to understanding. Inspect structured, source-linked analysis from the demo dataset.
+          - link "Inspect workspace" [ref=f1e499] [cursor=pointer]:
+            - /url: /command/core
+        - paragraph [ref=f1e503]: Demonstration architecture. Available device feeds are identified separately; no automated inference runs in this browser.
+      - generic [ref=f1e504]:
+        - generic [ref=f1e505]:
+          - paragraph [ref=f1e506]:
+            - generic [ref=f1e507]: "03"
+            - text: TEN PERSPECTIVES / ONE INTELLIGENCE
+          - heading "FIND YOUR PERSPECTIVE." [level=2] [ref=f1e509]: FIND YOURPERSPECTIVE.
+          - paragraph [ref=f1e510]: Explore the systems around a shared spatial core.Each lens opens a different understanding.
+        - generic [ref=f1e511]:
+          - generic [ref=f1e512]:
+            - generic [aria-hidden]: "01"
+            - generic:
+              - generic:
+                - generic:
+                  - generic: NEXUS X1 / CONCEPTUAL PLATFORM
+                  - img "Illustrative four-motor airframe plan"
+                  - generic: 04 PROPULSION ASSEMBLIES / ILLUSTRATIVE
+            - group "Choose intelligence module" [ref=f1e513]:
+              - button "Explore NEXUS SKY" [pressed] [ref=f1e514] [cursor=pointer]:
+                - generic [ref=f1e522]:
+                  - generic [ref=f1e523]: "01"
+                  - text: SKY
+              - button "Explore NEXUS FLOW" [ref=f1e525] [cursor=pointer]:
+                - generic [ref=f1e530]:
+                  - generic [ref=f1e531]: "02"
+                  - text: FLOW
+              - button "Explore NEXUS RESCUE" [ref=f1e532] [cursor=pointer]:
+                - generic [ref=f1e540]:
+                  - generic [ref=f1e541]: "03"
+                  - text: RESCUE
+              - button "Explore NEXUS THERMAL" [ref=f1e542] [cursor=pointer]:
+                - generic [ref=f1e545]:
+                  - generic [ref=f1e546]: "04"
+                  - text: THERMAL
+              - button "Explore NEXUS AQUA" [ref=f1e547] [cursor=pointer]:
+                - generic [ref=f1e551]:
+                  - generic [ref=f1e552]: "05"
+                  - text: AQUA
+              - button "Explore NEXUS ROAD" [ref=f1e553] [cursor=pointer]:
+                - generic [ref=f1e556]:
+                  - generic [ref=f1e557]: "06"
+                  - text: ROAD
+              - button "Explore NEXUS FIRE" [ref=f1e558] [cursor=pointer]:
+                - generic [ref=f1e561]:
+                  - generic [ref=f1e562]: "07"
+                  - text: FIRE
+              - button "Explore NEXUS TWIN" [ref=f1e563] [cursor=pointer]:
+                - generic [ref=f1e567]:
+                  - generic [ref=f1e568]: "08"
+                  - text: TWIN
+              - button "Explore NEXUS CORE" [ref=f1e569] [cursor=pointer]:
+                - generic [ref=f1e582]:
+                  - generic [ref=f1e583]: "09"
+                  - text: CORE
+              - button "Explore NEXUS COMMAND" [ref=f1e584] [cursor=pointer]:
+                - generic [ref=f1e588]:
+                  - generic [ref=f1e589]: "10"
+                  - text: COMMAND
+          - generic [ref=f1e590]:
+            - generic [ref=f1e591]: LENS 01 / CONNECTED TO SHARED DEMO RECORDS
+            - generic [ref=f1e593]:
+              - text: Aerial intelligence
+              - heading "NEXUS SKY" [level=3] [ref=f1e594]
+              - paragraph [ref=f1e595]: A new perspective on everything below. Explore the aerial platform, its sensors, and recorded observations.
+              - link "Open workspace" [ref=f1e597] [cursor=pointer]:
+                - /url: /command/sky
+              - generic [ref=f1e601]: FLIGHT ALTITUDE / m
+            - generic [ref=f1e602]:
+              - button "Previous module" [ref=f1e603] [cursor=pointer]
+              - generic [ref=f1e606]: 01 / 10
+              - button "Next module" [ref=f1e607] [cursor=pointer]
+        - paragraph [ref=f1e610]: Use arrow keys, Home / End, or the direction controls to explore.
+      - generic [ref=f1e611]:
+        - generic [ref=f1e612]: NXS / 04
+        - paragraph [ref=f1e613]: CHANGE YOUR PERSPECTIVE. ↗
+        - generic [ref=f1e615]: NEW PERSPECTIVE / SAME CITY
+      - generic [ref=f1e616]:
+        - generic [ref=f1e617]:
+          - paragraph [ref=f1e618]:
+            - generic [ref=f1e619]: "04"
+            - text: NEXUS SKY / THE ENGINEERING STUDIO
+          - heading "A HIGHER PERSPECTIVE." [level=2] [ref=f1e621]: A HIGHERPERSPECTIVE.
+          - paragraph [ref=f1e622]: Precision in every assembly.Explore the conceptual aerial platform.
+        - status [ref=f1e624]:
+          - generic [ref=f1e626]: Engineering explorer
+      - generic [ref=f1e627]:
+        - generic [ref=f1e628]:
+          - paragraph [ref=f1e629]:
+            - generic [ref=f1e630]: "05"
+            - text: INTELLIGENCE IN ACTION
+          - heading "A SIGNAL. A PLACE. A REASON." [level=2] [ref=f1e632]: A SIGNAL.A PLACE. A REASON.
+          - paragraph [ref=f1e633]: Inspect the observation.Trace it to its recorded context.
+        - generic [ref=f1e634]:
+          - generic [ref=f1e635]:
+            - generic [ref=f1e636]:
+              - img "Synthetic THERMAL evidence illustration. Not a real camera recording." [ref=f1e637]:
+                - generic [ref=f1e687]: DEMO / 94.6%
+              - generic:
+                - generic: SYNTHETIC EVIDENCE
+                - generic: NX-2401
+              - generic:
+                - generic: RGB / LWIR / 640 × 512
+                - generic: ILLUSTRATION · NOT A REAL RECORDING
+            - generic [ref=f1e692]:
+              - generic [ref=f1e693]: 12.9760° N / 77.5960° E
+              - generic [ref=f1e694]: SYNTHETIC EVIDENCE
+            - generic [ref=f1e695]: Central district / CONCEPTUAL LOCATION
+          - generic [ref=f1e700]:
+            - generic [ref=f1e701]:
+              - generic [ref=f1e702]: NX-2401
+              - generic [ref=f1e703]: elevated
+            - heading "Surface heat anomaly" [level=3] [ref=f1e704]
+            - paragraph [ref=f1e705]: Illustrative rooftop surface temperature exceeds the neighborhood baseline by 8.2°C. Review the thermal sample before making any operational decision.
+            - generic [ref=f1e706]:
+              - strong [ref=f1e707]: "42.8"
+              - generic [ref=f1e708]: °C
+            - generic [ref=f1e709]: 08:42 IST / DEMO AERIAL DATASET
+            - button "Inspect observation" [ref=f1e710] [cursor=pointer]
+            - generic "Preview recorded observations" [ref=f1e714]:
+              - button "Preview Surface heat anomaly" [pressed] [ref=f1e715] [cursor=pointer]: "2401"
+              - button "Preview Junction congestion" [ref=f1e717] [cursor=pointer]: "2402"
+              - button "Preview Drainage overflow risk" [ref=f1e719] [cursor=pointer]: "2403"
+              - button "Preview Road surface fracture" [ref=f1e721] [cursor=pointer]: "2404"
+              - button "Preview Smoke signature detected" [ref=f1e723] [cursor=pointer]: "2405"
+              - button "Preview Assistance observation" [ref=f1e725] [cursor=pointer]: "2406"
+            - paragraph [ref=f1e727]: Simulated observations. No real incidents verified.
+      - generic [ref=f1e728]:
+        - generic [ref=f1e729]:
+          - text: NEW PERSPECTIVE / HUMAN-REVIEWED INTELLIGENCE
+          - heading "EVERY VOICE. A HUMAN RESPONSE." [level=2] [ref=f1e730]: EVERY VOICE.A HUMAN RESPONSE.
+        - generic [ref=f1e731]:
+          - paragraph [ref=f1e732]: Hindi, English, or both. Explore a responsible incident-intake demonstration with voluntary location sharing, a private review queue and simulated handoffs.
+          - link "Explore NEXUS RESPONSE" [ref=f1e733] [cursor=pointer]:
+            - /url: /command/response
+          - generic [ref=f1e737]: Non-operational demo. No emergency dispatch or live calling.
+      - generic [ref=f1e738]:
+        - paragraph [ref=f1e739]:
+          - generic [ref=f1e740]: "06"
+          - text: THE HUMAN POSSIBILITY
+        - heading "BETTER AWARENESS. MORE RESILIENT CITIES." [level=2] [ref=f1e742]: BETTER AWARENESS.MORE RESILIENT CITIES.
+        - generic [ref=f1e743]:
+          - paragraph [ref=f1e744]: Movement, temperature, water, infrastructure. NEXUS connects the signals into a shared understanding of the places we call home.
+          - paragraph [ref=f1e745]: A conceptual exploration built across spatial design, software, and aerial engineering. Every finding can be traced to the simulated evidence that supports it.
+      - generic [ref=f1e746]:
+        - paragraph [ref=f1e747]:
+          - generic [ref=f1e748]: "07"
+          - text: THE NEXT PERSPECTIVE IS YOURS
+        - heading "TAKE COMMAND." [level=2] [ref=f1e750]: TAKECOMMAND.
+        - generic [ref=f1e751]:
+          - generic "Command center preview using current demo snapshot" [ref=f1e752]:
+            - generic [ref=f1e753]:
+              - text: NEXUS COMMAND
+              - generic [ref=f1e755]: 15:00 IST
+            - generic [ref=f1e763]: 12.9740° N / 77.5940° E
+            - generic [ref=f1e764]:
+              - generic [ref=f1e765]:
+                - strong [ref=f1e766]: "6"
+                - text: ACTIVE / DEMO
+              - generic [ref=f1e767]:
+                - strong [ref=f1e768]: 42.8°
+                - text: SURFACE / °C
+              - generic [ref=f1e769]:
+                - strong [ref=f1e770]: "23.1"
+                - text: MOBILITY / KM/H
+          - generic [ref=f1e771]:
+            - paragraph [ref=f1e772]: Every perspective.One connected city.Your next move.
+            - link "Launch command center" [ref=f1e774] [cursor=pointer]:
+              - /url: /command
+            - button "Start guided presentation" [ref=f1e778] [cursor=pointer]
+            - generic [ref=f1e781]: Conceptual city. Simulated intelligence.
+    - contentinfo [ref=f1e782]:
+      - link "NEXUS home" [ref=f1e783] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e787]:
+          - text: NEXUS
+          - generic [ref=f1e788]: V.02
+      - generic [ref=f1e789]: THE CITY THAT THINKS.
+      - generic [ref=f1e790]: A conceptual perspective on urban resilience.
+      - link "Back to top" [ref=f1e791] [cursor=pointer]:
+        - /url: "#main"
+  - alert [ref=f1e795]

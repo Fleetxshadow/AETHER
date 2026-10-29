@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Command sidebar" [ref=e4]:
+      - generic [ref=e5]:
+        - link "AETHER CITY home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - button "Retract sidebar" [ref=e14] [cursor=pointer]
+      - generic [ref=e17]: URBAN INTELLIGENCE
+      - navigation "AETHER modules" [ref=e18]:
+        - link "CITY TRAFFIC Gurugram investigation" [ref=e19] [cursor=pointer]:
+          - /url: /traffic
+          - generic [ref=e23]:
+            - text: CITY TRAFFIC
+            - generic [ref=e24]: Gurugram investigation
+        - link "RESPONSE Human-reviewed intake" [ref=e25] [cursor=pointer]:
+          - /url: /command/response
+          - generic [ref=e29]:
+            - text: RESPONSE
+            - generic [ref=e30]: Human-reviewed intake
+        - link "COMMAND Unified operations" [ref=e31] [cursor=pointer]:
+          - /url: /command
+          - generic [ref=e35]:
+            - text: COMMAND
+            - generic [ref=e36]: Unified operations
+        - link "SKY Aerial intelligence" [ref=e38] [cursor=pointer]:
+          - /url: /command/sky
+          - generic [ref=e46]:
+            - text: SKY
+            - generic [ref=e47]: Aerial intelligence
+        - link "FLOW Urban mobility" [ref=e48] [cursor=pointer]:
+          - /url: /command/flow
+          - generic [ref=e53]:
+            - text: FLOW
+            - generic [ref=e54]: Urban mobility
+        - link "RESCUE Emergency response" [ref=e55] [cursor=pointer]:
+          - /url: /command/rescue
+          - generic [ref=e63]:
+            - text: RESCUE
+            - generic [ref=e64]: Emergency response
+        - link "THERMAL Heat intelligence" [ref=e65] [cursor=pointer]:
+          - /url: /command/thermal
+          - generic [ref=e68]:
+            - text: THERMAL
+            - generic [ref=e69]: Heat intelligence
+        - link "AQUA Water & resilience" [ref=e70] [cursor=pointer]:
+          - /url: /command/aqua
+          - generic [ref=e74]:
+            - text: AQUA
+            - generic [ref=e75]: Water & resilience
+        - link "ROAD Infrastructure health" [ref=e76] [cursor=pointer]:
+          - /url: /command/road
+          - generic [ref=e79]:
+            - text: ROAD
+            - generic [ref=e80]: Infrastructure health
+        - link "FIRE Fire & smoke detection" [ref=e81] [cursor=pointer]:
+          - /url: /command/fire
+          - generic [ref=e84]:
+            - text: FIRE
+            - generic [ref=e85]: Fire & smoke detection
+        - link "TWIN Geographic intelligence twin" [ref=e86] [cursor=pointer]:
+          - /url: /command/twin
+          - generic [ref=e90]:
+            - text: TWIN
+            - generic [ref=e91]: Geographic intelligence twin
+        - link "CORE Evidence-led intelligence" [ref=e92] [cursor=pointer]:
+          - /url: /command/core
+          - generic [ref=e105]:
+            - text: CORE
+            - generic [ref=e106]: Evidence-led intelligence
+      - generic [ref=e107]:
+        - link "Reports" [ref=e108] [cursor=pointer]:
+          - /url: /command/reports
+        - link "System settings" [ref=e113] [cursor=pointer]:
+          - /url: /command/settings
+        - link "Back to experience" [ref=e118] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e122]:
+          - generic [ref=e123]: DEMO SYSTEM
+          - generic [ref=e125]: Device feeds + demo fallbackInspect active sources
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: AETHER
+          - strong [ref=e132]: COMMAND
+        - generic [ref=e133]:
+          - generic [ref=e137]: Search observations and districts
+          - searchbox "Search observations and districts" [ref=e138]
+          - button "Open command palette" [ref=e139] [cursor=pointer]: ⌘ K
+        - generic [ref=e140]:
+          - generic [ref=e141]: DEMO SYSTEM
+          - button "Open theme configurator" [ref=e143] [cursor=pointer]
+          - button "Enable audio" [ref=e150] [cursor=pointer]
+          - button "View alert timeline" [ref=e155] [cursor=pointer]
+          - generic "Demo operator" [ref=e160]: NX
+      - main [ref=e161]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: THE BIGGER PICTURE
+            - heading "AETHER COMMAND" [level=1] [ref=e165]
+            - paragraph [ref=e166]: Unified Urban Intelligence & Response Coordination
+          - generic [ref=e167]:
+            - generic [ref=e169]: GURUGRAM / GEOGRAPHIC WORKSPACE
+            - strong [ref=e170]: 15:00 IST
+            - generic [ref=e171]: 12 OCT 2026 · DEMO RECORDING
+        - group [ref=e172]:
+          - generic "DEMO DATA · no Firebase configuration Inspect sources" [ref=e173] [cursor=pointer]:
+            - generic [ref=e174]: DEMO DATA · no Firebase configuration
+            - generic [ref=e175]: Inspect sources
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e181]: Active observations
+              - generic [ref=e182]: "01"
+            - strong [ref=e183]:
+              - generic [ref=e184]: "6"
+              - generic [ref=e185]: count
+              - generic [ref=e186]: REVIEWREQUIRED
+            - 'img "Active observations (count), simulated samples on 12 October 2026 from 06:00 IST to 18:00 IST: 0, 2, 4, 6, 4. Current 6 count at 15:00 IST." [ref=e187]'
+            - generic [ref=e191]:
+              - generic [ref=e192]: 12 Oct · 06:00–18:00 IST
+              - generic [ref=e193]: Current 15:00 IST
+              - generic [ref=e194]: SIMULATED DEMO
+            - paragraph [ref=e195]: 8 recorded signals in snapshot
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e200]: Surface temperature
+              - generic [ref=e201]: "02"
+            - strong [ref=e202]:
+              - generic [ref=e203]: "42.8"
+              - generic [ref=e204]: °C
+            - 'img "Surface temperature (°C), simulated samples on 12 October 2026 from 06:00 IST to 18:00 IST: 26.4, 31.2, 38.6, 42.8, 34.2. Current 42.8 °C at 15:00 IST." [ref=e205]'
+            - generic [ref=e209]:
+              - generic [ref=e210]: 12 Oct · 06:00–18:00 IST
+              - generic [ref=e211]: Current 15:00 IST
+              - generic [ref=e212]: SIMULATED DEMO
+            - paragraph [ref=e213]: Central district / simulated sensor
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - generic [ref=e220]: Average traffic speed
+              - generic [ref=e221]: "03"
+            - strong [ref=e222]:
+              - generic [ref=e223]: "23.1"
+              - generic [ref=e224]: km/h
+            - 'img "Average traffic speed (km/h), simulated samples on 12 October 2026 from 06:00 IST to 18:00 IST: 38.2, 18.4, 27.6, 23.1, 34.7. Current 23.1 km/h at 15:00 IST." [ref=e225]'
+            - generic [ref=e229]:
+              - generic [ref=e230]: 12 Oct · 06:00–18:00 IST
+              - generic [ref=e231]: Current 15:00 IST
+              - generic [ref=e232]: SIMULATED DEMO
+            - paragraph [ref=e233]: Mobility sample / recorded demo
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e239]: Infrastructure health
+              - generic [ref=e240]: "04"
+            - strong [ref=e241]:
+              - generic [ref=e242]: "91.2"
+              - generic [ref=e243]: "%"
+            - 'img "Infrastructure health (%), simulated samples on 12 October 2026 from 06:00 IST to 18:00 IST: 92.4, 92.2, 91.8, 91.2, 91.2. Current 91.2 % at 15:00 IST." [ref=e244]'
+            - generic [ref=e248]:
+              - generic [ref=e249]: 12 Oct · 06:00–18:00 IST
+              - generic [ref=e250]: Current 15:00 IST
+              - generic [ref=e251]: SIMULATED DEMO
+            - paragraph [ref=e252]: Illustrative assessment index
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - button "City mode" [pressed] [ref=e255] [cursor=pointer]:
+              - text: City
+              - generic [ref=e260]: mode
+            - button "Twin mode" [ref=e261] [cursor=pointer]:
+              - text: Twin
+              - generic [ref=e265]: mode
+            - button "Analytics mode" [ref=e266] [cursor=pointer]:
+              - text: Analytics
+              - generic [ref=e270]: mode
+            - button "Mission mode" [ref=e271] [cursor=pointer]:
+              - text: Mission
+              - generic [ref=e274]: mode
+          - generic [ref=e275]: DEMO SNAPSHOT / 15:00 IST
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - generic [ref=e279]: ATH / GEOSPATIAL INTELLIGENCE
+            - generic [ref=e284]: 8 AVAILABLE RECORDS RECORDED DEMO
+          - group "City map toolbar" [ref=e286]:
+            - generic [ref=e287]: REAL GEOGRAPHY / EXPLICIT DATA SOURCES
+            - generic [ref=e288]:
+              - generic [ref=e290]: 8 MATCHING / 8 RECORDS / DEMO
+              - button "Enter twin" [ref=e291] [cursor=pointer]
+          - status [ref=e296]:
+            - generic [ref=e298]: Preparing geospatial view
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]: TIME MACHINE
+            - generic [ref=e302]: 12 OCT 2026 / RECORDED DEMO
+          - generic [ref=e303]:
+            - button "Earlier snapshot" [ref=e304] [cursor=pointer]
+            - generic [ref=e307]:
+              - generic [ref=e308]: Historical city snapshot
+              - slider "Historical city snapshot" [ref=e309] [cursor=pointer]: "3"
+              - generic [ref=e310]:
+                - button "06:00 IST" [ref=e311] [cursor=pointer]
+                - button "09:00 IST" [ref=e312] [cursor=pointer]
+                - button "12:00 IST" [ref=e313] [cursor=pointer]
+                - button "15:00 IST" [pressed] [ref=e314] [cursor=pointer]
+                - button "18:00 IST" [ref=e316] [cursor=pointer]
+            - button "Later snapshot" [ref=e317] [cursor=pointer]
+        - generic [ref=e320]:
+          - region "Observation timeline" [ref=e321]:
+            - generic [ref=e322]:
+              - heading "Observation timeline 8" [level=3] [ref=e323]:
+                - text: Observation timeline
+                - generic [ref=e324]: "8"
+              - generic [ref=e325]: Filter severity
+              - combobox "Filter severity" [ref=e326]:
+                - option "All levels" [selected]
+                - option "Critical"
+                - option "Elevated"
+                - option "Normal"
+            - generic [ref=e327]:
+              - button "Smoke signature detected Industrial quarter / FIRE 14:12 CRITICAL" [ref=e328] [cursor=pointer]:
+                - generic [ref=e332]:
+                  - strong [ref=e333]: Smoke signature detected
+                  - generic [ref=e334]:
+                    - text: Industrial quarter
+                    - generic [ref=e335]: / FIRE
+                - generic [ref=e336]:
+                  - text: 14:12
+                  - generic [ref=e337]: CRITICAL
+              - button "Assistance observation Civic square / RESCUE 12:40 CRITICAL" [ref=e341] [cursor=pointer]:
+                - generic [ref=e350]:
+                  - strong [ref=e351]: Assistance observation
+                  - generic [ref=e352]:
+                    - text: Civic square
+                    - generic [ref=e353]: / RESCUE
+                - generic [ref=e354]:
+                  - text: 12:40
+                  - generic [ref=e355]: CRITICAL
+              - button "Drainage overflow risk Riverfront sector / AQUA 11:22 CRITICAL" [ref=e359] [cursor=pointer]:
+                - generic [ref=e364]:
+                  - strong [ref=e365]: Drainage overflow risk
+                  - generic [ref=e366]:
+                    - text: Riverfront sector
+                    - generic [ref=e367]: / AQUA
+                - generic [ref=e368]:
+                  - text: 11:22
+                  - generic [ref=e369]: CRITICAL
+              - button "Road surface fracture North corridor / ROAD 10:08 ELEVATED" [ref=e373] [cursor=pointer]:
+                - generic [ref=e377]:
+                  - strong [ref=e378]: Road surface fracture
+                  - generic [ref=e379]:
+                    - text: North corridor
+                    - generic [ref=e380]: / ROAD
+                - generic [ref=e381]:
+                  - text: 10:08
+                  - generic [ref=e382]: ELEVATED
+              - button "Surface heat anomaly Central district / THERMAL 08:42 ELEVATED" [ref=e386] [cursor=pointer]:
+                - generic [ref=e390]:
+                  - strong [ref=e391]: Surface heat anomaly
+                  - generic [ref=e392]:
+                    - text: Central district
+                    - generic [ref=e393]: / THERMAL
+                - generic [ref=e394]:
+                  - text: 08:42
+                  - generic [ref=e395]: ELEVATED
+              - button "Junction congestion East interchange / FLOW 07:15 ELEVATED" [ref=e399] [cursor=pointer]:
+                - generic [ref=e405]:
+                  - strong [ref=e406]: Junction congestion
+                  - generic [ref=e407]:
+                    - text: East interchange
+                    - generic [ref=e408]: / FLOW
+                - generic [ref=e409]:
+                  - text: 07:15
+                  - generic [ref=e410]: ELEVATED
+              - button "Aerial survey completed West parkland / SKY 05:50 NORMAL" [ref=e414] [cursor=pointer]:
+                - generic [ref=e423]:
+                  - strong [ref=e424]: Aerial survey completed
+                  - generic [ref=e425]:
+                    - text: West parkland
+                    - generic [ref=e426]: / SKY
+                - generic [ref=e427]:
+                  - text: 05:50
+                  - generic [ref=e428]: NORMAL
+              - button "Green corridor baseline West parkland / THERMAL 05:40 NORMAL" [ref=e432] [cursor=pointer]:
+                - generic [ref=e436]:
+                  - strong [ref=e437]: Green corridor baseline
+                  - generic [ref=e438]:
+                    - text: West parkland
+                    - generic [ref=e439]: / THERMAL
+                - generic [ref=e440]:
+                  - text: 05:40
+                  - generic [ref=e441]: NORMAL
+          - complementary [ref=e445]:
+            - generic [ref=e446]:
+              - heading "AETHER insight" [level=3] [ref=e447]
+              - generic [ref=e460]: DEMO
+            - paragraph [ref=e461]: EVIDENCE-LED OVERVIEW
+            - heading "6 observations need a closer look." [level=3] [ref=e462]
+            - paragraph [ref=e463]: 8 observations are available in the current view. The demo snapshot is 15:00 IST; device records retain their own timestamps. Review severity, evidence, and context in the connected workspaces.
+            - generic [ref=e464]:
+              - generic [ref=e465]: Data source
+              - strong [ref=e466]: Bundled demo dataset
+              - generic [ref=e467]: Analysis method
+              - strong [ref=e468]: Deterministic summary
+            - link "Explore intelligence" [ref=e469] [cursor=pointer]:
+              - /url: /command/core
+        - generic [ref=e473]:
+          - generic [ref=e474]: AETHER V2 / INSPECT EACH RECORD’S DATA SOURCE
+          - generic [ref=e476]: SYSTEM FOUNDATION / 02.00

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "390x844-normal",
+    "headingStates": 5,
+    "cityFrameStates": 11,
+    "cameraProjectionStates": 12,
+    "routeShutterStates": 11,
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "390x844-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "768x1024-normal",
+    "headingStates": 7,
+    "cityFrameStates": 10,
+    "cameraProjectionStates": 9,
+    "routeShutterStates": 8,
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "768x1024-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "1280x720-normal",
+    "headingStates": 4,
+    "cityFrameStates": 7,
+    "cameraProjectionStates": 9,
+    "routeShutterStates": 12,
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1280x720-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 1,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  },
+  {
+    "name": "1440x900-normal",
+    "headingStates": 6,
+    "cityFrameStates": 6,
+    "cameraProjectionStates": 4,
+    "routeShutterStates": 5,
+    "errors": [],
+    "warnings": [],
+    "failed": []
+  },
+  {
+    "name": "1440x900-reduced",
+    "headingStates": 1,
+    "cityFrameStates": 1,
+    "cameraProjectionStates": 3,
+    "routeShutterStates": 2,
+    "errors": [],
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ],
+    "failed": []
+  }
+]

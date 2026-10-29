@@ -1,0 +1,140 @@
+{
+  "mode": "API TEST DOUBLE, not geographic proof",
+  "matrix": [
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 1906,
+        "longTaskCount": 24,
+        "maxLongTaskMs": 481
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 1465,
+        "longTaskCount": 20,
+        "maxLongTaskMs": 248
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 1750,
+        "longTaskCount": 19,
+        "maxLongTaskMs": 435
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 561,
+        "longTaskCount": 16,
+        "maxLongTaskMs": 262
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 866,
+        "longTaskCount": 19,
+        "maxLongTaskMs": 256
+      }
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 738,
+        "longTaskCount": 19,
+        "maxLongTaskMs": 222
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "no-preference",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 558,
+        "longTaskCount": 23,
+        "maxLongTaskMs": 244
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reducedMotion": "reduce",
+      "consoleErrors": [],
+      "networkFailures": [],
+      "passed": true,
+      "performance": {
+        "domReadyMs": 623,
+        "longTaskCount": 23,
+        "maxLongTaskMs": 268
+      }
+    }
+  ],
+  "checks": [
+    {
+      "theme": "original",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "aqua",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "spectrum",
+      "accessibility": "passed"
+    },
+    {
+      "theme": "sage",
+      "accessibility": "passed"
+    },
+    {
+      "name": "GeoJSON import trust, operator access, access loss cleanup, Firebase feed error, no writes",
+      "passed": true
+    },
+    {
+      "failure": "authorization",
+      "independentReview": "passed"
+    },
+    {
+      "failure": "network",
+      "independentReview": "passed"
+    }
+  ],
+  "failures": []
+}

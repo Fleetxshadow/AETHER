@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { deviceSchema, readingSchema, cameraHealthSchema } from '/home/blu/Projects/AETHER/src/lib/data/validators.ts';
+const evidence = JSON.parse(readFileSync(new URL('../../docs/hardware-evidence/real-pi-api.json', import.meta.url), 'utf8'));
+const feeds = evidence.aether_feeds;
+assert.equal(feeds.source, 'LIVE');
+assert.equal(feeds.devices.length, 1);
+for (const device of feeds.devices) assert.ok(deviceSchema.safeParse(device).success);
+for (const reading of feeds.telemetry) assert.ok(readingSchema.safeParse(reading).success);
+for (const camera of feeds.cameraStatus) assert.ok(cameraHealthSchema.safeParse(camera).success);
+assert.equal(feeds.telemetry.length, 0);
+assert.equal(feeds.cameraStatus.length, 0);
+assert.equal(feeds.aiDetections.length, 0);
+assert.equal(cameraHealthSchema.safeParse({cameraId:'cam',deviceId:'cam',online:true,lastSeen:new Date().toISOString(),streamType:'mjpeg',source:'LIVE'}).success,false);
+console.log('PASS: real Pi device record validates against unmodified AETHER schema. Unsupported city telemetry/camera bridges/detections are absent. MJPEG restriction confirmed.');

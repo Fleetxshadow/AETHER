@@ -1,0 +1,38 @@
+[
+  {
+    "id": "original",
+    "colors": {
+      "body": "rgb(14, 18, 16)",
+      "text": "rgb(232, 235, 220)",
+      "root": "#e8ebdc"
+    },
+    "errors": []
+  },
+  {
+    "id": "aqua",
+    "colors": {
+      "body": "rgb(255, 251, 250)",
+      "text": "rgb(22, 59, 70)",
+      "root": "#163b46"
+    },
+    "errors": []
+  },
+  {
+    "id": "spectrum",
+    "colors": {
+      "body": "rgb(32, 35, 33)",
+      "text": "rgb(255, 245, 218)",
+      "root": "#fff5da"
+    },
+    "errors": []
+  },
+  {
+    "id": "sage",
+    "colors": {
+      "body": "rgb(212, 234, 200)",
+      "text": "rgb(72, 69, 56)",
+      "root": "#484538"
+    },
+    "errors": []
+  }
+]
