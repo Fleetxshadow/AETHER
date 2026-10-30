@@ -11,6 +11,7 @@ import { Providers } from '@/components/providers';
 import { cookies } from 'next/headers';
 import { defaultTheme, isThemeId } from '@/lib/themes';
 import { brand } from '@/lib/brand';
+import { introPrepaintScript } from '@/lib/intro-gate';
 
 export const metadata: Metadata = {
   applicationName: brand.platform,
@@ -31,7 +32,11 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
   const preference = (await cookies()).get('nexus-theme')?.value;
   const theme = isThemeId(preference) ? preference : defaultTheme;
   return (
-    <html lang="en" data-scroll-behavior="smooth" data-theme={theme}>
+    // data-intro is set before paint by the script below, so React must not flag it.
+    <html lang="en" data-scroll-behavior="smooth" data-theme={theme} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: introPrepaintScript }} />
+      </head>
       <body>
         <a className="skip-link" href="#main">
           Skip to content

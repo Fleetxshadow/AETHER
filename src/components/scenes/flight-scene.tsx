@@ -5,16 +5,20 @@ import { MeshReflectorMaterial } from '@react-three/drei';
 import {
   BackSide,
   Color,
+  DoubleSide,
   Fog,
   Group,
   InstancedMesh,
   Mesh,
+  MeshBasicMaterial,
   MeshStandardMaterial,
   Object3D,
   PointLight,
+  type BufferGeometry,
   type ShaderMaterial,
 } from 'three';
 import type { MotionValue } from 'motion/react';
+import { loadHeroModels, type HeroModels } from './intro-assets';
 
 // Illustrative chase-camera flight. No geography, telemetry or aircraft control.
 export const flightWorlds = [
@@ -151,6 +155,7 @@ function Lane({
   geometry,
   color,
   emissive,
+  vertexColors = false,
 }: {
   world: MotionValue<number>;
   index: number;
@@ -160,6 +165,7 @@ function Lane({
   geometry: React.ReactNode;
   color: string;
   emissive?: string;
+  vertexColors?: boolean;
 }) {
   const mesh = useRef<InstancedMesh>(null);
   const seeds = useMemo(() => Array.from({ length: count }, (_, i) => make(i)), [count, make]);
@@ -186,6 +192,7 @@ function Lane({
       {geometry}
       <meshStandardMaterial
         color={color}
+        vertexColors={vertexColors}
         emissive={emissive ?? '#000'}
         emissiveIntensity={emissive ? 1.6 : 0}
         roughness={0.35}
@@ -251,6 +258,32 @@ const cliffs = (i: number) => {
     r: rand(i, 6) * 6,
   };
 };
+// Blender building kit (scripts/blender/aether_hero_kit.py): grounded, uniformly scaled.
+type Seed = { x: number; y: number; z: number; s: [number, number, number]; r: number };
+const building =
+  (salt: number, near: number, spread: number, min: number, range: number, turn: boolean) =>
+  (i: number): Seed => {
+    const j = i + salt;
+    const k = min + rand(j, 4) * range;
+    return {
+      x: side(i) * (near + rand(j, 1) * spread),
+      y: -0.6,
+      z: -rand(j, 3) * LANE,
+      s: [k, k, k],
+      r: turn ? rand(j, 6) * 6 : Math.round(rand(j, 6) * 4) * (Math.PI / 2),
+    };
+  };
+const spireLanes = [97, 194, 291].map((salt) => building(salt, 7, 24, 0.55, 0.6, true));
+const terraceLane = building(500, 30, 36, 0.8, 0.6, true);
+const gridLanes = [911, 1042, 1173].map((salt) => building(salt, 6, 20, 0.55, 0.75, false));
+const variant = ['a', 'b', 'c'];
+const kitGeometry = (kit: HeroModels['kit'], name: string) => (
+  <primitive
+    object={(kit.scene.getObjectByName(name) as Mesh).geometry as BufferGeometry}
+    attach="geometry"
+  />
+);
+
 const clouds = (i: number) => ({
   x: (rand(i, 1) - 0.5) * 80,
   y: 9 + rand(i, 2) * 8,
@@ -259,9 +292,34 @@ const clouds = (i: number) => ({
   r: 0,
 });
 
-function Drone({ reduced }: { reduced: boolean }) {
+// The Blender Quad-X (scripts/blender/aether_intro.py) at rest: flight animation unused here.
+function useBlenderDrone(gltf: HeroModels['drone'] | null) {
+  return useMemo(() => {
+    if (!gltf) return null;
+    const body = gltf.scene.getObjectByName('AETHER_Drone');
+    body?.position.set(0, 0, 0);
+    body?.quaternion.identity();
+    const props: Object3D[] = [];
+    gltf.scene.traverse((object) => {
+      if (object.name.startsWith('prop_')) props.push(object);
+      const mesh = object as Mesh;
+      if (mesh.isMesh && mesh.name.startsWith('propdisc'))
+        mesh.material = new MeshBasicMaterial({
+          color: '#e8f9ff',
+          transparent: true,
+          opacity: 0.2,
+          depthWrite: false,
+          side: DoubleSide,
+        });
+    });
+    return { scene: gltf.scene, props };
+  }, [gltf]);
+}
+
+function Drone({ reduced, model }: { reduced: boolean; model: HeroModels['drone'] | null }) {
   const root = useRef<Group>(null);
   const rotors = useRef<(Group | null)[]>([]);
+  const blender = useBlenderDrone(model);
   useFrame(({ clock }, delta) => {
     const t = clock.elapsedTime;
     if (root.current && !reduced) {
@@ -273,7 +331,22 @@ function Drone({ reduced }: { reduced: boolean }) {
     rotors.current.forEach(
       (r) => r && (r.rotation.y += Math.min(delta, 0.05) * (reduced ? 0 : 40)),
     );
+    // Quad-X: diagonal pairs counter-rotate (FL/RR one way, FR/RL the other).
+    blender?.props.forEach(
+      (p, i) => (p.rotation.y += Math.min(delta, 0.05) * (reduced ? 0 : 40) * (i % 3 ? -1 : 1)),
+    );
   });
+  if (blender)
+    return (
+      <group ref={root} position={[0, 1.2, 0]} scale={0.9}>
+        {/* Blender nose is +X; the hero flies toward -Z. */}
+        <primitive object={blender.scene} rotation={[0, Math.PI / 2, 0]} scale={2.1} />
+        <mesh position={[0, -0.47, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+          <ringGeometry args={[0.55, 0.95, 48]} />
+          <meshBasicMaterial color="#3df5ff" transparent opacity={0.45} depthWrite={false} />
+        </mesh>
+      </group>
+    );
   const arms: [number, number][] = [
     [0.95, 0.75],
     [-0.95, 0.75],
@@ -336,10 +409,12 @@ function Rig({
   world,
   speed,
   reduced,
+  kit,
 }: {
   world: MotionValue<number>;
   speed: MotionValue<number>;
   reduced: boolean;
+  kit: HeroModels['kit'] | null;
 }) {
   const key = useRef<PointLight>(null);
   useFrame(({ camera, clock, size }) => {
@@ -361,35 +436,88 @@ function Rig({
       <hemisphereLight args={['#ffffff', '#6b3d8f', 1.4]} />
       <directionalLight position={[6, 10, 4]} intensity={2.2} color="#fff4e8" />
       <pointLight ref={key} position={[0, 2.5, 2]} intensity={6} distance={9} color="#ff5fae" />
-      <Lane
-        world={world}
-        index={0}
-        count={36}
-        speed={speed}
-        make={crystals}
-        geometry={<octahedronGeometry args={[1, 0]} />}
-        color="#ffb3d9"
-        emissive="#ff5fae"
-      />
-      <Lane
-        world={world}
-        index={0}
-        count={14}
-        speed={speed}
-        make={mesas}
-        geometry={<boxGeometry args={[1, 1, 1]} />}
-        color="#e98fb8"
-      />
-      <Lane
-        world={world}
-        index={1}
-        count={70}
-        speed={speed}
-        make={towers}
-        geometry={<boxGeometry args={[1, 1, 1]} />}
-        color="#241452"
-        emissive="#7a2cff"
-      />
+      {kit ? (
+        <>
+          {spireLanes.map((make, v) =>
+            (['body', 'glow'] as const).map((part) => (
+              <Lane
+                key={`spire-${v}-${part}`}
+                world={world}
+                index={0}
+                count={10}
+                speed={speed}
+                make={make}
+                geometry={kitGeometry(kit, `mirage_spire_${variant[v]}_${part}`)}
+                color={part === 'body' ? '#ffe3f1' : '#ffd1e8'}
+                emissive={part === 'glow' ? '#ff5fae' : undefined}
+                vertexColors={part === 'body'}
+              />
+            )),
+          )}
+          {(['body', 'glow'] as const).map((part) => (
+            <Lane
+              key={`terrace-${part}`}
+              world={world}
+              index={0}
+              count={12}
+              speed={speed}
+              make={terraceLane}
+              geometry={kitGeometry(kit, `mirage_terrace_${part}`)}
+              color={part === 'body' ? '#ffd6ea' : '#ffd1e8'}
+              emissive={part === 'glow' ? '#ff8fc6' : undefined}
+              vertexColors={part === 'body'}
+            />
+          ))}
+          {gridLanes.map((make, v) =>
+            (['body', 'glow'] as const).map((part) => (
+              <Lane
+                key={`grid-${v}-${part}`}
+                world={world}
+                index={1}
+                count={22}
+                speed={speed}
+                make={make}
+                geometry={kitGeometry(kit, `grid_tower_${variant[v]}_${part}`)}
+                color={part === 'body' ? '#9d8fe0' : '#d9c8ff'}
+                emissive={part === 'glow' ? (v === 1 ? '#3df5ff' : '#7a2cff') : undefined}
+                vertexColors={part === 'body'}
+              />
+            )),
+          )}
+        </>
+      ) : (
+        <>
+          <Lane
+            world={world}
+            index={0}
+            count={36}
+            speed={speed}
+            make={crystals}
+            geometry={<octahedronGeometry args={[1, 0]} />}
+            color="#ffb3d9"
+            emissive="#ff5fae"
+          />
+          <Lane
+            world={world}
+            index={0}
+            count={14}
+            speed={speed}
+            make={mesas}
+            geometry={<boxGeometry args={[1, 1, 1]} />}
+            color="#e98fb8"
+          />
+          <Lane
+            world={world}
+            index={1}
+            count={70}
+            speed={speed}
+            make={towers}
+            geometry={<boxGeometry args={[1, 1, 1]} />}
+            color="#241452"
+            emissive="#7a2cff"
+          />
+        </>
+      )}
       <Lane
         world={world}
         index={1}
@@ -451,6 +579,17 @@ export default function FlightScene({
 }) {
   // Software rasterizers (no GPU) get a lighter floor without the reflection pass.
   const [lite, setLite] = useState(false);
+  // Blender drone + building kit; until (or unless) they load, the procedural props show.
+  const [models, setModels] = useState<HeroModels | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadHeroModels()
+      .then((loaded) => live && setModels(loaded))
+      .catch(() => undefined);
+    return () => {
+      live = false;
+    };
+  }, []);
   return (
     <Canvas
       className="flight-canvas"
@@ -470,8 +609,8 @@ export default function FlightScene({
       <Sky world={world} />
       <Atmosphere world={world} />
       <Ground world={world} lite={lite} />
-      <Rig world={world} speed={speed} reduced={reduced} />
-      <Drone reduced={reduced} />
+      <Rig world={world} speed={speed} reduced={reduced} kit={models?.kit ?? null} />
+      <Drone reduced={reduced} model={models?.drone ?? null} />
     </Canvas>
   );
 }

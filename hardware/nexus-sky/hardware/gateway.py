@@ -203,7 +203,7 @@ def main():
     parser.add_argument('--upstream', default='http://127.0.0.1:18765')
     parser.add_argument('--bind', type=bind_address, default='127.0.0.1')
     parser.add_argument('--port', type=int, default=8766)
-    parser.add_argument('--camera-id', action='append', default=[])
+    parser.add_argument('--camera-id', action='append', default=[key for key in os.environ.get('NEXUS_CAMERA_IDS', '').split(',') if key])
     args = parser.parse_args()
     token, upstream = os.environ.get('NEXUS_GATEWAY_TOKEN', ''), os.environ.get('NEXUS_DEVICE_TOKEN', '')
     if len(token) < 32 or any(not ID.fullmatch(key) for key in args.camera_id):

@@ -843,7 +843,7 @@ export function CoreLab() {
 
 type GridTool = 'building' | 'hazard' | 'road' | 'start' | 'goal';
 
-export function MaverickLab() {
+export function MaverickLab({ compact = false }: { compact?: boolean } = {}) {
   const [presets, setPresets] = useState<MaverickPreset[]>([]);
   const [selectedPresetId, setSelectedPresetId] = useState<string>('downtown_corridors');
   const [gridSize, setGridSize] = useState<number>(12);

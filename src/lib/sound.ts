@@ -1,13 +1,18 @@
 'use client';
 import { useNexus } from './store';
 let context: AudioContext | null = null;
+// One context for the whole app; only create it from a user gesture (autoplay policy).
+export function audioContext() {
+  context ??= new AudioContext();
+  return context;
+}
 export async function playCue(
   kind: 'enter' | 'select' | 'scene' | 'signal' | 'anomaly' | 'reveal' = 'select',
 ) {
   const { sound, volume } = useNexus.getState();
   if (!sound || volume === 0) return;
   try {
-    context ??= new AudioContext();
+    context = audioContext();
     if (context.state === 'suspended') await context.resume();
     const now = context.currentTime;
     const tones =

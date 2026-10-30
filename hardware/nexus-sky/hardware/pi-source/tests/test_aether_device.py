@@ -116,6 +116,21 @@ class Tests(unittest.TestCase):
             a.stop(); server.shutdown(); server.server_close(); t.join()
         self.assertTrue(all(not c.thread.is_alive() for c in a.cameras.values()))
 
+    def test_usb_stable_path_and_rate_limit(self):
+        from unittest.mock import MagicMock
+        camera = Camera({'id':'usb-test','kind':'v4l2',
+                         'device':'/dev/v4l/by-id/usb-Verified_Camera-video-index0',
+                         'input_format':'mjpeg','input_fps':10,'fps':5})
+        camera.halt.set()
+        process=MagicMock(); process.poll.return_value=0
+        with patch('aether_device.cameras.Path.exists',return_value=True), patch('aether_device.cameras.subprocess.Popen',return_value=process) as launch:
+            camera.native()
+        args=launch.call_args.args[0]
+        self.assertEqual(args[args.index('-input_format')+1],'mjpeg')
+        self.assertEqual(args[args.index('-framerate')+1],'10')
+        self.assertEqual(args[args.index('-vf')+1],'fps=5')
+        with self.assertRaises(ValueError):Camera({'id':'bad','kind':'v4l2','device':'/tmp/device'})
+
     def test_restart_and_config_validation(self):
         c = Camera({'id':'one','kind':'csi'})
         with patch.object(c, 'native', side_effect=OSError):

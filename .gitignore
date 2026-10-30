@@ -11,3 +11,4 @@ playwright-report/
 .npm-cache/
 public/maplibre/
 .firebase/
+public/draco/

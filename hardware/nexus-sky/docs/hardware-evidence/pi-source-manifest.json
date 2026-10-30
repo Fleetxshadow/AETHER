@@ -3,9 +3,12 @@
   ".gitignore": "7ad464882d9ca1695f4ff901527c8ba65811021167124fa9af4be41a2307620d",
   "aether_device/__init__.py": "e6d73d401fb915d345addb80ebad3229fbab282ab9bf5fc28aafcde5fd09084b",
   "aether_device/agent.py": "26b470b894eb15a0cd49b00f0958f66f7db46c3204334d748fba1e0d176ce478",
-  "aether_device/cameras.py": "90baec9493a9944fb0c9e28863922d23698e425aada6d827ff03c139f330c2db",
+  "aether_device/cameras.py": "f04164c4dd177323baff2f2727022bd446546d5c4d55e3de6c14de92e2904ba3",
   "aether_device/api.py": "f30212c1b86d32fd11877678b0d878be4497b5d5f65948d0a6d0a9c616935795",
-  "tests/test_aether_device.py": "2f6b769f353b63adb51e701ef66f39a83d0f8111f3a13de08ea1fa9acf76549c",
+  "tests/test_aether_device.py": "ecf4b55332a916b88660f3dcd08b18c9e472b77b2b2d316e2517e14c442c3658",
   "tests/soak_aether_stream.py": "0162279feb52a31285ccbdde06770fda89d15abc177ae494fe95fb704a60b4d1",
-  "config/aether-agent.example.json": "d45366faed4b70e35e388827545e33835ec67a8c6292396d8fda0fa548695fa5"
+  "config/aether-agent.example.json": "d45366faed4b70e35e388827545e33835ec67a8c6292396d8fda0fa548695fa5",
+  "tools/run-device-agent.sh": "c6461093df4d0c2f98e7bbccf19f3e7e78c2427ea389138a11b934394d93d9fd",
+  "deploy/nexus-device.service": "17c9c19c8d70965883922e9c84ad24c7b393a78392f67f6ec2e6caef1c43a9f7",
+  "deploy/README.md": "876b37d90cb173bb51c048a9ad1bd5ae56c4077f98bf5e58713e454ae61c5841"
 }

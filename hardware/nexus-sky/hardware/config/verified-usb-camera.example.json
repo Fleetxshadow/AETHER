@@ -1,0 +1,12 @@
+{
+  "cameras": [
+    {
+      "id": "pi-usb-cam-01",
+      "kind": "v4l2",
+      "device": "/dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB_2.0_Camera-video-index0",
+      "input_format": "mjpeg",
+      "input_fps": 10,
+      "fps": 5
+    }
+  ]
+}

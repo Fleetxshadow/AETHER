@@ -1,0 +1,10 @@
+test_bad_auth (test_gateway.Tests.test_bad_auth) ... ok
+test_gateway_camera_snapshot_stream_and_disconnect (test_gateway.Tests.test_gateway_camera_snapshot_stream_and_disconnect) ... ok
+test_invalid_telemetry (test_gateway.Tests.test_invalid_telemetry) ... ok
+test_real_http_poller_and_projection (test_gateway.Tests.test_real_http_poller_and_projection) ... ok
+test_unreachable_stale_and_expired (test_gateway.Tests.test_unreachable_stale_and_expired) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.081s
+
+OK

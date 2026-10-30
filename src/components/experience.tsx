@@ -1,7 +1,7 @@
 'use client';
 import { useCallback, useState } from 'react';
 import { AnimatePresence } from 'motion/react';
-import { ArrowUpRight, Play } from 'lucide-react';
+import { ArrowUpRight, Clapperboard, Play } from 'lucide-react';
 import { useNexus } from '@/lib/store';
 import { visibleObservations, metricsAt, timeLabel } from '@/lib/data';
 import { Logo, SectionLabel } from './ui';
@@ -22,8 +22,10 @@ import { brand, brandArtwork } from '@/lib/brand';
 import { GenesisOverlay, useGenesis } from './genesis';
 import { MapHandoff } from './map-handoff';
 import { FlightHero } from './flight-hero';
+import { AetherIntro, useAetherIntro } from './aether-intro';
 export function Experience() {
   const genesis = useGenesis();
+  const intro = useAetherIntro();
   const [presentation, setPresentation] = useState(false);
   const [entrance, setEntrance] = useState<'static' | 'playing' | 'complete'>('static');
   const records = useNexus((s) => s.records);
@@ -38,10 +40,10 @@ export function Experience() {
       data-entrance={entrance}
       data-genesis={genesis.mode}
     >
-      <div className="experience-content" inert={genesis.active}>
+      <div className="experience-content" inert={genesis.active || intro.active}>
         <ExperienceNavigation />
         <main id="main">
-          <FlightHero paused={presentation || genesis.active} />
+          <FlightHero paused={presentation || genesis.active || intro.active} />
           <CinematicHero
             genesis={genesis}
             paused={presentation}
@@ -173,9 +175,14 @@ export function Experience() {
           <Logo />
           <span className="mono">{brand.secondaryTagline}</span>
           <span>A conceptual perspective on urban resilience.</span>
-          <a href="#main" className="text-button">
-            Back to top <ArrowUpRight size={16} />
-          </a>
+          <div className="experience-footer-actions">
+            <button className="text-button" onClick={intro.replay}>
+              <Clapperboard size={15} /> Replay intro film
+            </button>
+            <a href="#main" className="text-button">
+              Back to top <ArrowUpRight size={16} />
+            </a>
+          </div>
         </footer>
         <AnimatePresence>
           {selectedRecord && (
@@ -185,6 +192,7 @@ export function Experience() {
         {presentation && <Presentation onClose={closePresentation} />}
       </div>
       <GenesisOverlay controller={genesis} />
+      <AetherIntro controller={intro} />
     </div>
   );
 }
